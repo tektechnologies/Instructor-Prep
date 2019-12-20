@@ -38,10 +38,6 @@
 ##     - Remember to be as open and growth minded as possible, this will be one of the most              challenging things you have done. Also, this is not like college or highschool, this           will feel more like impersive training and as close to on the job training as                  possible.  
 ###       Possibly a place for the Hello World introduction 
         Brian Kernighan actually wrote the first "hello, world" program as part of the documentation for the BCPL programming language developed by Martin Richards. BCPL was used while C was being developed at Bell Labs a few years before the publication of Kernighan and Ritchie's C book in 1972.
-###    
-
-
-
 
 | 11:15am | 45min | TEAM ACTIVITY Pair coding.  |
 
@@ -64,11 +60,13 @@
 ###  - Paired Students.
 
 | 2:15pm | 30min | LECTURE What is a “software developer”?  |
-###            Slides 62 through 73.
-#  - Instructor.                                                                                        What do you think would be good coverage of what a modern day app developer        is?         What is something that I should not forget to talk about?
+
+#  - Instructor.                                                                                        What do you think would be good coverage of what a modern day app developer is?                What is something that I should not forget to talk about or mention?
         30 minutes on what is a modern developer. 
         -Reading Documentation?  
         -The abilities of a jr vs senior dev. Whats the diff? 
+        -Anything concepts or ideas that I should forecast from the upcoming classes?
+###    Slides 62 through 73.
 
 | 2:45pm | 15min | BREAK.  |
 
