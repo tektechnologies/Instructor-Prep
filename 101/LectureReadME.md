@@ -1,5 +1,5 @@
 # Programming Concepts Covered
-Separation of concerns is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. For example the business logic of the application is a concern and the user interface is another concern.
+#### Separation of concerns is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. For example the business logic of the application is a concern and the user interface is another concern.
 
 ## Agenda
 
@@ -38,6 +38,10 @@ Separation of concerns is a design principle for separating a computer program i
 ##     - Remember to be as open and growth minded as possible, this will be one of the most              challenging things you have done. Also, this is not like college or highschool, this           will feel more like impersive training and as close to on the job training as                  possible.  
 ###       Possibly a place for the Hello World introduction 
         Brian Kernighan actually wrote the first "hello, world" program as part of the documentation for the BCPL programming language developed by Martin Richards. BCPL was used while C was being developed at Bell Labs a few years before the publication of Kernighan and Ritchie's C book in 1972.
+###    
+
+
+
 
 | 11:15am | 45min | TEAM ACTIVITY Pair coding.  |
 
@@ -45,7 +49,7 @@ Separation of concerns is a design principle for separating a computer program i
  
 | 12:00pm | 30min | LUNCH. |
 
- ###   - TA preps lunch. 
+ ###   - TA preps lunch. Done with slide show through slide 41. 
 
 | 12:30pm | 15min | LARGE GROUP Q&A the most common encountered problems.  |
 
@@ -53,16 +57,18 @@ Separation of concerns is a design principle for separating a computer program i
 
 | 12:45pm | 45min | LECTURE  Introduction of CSS.  |
 
- ##   - Instuctor  
+ ##   - Instuctor  finish slide show up to, slide 61
 
 | 1:30pm  | 45min | TEAM ACTIVITY  Pair coding.  |
 
 ###  - Paired Students.
 
 | 2:15pm | 30min | LECTURE What is a “software developer”?  |
-
-#  - Instructor. What do you think would be good coverage of what a modern day app developer        is? What is something that I should not forget to talk about?
+###            Slides 62 through 73.
+#  - Instructor.                                                                                        What do you think would be good coverage of what a modern day app developer        is?         What is something that I should not forget to talk about?
         30 minutes on what is a modern developer. 
+        -Reading Documentation?  
+        -The abilities of a jr vs senior dev. Whats the diff? 
 
 | 2:45pm | 15min | BREAK.  |
 
