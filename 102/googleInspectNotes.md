@@ -151,7 +151,17 @@ and be aware of the server you are running on.
 once you have scores on your site you can deep dive into the issues that your site faces. it will show opportunities for improvements as well. 
 
 
+Practice 
+console.log($0);
+//gives us the html doc.
 
-Performance
+document.querySelector('h2').style.color = 'blue';
+"blue"
+
+command + shift + m  // goes into and out of the mobile view.
+
+https://mariusschulz.com/blog/advanced-javascript-debugging-with-console-table
 
 
+
+![Screen Shot](images/screen.png)
