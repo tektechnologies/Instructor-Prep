@@ -1,40 +1,40 @@
 # Programming Concepts Covered
 
+# Review git hub and setting up a Repo. 
 
-## 9:00 
-## 9:15
-## 9:30
-## 9:45
-## 10:00
-## 10:15
-## 10:30
-## 10:45
-## 11:00
-## 11:15
-## 11:30
-## 11:45
-## 12:00
-## 12:15
-## 12:30
-## 12:45
-## 1:00
-## 1:15
-## 1:30
-## 1:45
-## 2:00
-## 2:15
-## 2:30
-## 2:45
-## 3:00
-## 3:15
-## 3:30
-## 3:45
-## 4:00
-## 4:15
-## 4:30
-## 4:45
-## 5:00
-## 5:15
-## 5:30
-## 5:45
-## 6:00
+What do students remember from 101, html introductions?
+HTML (HyperText Markup Language) is the most basic building block of the Web. https://developer.mozilla.org/en-US/docs/Web/HTML
+Today's Agenda 
+
+# New Vocabulary
+
+## Markup
+A markup language is one that is designed for defining and presenting text. HTML (HyperText Markup Language), is an example of a markup language.
+
+## Types of markup language
+
+#### Presentational Markup: 
+Used by traditional word processing sytem with WYSIWYG (what you see it is what you get); this is hidden from human authors, users and editors. 
+#### Procedural Markup:
+Combined with text to provide instructions on text processing to programs. This text is visibly manipulated by the author. 
+#### Descriptive Markup:
+Labels sections of documents as to how the program should handle them. For example, the HTML <td> defines a cell in a HTML table
+
+
+
+
+### Semantics
+
+### Wireframe
+
+### Personas
+
+### Meta
+
+### Content
+
+### Element
+
+### Tag
+
+### Structure vs Presentation
