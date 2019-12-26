@@ -4,6 +4,12 @@
 
 What do students remember from 101, html introductions?
 HTML (HyperText Markup Language) is the most basic building block of the Web. https://developer.mozilla.org/en-US/docs/Web/HTML
+
+The name of an element inside a tag is case insensitive.
+HTML is not a programming language; it is a markup language that defines the structure of your content.
+
+![Screen Shot](images/grumpy-cat-small.png)
+
 Today's Agenda 
 
 # New Vocabulary
