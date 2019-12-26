@@ -89,11 +89,14 @@ Do not be afraid, to ask what step one is. The model is to confirm what we learn
 
 Look in slack at the series of steps. 
 
-Step 1 - Navigate to your learning journal repo.
-Step 2 - Clone your repo down onto your local machine. git clone github-repo-url.git
-Step 3 - cd into your repo: cd ~ to get to your home directory then, cd github-repo-name
-Step 4 - run code . to open your learning journal in VS code. 
-Step 5 - make some changes to your README.md
-Step 6 - ACP time - start with adding your changes git add README.md 
-Step 7 - commit your changes git commit -m 'add message with relevant commit information'
-Step 8 - push your changes to GitHub. git push origin master. 
+#### Step 1 - Navigate to your learning journal repo.
+#### Step 2 - Clone your repo down onto your local machine. git clone github-repo-url.git
+#### Step 3 - cd into your repo: cd ~ to get to your home directory then, cd github-repo-name
+#### Step 4 - run code . to open your learning journal in VS code. 
+#### Step 5 - make some changes to your README.md
+#### Step 6 - ACP time - start with adding your changes git add README.md 
+#### Step 7 - commit your changes git commit -m 'add message with relevant commit information'
+#### Step 8 - push your changes to GitHub. git push origin master. 
+
+If you weren't able to push code that's ok, we will go throught next why and then as a group we will get there. 
+some may not be able to do code . to work, and we get those things taken care of next time. 
