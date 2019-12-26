@@ -89,11 +89,21 @@ Do not be afraid, to ask what step one is. The model is to confirm what we learn
 
 Look in slack at the series of steps. 
 
-Step 1 - Navigate to your learning journal repo.
-Step 2 - Clone your repo down onto your local machine. git clone github-repo-url.git
-Step 3 - cd into your repo: cd ~ to get to your home directory then, cd github-repo-name
-Step 4 - run code . to open your learning journal in VS code. 
-Step 5 - make some changes to your README.md
-Step 6 - ACP time - start with adding your changes git add README.md 
-Step 7 - commit your changes git commit -m 'add message with relevant commit information'
-Step 8 - push your changes to GitHub. git push origin master. 
+#### Step 1 - Navigate to your learning journal repo.
+#### Step 2 - Clone your repo down onto your local machine. git clone github-repo-url.git
+#### Step 3 - cd into your repo: cd ~ to get to your home directory then, cd github-repo-name
+#### Step 4 - run code . to open your learning journal in VS code. 
+#### Step 5 - make some changes to your README.md
+#### Step 6 - ACP time - start with adding your changes git add README.md 
+#### Step 7 - commit your changes git commit -m 'add message with relevant commit information'
+#### Step 8 - push your changes to GitHub. git push origin master. 
+
+If you weren't able to push code that's ok, we will go throught next why and then as a group we will get there. 
+some may not be able to do code . to work, and we get those things taken care of next time. 
+
+explain a for loop as a funky bit of code that we will spend an hour and half, of what it is and then you'll spend a month practicing, before we are even able to do it from memory, we need to be able to identify the parts, html and css have less of a barrier to understanding, then focus on js, the language of choice to learn fundamentals and programming concepts that will transcend languages, so for the for loop, I would be happy if you new what it was, what it is supposed to do, takes practice, out put of class what why it is used, and you can identify its parts, maybe not create it but knowing it at a high level. not just teaching js for the sake of doing js. 
+201 reading - what am I looking at.  (get it to work)
+301 writing - have a base, give me a pattern to utilize this stuff. (make it faster)
+401 creating. - make your own stuff. (make it good.)
+
+jumping out of an airplane, we have parachute. lots of graduates that have been doing this, and making money, even get in the door, get in the loop, working as much as possible, as a dev, and by 401, this is just what I do, I am in it. it is constant you have to figure this out, we give you an inch, you take it a mile. 
