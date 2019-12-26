@@ -165,3 +165,11 @@ https://mariusschulz.com/blog/advanced-javascript-debugging-with-console-table
 
 
 ![Screen Shot](images/screen.png)
+
+https://developer.mozilla.org/en-US/docs/Web/API/Console/table
+
+function Dog(firstDog, secondDog){ 
+    this.firstDog = firstDog;
+    this.secondDog = secondDog;      
+}
+var dogs = new Dog("Max", "Nova");
