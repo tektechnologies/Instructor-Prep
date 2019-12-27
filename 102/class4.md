@@ -107,42 +107,43 @@ An html element ususally consists of a start tag and an end tag with the content
 ### Tag
 https://www.w3schools.com/tags/ref_byfunc.asp
 empty tag" refers to HTML coding where the line of code stands alone and is not closed with slash characters. Empty tags are used to insert images, lists, breaks, meta tags, horizontal rules and hyperlinks.
+
 ## Basic html
-- <!DOCTYPE> defines the doc type, <html>, <head>, <title>, <body>
+ `<!DOCTYPE> defines the doc type, <html>, <head>, <title>, <body>`
 ## Formatting
-- <i>, <em>, <abbr>, <b>, <blockquote>
+ `<i>, <em>, <abbr>, <b>, <blockquote>`
 
 ## Forms and Input
-- <form>, <input>, <button>, <label>, <select>, <fieldset>, <legend>
+ `<form>, <input>, <button>, <label>, <select>, <fieldset>, <legend>`
 
 ## Frames (not supported in html5, except <iframe> === Defines an inline frame)
 
 ## Images
- <img>, <canvas>, <svg>
+ `<img>, <canvas>, <svg>`
 
 ## Audio and Video
- <audio>, <source>, <track>
+ `<audio>, <source>, <track>`
 
 ## Links
- <a>, <links>, <nav>
+ `<a>, <links>, <nav>`
 
 ## Lists
- <ul>, <ol>, <li>
+` <ul>, <ol>, <li>`
 
 ## Tables
- <Table>, <caption>, <th>, <tr>, <td>
+` <Table>, <caption>, <th>, <tr>, <td>`
 
 ## Styles and Semantics.
- <div>, <section>, <header>, <aside>
+ `<div>, <section>, <header>, <aside>`
 
 ## Meta Info. 
- <head>, <meta>, <base>
+ `<head> <meta> <base>`
 
 ## Structure vs Presentation
 Structure equals the neccessary parts of the html doc needed to create a working document, as well as the semantic and structured markup of its contents. 
 Presentation is the style of the content and how it is aesthetically recieved to the user, Sound is a part of presentation. How does accessiblity fit in? 
 
 ## Programing 
- <script>,<embed>,<param>
+ `<script>,<embed>,<param>`
 
  
