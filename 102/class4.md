@@ -107,34 +107,42 @@ An html element ususally consists of a start tag and an end tag with the content
 ### Tag
 https://www.w3schools.com/tags/ref_byfunc.asp
 empty tag" refers to HTML coding where the line of code stands alone and is not closed with slash characters. Empty tags are used to insert images, lists, breaks, meta tags, horizontal rules and hyperlinks.
-##### Basic html
+## Basic html
 - <!DOCTYPE> defines the doc type, <html>, <head>, <title>, <body>
-##### Formatting
+## Formatting
 - <i>, <em>, <abbr>, <b>, <blockquote>
 
-##### Forms and Input
+## Forms and Input
 - <form>, <input>, <button>, <label>, <select>, <fieldset>, <legend>
 
-##### Frames (not supported in html5, except <iframe> === Defines an inline frame)
+## Frames (not supported in html5, except <iframe> === Defines an inline frame)
 
-##### Images
-- <img>, <canvas>, <svg>, <map>
-##### Audio and Video
-- <audio>, <source>, <track>
-##### Links
-- <a>, <links>, <nav>
-##### Lists
-- <ul>, <ol>, <li>
-##### Tables
-- <Table>, <caption>, <th>, <tr>, <td>
-##### Styles and Semantics.
-- <div>,<section>, <header>, ,<aside>
-##### Meta Info. 
-- <head>, <meta>, <base>
-##### Programing 
-- <script>,<embed>,<param>
+## Images
+ <img>, <canvas>, <svg>
 
+## Audio and Video
+ <audio>, <source>, <track>
 
-#### Structure vs Presentation
+## Links
+ <a>, <links>, <nav>
+
+## Lists
+ <ul>, <ol>, <li>
+
+## Tables
+ <Table>, <caption>, <th>, <tr>, <td>
+
+## Styles and Semantics.
+ <div>, <section>, <header>, <aside>
+
+## Meta Info. 
+ <head>, <meta>, <base>
+
+## Structure vs Presentation
 Structure equals the neccessary parts of the html doc needed to create a working document, as well as the semantic and structured markup of its contents. 
 Presentation is the style of the content and how it is aesthetically recieved to the user, Sound is a part of presentation. How does accessiblity fit in? 
+
+## Programing 
+ <script>,<embed>,<param>
+
+ 
