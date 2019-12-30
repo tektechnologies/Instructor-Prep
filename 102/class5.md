@@ -119,9 +119,15 @@ FIX: so we add a clear:left to the floated element. and now we dont have float i
 
 # Demo Material done.
 ___
+
+
 ## Lab: Wireframe and Build
 Our goal for lab is text and color layout design, do not worry about floating, it does not have to be pretty, what we are looking for is that you are experiencing with css. So lets frame the reading, and then head to lunch / power hour. 
 The idea here and now is that you begin to think through CSS and are aware of the pitfalls of css, so that you are set up for success in 201. 
+Ok we are on to lab 5 now. 
+You are welcome to use what u have so far or start over and build out the html again. Good time to start googling your questions. 
+- The whole goal is to link up a css file and add some styles. I wonder how I can make my color blue,  go to adobes cooler . link up the style sheet. In the course repo there is an example of that.
+- Up until 1:35. So then we will pivot in such a way that we will read a little today is the most base layer possibly in javascript so capture that and then read a bit about that, then monday is all about writing the logic. 
 
 
 # New Vocabulary
