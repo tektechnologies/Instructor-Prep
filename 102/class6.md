@@ -8,7 +8,7 @@ The first JavaScript engine was created by Brendan Eich in 1995 for the Netscape
 The first modern JavaScript engine was V8, created by Google for its Chrome browser. V8 debuted as part of Chrome in 2008, and its performance was much better than any prior engine. The key innovation was just-in-time compilation, which can significantly improve execution times.
 
 # Class Agenda
-
+- So looks like next Saturday class will be from 9-3.
 # Review of previous class
   Share your learning
  
@@ -61,6 +61,8 @@ Not a Number, which is a number that is not a number, so we have a bug.
 
 
 # Lab: Plan and Build
+
+
 
 # New Vocabulary
 ___
@@ -209,19 +211,58 @@ So what this says if the thing on the left is strictly equal to the thing on the
 var hourNow = prompt('What time is it now? 0-23');
 
 console.log(hourNow);
+- Now explain a prompt and how it allows you to add input to it. 
 
 
 
+Mention if you have not yet to use google chrome. and show the console. 
+Apologies I can not zoom the alert box. 
 
+console.log('prompt question', hourNow) this is called and identifier so I know what it is doing. So, BEST PRACTICE is to label all your console logs. 
+- Because it is a scalable way to identify what is coming from where. 
 
+Now we will set a greeting: that will be assigned a value later in the code. 
 
+var greeting; // variable declaration. 
+So, right now this is undefined variable type. 
+If I do this console.log(greeting) what will I get? Undefined. 
+console.log(hello) // will be an error.
 
+if(hourNow > && hourNow < 24){
+    greeting = 'Good Night.';
+}
 
+Now let's talk about the & operation we will look at the OR || operator later and so if our && has the first part to be true, and the right has to be true, then its truthy, 
+GO UP TO BOARD AND SHOW WHAT YOU ARE TALKIN ABOUT. 
+So, now we continue, 
 
+else if(condition) {
+    greeting = 'Good Morning';
+} else {
+    greeting = 'Do you know what time it is?';
+}
+Now we can add a console log and say
+console.log('greeting response' + greeting);
 
+So now for the first time we are going to intefreate our code, on day 6 of 201 we will learn about the DOM and here is wear we will do real activity within the pages. 
 
+document.write(greeting);
 
+### method 
+A method is a property on an object that is equal to a function. 
+document is the object and then .write is the method. 
+So, it finds the last element and throws the .write there. This doesnt really do anything cool, but we can see the changes between the things. 
 
+So now it is time for lab, until 3:45.
+Show console, 
+Ok we didn't just break google. We have a browser that renders a representation of the web site not an actual raw code. So it only happens on our browser. 
+
+NOTE: The way we get paid is to build things where other can use the wysiwyg interface to acccomplish work. 
+- DYNAMIC DEVELOPMENT is a program built in such a way that the client can ad say an image to a site.
+
+START by 
+a. First thing to do is make sure your files are connected. 
+b. Ask am I getting the input in and the something back out? 
 
 
 
