@@ -13,16 +13,41 @@ Discussion Reading...With JavaScript
 # Lab: Refactoring
 
 # New Vocabulary
-Script
-JavaScript's vocabulary
-JavaScript's syntax
-Programmatic problem solving
-Expression
-Operator
-Function
-Declaration
-Call
-Parameters
-Arguments
-Return value
-Refactoring
+
+### Script
+
+
+### JavaScript's vocabulary
+
+
+### JavaScript's syntax
+
+
+### Programmatic problem solving
+
+
+### Expression
+
+
+### Operator
+
+
+### Function
+
+
+### Declaration
+
+
+### Call
+
+
+### Parameters
+
+
+### Arguments
+
+
+### Return value
+
+
+### Refactoring
