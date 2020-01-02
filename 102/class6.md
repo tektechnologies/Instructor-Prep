@@ -282,6 +282,7 @@ Many programmers bypass this and you can't!
 A variable is a place to store code in memory. A stored location in your computers memory that holds the variable value.
 
 ## Variables - can hold any of the primitive types in memory. 
+- When you first declare a variable using the var keyword, it is given a special value of 'undefined', which changes when you assign a value to it. 
 
 # String Literal 
 - A "string literal" is a sequence of characters from the source character set enclosed in double quotation marks (" "). 
