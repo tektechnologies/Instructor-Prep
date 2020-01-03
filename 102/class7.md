@@ -1,7 +1,11 @@
 # Programming Concepts Covered
 
 # Class Agenda
-
+- Talk about Functions
+- Create a Function 
+- Call a Function
+- Return a Value from the Function 
+- 
 
 # Review of previous class
 
@@ -35,10 +39,10 @@ Use a programmatic approach to problem solving and achieving goals. Computers ne
 Programmatically - following a series of steps of instructions, one after another. 
 
 ### JavaScript's vocabulary
-
+    https://www.codecademy.com/articles/glossary-javascript
 
 ### JavaScript's syntax
-
+    https://www.w3schools.com/js/js_syntax.asp
 
 ### Programmatic problem solving
 
@@ -71,6 +75,7 @@ https://repl.it/@tektechnologies/Greeting
 - Logical Operators // buy = (5 > 3) && (2 < 4); Combine expressions and return true or false. 
 
 # What is a FUN FUN function....
+___
 ### Function
 A functions lets you group a series of statements together to perform a specific task. If certain tasks need to happen again within the application, then the same function can perform that task instead of repeating the code, in multiple locations, We call this dry code. 
 - This helps to organize code. 
@@ -150,4 +155,4 @@ var wallTwo = calculateArea(8,5);
 ```
 ### Refactoring
 
-
+Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. Refactoring is intended to improve nonfunctional attributes of the software.
