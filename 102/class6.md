@@ -282,3 +282,15 @@ Many programmers bypass this and you can't!
 A variable is a place to store code in memory. A stored location in your computers memory that holds the variable value.
 
 ## Variables - can hold any of the primitive types in memory. 
+- When you first declare a variable using the var keyword, it is given a special value of 'undefined', which changes when you assign a value to it. 
+
+# String Literal 
+- A "string literal" is a sequence of characters from the source character set enclosed in double quotation marks (" "). 
+# Number Literal 
+Most numbers in JavaScript are literal values, assigned as values to variables, and used in various computations: var myNum = 3.18; var newNum = myNum * someValue; You can also construct a Number using a constructor method: var newNum = new Number(23);
+- A numeric literal is a character-string whose characters are selected from the digits 0 through 9, a sign character (+ or -), and the decimal point. If the literal contains no decimal point, it is an integer. ..
+
+# Conditional Statement
+- In JavaScript we have the following conditional statements: Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false.
+# assignment operator 
+- An assignment operator assigns a value to its left operand based on the value of its right operand.
