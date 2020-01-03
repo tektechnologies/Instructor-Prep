@@ -12,7 +12,7 @@ Discussion Reading...With JavaScript
 # Demo: Functions
 
 # Lab: Refactoring
-
+___
 # New Vocabulary
 
 ### Script
@@ -149,3 +149,5 @@ var wallOne = calculateArea(3,5);
 var wallTwo = calculateArea(8,5);
 ```
 ### Refactoring
+
+
