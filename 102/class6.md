@@ -111,6 +111,20 @@ Logic is true or false, yes or no, 1 or 0.
 - A variable that has not been assigned a value has the value undefined.
 # symbol (new in ECMAScript 2015).
 The data type symbol is a primitive data type. Every symbol value returned from Symbol() is unique.
+
+# bigINt
+
+
+
+
+
+
+
+
+
+
+
+
 # object. 
 In computer science, an object is a value in memory which is possibly referenced by an identifier.
 In JavaScript, objects can be seen as a collection of properties. 
