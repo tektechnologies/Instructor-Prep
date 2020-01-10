@@ -76,17 +76,6 @@ ___
 - It is an amazing langauge, and because of that people still hate it, because you can build the same things in different ways. 
 - With C# and Java, there are language specifications, that must be followed inorder to create working code, if the rules of the languages are not followed the programs will not compile if your classes are not constructed correctly and thusly, not work.
 ___
-# conditionals
-
-Is this thing equal to this, yes or no? if so we have conditional logic, What is a variable? 
-if (condition) {
-  code to run if condition is true
-} else {
-  run some other code instead
-}
-
-The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
-
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Comparison_operators
 ___
 # data type
@@ -114,26 +103,6 @@ The data type symbol is a primitive data type. Every symbol value returned from 
 
 # bigINt
 
-
-
-
-
-
-
-
-
-
-
-
-# object. 
-In computer science, an object is a value in memory which is possibly referenced by an identifier.
-In JavaScript, objects can be seen as a collection of properties. 
-- With the object literal syntax, a limited set of properties are initialized; 
-An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).
-- then properties can be added and removed. 
-- Property values can be values of any type, including other objects, which enables building complex data structures.
--  Properties are identified using key values. A key value is either a String or a Symbol value.
-___
 # variable
 A variable stores information for later use. 
 ### Javascript Variables 
@@ -185,38 +154,70 @@ NOTE: the word 'is' is the only thing that we hard coded into these statements.
 
 ALRIGHT what we have done so far is to discuss primitive variable types in JS, so lets take a 
 ____
-# SECOND BREAK
-When we come back we will build out some basic js. 
+
+### FIRST PROGRAMMING LESSON. -
+Spend some time thinking through the things that you are naming. 
+var instructorName = 'Craig'
+
+Which is better than 
+var x = 'craig'
+Many programmers bypass this and you can't!
+- At DeltaV the course curriculm is set up not only to teach you how to code, but to instill best practices and developer hueristics that will make you a more valuable employee and developer. 
+
+A variable is a place to store code in memory. A stored location in your computers memory that holds the variable value.
+
+## Variables - can hold any of the primitive types in memory. 
+- When you first declare a variable using the var keyword, it is given a special value of 'undefined', which changes when you assign a value to it. 
+
+# String Literal 
+- A "string literal" is a sequence of characters from the source character set enclosed in double quotation marks (" "). 
+# Number Literal 
+Most numbers in JavaScript are literal values, assigned as values to variables, and used in various computations: var myNum = 3.18; var newNum = myNum * someValue; You can also construct a Number using a constructor method: var newNum = new Number(23);
+- A numeric literal is a character-string whose characters are selected from the digits 0 through 9, a sign character (+ or -), and the decimal point. If the literal contains no decimal point, it is an integer. ..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+START by 
+a. First thing to do is make sure your files are connected. 
+b. Ask am I getting the input in and the something back out? 
+
+# conditionals
+
+Is this thing equal to this, yes or no? if so we have conditional logic, What is a variable? 
+if (condition) {
+  code to run if condition is true
+} else {
+  run some other code instead
+}
+
+The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed.
+
+ 
 - look at 
 alert();
 prompt();
-I will take my old learning journal and delete it and create a new one and pull it down and recreate it.
-So the main to take away from this is to realize that a js number is a number and a string is text, and a boolean is true or false. 
-make sure to pre-read for the next class.  
-____
-Back from Break 
-___
-- So you have a job and you need to add some js into your site.
-- So we get a link to a repo. 
-- So you cd into the app and you open in vs code. 
-Colaboration requires branching which we will cover in 201, so we can branch our project out to be able to do that. 
 
-- BOX MODEL
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+_
 
-
-So now lets look at some dependency needs of our application. 
-We are going to need to pull in a js file. 
-So where can we do that, we can add to the head tag, are we going to do this? no. I can but I am not. 
-I am going to put it at the bottom above the body tag.
-With the idea that we need to run our html firt and then begin running our js last. it will be rare what we do today in a live development environment. 
-In js we do the first thing hello world 
-alert('hello world');
-This is proof of concept that your code is working. 
-
-- Instead of using a link tag we are going to use the script tag. We could write js in the script tag but we are going to enforce separation of concerns. 
-So, lets build something basic with some logic, we will do some conditional logic, we will look at that in a minute, 
-Lets focus on this for a minute, 
+# Conditional Statement
+- In JavaScript we have the following conditional statements: Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false.
+# assignment operator 
+- An assignment operator assigns a value to its left operand based on the value of its right operand.
 
 if('cool' === cool)
 
@@ -229,10 +230,8 @@ console.log(hourNow);
 
 
 
-Mention if you have not yet to use google chrome. and show the console. 
-Apologies I can not zoom the alert box. 
-
 console.log('prompt question', hourNow) this is called and identifier so I know what it is doing. So, BEST PRACTICE is to label all your console logs. 
+
 - Because it is a scalable way to identify what is coming from where. 
 
 Now we will set a greeting: that will be assigned a value later in the code. 
@@ -262,49 +261,22 @@ So now for the first time we are going to intefreate our code, on day 6 of 201 w
 
 document.write(greeting);
 
+# object. 
+In computer science, an object is a value in memory which is possibly referenced by an identifier.
+In JavaScript, objects can be seen as a collection of properties. 
+- With the object literal syntax, a limited set of properties are initialized; 
+An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).
+- then properties can be added and removed. 
+- Property values can be values of any type, including other objects, which enables building complex data structures.
+-  Properties are identified using key values. A key value is either a String or a Symbol value.
+___ 
 ### method 
 A method is a property on an object that is equal to a function. 
 document is the object and then .write is the method. 
 So, it finds the last element and throws the .write there. This doesnt really do anything cool, but we can see the changes between the things. 
 
-So now it is time for lab, until 3:45.
-Show console, 
-Ok we didn't just break google. We have a browser that renders a representation of the web site not an actual raw code. So it only happens on our browser. 
-
 NOTE: The way we get paid is to build things where other can use the wysiwyg interface to acccomplish work. 
 - DYNAMIC DEVELOPMENT is a program built in such a way that the client can ad say an image to a site.
 
-START by 
-a. First thing to do is make sure your files are connected. 
-b. Ask am I getting the input in and the something back out? 
 
 
-
-
-
-
-
-### FIRST PROGRAMMING LESSON. -
-Spend some time thinking through the things that you are naming. 
-var instructorName = 'Craig'
-
-Which is better than 
-var x = 'craig'
-Many programmers bypass this and you can't!
-- At DeltaV the course curriculm is set up not only to teach you how to code, but to instill best practices and developer hueristics that will make you a more valuable employee and developer. 
-
-A variable is a place to store code in memory. A stored location in your computers memory that holds the variable value.
-
-## Variables - can hold any of the primitive types in memory. 
-- When you first declare a variable using the var keyword, it is given a special value of 'undefined', which changes when you assign a value to it. 
-
-# String Literal 
-- A "string literal" is a sequence of characters from the source character set enclosed in double quotation marks (" "). 
-# Number Literal 
-Most numbers in JavaScript are literal values, assigned as values to variables, and used in various computations: var myNum = 3.18; var newNum = myNum * someValue; You can also construct a Number using a constructor method: var newNum = new Number(23);
-- A numeric literal is a character-string whose characters are selected from the digits 0 through 9, a sign character (+ or -), and the decimal point. If the literal contains no decimal point, it is an integer. ..
-
-# Conditional Statement
-- In JavaScript we have the following conditional statements: Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false.
-# assignment operator 
-- An assignment operator assigns a value to its left operand based on the value of its right operand.
