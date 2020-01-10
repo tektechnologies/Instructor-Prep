@@ -175,20 +175,23 @@ A variable is a place to store code in memory. A stored location in your compute
 Most numbers in JavaScript are literal values, assigned as values to variables, and used in various computations: var myNum = 3.18; var newNum = myNum * someValue; You can also construct a Number using a constructor method: var newNum = new Number(23);
 - A numeric literal is a character-string whose characters are selected from the digits 0 through 9, a sign character (+ or -), and the decimal point. If the literal contains no decimal point, it is an integer. ..
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 
 
