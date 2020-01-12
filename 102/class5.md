@@ -14,33 +14,7 @@ C. Then code it.
 
 Note that as a developer you will most likely not get paid to build out an html page, because we build things progressively, which is why at DeltaV we bounce around from file to file, creating code and verifying that it works the way we need it to. 
 
-Note - What you are seeing me doing is talking about what we are building and then I am building it out. 
-
-TASK NOW. Lets get the floated box moved down, 
-Explain the id is a one time grab.
-Now, float images left and add 30px of margin to the top. 
-Now. Show the 30px overlap
-CSS# has given us access to the last child that lives in main, so we set margin right equal to 0. 
-NOICE....
-
-All that is left if to add the footer. 
-- Mention a clear both. 
-if that doesnt work, and it shouldnt. Mention
-So, I am going to show you how a developer would do. I am going to add margin bottom to the list, this is how css works, 
-WE HAVE IDEAS AND THEN CSS REQUIRES SOMETHING ELSE TO BE DONE. like a game. 
-
-
-
-
-
-
-
-
-
-
 # Agenda CSS
- 
-
 https://github.com/tektechnologies/NoLimitsLife/tree/master/css
 ## Recap from Code 101
 1. Does anyone remember what css stands for.  
@@ -76,7 +50,9 @@ Talk about attributes key value pairs in css same as in html, that the attribute
 #### Some of the tags have content some don't. Some tags like images are the content. 
 Reminder that Navigation usually lives in the header. Then we have main content and then a bottom to the page. 
 
-Mention Image place holders and why they are usefull, for wireframing and showing clients a rough layout of a site in progress. Explain that you create code and don’t take the pictures. 
+Mention Image place holders and why they are usefull, for wireframing and showing clients a rough layout of a site in progress.
+
+self run devs -  Explain that you create code and don’t take the pictures. 
 
 Mention color scheme.
 https://color.adobe.com/create
@@ -119,15 +95,31 @@ FIX: so we add a clear:left to the floated element. and now we dont have float i
 
 # Demo Material done.
 ___
+Note - What you are seeing me doing is talking about what we are building and then I am building it out. 
+-------build html demo ------------
+TASK NOW. Lets get the floated box moved down, 
+Explain the id is a one time grab.
+Now, float images left and add 30px of margin to the top. 
+Now. Show the 30px overlap
+CSS# has given us access to the last child that lives in main, so we set margin right equal to 0. 
+NOICE....
+
+All that is left if to add the footer. 
+- Mention a clear both. 
+if that doesnt work, and it shouldnt. Mention
+So, I am going to show you how a developer would do. I am going to add margin bottom to the list, this is how css works, 
+WE HAVE IDEAS AND THEN CSS REQUIRES SOMETHING ELSE TO BE DONE. like a game. 
 
 
 ## Lab: Wireframe and Build
-Our goal for lab is text and color layout design, do not worry about floating, it does not have to be pretty, what we are looking for is that you are experiencing with css. So lets frame the reading, and then head to lunch / power hour. 
+Our goal for lab is text and color layout design, do not worry about floating, it does not have to be pretty, what we are looking for is that you are experiencing with css. 
+
+So lets frame the reading, and then head to lunch / power hour. 
+
 The idea here and now is that you begin to think through CSS and are aware of the pitfalls of css, so that you are set up for success in 201. 
 Ok we are on to lab 5 now. 
 You are welcome to use what u have so far or start over and build out the html again. Good time to start googling your questions. 
 - The whole goal is to link up a css file and add some styles. I wonder how I can make my color blue,  go to adobes cooler . link up the style sheet. In the course repo there is an example of that.
-- Up until 1:35. So then we will pivot in such a way that we will read a little today is the most base layer possibly in javascript so capture that and then read a bit about that, then monday is all about writing the logic. 
 
 
 # New Vocabulary
