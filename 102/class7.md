@@ -21,10 +21,10 @@ ___
 
 ### Script
 - Js makes web pages more interactive. 
-a. Access to Content( use to grab any html elements on a page.)
-b. Modify Content(add elements, change values of a css class, or change position of img)
-c. Program rules(image script that runs a larger image when a thumb nail is clicked on.)
-d. React to events ( button press, link click)
+- a. Access to Content( use to grab any html elements on a page.)
+- b. Modify Content(add elements, change values of a css class, or change position of img)
+- c. Program rules(image script that runs a larger image when a thumb nail is clicked on.)
+- d. React to events ( button press, link click)
 
 Script is a series of instructions given to the computer by you the developer, so that the computer can perform some type of task. (Recipes, Handbooks, Manuals)
 
