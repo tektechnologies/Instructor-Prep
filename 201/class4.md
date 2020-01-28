@@ -18,10 +18,11 @@ var fruits = ['apple','orange','bob','fred','tom'];
 Use typeof(differentThings)
 
 Ask them what they want to look at in code review, 
-- counting for correct answers
+- counting for correct answers X
+    score++ or score = score + 1
 - final score 
 - going through the array of possible answers, 
-- multiple trys different approaches.
+- multiple trys different approaches. X
 
 ### Start with the html ul an ol lists. 
 
@@ -37,10 +38,24 @@ mention that the us of the reset.css, removes the bullets, which we can change,
 
 ### Lets look at Javascript. 
 
+Review code and then as you come accross an issues you can demo debugger. 
+open the inspector to console before you reload the page, what debugger does is stops the code where we put it and then we can step through our code to see exactly what is going on with these variables. 
 
+Type in the variables and see what values have been assigned to the variables. 
+- In case, the input is a "string" and the number is a Number 10. 
+- We can fix by taking away an equal sign, which is not best practice, while that would work we want to covert, the string to a number. 
+- Search number conversion javascript. 
+- ParseInt, Number 
 
-
+numGuess = parseInt(input);
+- We can use the parseInt to chain to other methods, like numGuess = parseInt(prompt('Guess Higher'));
 ## 7:00
+
+
+
+
+
+
 
 
 
