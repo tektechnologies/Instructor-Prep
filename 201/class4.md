@@ -30,7 +30,7 @@ Ask them what they want to look at in code review,
 ### Talk about code review,     
 - So last time we worked adding some ul and ol lists, worked with conditional statements some more, and also at truthy and falsy values, 
 
-mention that the us of the reset.css, removes the bullets, which we can change, 
+mention that the use of the reset.css, removes the bullets, which we can change, 
 
 - using classes are a standard best practice way of modify css, 
 - usually resist using an id, because we cannot duplicate id's accross the site, 
@@ -96,7 +96,7 @@ if(songAnswer.includes(songGues)) {
 - Use a span, a span is an inline element. Rerender the page to see that the tag does nothing by itself. 
 - add a border to see what the span is doing.
 - Try text-align, but didnt change anything because we are aligning it right in the tiny red box. So we could do a margin left, of 75%, when we shrink page, the margin does not operate the way we want. its not quite right. 
-- Lets try a new property the position property, 
+# Lets try a new property the position property, 
 with position we have 
 1. relative - meaning relative to where ever it was suppsoed to be otherwise. Start with where are you supposed to be and then move accordingly, we can use negative values to move relative values. Switching from abs to rel are not used very often, unless we are looking for a specific spot. Because there are weird side effects that change the way other things get laid out near by. 
 - So, we should think of these layout issues early on to avoid being lost in what our css is doing to our elements. 
@@ -134,8 +134,9 @@ so another thing today is that our lab is going to be pair programming. Kevin an
 - Because we need to call it. 
 - So I think of a recipe, a function is the recipe, but inorder for the recipe to work I need to run the recipe, call for the ingredients
 - If I put that call in the console it will run and if I want I can add it to the app.js file. which is the normal practice. 
-- This is all you need to know to complete th lab today. This is a change that your partner will make that will not effect the functioning of your program, what questions do you have. 
+- This is all you need to know to complete the lab today. This is a change that your partner will make that will not effect the functioning of your program, what questions do you have. 
 - This is our first experience with pair programming, so the code implementations that we are doing are fairly simplistic. 
+- So what i will say about today's lab is that there are several steps, and make sure to do one at a time. 
 - Explain pair programming, forking partners repo, while they navigate, since it is their project. 
 - So we know what to achieve, but you can also look at other code that you may be having issues with as well, during lab time. 
 - So we will go through the git process on forking, 
