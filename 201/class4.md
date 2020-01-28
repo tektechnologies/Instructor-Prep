@@ -71,7 +71,44 @@ if(songAnswer.includes(songGues)) {
 
 # now demo css layouts .
 - last time we talked about the box model 
+- looked at margin padding and how to calculate the size to specify white space of the elements as well as using box-sizing: border-box; 
 
+- Start with creating some scaffolding. 
+- let vs code add html template. 
+- Talking about layout and talking about positioning. 
+- Add body and h1. 
+- Make sure to run the test, on the css and js files. 
+- Try to show nav build out quick. 
+- Show the comments in css
+- review hex colors as the RGB.
 
+- Now is a good time to commit and push out to git hub our initial scaffolding, 
 
-## 8:00
+- Pro tip, The idea of your design will most likely not be what your final page looks like. 
+- So we start with a low fidelity, rendering of the page, called a wireframe. 
+- css is the part of the coding process that will take as much time as you give it, that may not be the best use of our time, so maybe time box or save the work until the end of the day. 
+
+- Draw on the board a wireframe, so that now you know that what you work towards with the html structure and css style are more attainable, because we have demystified, what it is that we need to accomplish. 
+- Label out the page as to what we may think we might need, with marking up some elements. 
+
+- Now we have a basic structure, we can start to add some styling. 
+- Add up to two css declarations
+- Use a span, a span is an inline element. Rerender the page to see that the tag does nothing by itself. 
+- add a border to see what the span is doing.
+- Try text-align, but didnt change anything because we are aligning it right in the tiny red box. So we could do a margin left, of 75%, when we shrink page, the margin does not operate the way we want. its not quite right. 
+- Lets try a new property the position property, 
+with position we have 
+1. relative - meaning relative to where ever it was suppsoed to be otherwise. Start with where are you supposed to be and then move accordingly, we can use negative values to move relative values. Switching from abs to rel are not used very often, unless we are looking for a specific spot. Because there are weird side effects that change the way other things get laid out near by. 
+- So, we should think of these layout issues early on to avoid being lost in what our css is doing to our elements. 
+
+2. fixed - position fixed at first may look like nothing has changed from absolute, however the position fixed keeps the element in position while content on the page moves around it. 
+
+3. absolute. 
+Absolute we set what the spacing should be. 
+set absolute top-bottom-left-right within the page. It doesnt matter what the parent element is or doing it now goes where ever you tell it to go. Lets you leave the parent element and what it is doing. It is possible to use it within the element. We can keep the elements grouped together so that screen readers can access that grouped data, possibly styling too.  
+## 8:06
+
+- So now what we need to talk about is inline and block level elements. 
+anchor tags ? are they block or inline. It is an inline element. Because it doesnt take up the whole line. 
+- If we add an h5 those are block level elements, so we can see the element push the content down the page, 
+- As we have seen in our styles we can add a display of block, we dont standardly use block on inline elements, we style them differently in the page. 
