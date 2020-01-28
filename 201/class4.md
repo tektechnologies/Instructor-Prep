@@ -50,14 +50,27 @@ Type in the variables and see what values have been assigned to the variables.
 numGuess = parseInt(input);
 - We can use the parseInt to chain to other methods, like numGuess = parseInt(prompt('Guess Higher'));
 ## 7:00
+# Take Break for 10 Minutes.
+### When we get back we will look at functions. 
+
+- To stop loops we use break as opposed to setting a variable to the condition value for the for loop. 
+
+- We can use the method .includes()
+- returns weather or not an a
+```
+if(songAnswer.includes(songGues)) {
+    alert('You are right'!);
+    i = 6; //ends for loop
+    score++
+}
+```
+.includes() works on strings and sub strings. 
 
 
+## This ends the code review. 
 
-
-
-
-
-
+# now demo css layouts .
+- last time we talked about the box model 
 
 
 
