@@ -112,3 +112,27 @@ set absolute top-bottom-left-right within the page. It doesnt matter what the pa
 anchor tags ? are they block or inline. It is an inline element. Because it doesnt take up the whole line. 
 - If we add an h5 those are block level elements, so we can see the element push the content down the page, 
 - As we have seen in our styles we can add a display of block, we dont standardly use block on inline elements, we style them differently in the page. 
+Are images inline or block level, they are inline. 
+- We can change the image to block, but usually not a tool I reach for. 
+
+# two more things to do today. 
+brief look at functions. and how to do that within lab. 
+we will look more at functions in lab five. 
+so another thing today is that our lab is going to be pair programming. Kevin and I will demo. what that looks like. 
+- if you find that you are writing alot of code for the lab, then you may be over doing it. 
+- So I will add in a small amount of code. 
+- Then add another line of code. 
+- what I am going to do, is take some existing code and drop it into a function. 
+
+- Start with a key word function 
+- Then give your function a name
+- Then I will add the () so people can call it to the end of the name
+- Next we add in the {} 
+- And within th curly braces I will put my code. 
+
+- If i go back to my browser nothing will work? why.
+- Because we need to call it. 
+- So I think of a recipe, a function is the recipe, but inorder for the recipe to work I need to run the recipe, call for the ingredients
+- If I put that call in the console it will run and if I want I can add it to the app.js file. which is the normal practice. 
+- This is all you need to know to complete th lab today. This is a change that your partner will make that will not effect the functioning of your program, what questions do you have. 
+- This is our first experience with pair programming, so the code implementations that we are doing are fairly simplistic. 
