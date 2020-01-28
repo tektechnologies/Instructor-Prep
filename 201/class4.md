@@ -136,3 +136,13 @@ so another thing today is that our lab is going to be pair programming. Kevin an
 - If I put that call in the console it will run and if I want I can add it to the app.js file. which is the normal practice. 
 - This is all you need to know to complete th lab today. This is a change that your partner will make that will not effect the functioning of your program, what questions do you have. 
 - This is our first experience with pair programming, so the code implementations that we are doing are fairly simplistic. 
+- Explain pair programming, forking partners repo, while they navigate, since it is their project. 
+- So we know what to achieve, but you can also look at other code that you may be having issues with as well, during lab time. 
+- So we will go through the git process on forking, 
+- Give repo link to partner. 
+- git remote -v
+- change some stuff and push to master, to the drivers forked repo. 
+- Now how do we get the updates to the original repo.  
+- Create a pull request, to merge to master repo. 
+- Which takes us back to the original repo, 
+- Last step is to merge pull request and then pull the updated master to local copy and continue to work. 
