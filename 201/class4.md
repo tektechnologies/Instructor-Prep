@@ -147,3 +147,114 @@ so another thing today is that our lab is going to be pair programming. Kevin an
 - Create a pull request, to merge to master repo. 
 - Which takes us back to the original repo, 
 - Last step is to merge pull request and then pull the updated master to local copy and continue to work. 
+
+
+
+
+
+
+
+# Code review. 
+
+'use strict';
+// use strict is almost alwayst the first line of our js files
+//console.log('It is working!');
+var correctAnswers = 0; 
+var user = prompt("What is your name?"); 
+   // console.log(user + " , thank you for taking the time to visit my page!");
+  //  var str = user;
+  //  var res = user.toLowerCase();
+
+ confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.")
+// need a confirm in here
+// do {
+//     readyForQ = confirm(user + ", are you ready to start the quiz?  Don\'t be scared, you will do fine.");
+//   console.log(readyForQ);
+// } while (!true);
+//console.log('Let\'s Go!');
+????????????????????????????????????????????????????????????????????????????
+//question one
+var dog = prompt("Do I currently have four dogs?").toLowerCase();
+    console.log(dog);
+    // [need to validate answer with yes/no or y/n]
+
+if (dog === 'yes' || dog === 'y') {
+  alert('That\'s right, I do have four dogs!');
+  correctAnswers++;
+} else {
+  alert('Actually I do have four dogs, I reccomend it.');
+}
+
+
+//question two
+ var liveCo = prompt("I lived in Colorado for five months").toLowerCase();
+    // [need to validate answer with yes/no or y/n]
+
+if (liveCo === 'no' || liveCo === 'n') {
+  alert('That\'s correct, I lived there for a year!');
+  correctAnswers++;
+} else {
+  alert('Nope, I lived there for longer!');
+}
+
+console.log('Correct Answers', correctAnswers);
+
+????????????????????????????????????????????????????????
+
+
+
+
+// var goal = prompt("One of my goals is to reinvent myself");
+    console.log(goal);  
+    // [need to validate answer with yes/no or y/n]
+// var workOut = prompt("I workout in my own home");
+    console.log(workOut);  
+// [need to validate answer with yes/no or y/n]
+
+// var guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
+    console.log(guessNumber);  
+// [need a loop for number guess and a break when they guess the correct answer]
+
+// var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!");
+    console.log(eighties);  
+// [need an array for:  Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard, Poison, Warrant] [Also need a loop that has a break when they guess a correct answer]
+
+// [Placeholder for creating the number of correct answers out of X questions]
+
+
+
+
+------==================================================----------
+
+//Question 7
+var userCorrect = false;
+
+var pokemon = ['pikachu', 'zubat', 'drowzee', 'onyx', 'charmander', 'snorlax'];
+
+var guesses = 0;
+
+while (guesses < 7) {
+  var pokeAnswer = prompt('What Pokemon has Lee caught this week on PokemonGO?').toLowerCase();
+  for (var i = 0; i < pokemon.length; i++) {
+    if (pokeAnswer === pokemon[i]) {
+      alert('You caught the right answer! Nice work! The ones he caught this week are: ' + pokemon);
+      console.log('User response is ' + pokeAnswer + ' to question 6');
+      guesses = 7;
+      correctAnswers++;
+      userCorrect = true;
+      break;
+    }
+  }
+  if (guesses !== 7) {
+    alert('Not that one. You\'re not the very best, but try again!');
+    console.log('User response is ' + pokeAnswer + ' to question 6');
+  }
+  guesses++;
+}
+if (userCorrect === false) {
+  alert('Uh-Oh! You did not get any right. The Pokemon that Lee caught this week are: ' + pokemon);
+  console.log('User response is ' + pokeAnswer + ' to question 6');
+}
+
+alert(userName + ', you scored a total of ' + correctAnswers + ' out of 7')
+console.log(userName + 'scored a total of ' + correctAnswers + ' out of 7')
