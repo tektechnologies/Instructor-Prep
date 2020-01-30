@@ -71,4 +71,4 @@ Decimal 31 is equal to 1F
 This is how Hex codes work. 
                         
 FFFFFF  is equal to (15 X 16) + (15 X 1) = 255
-![FF in Hex](/FFHEx.png)
+![FF in Hex](FFHEx.png)
