@@ -72,3 +72,26 @@ This is how Hex codes work.
                         
 FFFFFF  is equal to (15 X 16) + (15 X 1) = 255
 ![FF in Hex](FFHEx.png)
+
+### Convert an RGB to HEX.
+rgb(184,)
+184
+16 * 11 + 8 * 1
+      B + 8 = B8(Hex)
+# Note it is ok, if you can not computate these values by memory
+- the google will have resources that will aid in translating these values back and forth. 
+
+Ask why things are happening in their code, like why do we have all of our global variables at the top, and how does that effect scope if they are organized all over?
+- As long as we declare the variable, globally, it will be accessible in any function it will be in scope for those functions, as long as we declare them first, make sure to set those variables before we start running our functions.
+
+What happens on    var quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code. 
+
+var answer = yes;
+var wasRight = answer === 'yes' || answer === 'y';
+
+If I look at wasRight it will be true. However if I reset my answer in the future to no, then wasRight is still yes. We can fix this using a function. OR keep the conditionals in the loop to recalculate the condition to be true or false.
+Discuss review code, for feedback on the about me lab. 
+- --------------------------------------------- 
+# 7:00
+
+Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
