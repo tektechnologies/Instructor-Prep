@@ -233,12 +233,12 @@ function lotteryNumberPicker(){
 
 So lets pick some numbers and we will specifiy these numbers in the function using parameters. 
 
-function lotteryNumbers(quantity){
+function lotteryNumbers(quantity lotteryMax){
 
     var lotteryArray = [];
     for(var i = 0; i < quantity; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
-        lotterArray.push(Math.ceil(Math.random() * 99));
+        lotterArray.push(Math.ceil(Math.random() * lotteryMax));
 
     }
    return lotteryArray;
@@ -248,4 +248,6 @@ function lotteryNumbers(quantity){
 
 var lotteryQuantity = Number(prompt('How many numbers would you like?'));
 
-alert(lotteryNumbers(lotteryQuantity));
+var lotteryMax = Number(prompt('What is the Max amount per number?'));
+
+alert(lotteryNumbers(lotteryQuantity, lotteryMax));
