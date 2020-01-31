@@ -168,3 +168,84 @@ function pizzaCrustType() {
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
+
+- We dont always need access to global variables all the time, best practice is to keep your variables as local as possible.
+
+
+
+function pizzaCrustType() {
+   var pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
+    if(pizzaCrustType < 2){
+        confirm('You would like to try our thin crust style pizza?');
+    } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
+        confirm('You would like the Deep Dish Chicago style pizza?');
+    } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
+        confirm('You would like the Detroit style pizza?');
+    } else {
+       confirm('You want the italian meat ball sub sandwich?');
+       pizzaCrustType = 'MeatBall Sub Sandwich';
+    }
+    return pizzaCrustType;
+    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
+}
+// We can remove this and call it in the console.
+pizzaCrustType();
+
+- So when we initially called the function it displayed some output, with the return the variable value this then provided for use throughout the rest of the code, if needed.
+
+
+// This variable will hold the value for the one time that the function was run. 
+Return gives back the output and then we add it to a variable for later use. 
+- Getting back an answer is what allows the program to do the task that they are designed to do. Returns are much more useful than console.logs too. 
+var globalPizzaCrustType = pizzaCrustType();
+
+console.log('reorder point: ' + globalPizzaCrustType + 3);
+
+
+//Lets pick lottery numbers and return them in an array. 
+- Think of adding the comments to your code before you add code, so that your code will be commented when you are done. 
+
+function lotteryNumberPicker(){
+    //Start by creating array for the numbers
+    var lotteryArray = [];
+    //Set the first number in the array to be 10
+    lotteryArray[0] = 10;
+    //Run 5 times to get five random numbers.
+    //So lets use a loop
+    //we can write with a for or a while loop. 
+    for(var i = 0; i < 5; i++){
+       //lotteryArray[i] = Math.ceil(Math.Random() * 99);
+       //A method on arrays that allows us to put value o the end of arrays called push
+        lotterArray.push(Math.ceil(Math.random() * 99));
+
+    }
+
+    //pick one number and return it. 
+   return lotteryArray;
+
+}
+
+- If we move the array variable outside of the function it will continually save the random 5 numbers each time the functin is run. 
+
+### We have now specified output from a function
+
+### So now lets look at how we handle input. 
+
+So lets pick some numbers and we will specifiy these numbers in the function using parameters. 
+
+function lotteryNumbers(quantity){
+
+    var lotteryArray = [];
+    for(var i = 0; i < quantity; i++){
+       //lotteryArray[i] = Math.ceil(Math.Random() * 99);
+        lotterArray.push(Math.ceil(Math.random() * 99));
+
+    }
+   return lotteryArray;
+
+}
+
+
+var lotteryQuantity = Number(prompt('How many numbers would you like?'));
+
+alert(lotteryNumbers(lotteryQuantity));
