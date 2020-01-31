@@ -1,5 +1,5 @@
 # Programming Concepts Covered
-
+## Announcements
 ## Partner Power hours are mandatory at Code Fellows. 
 
 ## Pair Programming Debrief
@@ -95,3 +95,76 @@ Discuss review code, for feedback on the about me lab.
 # 7:00
 
 Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
+We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows me to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
+git checkout master takes us back to master. 
+
+# Break 7:10 - 7:20 
+- git commits to search for more information.
+- We can look at network graphs
+
+
+# Warm up 
+- Have the students take a couple minutes to answer these questions. 
+
+1. What is a function? 
+2. Why do we write functions? 
+
+### What is a function?
+- procedure 
+- Contains a set of statments that perform a specific tasks. 
+- functions usually describe a task that we do
+- it is a named piece of code. 
+
+
+### Why do we write functions? 
+- Makes code Dryer. (less copy and paste)
+- Call the code over and over. 
+- Make code more readable for other developers. 
+- Use functions when we want to reuse a section of code many times. 
+- So when I do something multiple times, I realize I have a piece of behavior that needs to happen more than a few times, is when I realize it. 
+
+### How do we write functions in our code. 
+- figure out what I want to do.
+- figure out what inputs and outputs I will have
+- Last step is writing the function.
+
+## This follows our class 5 from 102 
+- We dont just jump into code. 
+A. Talk about it.
+B. Learn about it. 
+C. Then code it. 
+
+first we need to figure out what the problem is and then we can start to build out our functions.
+
+# Cover this Below: 
+
+https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-04/demo/demo.md
+
+### Talk about adding names to anonymous functions to show the outcome in the stacktrace in the console. 
+
+- We want to build out functions in a couple of differnet ways. For one, we may be working on a block of logic that does something and may eventually end up in a function where this named peice of code, can then have its parameters determined and can be called over and over. 
+
+- Some times we may know ahead of time because of we know the code that we will be writing and we start with a rough draft or smaller peice of that code and refactor or make it better as we go along. 
+
+
+//So lets write a function that prompts a user for a pizza crust.
+
+function pizzaCrustType() {
+   var pizzaCrustType = prompt('What type of pizza crust would you like?');
+
+   console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
+
+}
+pizzaCrustType();
+
+console.log('Your Pizza Crust Type is: ' + pizzaCrustType);
+
+- //This will return undefined. Because our variable scope is within the function where the variable is declared. 
+
+var pizzaCrustType;
+
+function pizzaCrustType() {
+   pizzaCrustType = prompt('What type of pizza crust would you like?');
+   console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
+}
+pizzaCrustType();
