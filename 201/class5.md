@@ -253,7 +253,7 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
 
 
 # Images, Color, Text
-
+https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
 ## HTML to insert Images
 
