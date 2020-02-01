@@ -332,7 +332,7 @@ Review with the students. https://www.freecodecamp.org/news/things-i-wish-someon
 
 
 # Student Code 
-
+```
 'use strict';
 // use strict is almost alwayst the first line of our js files
 console.log('It is working!');
@@ -463,3 +463,4 @@ liveCo();
 goalQuestion();
 workOutQuestion();
 guessNumber();
+```
