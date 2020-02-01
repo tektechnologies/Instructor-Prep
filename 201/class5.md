@@ -52,30 +52,30 @@ so we can specify our desired colors in RGB by the number of red, number of gree
  The number 256 is an important number (16x16) 0r 2 to the 8th. 
  If we use base 16, we have a one's place and then a 16th's place and then a 256th's place, so all of our possible color values fit into and what that makes convenient is that all our possible values fit into just two digits of HEXIDecimal. So we can always use two digits to represent a HEX number, which is how they came up with Hexadecimal. 
 ### #RRGGBB 
- In base 16 we need something that means the number 10 (0-9 and then A)
- 0
- 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
- A - 10
- B - 11
- C - 12
- D - 13
- E - 14
- F - 15
- E - 16( We go into Second Place Number)
+ ## In base 16 we need something that means the number 10 (0-9 and then A)
+ #### 0
+ #### 1
+ #### 2
+ #### 3
+ #### 4
+ #### 5
+ #### 6
+ #### 7
+ #### 8
+ #### 9
+ #### A - 10
+ #### B - 11
+ #### C - 12
+ #### D - 13
+ #### E - 14
+ #### F - 15
+ #### E - 16( We go into Second Place Number)
 
-Decimal 16 is equal to 10
-Decimal 17 is equal to 11
-Decimal 25 is equal to 19
-Decimal 26 is equal to 1A
-Decimal 31 is equal to 1F
+#### Decimal 16 is equal to 10
+#### Decimal 17 is equal to 11
+#### Decimal 25 is equal to 19
+#### Decimal 26 is equal to 1A
+#### Decimal 31 is equal to 1F
 
 This is how Hex codes work. 
                         
