@@ -232,6 +232,10 @@ function lotteryNumberPicker(){
 
 ### We have now specified output from a function
 ### So now lets look at how we handle input. 
+
+
+
+# Do this in review............................
 So lets pick some numbers and we will specifiy these numbers in the function using parameters. 
 
 
@@ -250,6 +254,9 @@ function lotteryNumbers(quantity lotteryMax){
 var lotteryQuantity = Number(prompt('How many numbers would you like?'));
 var lotteryMax = Number(prompt('What is the Max amount per number?'));
 alert(lotteryNumbers(lotteryQuantity, lotteryMax));
+
+# end review ..................................
+
 
 
 # Images, Color, Text
