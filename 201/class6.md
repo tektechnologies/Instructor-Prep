@@ -28,13 +28,20 @@
 - how to access and reassign values/functionality to their properties and methods
 - Demonstrate an understanding of how dot notation and bracket notation are used to access/reassign properties and methods in JavaScript objects.
 
-
-
 ## Code Review
   - Discuss lab 5
   -  Demonstrate how to solve the problems from the lab.
   - This is also their first exposure to callbacks, so point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
   
+
+
+
+
+
+
+
+
+
 
 ### Solution 1
   function sum(a,b){ //eslint-disable-line
@@ -59,9 +66,7 @@ function multiply(a,b){
     return [a * b, `The product of ${a} and
     &{b} is ${a * b}. `];
 }
-
 # Console Log Demo 
-
 - sum(4,7) returns an array
 - sum(4,7) + 11 returns a string value with the sum answer concating to the 11. Looking like 11.11
 - var ans = sum(4,7);
@@ -93,8 +98,6 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var product = multiply(a, multiply(b,c)[0])[0];
   return [theSum, product, `${a} and ${b} and ${c} sum to ${sumAnswer}. `,
   `The product of ${a} and ${b} and ${c} is {product}.  `];  
-
-
   return [theSum, product, message1, message2];
 }
 # The What is that game.
@@ -110,22 +113,15 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 - c is also a number 
 - object is always a good answer because everything in javascript is an object, but multiply returns an array. 
 - so the second multiply function that returns an array, has a [0] that just returns the number. 
-#  this ends the code review. 
-# ////////////////////////////////////////
-
-
 
 ### Problem 4
-
 // TODO: Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
-
 function sumArray(sumArr){ //eslint-disable-line
   var theSum = sum(sumArr[0], sum(sumArr[1], sumArr[2])[0])[0];
   var message = sumArr + ' was passed in as an array of numbers, and ' + theSum + ' is their sum' + '.';
   return [theSum, message];
 }
-
 ### Problem 5
 // Write your code here
 function multiplyArray(multArr){ //eslint-disable-line
@@ -133,7 +129,6 @@ function multiplyArray(multArr){ //eslint-disable-line
   var message = 'The numbers ' + multArr + ' have a product of ' + product + '.';
   return [product, message];
 }
-
 ### STRETCH GOAL: Problem 6
 var testDynamicArray = [1,2,3,4,5]; 
 function multiplyAnyArray(dynamicArray) { 
@@ -155,21 +150,9 @@ function multiplyAnyArray(dynamicArray) {
 testMultiplyAnyArray(testDynamicArray);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# this ends review and the first break. 
+#  this ends the code review. 
+# ////////////////////////////////////////
 
 
 
@@ -178,9 +161,96 @@ testMultiplyAnyArray(testDynamicArray);
 
 
 # Lecture Notes
+# White board these 
+- Arrays 
+1. Store multiple pieces of data
+2. access data with square brackets. 
+3. data has index (number) and the index in arrays start at 0. 
+4. idices give us order 
+
+
+- Objects - store multiple piecs of data 
+1. Access data w/square brackets or dot notation. 
+2. Store multiple pieces of data 
+3. data has a key and a value, 
+    - keys are strings.
+    - no order, just keys. 
+    - Keys have a one way direction. 
+    - We look up values by there weight.
+
+- Curly Braces allow us to {}
+1. store code block within a function. 
+2. They also allows to wrap our if statements to control our logic rules. 
+3. And now we will use them with our objects. 
+
+
+
+
+# Domain Modeling
+ [HERE](https://www.scaledagileframework.com/domain-modeling/).
+Domain Modeling is a way to describe real world entities and their relationships between them. How do we store that data in a way that makes sense. 
+We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
+
+It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
 
 
 ## JavaScript Objects
+
+var firstPizza = {
+    weight: 1,
+
+}
+- Both return the same value. In general I use dot notation, but there are some times when you want to use the string. 
+
+firstPizza.weight
+firstPizza['weight']
+
+1. bracket notation that does work vs. dot notation that does not. 
+
+firstPizza['first-pizza-location'] = 'Aurellios';
+
+- Uncaught ref error. firstPizza.first-pizza-location //does not work. 
+## JS is looking at the dashes as subtraction.
+So, we cant access with dot notation. 
+- Camel casing is nice here as well, so that dot notation is still a viable way to access property values. 
+
+2. Using bracket notation is useful when I look up values through a variable. 
+var keyIwantToLookUp = 'weight';
+
+firstPizza.keyIWantToLookUp //undefined
+
+firstPizza[keyIWantToLookUp] I can use this variable here, because the bracket notation expects a string and that is what we get from the var keyIWantToLookUp, when saved in a variable some where. 
+I use dot notation more often than bracket. 
+
+# Add another key / value pair. 
+var firstPizza = {
+    weight: 1,
+    crustType: 'Deep Dish' 
+}
+firstPizza // shows weight and crustType. 
+
+# Play game what are these things? 
+
+# move from console to a js file. 
+- Build out scaffolding, test links. 
+- Add object, then add more properties. 
+- Save an image URL of a Pizza. Put each on there own line. When defining multiple key value pairs, 
+- We have stored strings, numbers, but we can also store an array, and a function
+- dscriptionWords: ['cheesy','delicious','saucy']
+- comma vs ; at end of the k/v pairs. 
+
+- Data Type of firstPizza is an object. 
+- Access an array with bracket notation and a number. 
+
+##  ASK what is this its a function and what does it return. 
+
+firstPizza.description[1].length or .toUpperCase() the whole thing is a function. 
+- toUpperCase() is a function that returns a string value.
+
+
+
+
+
  Object literals. The key to this is to not allow the students to use constructors at all today. Make them build, by hand, a bunch of object literals to become familiar with the syntax and structure and demonstrate/encourage practicing how to access and modify properties/methods in the JS console. These "objects" are intended to mimic real-world objects such as a car, person, cat, house, etc...
  
 # Object Literals -  HUH? 
@@ -191,6 +261,7 @@ testMultiplyAnyArray(testDynamicArray);
 
 - In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. 
 - Properties that describe behavior are also called methods. 
+- 
  
 
 JavaScript is what we call an object-based language. 
@@ -405,12 +476,18 @@ render: function(){
 ```
 
 
-## Domain Modeling
- [HERE](https://www.scaledagileframework.com/domain-modeling/).
 
-Domain Modeling is a way to describe real world entities and their relationships between them. We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
 
-It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
+
+
+
+
+
+
+
+
+
+
 
 
 ## Template Literals
