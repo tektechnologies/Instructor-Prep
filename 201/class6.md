@@ -33,14 +33,8 @@
   -  Demonstrate how to solve the problems from the lab.
   - This is also their first exposure to callbacks, so point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
   
-
-
-
-
-
-
-
-
+## Template Literals
+A smaller topic for today is the introduction of ES6 template literals. Show students how to refactor the concatenation from week 1 into template literals.
 
 
 ### Solution 1
@@ -49,7 +43,6 @@
   var message = 'The sum of ' + a + ' and ' + b + ' is ' + theSum + '.';
   return [theSum, message];
 }
-
 ### Problem 2
 1. What data type is our return statement?
 2. What are at index 0 and index 1. 
@@ -154,20 +147,39 @@ testMultiplyAnyArray(testDynamicArray);
 #  this ends the code review. 
 # ////////////////////////////////////////
 
+## Domain modeling (30 min)
+
+# Domain Modeling
+ [HERE](https://www.scaledagileframework.com/domain-modeling/).
+- Domain Modeling is a way to describe real world entities and their relationships between them. How do we store that data in a way that makes sense. 
+- We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
+- By creating a familiar problem domain, I found that both the tasks of me teaching a new technology and the viewer learning that technology were much easier, because it is very difficult to learn more than one thing at once.
+- The real world is a messy place.  Many of the problem domains we face as programmers are difficult to understand and look completely different depending on your viewpoint.
+
+- As programmers, we also are often not given complete information about the problem domain, so we don’t even have the information we need to understand it.
+
+- Can it be easy, "I was essentially given the entire problem domain in the form of a spec that was clear and unambiguous.  I was easily able to learn that problem domain and because of it, I was able to write the code very easily as well." website article.
+
+- What can you do about it?
+If understanding the problem domain is the hardest part of programming and you want to make programming easier, you can do one of two things:
+
+### Make the problem domain easier
+1. Get better at understanding the problem domain.
+2. You can often make the problem domain easier by cutting out cases and narrowing your focus to a particular part of the problem.
+
+It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
 
 
 
-
-
-
-# Lecture Notes
-# White board these 
 - Arrays 
 1. Store multiple pieces of data
 2. access data with square brackets. 
 3. data has index (number) and the index in arrays start at 0. 
 4. idices give us order 
 
+## Object literal notation (30 min)
+# Lecture Notes
+# White board these 
 
 - Objects - store multiple piecs of data 
 1. Access data w/square brackets or dot notation. 
@@ -176,34 +188,23 @@ testMultiplyAnyArray(testDynamicArray);
     - keys are strings.
     - no order, just keys. 
     - Keys have a one way direction. 
-    - We look up values by there weight.
+    - We look up values by there crust.
 
 - Curly Braces allow us to {}
 1. store code block within a function. 
 2. They also allows to wrap our if statements to control our logic rules. 
 3. And now we will use them with our objects. 
 
-
-
-
-# Domain Modeling
- [HERE](https://www.scaledagileframework.com/domain-modeling/).
-Domain Modeling is a way to describe real world entities and their relationships between them. How do we store that data in a way that makes sense. 
-We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
-
-It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
-
-
 ## JavaScript Objects
 
-var firstPizza = {
-    weight: 1,
+var chicagoPizza = {
+    crust: 'Deep Dish',
 
 }
-- Both return the same value. In general I use dot notation, but there are some times when you want to use the string. 
 
-firstPizza.weight
-firstPizza['weight']
+firstPizza.crust
+firstPizza['crust']
+- Both return the same value. In general I use dot notation, but there are some times when you want to use the string.
 
 1. bracket notation that does work vs. dot notation that does not. 
 
@@ -215,7 +216,7 @@ So, we cant access with dot notation.
 - Camel casing is nice here as well, so that dot notation is still a viable way to access property values. 
 
 2. Using bracket notation is useful when I look up values through a variable. 
-var keyIwantToLookUp = 'weight';
+var keyIwantToLookUp = 'crust';
 
 firstPizza.keyIWantToLookUp //undefined
 
@@ -224,12 +225,12 @@ I use dot notation more often than bracket.
 
 # Add another key / value pair. 
 var firstPizza = {
-    weight: 1,
+    crust: 1,
     crustType: 'Deep Dish' 
 }
-firstPizza // shows weight and crustType. 
+firstPizza // shows crust and crustType. 
 
-# Play game what are these things? 
+# Play the Game what are these things? 
 
 # move from console to a js file. 
 - Build out scaffolding, test links. 
@@ -246,40 +247,31 @@ firstPizza // shows weight and crustType.
 
 firstPizza.description[1].length or .toUpperCase() the whole thing is a function. 
 - toUpperCase() is a function that returns a string value.
-
-
-
-
-
- Object literals. The key to this is to not allow the students to use constructors at all today. Make them build, by hand, a bunch of object literals to become familiar with the syntax and structure and demonstrate/encourage practicing how to access and modify properties/methods in the JS console. These "objects" are intended to mimic real-world objects such as a car, person, cat, house, etc...
+- In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. 
+- Properties that describe behavior are also called methods. 
  
+
+JavaScript is what we call an object-based language. (There is a difference.)
+- https://www.google.com/search?q=object+based+language+vs+object+oriented+language&rlz=1C5CHFA_enUS862US862&oq=object-based+language.+vs+object+oriented+&aqs=chrome.1.69i57j0l7.8303j0j7&sourceid=chrome&ie=UTF-8
+
+Just about everything in JavaScript is an object. 
+We create objects directly through a template (we will get to this later), 
+and not through classes, like other languages. 
+## Classes are still used in JavaScript but are not touched on in this course. 
+There are two ways for creating an object in JavaScript that we will cover in 201:
+1. Object literals 
+1. Instantiating objects with the new keyword through a constructor function
+# We are going to focus on object literals today and will talk about constructor functions tomorrow. 
+
+### Object Literals
+Object literals are the simplest way to create a JS object. The syntax for it is mostly based off of key/value pairs. This means that when you create your object, you define the properties (keys) of an object, you must also give it a value.
+
+
 # Object Literals -  HUH? 
   goal with JS objects is to model real-life entities that have characteristics (properties) and behaviors (methods). 
   - describe properties as nouns,
   - values as adjectives,
   - methods as verbs.
-
-- In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. 
-- Properties that describe behavior are also called methods. 
-- 
- 
-
-JavaScript is what we call an object-based language. 
-
-Just about everything in JavaScript is an object. 
-We create objects directly through a template (we will get to this later), 
-and not through classes, like other languages. 
-
-## Classes are still used in JavaScript but are not touched on in this course. 
-
-There are two ways for creating an object in JavaScript that we will cover in 201:
-1. Object literals
-1. Instantiating objects with the new keyword through a constructor function
-
-We are going to focus on object literals today and will talk about constructor functions tomorrow. 
-
-### Object Literals
-Object literals are the simplest way to create a JS object. The syntax for it is mostly based off of key/value pairs. This means that when you create your object, you define the properties (keys) of an object, you must also give it a value.
 
 Here is an example of what a JS object looks like:
 
@@ -398,6 +390,29 @@ var person = {
 
 Notice the new nested object of `birthplace` in our object. As you can see, we can "create" objects easily by explicitly stating the methods and properties from within them. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Adding new props
 
 When adding NEW property methods, we will use the `=` instead of the `.` because we are assigning a value to the object. Example
@@ -422,6 +437,29 @@ Example: `foo.bar` <-- foo is the name of the object; bar is the name of the pro
 Bracket notation is when we access a property on an object through the use of brackets `[]`. Specifically, accessing the name of the property attached to the object. Using the same example as above, we would access the `bar` property of the `foo` object by writing `foo['bar']`
 
 [HERE](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) is an article that explains the highlights of the two notations.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## The DOM (30 min)
+
 
 ## The DOM
 "The DOM" (Document Object Model) is where the HTML and CSS that we have been learning about this whole time come together to create a very powerful document that we use in our browsers. Within our browser, when looking at a webpage, we see HTML and CSS come together to create a structure that we can in turn see headings, images, links etc....
@@ -488,10 +526,6 @@ render: function(){
 
 
 
-
-
-## Template Literals
-A smaller topic for today is the introduction of ES6 template literals. Show students how to refactor the concatenation from week 1 into template literals.
 
 
 
