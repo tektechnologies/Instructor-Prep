@@ -28,7 +28,7 @@ A smaller topic for today is the introduction of ES6 template literals. Let us l
 # Open up the homework lab 5a. 
 
 ### Problem 2
-1. What data type is our return statement?
+1. What data type is our return statement?  //A
 2. What are at index 0 and index 1. 
 3. What is going on with that string.
 4. Instead of single qoutes and plus sign
@@ -75,7 +75,9 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var theSum = sum(sum(a, b)[0] ,c)[0];
   console.log(theSum);
   var product = multiply(a, multiply(b,c)[0])[0];
+
   return [theSum, product, `${a} and ${b} and ${c} sum to ${sumAnswer}. `,
+
   `The product of ${a} and ${b} and ${c} is {product}.  `];  
   return [theSum, product, message1, message2];
 }
@@ -152,7 +154,7 @@ var person = {
     age:50, 
     eyeColor:"blue"
     };
-
+-----------------------------------------------------------------------------
 ### Objects Literal (do what for us) - store multiple pieces of data 
 1. Access data w/square brackets or dot notation. 
 2. Store multiple pieces of data 
@@ -209,7 +211,7 @@ var person = {
     age: 47
 }
 person // shows name and age. 
-
+# ------------------------------------------------------------------------------------------------------------------------------Start to use the code fellows demo lab code------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # move from console to a js file. 
 - Build out scaffolding, test links. 
 - Add object, then add more properties. 
@@ -225,28 +227,29 @@ person // shows name and age.
 - Data Type of person is an object. 
 - Access an array with bracket notation and a number. 
 
-##  ASK what is this its a function and what does it return. 
+<!-- ##  ASK what is this its a function and what does it return. 
 ```
 person.description[1].length or .toUpperCase() the whole thing is a function. 
 
 ```
 - toUpperCase() is a function that returns a string value.
+ -->
+
 ## Repeat here that an object is.....
 - In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. 
 - Properties that describe behavior are also called methods. 
  
-
+<!-- 
 ### JavaScript is what we call an object-based language. (There is a difference.)
 - https://www.google.com/search?q=object+based+language+vs+object+oriented+language&rlz=1C5CHFA_enUS862US862&oq=object-based+language.+vs+object+oriented+&aqs=chrome.1.69i57j0l7.8303j0j7&sourceid=chrome&ie=UTF-8
 
 Just about everything in JavaScript is an object. 
 # We create objects directly through a template (we will get to this later), and not through classes, like other languages. 
 
-## Classes are still used in JavaScript but are not touched on in 201. 
+## Classes are still used in JavaScript but are not touched on in 201.  -->
 
 
-# Basic Object talk done.
-
+# Basic Object talk done. Now that we have an object lets add to it. 
 
 When accessing the properties of the object, there are two different ways to do so, dot notation and bracket notation. 
 
@@ -277,7 +280,7 @@ Object literals are the simplest way to create a JS object. The syntax for it is
   - values as adjectives,
   - methods as verbs.
 
-Here is an example of what a JS object looks like:
+<!-- Here is an example of what a JS object looks like:
 
 ```js
 var person = {
@@ -285,22 +288,22 @@ var person = {
 	age: 47,
 	computerScientist: true,
     education: ['Southern Illinois University', 'DeltaV']
-};
-```
+}; 
+```-->
 
 #### Note a few things about the object:
 1. We create objects the same way we create variables. We start out with the declaration of the variable followed by the data we are setting the value too. 
-1. The full object value is encapsulated with curly braces `{}`
-1. Each set of data in the object is known as a property. This is showcased through a key/value pair. The "key" is the name of the property, and the "value" is the value stored in the property. For example, the `name` property is the key, and the value of `"Craig Barkley"` is the value. This means that within the object, the "name" of the person is "Craig Barkley". The same thing is true for the key `age`. The key is `age` the value is `47`. 
-1. After every property, if there is another one to follow, we end with a comma `,`.
-1. Properties can store any valid javascript value, even other objects.  
+2. The full object value is encapsulated with curly braces `{}`
+3. Each set of data in the object is known as a property. This is showcased through a key/value pair. The "key" is the name of the property, and the "value" is the value stored in the property. For example, the `name` property is the key, and the value of `"Craig Barkley"` is the value. This means that within the object, the "name" of the person is "Craig Barkley". The same thing is true for the key `age`. The key is `age` the value is `47`. 
+4. After every property, if there is another one to follow, we end with a comma `,`.
+5. Properties can store any valid javascript value, even other objects.  
 
-
+<!-- 
 ```js
 console.log(person.name) // Craig Barkley
 console.log(person.age) // 47
 console.log(person.education) // Southern Illinois University, DeltaV
-```
+``` -->
 # Methods in an object. 
 Methods in an object are the behaviors/actions of an object. For example, our `person` object should be able to actually "do" things, not just hold properties. Our `person` should be able to...walk. This means we should give our person this capability. We do this through what we call methods. At first sight, methods look like properties. That is because they are, method is the name we give to "properties" that have the values of functions. Here is an example, using our `person` from above:
 
@@ -330,6 +333,7 @@ var personOne = {
 
 #### Contextual 'this'
 The term `this` is a bit tricky to understand at first.  `this` is directly talking about whatever object is currently being manipulated. 
+# scoped accessor. 
 
 ## this
 1. complicated!
@@ -337,7 +341,7 @@ The term `this` is a bit tricky to understand at first.  `this` is directly talk
 1. when calling a method in the context of an object, `this = the object`
 
 
-```js
+<!-- ```js
 var personTwo = {
 	name: 'Bob TestUser',
 	age: 20,
@@ -350,7 +354,7 @@ var personTwo = {
          ];
   }
  };
-```
+``` -->
 
 
 - The first thing we can notice about or newly added method is that it is an anonymous function. 
@@ -363,13 +367,13 @@ If we wanted to "call" this method within our object, we would simply call it by
 person.code(); // output: is console log and a school.
 
 ```
-#### Adding new props
+<!-- #### Adding new props
 
 When adding NEW property methods, we will use the `=` instead of the `.` because we are assigning a value to the object. Example
 ```js
 person.serviceBranch = 'United States AirForce';
 ```
-As a result, `person` now has a newly added property named `serviceBranch` with a value of `United States AirForce`.
+As a result, `person` now has a newly added property named `serviceBranch` with a value of `United States AirForce`. -->
 <!-- 
 ## Modifying Objects
 1. adding new properties, methods
