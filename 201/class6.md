@@ -12,30 +12,33 @@
 # What we will work on today. 
 - Translate a real-world problem domain into a code model.
 - Browser represents an HTML document as an object that can be manipulated with JavaScript.
-- We Use JavaScript to dynamically render array data as an unordered list in the DOM
+- We Use JavaScript to dynamically render array data into the site page from the DOM
 - Demonstrate an understanding of how object literals are structured in JavaScript
 - how to access and reassign values/functionality to their properties and methods
 - Demonstrate an understanding of how dot notation and bracket notation are used to access/reassign properties and methods in JavaScript objects.
 
 ## Code Review
   - Demonstrate how to solve the problems from the lab.
-  - This is also their first exposure to callbacks, so point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
+  - This is also their first exposure to callbacks, so
+  - point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
   
 ## Template Literals
-A smaller topic for today is the introduction of ES6 template literals. Show students how to refactor the concatenation from week 1 into template literals.
+A smaller topic for today is the introduction of ES6 template literals. Let us look at how to refactor the concatenation from week 1 lab 5a into template literals.
+
+# Open up the homework lab 5a. 
 
 ### Problem 2
-1. What data type is our return statement?
+1. What data type is our return statement?  //A
 2. What are at index 0 and index 1. 
 3. What is going on with that string.
 4. Instead of single qoutes and plus sign
 5. Use back tics, by the one key.
-6. Using dollar sign and curly brac to pull in those variables.
-7. Template literal: uss backticks instead of single qoutes.  
+6. Using dollar sign and curly braces to pull in those variables.
+7. Template literal: use backticks instead of single qoutes.  
 8. Using backticks alert me as a dev that something weird is about to happen. If I am writing a regular string, I will just write it as a string.   
 9. The template literal does make things shorter and more readable and I can more easily see what the out come of the line will be. 
 
-#### TODO: Write your code here
+#### start with this problem
 ```
 function multiply(a,b){
     return [a * b, `The product of ${a} and ${b} is ${a * b}. `];
@@ -72,7 +75,9 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var theSum = sum(sum(a, b)[0] ,c)[0];
   console.log(theSum);
   var product = multiply(a, multiply(b,c)[0])[0];
+
   return [theSum, product, `${a} and ${b} and ${c} sum to ${sumAnswer}. `,
+
   `The product of ${a} and ${b} and ${c} is {product}.  `];  
   return [theSum, product, message1, message2];
 }
@@ -90,7 +95,9 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 - they are together an array, with a num and a string. 
 - [0] gives us the number out of the array. 
 - c is also a number 
+
 - object is always a good answer because everything in javascript is an object, but multiply returns an array. 
+
 - so the second multiply function that returns an array, has a [0] that just returns the number. 
 
 #  this ends the code review. 
@@ -109,24 +116,23 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 # Domain Modeling
  [HERE](https://www.scaledagileframework.com/domain-modeling/).
 - Domain Modeling is a way to describe real world entities and their relationships between them. How do we store that data in a way that makes sense. 
-- We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
-
-- The real world is a messy place.  Many of the problem domains we face as programmers are difficult to understand and look completely different depending on your viewpoint.
-
+- We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. 
+- The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. 
+- Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
+- The real world is a messy place.  Many of the problem domains we face as programmers are difficult to understand and look completely different depending on your viewpoint. Which is why diverse teams of developers are considered more valuable than(old white guy white fall ways)
 - As programmers, we also are often not given complete information about the problem domain, so we don’t even have the information we need to understand it.
+#### programmer experience
+- Can it be easy? 
+- "I was essentially given the entire problem domain in the form of a spec that was clear and unambiguous.  I was easily able to learn that problem domain and because of it, I was able to write the code very easily as well." 
 
-- Can it be easy, "I was essentially given the entire problem domain in the form of a spec that was clear and unambiguous.  I was easily able to learn that problem domain and because of it, I was able to write the code very easily as well." website article.
-
-- What can you do about it?
+- What can we do about it?
 If understanding the problem domain is the hardest part of programming and you want to make programming easier, you can do one of two things:
-
 ### Make the problem domain easier
 1. Get better at understanding the problem domain.
 2. You can often make the problem domain easier by cutting out cases and narrowing your focus to a particular part of the problem.
 
 It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
-
-
+#### Lets look at some links. 
 
 - Arrays 
 1. Store multiple pieces of data
@@ -135,16 +141,21 @@ It ultimately comes down to how the problem is organized and defined. It is impo
 4. idices give us order 
 
 
-
 ## Built-in Objects
 1. String, Array, Document, Math
 
 ## Object literal notation (30 min)
-# Lecture Notes
+# Lecture Notes   Draw these
 var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 
-
-### Objects Literal (do what for us) - store multiple piecs of data 
+var person = {
+    firstName:"John", 
+    lastName:"Doe", 
+    age:50, 
+    eyeColor:"blue"
+    };
+-----------------------------------------------------------------------------
+### Objects Literal (do what for us) - store multiple pieces of data 
 1. Access data w/square brackets or dot notation. 
 2. Store multiple pieces of data 
 3. data has a key and a value, 
@@ -153,7 +164,7 @@ var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
     - Keys have a one way direction. 
     - We look up values by there keys.
 
-### What do Curly Braces allow us to {}
+### What do Curly Braces allow us to do?
 1. store code block within a function. 
 2. They also allows to wrap our if statements to control our logic rules. 
 3. And now we will use them with our objects. 
@@ -161,10 +172,10 @@ var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ## Accessing Properties & Calling Methods
 1. accessing properties
    1. dot notation
-   1. bracket notation - w/string, outside variable. multi-word keys
+   2. bracket notation - w/string, outside variable. multi-word keys
 1. calling methods
    1. `objectName.method();`
-   1. methods declared in context of an object must be called in that context, so calling `method();` gives an error
+   2. methods declared in context of an object must be called in that context, so calling `method();` gives an error
 
 ## JavaScript Objects
 
@@ -193,14 +204,14 @@ person.keyIWantToLookUp //undefined
 person[keyIWantToLookUp] 
 - I can use this variable here, because the bracket notation expects a string and that is what we get from the var keyIWantToLookUp, when saved in a variable some where. 
 
-# Add another key / value pair. 
+# Add another key/value pair. 
 
 var person = {
     name: 'Craig Barkley',
     age: 47
 }
 person // shows name and age. 
-
+# ------------------------------------------------------------------------------------------------------------------------------Start to use the code fellows demo lab code------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------
 # move from console to a js file. 
 - Build out scaffolding, test links. 
 - Add object, then add more properties. 
@@ -208,7 +219,7 @@ person // shows name and age.
 
 - Save an image URL of a Person. Put each on there own line. 
 - When defining multiple key value pairs, 
-- We have stored strings, numbers, but we   can also store an array, and a function
+- We have stored strings, numbers, but we  can also store an array, and a function
 ```
 - description: ['young','old','funny']
 ```
@@ -216,28 +227,29 @@ person // shows name and age.
 - Data Type of person is an object. 
 - Access an array with bracket notation and a number. 
 
-##  ASK what is this its a function and what does it return. 
+<!-- ##  ASK what is this its a function and what does it return. 
 ```
 person.description[1].length or .toUpperCase() the whole thing is a function. 
 
 ```
 - toUpperCase() is a function that returns a string value.
+ -->
+
 ## Repeat here that an object is.....
 - In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. 
 - Properties that describe behavior are also called methods. 
  
-
+<!-- 
 ### JavaScript is what we call an object-based language. (There is a difference.)
 - https://www.google.com/search?q=object+based+language+vs+object+oriented+language&rlz=1C5CHFA_enUS862US862&oq=object-based+language.+vs+object+oriented+&aqs=chrome.1.69i57j0l7.8303j0j7&sourceid=chrome&ie=UTF-8
 
 Just about everything in JavaScript is an object. 
 # We create objects directly through a template (we will get to this later), and not through classes, like other languages. 
 
-## Classes are still used in JavaScript but are not touched on in 201. 
+## Classes are still used in JavaScript but are not touched on in 201.  -->
 
 
-# Basic Object talk done.
-
+# Basic Object talk done. Now that we have an object lets add to it. 
 
 When accessing the properties of the object, there are two different ways to do so, dot notation and bracket notation. 
 
@@ -268,7 +280,7 @@ Object literals are the simplest way to create a JS object. The syntax for it is
   - values as adjectives,
   - methods as verbs.
 
-Here is an example of what a JS object looks like:
+<!-- Here is an example of what a JS object looks like:
 
 ```js
 var person = {
@@ -276,22 +288,22 @@ var person = {
 	age: 47,
 	computerScientist: true,
     education: ['Southern Illinois University', 'DeltaV']
-};
-```
+}; 
+```-->
 
 #### Note a few things about the object:
 1. We create objects the same way we create variables. We start out with the declaration of the variable followed by the data we are setting the value too. 
-1. The full object value is encapsulated with curly braces `{}`
-1. Each set of data in the object is known as a property. This is showcased through a key/value pair. The "key" is the name of the property, and the "value" is the value stored in the property. For example, the `name` property is the key, and the value of `"Craig Barkley"` is the value. This means that within the object, the "name" of the person is "Craig Barkley". The same thing is true for the key `age`. The key is `age` the value is `47`. 
-1. After every property, if there is another one to follow, we end with a comma `,`.
-1. Properties can store any valid javascript value, even other objects.  
+2. The full object value is encapsulated with curly braces `{}`
+3. Each set of data in the object is known as a property. This is showcased through a key/value pair. The "key" is the name of the property, and the "value" is the value stored in the property. For example, the `name` property is the key, and the value of `"Craig Barkley"` is the value. This means that within the object, the "name" of the person is "Craig Barkley". The same thing is true for the key `age`. The key is `age` the value is `47`. 
+4. After every property, if there is another one to follow, we end with a comma `,`.
+5. Properties can store any valid javascript value, even other objects.  
 
-
+<!-- 
 ```js
 console.log(person.name) // Craig Barkley
 console.log(person.age) // 47
 console.log(person.education) // Southern Illinois University, DeltaV
-```
+``` -->
 # Methods in an object. 
 Methods in an object are the behaviors/actions of an object. For example, our `person` object should be able to actually "do" things, not just hold properties. Our `person` should be able to...walk. This means we should give our person this capability. We do this through what we call methods. At first sight, methods look like properties. That is because they are, method is the name we give to "properties" that have the values of functions. Here is an example, using our `person` from above:
 
@@ -321,6 +333,7 @@ var personOne = {
 
 #### Contextual 'this'
 The term `this` is a bit tricky to understand at first.  `this` is directly talking about whatever object is currently being manipulated. 
+# scoped accessor. 
 
 ## this
 1. complicated!
@@ -328,7 +341,7 @@ The term `this` is a bit tricky to understand at first.  `this` is directly talk
 1. when calling a method in the context of an object, `this = the object`
 
 
-```js
+<!-- ```js
 var personTwo = {
 	name: 'Bob TestUser',
 	age: 20,
@@ -341,7 +354,7 @@ var personTwo = {
          ];
   }
  };
-```
+``` -->
 
 
 - The first thing we can notice about or newly added method is that it is an anonymous function. 
@@ -354,13 +367,13 @@ If we wanted to "call" this method within our object, we would simply call it by
 person.code(); // output: is console log and a school.
 
 ```
-#### Adding new props
+<!-- #### Adding new props
 
 When adding NEW property methods, we will use the `=` instead of the `.` because we are assigning a value to the object. Example
 ```js
 person.serviceBranch = 'United States AirForce';
 ```
-As a result, `person` now has a newly added property named `serviceBranch` with a value of `United States AirForce`.
+As a result, `person` now has a newly added property named `serviceBranch` with a value of `United States AirForce`. -->
 <!-- 
 ## Modifying Objects
 1. adding new properties, methods
@@ -386,8 +399,6 @@ So, last week we used prompts and alerts for creating a dynamic interface with t
 
 
 ## The DOM (30 min)
-$0  vs document.getElementById
-
 
 ### Steps
 1. Make a JavaScript reference (a variable) to the parent element
@@ -439,7 +450,7 @@ Here is a quick exercise to prove this point: in the console.
 1. actually type in `document.body`
 1. change the document.body.textContext = 'to something else'
 1. look at all the options on the `document.` dot notation.
-
+<!-- 
 Within the `document` object, we have a method in there called `getElementById`. This allows us to "get a specific element within the HTML by specifying the id"
 
 One thing to note **we can only add one thing at a time**.
@@ -528,7 +539,7 @@ var personTwo = {
 var people = [personOne, personTwo];
 for(var i = 0; i < people.length; i++){
 var newParagraph = document.createElement('p');
-newParagraph.textContent = `A nice person to code with is $(people[i].name) and they attended $(people[i].code()) ;
+newParagraph.textContent = `A nice person to code with is $(people[i].name) and they attended $(people[i].code()) `;
 personHolder.appendChild(newParagraph);
 }
 ```
@@ -547,7 +558,7 @@ parent.appendChild(child);
 <div id="parent">
   <p>Some words we want in our p element</p>
 </div>
-```
+``` -->
 
 
 
@@ -558,8 +569,6 @@ create a new branch each day.
 - can add separate branches for streght goals. 
 
 This is a large lab assignment. If you are having trouble breaking it down, please reach out and get some ideas on how to help. 
-
-
 
 <!-- 
 
