@@ -133,3 +133,95 @@ var nova = new Pet('Labrador',45);
 ## BREAK TIME 
 
 
+- So we have methods in the object literals that we want to make accessible for our other pets methods and behaviors. 
+
+
+```js
+function Pet(petBreed, petWeight, petDescription){
+    this.breed = petBreed,
+    //Name of parmeter and name of property can be the same or different.
+    //this.weight = weight,
+    this.weight = petWeight,
+    this.desciption = petDescription
+}
+```
+
+So the methods that exsist within the pets 
+- My next step is to take the getDescription function is accessible my every pet, so we have an exact peice of code to set up for this to work, so if there is one thing that you accept about how code just works and does things, we have this, 
+
+```js
+//Pet.prototype.functionname = function(any, parameters, go, here)
+//Benefit is that with any pet that we create will have access to this function. 
+//Technical description takes about three hours of lecture to get through, so we will just trust that this will work, so that all the pet objects we create will have access to these functions, so lets focus on what functions our objects need and then accept the auto magically, the stuff that prototypes do for us. 
+
+
+Pet.prototype.getDescription = function() {
+//The code that goes in here is already using contextual this, so it will work here for us as well. 
+//Creat a random index within the pet description array. 
+var randomIndex = Math.floor(Math.random() * this.petDescription.length);
+//Use that random index, to go into the array and grab a description.
+return this.petDescription[randomIndex];
+
+};
+```
+- So, now lets take the firstPet
+
+```js
+    var firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
+```
+
+- if we dont know the parameter, we write null, we dont leave it blank because we get syntax errors, so use null, however if we do math on say weight and there is a null you will get back a NaN, response. 
+
+- Now we have just the constructor, so I will comment out the pet object literals. 
+- We may also call these objects pet instances. Any time we call the constructor we use the new and the name of the object constructor, and then provide arguments, for the constructor. 
+
+# So how did it go, THUMBS?
+
+- The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getDescription, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods. 
+
+- Add another pet and it works because of us using the contextual this, we can access the description words of that specific pet object. 
+
+- Loops should continue to work as they were and it accesses its information from the array of objects. 
+
+#### What other questions do you have about constuctors? 
+
+- One other part of your lab for today, is HTML tables. 
+- So, lab tasks say we should implement a constructor function, instead of the object literal. 
+- Change out lists of data to tables of data. Which is how we will build out these tables of data. 
+- I advise that you do the constructors first and then build out the tables, do not try and build the entire lab at once, make sure to create our lab 7 branch and commit as soon as you complete a feature. 
+- So to start lets look at tables in the HTML 
+- A table tag encloses the rows and cells of our table. 
+- So, inside the table we want to add a table row, and inside the table row we will hae a cell tag called a <td></td>
+
+- Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+```html
+<table>
+    <thead>
+        <tr>
+        <th>Hours</th>
+        <th>Location</th>
+        <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>8am-5pm</td>
+        <td>Cedar Rapids</td>
+        <td>555-555-5555</td>
+        </tr>
+    <tbody>
+</table>
+
+```
+
+```css
+th td {
+    border: 1px solid grey;
+}
+```
+
+
+- watch out for addition td tags being displayed that will mess up the table order. It allocates space by the content within the cell, tables are not good at being styled and even worse with mobile app. Tables are being styled by the browser as well. 
+
+### Let's create some tables now in our javascript. 
+
