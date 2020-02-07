@@ -254,7 +254,58 @@ th td {
 
 ```js
 Pet.prototype.render = function() {
-
-
+    //grab table from the page the id.
+    var petTable = document.getElementById('pet-table');
+    //Create the td and tr that will hold the data for this particular pet. 
+    //How do we nest html elements in the page. 
+    //So make a pet row. a TR 
+    // And that tr needs to hold some td's
+    var petRow = document.createElement('tr');
+    var breedCell = document.createElement('td');
+    //Set text content to the breed of the object, how do we access the breed for the object we are referencing we use this. 
+    breedCell.textContent = this.petBreed;
+    //Now take the piece of data that we created and append it to the row as a child. 
+    petRow.appendChild(breedCell);
     
+    var weightCell = document.createElement('td');
+    weightCell.textContent = this.petWeight;
+    petRow.appendChild(weightCell);
+
+    // Also add a description. While I type this out talk outloud about what we are doing. 
+     var descriptionCell = document.createElement('td');
+    descriptionCell.textContent = this.petDescription;
+    petRow.appendChild(descriptionCell);
+
+    //Add to page by appending the Table. 
+    animalTable.appendChild(petRow);
+
+
+};
+
+```
+- Now is we run firstPet.render(); in the console it add the information to the page. 
+- petTwo.render()
+- petThree.render()
+
+- Any object instance being created will have access to the render method by way of the prototype. Because it is a prototype method, all pets using the pet constructor will be able to call this function. 
+
+```js
+
+for(var i = 0; i < adoptPets.length; i++){
+var newParagraph = document.createElement('p');
+//set text content with template literals.
+newParagraph.textContent = `A nice kitten to code with is  ${adoptPets[i].name}  because they are good at ${adoptPets[i].interests} .` ;
+petParagraph.appendChild(newParagraph);
 }
+```
+- We will update too: 
+
+```js
+
+for(var i = 0; i < adoptPets.length; i++){
+    pets[i].render();
+}
+```
+- This is the last bit of code I am going to write for this render, so each time we loop through the pet objects we will call the render function and the render function will create our table for us. 
+
+- For lab we still want the store totals, but we also want to add in the hourly totals as well. 
