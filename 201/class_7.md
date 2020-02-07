@@ -194,6 +194,8 @@ return this.petDescription[randomIndex];
 - So, inside the table we want to add a table row, and inside the table row we will hae a cell tag called a <td></td>
 
 - Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+- Tables are not good when it comes to mobile design. 
+
 ```html
 <table>
     <thead>
@@ -225,3 +227,34 @@ th td {
 
 ### Let's create some tables now in our javascript. 
 
+- Writing tables in html is a bit heavy, 
+- So lets add a table to store pet data. 
+- So typing out our tables can be time consuming and more keystrokes than if we let our javascript, build the table for us.
+- So for each of these pets, I want to display a 
+- Add table to pet-holder - 
+- Then I am going to add a table. 
+- With a table row header with breed, weight, and description of that pet is. 
+
+<table id="pet-table">
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+
+
+</table>
+
+- So when we refresh it will have a single row with the titles for our columns. 
+- So I am going to add them to the table
+- the way that I am going to do that is use creating a render(). on each of my pets. 
+```js
+ //Add prototype method to add pets to the table.
+ ```
+- The render() method will allow me to render my pets to the page into a table. 
+
+```js
+Pet.prototype.render = function() {
+
+
+    
+}
