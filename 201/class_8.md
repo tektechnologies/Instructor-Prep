@@ -68,3 +68,54 @@ console.log('js connected');
 - What are the three or four main jobs that our javascript is doing things in. 
 - Look at each others code. 
 
+- What are the numbers to come up with to figure out the store. 
+- Displaying the information into the table on the page, by way of the DOM traversal.
+- Creating the arrays to save stuff too, saving it to a variable. 
+- So generate the numbers for the day 
+- So the hourly totals for the footer. 
+- Put the names of the cites into the array. 
+- As we review code you can compare how the solution was achieved, differently than how you came to the solve the problem. 
+
+1. Calc a # of people per hour, between min/max and saving to an array.
+2. Put those #'s into the table in the DOM with city name and total
+3.Hourly Totals Footer
+
+- Start review with where the app begins the start of work towards rendering data to the page. 
+- The point of a constructor is to keep our code dry, and having something like sending it an [] everytime does not seem as efficient as if I just put the empty array in the constructor and each instance will automatically set the property to be an empty array, which is what we need. 
+- Makes life slighty easier as a developer. We also avoid sending in data to the constructor instead of an empty array. 
+- ``` new ``` is what we use when we call our constructor functions. 
+
+- IN CONSOLE 
+- What is the data type of cityArray == Array
+
+- cityArray[0] is what data type?
+- cityArray[0].cityName.length is what data type == Number
+- Arrays of objects that have properties give us the access to drill down into that object to get those smaller pieces of data from the array. 
+
+```js 
+ function calcAndRenderSale(){
+    cityArray[i].randomCustomerPerHour();
+    cityArray[i].setCookiesSoldPerHour();
+    cityArray[i].setCookiesSoldPerDay();
+    cityArray[i].render();
+    cityArray[i].estimateTotalGlobalSales();
+}
+ ```
+
+- Have the student start to review the code that is working and begin to run through the application. 
+
+- Possibly white board the function order to have students draw the path of the code in the javascript file. 
+
+- The strategy is that we will need to create a peice of data, and then run a for loop to add more data and then add another piece of data to finish the row. 
+
+- You could add some content to the empty 'cell'
+
+- comment out the append sales hours to table and ask them what is going to happen. 
+
+
+- take the hours total table and move it up to the top and ask what is going to happen?
+
+- The order in which we append things make a difference. 
+
+- Comment out the top row, to show that we have to add the append to get that row to show up. 
+- Any questions on how the header row is being displayed? 
