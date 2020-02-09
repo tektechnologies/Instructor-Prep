@@ -101,21 +101,148 @@ console.log('js connected');
     cityArray[i].estimateTotalGlobalSales();
 }
  ```
-
 - Have the student start to review the code that is working and begin to run through the application. 
 
 - Possibly white board the function order to have students draw the path of the code in the javascript file. 
 
 - The strategy is that we will need to create a peice of data, and then run a for loop to add more data and then add another piece of data to finish the row. 
-
 - You could add some content to the empty 'cell'
 
 - comment out the append sales hours to table and ask them what is going to happen. 
-
-
 - take the hours total table and move it up to the top and ask what is going to happen?
-
 - The order in which we append things make a difference. 
-
 - Comment out the top row, to show that we have to add the append to get that row to show up. 
 - Any questions on how the header row is being displayed? 
+
+**Break Time**
+- Now lets look at the main pieces of strategy that we said we would look at. 
+- How it calcs
+- How  it is showing up.
+- Look at the calc and render sales functions. 
+
+- Ask another student what does random Customer per hour do?
+- Calling the salesHours length number of times, push into th array a random number of customers multipied by how many cookies they buy. 
+- Console.log 
+```js 
+cityArray[0].cookiesSoldPerHour;
+```
+- the array will already have things in it, as many as the hourly numbers 14 and then the 15 the total numbers. 
+- It is possible to have a separate variable that tracks the total. 
+- In general I only use template literals if I hae addition data being added in at that moment. 
+- Talk about the FOOTER of the store. 
+- Pseudo code approach / English problem. 
+```js
+// create the row and append the first td that says total
+// for each hour of the day
+// var hourlyTotal = 0; 
+// I want to loop through each of my cities. 
+// for each cities in the cities array I am going to add to my hourlyTotal the City total
+// then I will create a td and set text content to hourlyTotal and append it to the row.
+// So I need to Keep trackof hourly total as well. 
+// Add my hourly total to my grand total. 
+//create/append/td with grand total.
+```
+- We need a nested loop to show this. 
+- There are two parts to wrtiting good code. 
+1. Have a good strategy.
+2. Write out the psuedo code.
+
+- This is known as algorithmic thinking. This is hard, this is like the second week of course curriculm and you are not expected to be fully proficient.
+
+- It takes practice to write out a good strategy, to code.
+
+- This is separate from the prototype because our object dont need to know how to render a footer. 
+
+```js
+function renderFooterThisWay(){
+    var footerRow = document.createElement('tr');
+    var totalId = document.createElement('td');
+    totalId.textContent = 'Total');
+    footerRow.appendChild(totalId);
+
+//To do rest of row. So far we have a row and space for numbers. 
+var tableFoot = document.getElementById('div-id');
+tableFoot.appendChild(footerRow);
+
+}
+
+```
+
+- There are many ways to solve this but I want to show this one as an example, and maybe useful for lab today. 
+
+### ---------------------------------------
+```js
+function renderFooterThisWay(){
+    var footerRow = document.createElement('tr');
+    var totalId = document.createElement('td');
+    totalId.textContent = 'Total');
+    footerRow.appendChild(totalId);
+//Set Table Data
+var grandTotal = 0;
+for(var i = 0; i < salesHour.length; i ++){
+    var hourlyTotal = 0;
+    //go through cities to get total
+    for(var j = 0; j < cityArray.length; j++){
+        //add to my  hourly total the city total for that hour. 
+        //Lets look in the console. 
+    debugger;
+    // we have two variables i and j, that are arrays. 
+    // so go to city array and find the number for how many cityArray[j] which should be seattle, how many cookies for that hour of the day, so grab the new array and give me the cookies at [i] which is where I want to look right now. 
+
+    /**
+    cityArray[j]
+    cityArray[j].cookieSoldPerHour
+    cityArray[j].cookieSoldPerHour[i]
+    Should return a number.
+    */
+hourlyTotal = hourlyTotal + cityArray[j].cookiesSoldPerHour[i];
+//now I have my hourlyTotal
+    }
+    //two things add hourly total to grand total and append it to the row
+    grandTotal += hourlyTotal;
+    //display the hourly total for each hour.
+    var hourlyTotalTd = document.createElementById('td');
+    hourlyTotalTd.textContent = hourlyTotal;
+    footerRow.appendChild(hourlyTotalTd);
+}
+var grandTotalTd = document.createElement('td');
+grandTotalTd.textContent = grandTotal;
+footerRow.appendChild(grandTotalTd);
+
+var tableFoot = document.getElementById('div-id');
+tableFoot.appendChild(footerRow);
+
+}
+
+
+
+```
+
+**Second Break**
+
+- When you are back we will talk about forms and events. 
+```js
+function renderFooterThisWay(){
+    var footerRow = document.createElement('tr');
+    var totalId = document.createElement('td');
+    totalId.textContent = 'Total');
+    footerRow.appendChild(totalId);
+//Set Table Data
+var grandTotal = 0;
+for(var i = 0; i < salesHour.length; i ++){
+    var hourlyTotal = 0;
+    for(var j = 0; j < cityArray.length; j++){
+        hourlyTotal = hourlyTotal + cityArray[j].cookiesSoldPerHour[i];
+    }
+    grandTotal += hourlyTotal;
+    var hourlyTotalTd = document.createElementById('td');
+    hourlyTotalTd.textContent = hourlyTotal;
+    footerRow.appendChild(hourlyTotalTd);
+}
+var grandTotalTd = document.createElement('td');
+grandTotalTd.textContent = grandTotal;
+footerRow.appendChild(grandTotalTd);
+var tableFoot = document.getElementById('div-id');
+tableFoot.appendChild(footerRow);
+}
+```
