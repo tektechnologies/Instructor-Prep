@@ -5,19 +5,31 @@ We will complete these review challenges together as there's time.
 ## Challenge 1
 
 Write a piece of code that creates a variable `numberOfChugga` and sets the value of that variable to 4. Then, write code that uses that variable to print out the word `chugga` 4 times, and then at the end prints out `choo choo!` once.
-
+```js
 var numOfChugga = 4;
 while(numOfChugga > 0){
     console.log('chugga');
     numberOfChugga--;
 }
 console.log('Choo Choo!);
-
+```
 ## Challenge 2
 
 Write a function called `getTwo` that takes in no parameters and returns the number 2.
+```js 
+function getTwo(){
+    return 2;
+}
+```
+- what data type is getTwo // it is a function 
 
+- what data type is this getTwo() // it is a number. 
 
+- getTwo() + 5 // becomes a string 7
+
+- getTwo() - 5// becomes -3
+
+- getTwo -5 // because its math it return Nan
 
 ## Challenge 3
 
@@ -29,6 +41,17 @@ Input | Output
 7     | 9
 -5.4  | -3.4
 
+# Solution
+```js 
+function addTwo(number){return number + 2;}
+
+
+addTwo(2);
+addTwo(getTwo());
+addTwo(getTwo()getTwo());
+addTwo('2');
+4
+```
 ## Challenge 4
 
 Write a function called `repeat` that takes in two parameters, a string and a number, and returns the string repeated that many times, with spaces between repeats.
@@ -40,6 +63,44 @@ Input | Output
 `'a',2` | `'a a'`
 `'a',4` | `'a a a a'`
 `'abc',3` | `'abc abc abc'`
+```js
+
+//going to need a loop
+function repeat(string, number){
+var answer = '';
+//some code here and test. 
+for(var i =0; i < number; i++){
+answer = answer + string + ' ';
+
+    }
+return answer.substring(0, answer.length -1);
+}
+//we dont want space on the ends
+'''
+
+```js
+function repeat(string, number){
+var answer = '';
+for(var i =0; i < number; i++){
+answer = answer + string + ' ';
+    }
+return answer.substring(0, answer.length -1);
+}
+
+
+
+
+function repeat(string, number){
+var answer = '';
+for(var i =0; i < number; i++){
+answer = answer + string;
+if(i < number - 1){
+    answer = answer + ' ';
+     }
+ }
+return answer;
+}
+'''
 
 ## Challenge 5
 

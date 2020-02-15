@@ -57,6 +57,11 @@ Use an example of a wireframe that you’ve drawn, then ask the student to start
 newDataRow.textContent = this.shopName.
 
 - Start the debugger and stop and check the this.shopName to see if you get it again. 
+## Event listeners 
+- Which element are we listening to? 
+- What event are we listening for on that element
+-What js code should run when that event happens
+
 # Working in the console today 
 
 
@@ -80,7 +85,7 @@ newDataRow.textContent = this.shopName.
 - verify there work
 - we will have about 7 chances to solve some challenges
 
-
+- math with decimal is not perfect because of how numbers are represented in the computers. it is built in to js, 
 
 
 
@@ -98,3 +103,25 @@ Compared to **display: inline**, the major difference is that display: inline-bl
 
 # Block
 **display: block**, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+
+# Lab 9a 
+- we give you a wire frame to make in html, you can use what positioning you want to make the page, 
+- Here are some guide lines to creating a wireframe to help start this process. 
+
+- we have place holder spots, to show us what our demensions will be, so as a developer how will these break down on my page and what styles will I need to apply to get the elements on the page to move where I need them to go. 
+ 
+ - Industry term Red Lines specifiy width of things. 
+ #### https://www.quora.com/What-is-redline-document-in-UI-designing
+
+
+ show link to image samples online.
+
+ - drawl out wireframe and do in class mapping of html elements. 
+
+ ![WireFrame](wireFrame.png)
+
+
+ - it is up to you if you want to do the challenge or if you want to do salmon cookies. 
+
+-if you are on a lab, and you are close to finishing, then try and do that, however breaks from js can help and doing some css will allow our brains to process what we are trying to do. 
