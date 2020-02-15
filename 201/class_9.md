@@ -1,40 +1,30 @@
 # Programming Concepts Covered
 
+Hello, good morning, happy day…, 
 
-## 9:00 
-## 9:15
-## 9:30
-## 9:45
-## 10:00
-## 10:15
-## 10:30
-## 10:45
-## 11:00
-## 11:15
-## 11:30
-## 11:45
-## 12:00
-## 12:15
-## 12:30
-## 12:45
-## 1:00
-## 1:15
-## 1:30
-## 1:45
-## 2:00
-## 2:15
-## 2:30
-## 2:45
-## 3:00
-## 3:15
-## 3:30
-## 3:45
-## 4:00
-## 4:15
-## 4:30
-## 4:45
-## 5:00
-## 5:15
-## 5:30
-## 5:45
-## 6:00
+Explain the lab for today and tomorrow and that the lab tomorrow is chocolate pizza and explain the format of the lab activity. 
+
+Ties in the wireframe lab today as practice for tomorrow’s lab. 
+What questions do you have about that for now? 
+
+Working in the console today 
+
+white boarded several code challenges
+
+With the styling assignments, provide guidance on how to approach the problem domain, start from top to bottom, and use printouts and draw some boxes. 
+
+Use an example of a wireframe that you’ve drawn, then ask the student to start identifying the components of the wireframe and translate them into html elements. 
+
+
+ # Mob Debug the class lab's first hour. 
+ - Pull Request with repo to push. 
+
+# inline-block 
+**display: inline-block Value**
+Compared to **display: inline**, the major difference is that display: inline-block allows to set a width and height on the element.
+
+# inline 
+**display: inline-block** the top and bottom margins/paddings are respected, but with **display: inline** they are not.
+
+# Block
+**display: block**, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
