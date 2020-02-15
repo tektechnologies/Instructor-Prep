@@ -119,7 +119,7 @@ Compared to **display: inline**, the major difference is that display: inline-bl
 
  - drawl out wireframe and do in class mapping of html elements. 
 
- ![WireFrame](wireFrame.png)
+ ![WireFrame](/wireFrame.png)
 
 
  - it is up to you if you want to do the challenge or if you want to do salmon cookies. 
