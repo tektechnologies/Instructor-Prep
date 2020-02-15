@@ -125,3 +125,6 @@ Compared to **display: inline**, the major difference is that display: inline-bl
  - it is up to you if you want to do the challenge or if you want to do salmon cookies. 
 
 -if you are on a lab, and you are close to finishing, then try and do that, however breaks from js can help and doing some css will allow our brains to process what we are trying to do. 
+
+- finish sales.html 
+
