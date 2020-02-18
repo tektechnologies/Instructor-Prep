@@ -17,7 +17,7 @@
 
 # Code Review. 
 #### good practice
-- Note if we encounter an error in our js it will stop the rest of the page from populating, and even keeps working code from continuing to run. So remember to fix errors before moving forward in teh program and even avoid adding in additional code that could further cause issues within your code. 
+- Note if we encounter an error in our js it will stop the rest of the page from populating, and even keeps working code from continuing to run. So remember to fix errors before moving forward in the program and even avoid adding in additional code that could further cause issues within your code. 
 #### redundate info in html pages
 - In addition to DRY code we want to keep redundant data at a minimum and that will become even more important when we add in databases to our application in 301. The js is our logic of which data should be displayed. 
 #### when does our html end up in the JS
@@ -25,7 +25,7 @@
 #### place holder form styling
 - Place holder attribute. Is a 'bad' idea, as a user if I type in the box, I can not see what it was that I was supposed to fill in the input, not a great user experience, and it does not make the form accessible, in fact with out labels, it is not accessible by any screen readers. 
 #### labels on forms. 
-- We labels on our inputs. 
+- We put labels on our inputs. 
 - Materialize css.  to use the no label approach. Where the label is shown on click of the input box. https://materializecss.com/text-inputs.html
 - CSS MUG!!!!
 #### styling tables
@@ -53,11 +53,13 @@ if(window.location.pathname.endsWith('index.html')){
 }
 
 ```
+# Here we can add a reset button example. 
 
 ```js
 
 document.getElementById('resetbutton').addEventLister('clickReset', function() {
-    event.preventDefault; //otherwise it will do it on its own, and I want to prompt the user.
+    event.preventDefault; 
+    //otherwise it will do it on its own, and I want to prompt the user.
     //debugger;
     if(confirm('Are you sure you want to reset the form?')){
         event.srcElement.parentNode.reset();
@@ -73,7 +75,7 @@ document.getElementById('resetbutton').addEventLister('clickReset', function() {
 
 - event.srcElement.parentElement.parentElement.reset();// is where we find the form id. 
 
-#### the add event listener format. 
+#### This is the add event listener format. 
 - element.addEventListener('whichEvent', handlerFunction);
 
 #### First Break. 
@@ -99,11 +101,12 @@ https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-10/re
 - So how do we start, with something you made recently, to match up curly brace
 - We can highlight starting curly braces and look for the closing. //line 41
 - So they are missing the curly brace from the for loop. 
-- If what I added doesnt work, I usually take it back out. 
+#### NOTE.  If what I added doesnt work, I usually take it back out. 
 
 #### need semi colon. 
-- we need a semi colon at the end of any js statement, any js assignment. end of line of code. 
+- we need a semi colon at the end of any js statement, any js assignment. end of a line of code. 
 - we dont need if it is an expression or a loop, or function declarations, not a statement. 
+
 #### call stack for errors
 - The call stack shows us the path with which our error was called. 
 
@@ -122,7 +125,7 @@ https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-10/re
 
 - its not filling in the array very well, so lets look at where that is happening. 
 - Random math functions look at the 
-- add a debugger on line 31 before the push to the array. 
+#### add a debugger on line 31 before the push to the array. 
 - start adding the debugger in the smaller sections to see where we are doing what, where. 
 - So lets look at the 
 ```js
@@ -139,7 +142,7 @@ for(var fruit in fruits){
 
 - we are setting these properties on the constructor without the prototype deal with all of the stores data that all stores share in common but not individually. These are high level properties. With the prototypes, the stores have access to those function but do not have to call them on all the objects, we can call the method. 
 
-- While in the global name space, we can access as CookieStand.all, setting those variables to be namespaced to the constructor. As it is a property on the cookie stand. 
+- While in the global name space, we can access as CookieStand.all, setting those variables to be namespaced to the constructor. As it is a property on the cookie stand constructor. 
 
 - Global variables are kinda a bad idea. Especially with multiple devs on a project with 1000's of lines of code. 
 
@@ -198,7 +201,7 @@ clickableH1.addEventListener('click', function(event)){
     document.getElementByTagName('html')[0].style.backgroundColor = '#23F';
 });
 ```
-
+- from documentation online examples
 - document.getElementById("myDiv").style.backgroundColor = "lightblue";
 - alert(document.getElementById("myDiv").style.backgroundColor);
 
@@ -219,14 +222,14 @@ https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-
  var clickableH1 = document.getElementById('click-h1');
  // we can also do things like 'mouseover' https://developer.mozilla.org/en-US/docs/Web/Events
  clickableH1.addEventListener('click', function(event)){
-     var randomNumber = Math.floor.Math.random() * 256 * 256 * 256);
+     var randomNumber = Math.floor(Math.random() * 256 * 256 * 256);
     document.getElementByTagName('html')[0].style.backgroundColor = '#' + randomNumber.toString(16);
 });
 ```
 
 
 
-- So one thing to note is that we are calling on thing while listening on another.
+- So one thing to note is that we are calling on things while listening on another.
 - so we set where we listen as to oppse what we effect and where the change occurs. 
 -  * where - are we listening
    * how - are we accessing  the where (element)
@@ -268,7 +271,7 @@ changeText.addEventListener('input', function(event){
 
 
 
-# Lab s
+# Labs
 ## check goals from lab 9 with index styling. 
 ### Your public-facing index.html page should include the following:
 - locations with addresses,
