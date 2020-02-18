@@ -124,3 +124,192 @@ randomizer.addEventListener('click',function(){
  - keep track of votes
 
  ![wireFrame](goatWireFrame.png)
+
+
+- build out intial scaffolding mention that this is a good time to commit and start you git acp flow. 
+- So to start out with I want to add some images to build the initial framework for the page. 
+- I may or may not remove the elements once I get my javascript set up. 
+- So lets set up some CSS to style those images. 
+- I dont need perfect CSS yet, but I can frame out what will come using semantic elements. 
+- I could continue to build out CSS and HTML, but I should switch over to building out some js too. 
+### Questions so far?
+#### Lets make another commit. 
+
+- These 3 pieces of the script can be done in any order .
+- So in our javascript .
+# 2. On click show two new goats. 
+//set up images to call that function when there is a click. 
+```js
+//create a function to store clicks
+function imageWasClicked(event){
+
+console.log('image was clicked');
+}
+
+var imageElements = document.getElementByTagName('img');
+for(var i = 0; i < imageElements.length; i++){
+    imageElements[i].addEventListener('click', imageWasClicked);
+}
+// Also link javascript. 
+
+// check to make sure go click on the pic it will fail because we have not added an id to the imgs yet. 
+```
+- add debugger to look at event after console log. to find event dot source element, that will give me an image tag, something I can access directly. What ever is clicked on is the source element. what can we do with that. We could add an id, that would work. but lets get fancier, lets add an id, 1,2.
+- Now I can grab event.srcElement.id and it will tell me the id number. 
+- when we keep track of what images were stored where, 
+- Just keep track of how many each image was clicked, 
+
+# 3. Keep track of Votes.
+
+var img1Clicked = 0;
+var img2Clicked = 0;
+
+```js
+//create a function to store clicks
+function imageWasClicked(event){
+ if(event.srcElement.id === '1'){
+     img1Clicked++; 
+ } else if(event.srcElement.id === '2'){
+     img2Clicked++;
+ }
+}
+```
+- console.log img1Clicked to see how many times it was clicked
+- and then do img2Clicked to count up the total that we are tracking. 
+- So now handle the five clicks 
+# 1. Script to count number of clicks. != > 5 clicks.
+```js 
+if(img1Clicked + img2Clicked >= 5){
+    //we made it to five clicks. 
+    var footerElement = document.getElementByTagName('footer');
+    footerElement.textContent = You picked Pizza 1 ${img1Clicked} times and Pizza 2 ${img2Clicked} times.';
+}
+```
+
+
+- Track data of each individual Pizza, 
+- So we could put them in an array. 
+- keep track of image url and clicks along the way, 
+- So, several variables. 
+- Create an array with object with each pizza 
+- So lets make a constructor for our Pizza's 
+
+```js
+function Pizza (name, imageURL){
+    this.name = name;
+    this.imageURL = imageURL;
+    this.timesClicked = 0;
+}
+
+//Now lets create the goat. 
+new Pizza('Thin Crust', /images/newYorkPizza.png)
+// create more. 
+
+
+
+
+
+//Now create the array to store out objects 
+var allPizzas = [];
+//go to console see the goats after typing allPizzas
+```
+
+ 
+- Now I need to pick two random Pizzas to display. 
+- Start with a variable
+```js
+var pizzaIndex1 = Math.floor(Math.random() * allPizzas.length);
+var pizzaIndex2 = Math.floor(Math.random() * allPizzas.length);
+```
+- Time to show these on the page. 
+- grab image elements at the top of the page. You can use loop through for event listener and inside the display code.
+```js
+//need to change to the URL attribute src
+imageElements[0].something = allPizzas.[pizzaIndex1].imgURL;
+//and do number 1
+imageElements[1].src = allPizzas[pizzaIndex2].imgURL;
+```
+
+- Images now update but it will show duplicates. so lets handle the validation of the demo. 
+- keep the same one from showing up and keep from the last one from showing up as well. 
+- this handles dups from showing up. most of the time.
+```js
+while(pizzaIndex1 === pizzaIndex2){
+    pizzaIndex2 = Math.floor(Math.random() * allPizzas.length);
+}
+
+```
+
+
+- we need to keep track of the goat being displayed. so we can track how many times they show up and how many times they were clicked. 
+
+
+```js
+
+  // pick 2 random goats to display
+  var nextGoatIndex1 = Math.floor(Math.random() * allGoats.length);
+
+
+  while((nextGoatIndex1 === goatIndex1) || (nextGoatIndex1 === goatIndex2)) {
+
+    nextGoatIndex1 = Math.floor(Math.random() * allGoats.length);
+
+
+  }
+
+
+  var nextGoatIndex2 = Math.floor(Math.random() * allGoats.length);
+
+
+  while((nextGoatIndex2 === goatIndex1) || (nextGoatIndex2 === goatIndex2) || (nextGoatIndex2 === nextGoatIndex1)) {
+
+    nextGoatIndex2 = Math.floor(Math.random() * allGoats.length);
+
+  }
+
+
+  // now that we have the old numbers to avoid duplicates we can set pizza index to get the next // this will update the last images shown so that when the new random images are generated they can be validated against the last showing. 
+  pizzaIndex1 = nextPizzaIndex1;
+  pizzaIndex2 = nextPizzaIndex2;
+
+```
+
+- set up pizza in a variable
+
+These are the first two pizzas to show. 
+ var pizzaIndex1 = 0;
+ var pizzaIndex2 = 1;
+
+
+- now switch up the nextGoatIndex1 and nextGoatIndex2 
+#### Something is broke at this point. maybe. check the pizzaIndex2 naming. 
+
+- So go into our function to increment correctly on everything was clicked. 
+
+- inside the imageWasClicked(event)
+- add allPizzas.pizzaIndex1.timesClicked++;
+- and in th if for pizza two do the same. 
+- goats now know how many times they have been clickd on. 
+- Now loop through all the goats and display how many times each one was clicked, 
+- currently you have most all of the logic you need for today's lab. 
+
+
+
+# 3. Keep track of Votes.
+
+var img1Clicked = 0;
+var img2Clicked = 0; 
+- we are not keeping track of the individual clicks here anymore so lets update this to 
+var totalClicks = 0;
+
+- then in the event listener for the imageWasClickedFunction 
+- totalClicks++; 
+
+- then change if total clicks > 5
+- Update the footer return
+
+- Make sure to build your app from scratch. 
+- do not start with this. 
+- plan your project. 
+- good practice for next week to build things out bit by bit. 
+- What questions do you have? 
