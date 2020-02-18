@@ -90,6 +90,37 @@ randomizer.addEventListener('click',function(){
 
 
 
+# Video 
+- works like images and audio 
+- make a video and give it a source. 
+- you can set multiple source formats for the browswer so that it will find a suitable format to play. 
+- Usually from high def to lower res. 
+- Same controls attribute, and thusly we get controls. 
+- you can use auto play / which chrome will block unless it is muted. 
+- we can set a height absolute
+- width can be a percentage
 
+- That is most of what our introduction to video and audio will be for now. 
+- What questions do you have about audio and video. 
+ **Thumbs how do you feel about putting a video into your projects**
 
+ # Start Vote Tracker
+ - Begin with the Lab in Canvas. 
+ - Explain the Problem Domain the Bus Mall
+ - Show the final solution for the lab today. 
+ - click, record, console, 3 new images.
+ - once we click through 25 of these it will list out the results. 
+ - What questions do you have about this lab? 
 
+ #### in repo
+
+ + Pizza vote. 
+ - So today's lab requires no new concepts, but you will have to use the skills you learned in new ways, and with the build out of a new project you should take some time to plan out the assignment. 
+ - We will start the demo with a wireframe of our pizza 
+ - Start with the basic html
+ - Start with the basic css 
+ - only shows up after 5 clicks
+ - script to count 5 clicks 
+ - keep track of votes
+
+ ![wireFrame](/goatWireFrame.png)
