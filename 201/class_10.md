@@ -203,13 +203,13 @@ clickableH1.addEventListener('click', function(event)){
 - alert(document.getElementById("myDiv").style.backgroundColor);
 
 #### the style method on the object
-![STYLE OBJECT](https://www.w3schools.com/jsref/dom_obj_style.asp)
+[STYLE OBJECT](https://www.w3schools.com/jsref/dom_obj_style.asp)
 #### Syntax for the background property.
 - Return the backgroundColor property:
 ### object.style.backgroundColor
 - Set the backgroundColor property:
 #### object.style.backgroundColor = "color|transparent|initial|inherit"
-![BACKGROUND](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
+[BACKGROUND](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
 
 
 #### randomize the background color. 
@@ -262,7 +262,7 @@ changeText.addEventListener('input', function(event){
 ```
 
 #### here are the input types list. 
-![types and inputs](https://www.w3schools.com/html/html_form_input_types.asp)
+[types and inputs](https://www.w3schools.com/html/html_form_input_types.asp)
 
 
 
