@@ -212,15 +212,76 @@ clickableH1.addEventListener('click', function(event)){
 ![BACKGROUND](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
 
 
+#### randomize the background color. 
+https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-in-javascript
+
+```js 
+ var clickableH1 = document.getElementById('click-h1');
+ // we can also do things like 'mouseover' https://developer.mozilla.org/en-US/docs/Web/Events
+ clickableH1.addEventListener('click', function(event)){
+     var randomNumber = Math.floor.Math.random() * 256 * 256 * 256);
+    document.getElementByTagName('html')[0].style.backgroundColor = '#' + randomNumber.toString(16);
+});
+```
 
 
 
+- So one thing to note is that we are calling on thing while listening on another.
+- so we set where we listen as to oppse what we effect and where the change occurs. 
+-  * where - are we listening
+   * how - are we accessing  the where (element)
+   * what - are events to take place. 
+
+
+
+# Additional event add listeners to demo 
+- add an id to an input on the html form
+- target the page h1 to change the text. 
+- To update while the user types. 
+
+```js
+var changeText = document.getElementById('change-text');
+              //forms have 'change'
+changeText.addEventListener('input', function(event){
+                      //  Tag
+    document.getElementByClassName('h1')[0].textContent = event.srcElement.value
+});
+
+```
+- change event fires when the next change occurs as soon as it loses focus it will run. 
+
+- auto fill behavior in chrome. it is a useful feature. but we can prevent by saying autocomplete="off" which you can apply to an element or the form. 
+- As a dev we can go into the console and turn them on 
+
+
+#### input password update in console show case. 
+- create an input <input id='showPassword' type="password" />
+- in the console 
+```js
+    document.getElementById('showPassword').type = text;
+```
+
+#### here are the input types list. 
+![types and inputs](https://www.w3schools.com/html/html_form_input_types.asp)
+
+
+
+
+
+# Lab s
 ## check goals from lab 9 with index styling. 
 ### Your public-facing index.html page should include the following:
-
 - locations with addresses,
 - hours open
 - contact information
 - Anything else you feel neccesary.
 - A link to your sales.html page
 - Be sure to also include a link to your index.html page on your sales.html pages as well.
+
+
+
+#### 10 A. Chocolate Pizza  B. finish salmon cookie  C.git practice 
+- timed due wednesday night, paired. 
+- Finish the index.html Deploy to git hub pages, otherwise no new feature tasks. 
+
+- I will slack out your partners. 
