@@ -123,4 +123,4 @@ randomizer.addEventListener('click',function(){
  - script to count 5 clicks 
  - keep track of votes
 
- ![wireFrame](/goatWireFrame.png)
+ ![wireFrame](goatWireFrame.png)
