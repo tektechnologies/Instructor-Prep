@@ -46,3 +46,50 @@ Locked out assignments are intentional, to the point that if you have missed it,
 
 - Watch spacing maybe set font size to zero on spaces that html adds into the page. 
 - manage your css declarations and keep them to a minimum per selector if possible. 
+
+- Manage mobile view, if it looks good at 960 your fine, in 301 we will talk more about mobile sites and how to structure them. 
+
+## Now lets take a look at a code demo of some audio and video. 
+- We know we can embed an image into a page. 
+- So we have a prebuilt site, in order to jump right in. 
+- Lets look at what this demo does. 
+- We have an audio tag with a source with several attributes. 
+- Set to be muted by default. auto play not allowed. 
+- Video in general should not be auto played, chrome will check for the auto to be off. 
+- Controls - adds an attribute to show the menu for users to control the audio. 
+- 
+- In the console type 
+
+```js 
+document.getElementbyId('leaves');
+//show the audio tag,  now set to var
+var audio = document.getElementById('leaves;');
+audio.play();
+//plays the audio
+// how do we make it stop?
+// audio.stop()?
+audio.pause()
+
+```
+
+
+### White board the code suggestions. 
+- Demo the change sound button. 
+### What do you think this javascript looks like for a button like this. 
+- Math.random()?
+- set as the volume of the audio element.
+- grab the button by id ? 
+- probably belongs to a function 
+- add an event listener // listen for click event. 
+
+we can add another event listener here that does this. 
+
+randomizer.addEventListener('click',function(){
+    console.log('You clicked the volume button.');
+})
+
+
+
+
+
+
