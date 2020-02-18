@@ -164,22 +164,52 @@ for(var fruit in fruits){
 - var trEl = document.createElement('tr'); //set  trEl.id = 'cool-id';
 
 # Time for Second Break. 
+```js
+// event Listeners : where, what event, what to do. 
+```
+- So lets add an event listener to the h1
+- so we need an id on the h1, 
+- No forms involved, 
 
+```js
+ var clickableH1 = document.getElementById('click-h1');
+clickableH1.addEventListener('click', function(event)){
+    console.log('H1 was clicked1');
+});
+```
+- What element did I add this too? // it is an h1 in the html
+- open console and click. 
 
+- We can define other things that we want to have happen, we could do lots of things, but how about we say welcome to the site, through an alert, 
 
+```js 
+var clickableH1 = document.getElementById('click-h1');
+clickableH1.addEventListener('click', function(event)){
+    //console.log('H1 was clicked1');
+    alert('Welcome to the site!');
+});
+```
 
+- great that is working now lets change the background color
 
+```js 
+ var clickableH1 = document.getElementById('click-h1');
+ clickableH1.addEventListener('click', function(event)){
+    document.getElementByTagName('html')[0].style.backgroundColor = '#23F';
+});
+```
 
+- document.getElementById("myDiv").style.backgroundColor = "lightblue";
+- alert(document.getElementById("myDiv").style.backgroundColor);
 
-
-
-
-
-
-
-
-
-
+#### the style method on the object
+![STYLE OBJECT](https://www.w3schools.com/jsref/dom_obj_style.asp)
+#### Syntax for the background property.
+- Return the backgroundColor property:
+### object.style.backgroundColor
+- Set the backgroundColor property:
+#### object.style.backgroundColor = "color|transparent|initial|inherit"
+![BACKGROUND](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
 
 
 
