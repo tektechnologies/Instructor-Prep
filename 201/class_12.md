@@ -139,6 +139,70 @@ for (;  logic ;)
 - todays work is lighter than yesterday, 
 - When we start out an app there are extra things we hae to set up. 
 - Lets look at chart js. 
+- https://www.chartjs.org/
+- main new feature. 
+- we have used external sources before with the reset css file. 
+- but there are some differences 
+- so lets talk about external resources that we add into our project. 
+- We know that linking to things like images on other sites is a bad idea, Why?  30 sec. 
+- it is possible that the link could change and that would break your image. 
+- could not have copyright? 
+- Benefits is that CDN are free, it is a piece of code that someone has decided that it is important an needs to live on servers all orver the world, 
+- Look at th wiki for CDN. 
 
+- Chart.js, pays to have their code distributed, 
+- Sometimes corps, fund the librarys' so that they can use them as well. for the life of their products. 
+- many times devs, will band together to create a solution. 
+- point in case is sugar crm and suitecrm.
+- Visit Chart.js, what is it. 
+- They tell us, what it is and who it is for. 
+- designers means that this is a product that could potentially be used by non devs', 
+- and that they sent some time on it and it has intentional design elements added in. 
+### you can download from git hub or the cdn
+#### Click show and configure. 
+
+- it lists a bunch of files
+- pop quiz which of these files do we want to use. 
+- just the js is what I need, 
+- the read me is maybe just how it works. 
+- Do we need the license? no, its mit so use it. 
+- so we have a couple of choices on what we need to add.
+- lets do the html output and copy and paste. 
+- add cdn link to bottom of the page. 
+- check console for script tag errors. 
+## show a bad script tag link error in the console. 
+- type Chart into the console. 
+- what data type is it
+- does it have params
+- what are there names.
+- click on function it goes to minified code. 
+- DO we want to write code like this? 
+- No, or hell no. is acceptable response. 
+- js minifiers do the work to minify, means white space has been removed and shorten var names, to single char. 
+- to make it easier to download. 
+- at the top of the page, click {}
+and it will format for you. looks better but is still hard to read. 8000 chars worth of band width that was not taken up. 
 
 # Second Break 
+
+- we are going to use canvas to get our chart js to render. 
+- we will render once we get 25 clicks to our page. 
+- in the footer add our canvas
+```js 
+<canvas id="myChart" width="400" height="400"></canvas>
+
+```
+
+- Then lets grab the js code in app.js 
+- two lines of code
+- one is straight forward var ctx. gives me the chart on the page that is 2d. Because it is a 2 demensional chart. 
+- two, we have a function expression. with a key value pair with an object of how I want to create my chart, so we have all that laid out. 
+- lets add it in to see if we can get it to render and then we will make it our own. 
+- make sure to add or leave the textContent set up from you picked things. - so that the getContext will error then debugg. 
+- run the script. 
+- chart will appear. 
+- Canvas and chartjs will take up as much space as you give it. 
+- we set a width and height. ut it does what it wants. 
+- So to constrane that we give the footer a max width. as long as what it is inside of is constrained. 
+## lets look at the data object 
+- I can mostly figure out how this is working. 
