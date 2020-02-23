@@ -206,3 +206,72 @@ and it will format for you. looks better but is still hard to read. 8000 chars w
 - So to constrane that we give the footer a max width. as long as what it is inside of is constrained. 
 ## lets look at the data object 
 - I can mostly figure out how this is working. 
+
+- make comments in the chart?
+
+- what does the labels do? // text at bottom
+- what does the datasets do? //numbers on the side and what data type is datasets [array]
+- inside the array, what data type do we have? its an array of objects. 
+- this allows us to have multiple peices of data in our chart. 
+
+- what does this label do? // this is the header or key or legend. 
+
+- what do's this data do? // our values in the chart, y axis just goes up to beyond the highest number. 
+- look at options for further settings . 
+- go to website and look at styling the page, what are ticks'
+- read detailed documentation. 
+- set step size to be 5 between each number. 
+- stack over flow is good to find info as well. 
+- In lab do not use my code, do the same thing to set up your project as I did. 
+- labels should be names of pizza. In an array. 
+- in console. allPizzas.name is not a property. 
+allPizzas[0].name
+so we could do 
+allPizzas[0].name
+allPizzas[1].name
+allPizzas[2].name
+- but we dont want to write all that out, but there is a better way to go about it, lets look at how we can write this code better. 
+- Lets make a function. getPizzaNameArray
+- needs to return an array. 
+
+```js
+    function getPizzaNameArray(){
+        var answer = [];
+        //something happens
+        return answer;
+    }
+
+```
+- Then 
+```js
+    function getPizzaNameArray(){
+        var answer = [];
+        for(var i = 0; i < allPizzas.length; i++){
+            answer[i] = allPizzas[i].name;
+        }
+        return answer;
+    }
+
+```
+//call it. 
+labels: getPizzaNameArray();
+
+- The data is the other thing that I want to change, lets creat a function to make an array that collects numbers on our pizza votes. 
+
+```js 
+    function getPizzaClicksArray(){
+       var answer = [];
+       for(var i = 0; i < allPizzas.length; i++){
+        answer[i] = allPizzas[i].timesClicked;
+       }
+    }
+   // call it
+   //getPizzaClicksArray();
+```
+
+- lab assignment how many times it was picked out of how many times it was shown. 
+- show every image once before it repeats. stretch goal. 
+
+- so now lets clean up our code. 
+- match up colors to the amount of pizzas' we have. 
+- if we removed colors it will just show the two colors and then everything else will be grey. 
