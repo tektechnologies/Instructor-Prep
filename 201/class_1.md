@@ -43,13 +43,13 @@ Refer to the `lecture.md` for lecture details.
 1. Command Line Basics
    * Go over basic commands (see cheat sheet)
 
-**pwd**
-**Filepaths and up/down navigation concepts**
-**tree**
-**ls, ls -la**
-**cd, mkdir**
-**touch, code**
-**mv, rm, cp**
+- **pwd**
+- **Filepaths and up/down navigation concepts**
+- **tree**
+- **ls, ls -la**
+- **cd, mkdir**
+- **touch, code**
+- **mv, rm, cp**
 
 ### Intro to Git & GitHub
 
