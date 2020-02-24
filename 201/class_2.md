@@ -1,12 +1,6 @@
 # Programming Concepts Covered
+# Announcements
 
-## 6pm Announcements - longer today than usual. 
-- Introduce the Learning Journal
-_ Introduce the 
-
-## 6:15 pm
-
-- Talk about code review, we will look at students code and talk about improvements that can be made. 
 ### Brain storm why do we do code review, 1 minute, why are we doing this? 
 - Maybe write down your answers so that if your called on you can just read your response. (popsicle sticks.)
 #### Reasons 
@@ -19,32 +13,62 @@ _ Introduce the
 - writing code is good, this is a chance to learn how to read code better (which you will do)
 - how to debug
 
-## 6:30 pm
-- Get a Volunteer to provide code to review have them slack out the link. 
-- Approach the code on the screen and open the web page. 
-- 1. Run the website, to see what it is doing and if there is someplace in the code that I need to look at. 
-- I will be calling on you to help me get this running on my machine, 
-#### how do I get inside the code review directory. 
+# 10 Minutes
+1. Introduce
+   - Learning Journals
+   - Quizzes
+# 40 Minutes
+2. Code Review
+    - Why is it important?
+    - Code Review options:
+      - Look at code and practice reading code
+      - Go through code line-by-line and have a different person explain each line
+      - Fix broken code together as a class.
 
-## 6:45 pm 
+**Break 10 Minutes**
 
-- still looking at site and going through the code. 
-- When we hit cancel we will get a null back, 
-- Use white space strategically to put space between items that should be grouped together. 
+# 30 Minutes
+3. Review of HTML/CSS
+   - HTML/CSS
+   - Start to talk about css. 
+   - Look at the same web page in two different browsers. 
+   - Use the reset css copy and paste into a style tag. And show the differences in the two browsers. 
+     - HTML heading/paragraph tags
+     - HTML lists (`<ol>` & `<ul>`)
+     - CSS ids/classes
+     - targeting specific values
+     - CSS reset
 
-# 10 minute break ( Means code review should be from 615 to 7:00 - 15ish)
-## 7: 30 pm
-- Start to talk about css. 
-- Look at the same web page in two different browsers. 
-- Use the reset css copy and paste into a style tag. And show the differences in the two browsers. 
+# 40 Minutes
+4. JavaScript
+   - Data Types
+   **Break 10 Minutes**
+   - Conditionals
+   - Arrays
+
+# 30 Minutes. 
+5. Git vs GitHub
+   - git demo
+6. Lab Review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Discuss how to give credit to others and document the code that is not yours. 
 - Moving styles from the head to css sheet is a change where we dont want to see a change. 
-## 8:00 pm
-- Ask what are conditionals, what are the important words.  if,else if, break, 
 
-# 10 minute break
 
-## 8:30 pm
 
 Code Fellows example. 
 
