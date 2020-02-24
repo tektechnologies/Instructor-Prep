@@ -67,6 +67,11 @@ Series of snapshots HEAD
    * internal styles
 
 ## (11 - 12) One Hour - Lab Demo 
+
+### Talk about html abd css basics. 
+### Talk about two places where we can write our css. 
+
+
 ```html
 <html>
     <head>
