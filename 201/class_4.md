@@ -155,7 +155,7 @@ so another thing today is that our lab is going to be pair programming. Kevin an
 
 
 # Code review. 
-
+```js
 'use strict';
 // use strict is almost alwayst the first line of our js files
 //console.log('It is working!');
@@ -256,5 +256,6 @@ if (userCorrect === false) {
   console.log('User response is ' + pokeAnswer + ' to question 6');
 }
 
-alert(userName + ', you scored a total of ' + correctAnswers + ' out of 7')
-console.log(userName + 'scored a total of ' + correctAnswers + ' out of 7')
+alert(userName + ', you scored a total of ' + correctAnswers + ' out of 7');
+console.log(userName + 'scored a total of ' + correctAnswers + ' out of 7');
+```
