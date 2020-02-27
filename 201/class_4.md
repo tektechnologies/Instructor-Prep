@@ -188,15 +188,3 @@ so another thing today is that our lab is going to be **pair programming**.
 
 
 
-
-
-```js
-
-
-
-
-
-
-
-
-
