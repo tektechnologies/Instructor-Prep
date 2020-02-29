@@ -1,10 +1,6 @@
 # Programming Concepts Covered
 
 
-
-
-
-
 # Talk about the project. 
 - Explain Plan for the rest of the class.
 - List out activities for assignemnts for class. 
@@ -13,14 +9,8 @@
 
 # 3 Show the project requirements
 
-
-
-
-
-
 # Discuss meet up oportunities.
 - Does everyone have an idea of some event that they plan to attend? 
-
 
 # Code Review.  Bus Mall
 - 301 has Read Me requirements for each lab, there is a template and you will have to fill that out so, be ready for that. 
@@ -80,4 +70,181 @@ for(var i =0; i < allVotes.length; i++){
 - You Can set up break point in the Sources by clicking on the line Numbers. 
 - Then refresh the code. 
 
+##  In the html element RIGHT CLiCk
+- Chose the option break on. 
+- And set up a break point on those things. You can break on node removal, subtree modification(shows where we got the addition error. ) , attribute modification. 
+**it shows the line of code where it is changing**
+- These are usefule debugging tools, use the ones that work best for you. 
+- Break point on the DOM node. for example is something you may not use but if you see it atleast you will understand it. 
+- It makes finding hard problems easy to find. 
+- Part of being a developer is knowing what tools to use in the moment. 
+- Look at view counts for the first three images. 
+## Track first three images. 
+- Site will always start with those three images. 
+- Need to account for the first time the images are click. 
 
+```js
+//This increases the view count. 
+
+for(var i = 0; i < 3; i++){
+    allVotes[i].imageview++;
+}
+
+```
+
+You can call three random images for the click count as well. 
+
+
+# Select the random image selection, I only want to do that if the image view is not greater than or equal to five. 
+
+- Put the while an image picking logic inside the < 5
+
+## We can remove the var chart, because we are not using it and then 
+- Right click the error and get ride of it. 
+
+- var in the intialization of the for loop are available outside the for loop to and so it was accessible to our other loop - so we change the variable. 
+- it 301 we will use let and const. with let it is nolonger accessible. 
+- var vs let will be talked about day one of 301. 
+- What other questions do you have about bus mall. 
+
+# todays lab will be using local storage. 
+# next class will be a lab similar to chocalate pizza, but not quite the same. 
+# Today is last day to work on bus mall lab. 
+# Then next class is the pair assignment, 
+# After that we have project week to kick off and complete
+
+
+- Notice that you are completing this lab in three days as opposed to 5, so you are creating code more quickly. 
+#  go on Break. 
+
+
+- Pizza Picker has a new feature where we can store a new vote total. 
+
+- Store vote total over the course of mulitple page load. 
+- it will have all the data each time and will continue to add to that total. 
+- We will do two things first - look at 2 concepts of how to do this 
+1. json that will allow us to do this and 
+2. local storage.  that will let us save data between page view. 
+
+# Warm up question? 
+### Ask them : 
+1. **What is Json(what does it mean)? What does it do?** 
+- IS A FORMAT THAT REPRESENTS DATA. 
+- OTHER THINGS THAT ARE FORMATTED ARE PDF FORMAT, IS HOW THOSE DOCUMENTS ARE STORE, RECIPES AS WELL. 
+- Just a way of organizing data. 
+- xml example 
+
+ **what data data type are keys in our objects?** 
+Our values can be any data types:
+    - Keys(stringy) are mostly strings. bracket notation is a string in qoutes. that is how we get those values. 
+    - Keys are also call properties. 
+    - values: numbers, strings, functions, arrays, other objects, values can be about any data type. 
+- We treat keys like variables. 
+- When we have a constructor involved we call that an instance variables. 
+- console 
+```js
+   allPizzasArray[0]
+```
+
+2. **What is an object?** 
+objects have behaviors that are functions that we call methods. 
+
+
+
+3. **What does a constructor do?**
+- Builds objects. 
+- gives them 3 things
+1. instance variables
+2. keys
+3. properties. 
+
+- constructors: this is how we set this stuff up. 
+
+## What do we use the prototype for? 
+- It gives access to methods for all the instances that are created by the constructor.
+- body of constructor is where we get properties are set. 
+- and at the same time they gain access to the prototype methods as a built in function of the constructor. 
+
+# Start build out of site. 
+Throughout other languages you will see the pattern of constructors having methods for their objects. 
+- The browser has built in JSON - it takes objects(key value pairs) and represents them as a string. 
+- Or we can take strings and transform them into an object. 
+2 Methods 
+
+- JSON.stringify(pizzName)
+```js
+
+var pizza = allPizzas[0];
+  pizza.toString();
+
+```
+- this is a pizza object created by the construtor so call the
+-  to see how many times you clicked on the goat. try another pizza to see the string with the properties using our contextual this. 
+
+### Pizza.prototype is an object, everything in js is an object
+
+we can put it in the constructor but use it in the prototype. 
+in the constructor it creates a function for each instance the constructor creates, which becomes a performance issue on larger projects. 
+- in the console type
+```js
+    
+1.
+ var pizzaNames = allPizzas[0];
+
+     pizzaNames.name;
+
+2.
+JSON.stringify(pizzaNames);
+
+               pizzaNames.toString // we can call the function on the object. 
+
+3.
+ var pizzaNameString = JSON.stringify(pizzaNames);
+ 
+    pizzaNameString.toString();
+
+4.
+//Now take the string and turn it back into an object. 
+var pizzaString2Object = JSON.parse(pizzaNameString);
+
+/*type :*/ pizzaString2Object
+
+           pizzaString2Object.name //works
+
+
+
+
+
+```
+## what did we get back a string that represents an object.
+- Object have keys we can access and strings dont. 
+- that is what we get to work with when we stringify an object. 
+thumbs on objects vs strings knowing the difference. 
+local storage only stores strings, a tool that will do that for is local storage. and a tool that will take those string and turn them back into objects. 
+
+
+# So we need a times clicked in the constructor
+- so that we can add that property to our instances and then be able to pass that value back and forth from the local storage and back. 
+
+
+# After you update the constructor 
+
+var pizzaPie = allPizzas[0];
+
+ log: pizzaPie   - see the object
+
+ var stringPizza = JSON.stringify(pizzaPie);
+
+ log: stringPizza  - see the string
+
+
+# transform back to object
+    var pizzaStrObj = JSON.parse(stringPizza);
+
+    log: pizzaStrObj - see the object
+
+    call: new Pizza(pizzaStrObj.name,    pizzaStrObj.imageUrl,
+        pizzaStrObj.timesClicked,
+        )
+
+        - see new object. 
