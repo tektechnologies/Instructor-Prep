@@ -8,21 +8,25 @@
 
 ## Announcements
 Setup 15 minute 1-on-1 meetings students with each student over the next few days. This will be your opportunity to check in with them individually to check where they are at and how they are doing in the course so far.
-	- **Reminder:** Weekly surveys will go out to students in email. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
+# **Reminder:** 
+- Weekly surveys will go out to students in email. Your survey responses are very helpful and meaningful to us. **Feedback is a gift.**
 	- The instructor will have a 15-minute one-on-one meeting with each student during the coming week: this will be an opportunity to review your progress, answer any questions you have, and discuss any topics the instructor sees appropriate, such as your future plans in the program. We will start the process of scheduling those meetings very soon.
 
-## Partner Power hours are mandatory at Code Fellows. 
+ 
 
 ## Pair Programming Debrief
+## Drawl on white board.
 - learning from partner while driving
 - talking about how code works as navigator is also a skill. 
 - navigator still has control
 - style nitpicks or variable name nitpicks. 
 
-# Code Review
+# Code Review around 20 Minutes then cover Hexadecimal and then finsih review
 
 1. Look at web page, check out the css, and how its working. 
+# Make sure every one has an eslinter on their About Me.
 - Show them how to identify, errors in the code, the left side bar shows little red boxes. We can fix those issues with hovering over the red lines, and selecting the "fix all" options. 
+
 
 # Base 16 and Hex code. 
 
@@ -31,27 +35,37 @@ the one's place, the 10's place and the hundredths place as we move past ten we 
 100 X 1 + 3 X 10 + 4 x 1 = 134
 This is a decimal, base 10 mathmatical, 
 
-With Computers there are two binary system
+With Computers there are two.
+### binary system
 ## Binary 
-- are zero's and one's, because it is base 2. 
+- are zero's  " 0 "and " 1 "one's, because it is **base 2**. 
 - we count from zero to 1 and then begin again. 
 - So we start at the 1's position and then move to the 2's position and then the 4's position and then the 8's position, 16th, 32nd place, we multiply by two each time. 
-thumbs on base 10.
-- so if we have a number in binary 101 then that means we have one 1 and zero 2's and one 4's. (1 x 4 + 1 x 1) That number in binary is what we call 5 in decimal. (101 === 5). We use binary in computers because it is easy for the computer to compute whether a value is on or off, a 1 or a 0. And we can stick those 0 and 1's together to make, the numbers we need. 
 
-Binary is base 2. All zero's and one's. Then move to the next spot over. 
-Decimal is base 10. Count 0 - 9. 
+128's - 64's - 32's - 16's - 8's - 4's - 2's - 1's . 1/10's (decimal)
+                                   1     0     1
+## thumbs on base 10.
+
+- so if we have a number in binary 101 then that means we have **one 1 and zero 2's and one 4's.** 
+# (1 x 4 + 1 x 1) 
+That number in binary is what we call 5 in decimal. 
+(101 === 5). 
+- We use binary in computers because it is easy for the computer to compute whether a value is on or off, a 1 or a 0. And we can stick those 0 and 1's together to make, the numbers we need. 
+
+**Binary is base 2.** All zero's and one's. Then move to the next spot over. 
+# Decimal is base 10. Count 0 - 9. 
  
 https://www.binary-code.org/binary/8bit/10000110/
 
-In binary decimal points work the same as in decimal, with usually dont have to think about those, the 1/10's space the 1/2 space and then 1/4 and so on. 
+In binary **decimal points work the same** as in decimal, with usually dont have to think about those, 
+# the 1/10's space the 1/2 space and then 1/4 and so on. 
 
 # HEX code. and RGB Values. 
 
 so we can specify our desired colors in RGB by the number of red, number of green and number of blue. 
- The number 256 is an important number (16x16) 0r 2 to the 8th. 
+ # The number 256 is an important number (16x16) 0r 2 to the 8th. 
  If we use base 16, we have a one's place and then a 16th's place and then a 256th's place, so all of our possible color values fit into and what that makes convenient is that all our possible values fit into just two digits of HEXIDecimal. So we can always use two digits to represent a HEX number, which is how they came up with Hexadecimal. 
-### #RRGGBB 
+ ### #RRGGBB 
  ## In base 16 we need something that means the number 10 (0-9 and then A)
  #### 0
  #### 1
@@ -84,17 +98,20 @@ FFFFFF  is equal to (15 X 16) + (15 X 1) = 255
 
 ### Convert an RGB to HEX.
 rgb(184,)
-184
-16 * 11 + 8 * 1
-      B + 8 = B8(Hex)
+- 184   (16 x 12 = 192 to high)       16 x 11(B - 11) = 176   
+- 176                   +              1 x  8(8 - 8 ) = 184
+       /16              1\
+     /2ndPos.        1stPos.\
+    16  * 11    +     8 *    1
+          B     +     8         = B8(Hexadecimal )
 # Note it is ok, if you can not computate these values by memory
 - the google will have resources that will aid in translating these values back and forth. 
 
 Ask why things are happening in their code, like why do we have all of our global variables at the top, and how does that effect scope if they are organized all over?
 - As long as we declare the variable, globally, it will be accessible in any function it will be in scope for those functions, as long as we declare them first, make sure to set those variables before we start running our functions.
-
-What happens on    var quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code. 
-
+```html
+<seatle>What happens on   var quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code.</seatle> 
+```
 var answer = yes;
 var wasRight = answer === 'yes' || answer === 'y';
 
@@ -103,7 +120,7 @@ Discuss review code, for feedback on the about me lab.
 - --------------------------------------------- 
 # 7:00
 
-Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
+# Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
 We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows me to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
 git checkout master takes us back to master. 
 
@@ -133,11 +150,12 @@ git checkout master takes us back to master.
 - Last step is writing the function.
 ## This follows our class 5 from 102 
 - We dont just jump into code. 
-A. Talk about it.
-B. Learn about it. 
-C. Then code it. 
+A. Talk about it. //Read the assignment.
+B. Learn about it. //Place technical requirements in comments.
+C. Then code it. // complete a requirement and commit on branch that you can create a PR on.
 first we need to figure out what the problem is and then we can start to build out our functions.
 # Cover this Below: 
+- Cover IFFEs and function expressions.
 https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-04/demo/demo.md
 ### Talk about adding names to anonymous functions to show the outcome in the stacktrace in the console. 
 - We want to build out functions in a couple of differnet ways. For one, we may be working on a block of logic that does something and may eventually end up in a function where this named peice of code, can then have its parameters determined and can be called over and over. 
@@ -145,31 +163,30 @@ https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-04/de
 //So lets write a function that prompts a user for a pizza crust.
 
 
-```
+```js
 function pizzaCrustType() {
    var pizzaCrustType = prompt('What type of pizza crust would you like?');
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
+```
+```js
 console.log('Your Pizza Crust Type is: ' + pizzaCrustType);
-```
-
-
-- //This will return undefined. Because our variable scope is within the function where the variable is declared. 
+//This will return undefined. Because our variable scope is within the function where the variable is declared. 
 
 ```
+
+```js
 var pizzaCrustType;
 function pizzaCrustType() {
    pizzaCrustType = prompt('What type of pizza crust would you like?');
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
+//We dont always need access to global variables all the time, best practice is to keep your variables as local as possible.
 ```
 
-- We dont always need access to global variables all the time, best practice is to keep your variables as local as possible.
-
-
-```
+```js
 function pizzaCrustType() {
    var pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
     if(pizzaCrustType < 2){
@@ -180,25 +197,31 @@ function pizzaCrustType() {
         confirm('You would like the Detroit style pizza?');
     } else {
        confirm('You want the italian meat ball sub sandwich?');
-       pizzaCrustType = 'MeatBall Sub Sandwich';
+       pizzaType = 'MeatBall Sub Sandwich';
     }
     return pizzaCrustType;
-    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 // We can remove this and call it in the console.
 pizzaCrustType();
+//run function then see the return value in the console and then run the log to see the value used.
+    console.log('Customer Pizza Crust Type is: ' + pizzaType);
+
 ```
 
 
 
 - So when we initially called the function it displayed some output, with the return the variable value this then provided for use throughout the rest of the code, if needed.
-- This variable will hold the value for the one time that the function was run. 
-- Return gives back the output and then we add it to a variable for later use. 
-- Getting back an answer is what allows the program to do the task that they are designed to do. Returns are much more useful than console.logs too. 
+- This variable will **hold the value for the one time that the function was run.** 
+### Return gives back the output and then we add it to a variable for later use. 
+- Getting back an answer is what allows the program to do the task that they are designed to do.
+#  Returns are much more useful than console.logs too. 
 
-```
+```js
+//Set Function to a global variable.
 var globalPizzaCrustType = pizzaCrustType();
-console.log('reorder point: ' + globalPizzaCrustType + 3);
+
+console.log('reorder point: ' + globalPizzaCrustType[1] + 3);
+console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
 ```
 
 //Lets pick lottery numbers and return them in an array. 
@@ -206,7 +229,7 @@ console.log('reorder point: ' + globalPizzaCrustType + 3);
 
 
 
-```
+```js
 function lotteryNumberPicker(){
     //Start by creating array for the numbers
     var lotteryArray = [];
@@ -218,9 +241,19 @@ function lotteryNumberPicker(){
     for(var i = 0; i < 5; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
        //A method on arrays that allows us to put value o the end of arrays called push
-        lotterArray.push(Math.ceil(Math.random() * 99));
+        lotteryArray.push(Math.ceil(Math.random() * 99));
     }
     //pick one number and return it. 
+   return lotteryArray;
+}
+```
+```js
+function lotteryNumberPicker(){
+    var lotteryArray = [];
+    lotteryArray[0] = 10;
+    for(var i = 0; i < 5; i++){
+        lotteryArray[i] = Math.ceil(Math.Random() * 99);
+    }
    return lotteryArray;
 }
 ```
@@ -239,22 +272,32 @@ function lotteryNumberPicker(){
 So lets pick some numbers and we will specifiy these numbers in the function using parameters. 
 
 
-```
+```js
 function lotteryNumbers(quantity lotteryMax){
     var lotteryArray = [];
     for(var i = 0; i < quantity; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
-        lotterArray.push(Math.ceil(Math.random() * lotteryMax));
+        lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
     }
    return lotteryArray;
 }
 ```
 
+```js
+function lotteryNumbers(quantity, lotteryMax){
+    var lotteryArray = [];
+    for(var i = 0; i < quantity; i++){
+    console.log(i); 
+        lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
+    }
+    console.log(lotteryArray);
+   return lotteryArray;
+}
 
 var lotteryQuantity = Number(prompt('How many numbers would you like?'));
 var lotteryMax = Number(prompt('What is the Max amount per number?'));
 alert(lotteryNumbers(lotteryQuantity, lotteryMax));
-
+```
 # end review ..................................
 
 
