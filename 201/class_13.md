@@ -15,7 +15,7 @@
 # Code Review.  Bus Mall
 - 301 has Read Me requirements for each lab, there is a template and you will have to fill that out so, be ready for that. 
 
-- What does .gitignore do? 
+# What does .gitignore do? 
 - You can avoid accidently commiting those file that you do not want to commit to git hub. Like the ds_store file that macs create and will include to push if you do not have the ingore file. Which will be even more important in 301. 
 - You can create certain setting in VS code that are project specific. 
 - look at the git ignore and show the files that you do not want to commit. 
@@ -54,12 +54,13 @@ for(var i =0; i < allVotes.length; i++){
 }
 ```
 
-
+<seatle>
 # Issue with list showing up 3 times. 
 - Look in the function that is generating the list. 
 - How do you find the peice of code? 
 ## Find the id in the browser and locate the same id in the file. 
 - But that sometimes doesn't work. 
+</seatle>
 ## Seeing a problem on the site and finding the code efficiently is a real skill to have. 
 - You will have some time during project week where you feel comfortable with the code especially stuff you have created or worked on and you mey have to review code that you have not worked on and you will have try and figure what it is doing so that you know before you accept the pull request and merge to a live site that it will not break the site or create weird behaviors. 
 ## Add a debugger. 
@@ -115,12 +116,14 @@ You can call three random images for the click count as well.
 
 
 - Notice that you are completing this lab in three days as opposed to 5, so you are creating code more quickly. 
+
+
 #  go on Break. 
 
 
 - Pizza Picker has a new feature where we can store a new vote total. 
 
-- Store vote total over the course of mulitple page load. 
+- Store vote total over the course of multiple page load. 
 - it will have all the data each time and will continue to add to that total. 
 - We will do two things first - look at 2 concepts of how to do this 
 1. json that will allow us to do this and 
@@ -128,9 +131,9 @@ You can call three random images for the click count as well.
 
 # Warm up question? 
 ### Ask them : 
-1. **What is Json(what does it mean)? What does it do?** 
+1. **What is JSON(what does it mean)? What does it do?** 
 - IS A FORMAT THAT REPRESENTS DATA. 
-- OTHER THINGS THAT ARE FORMATTED ARE PDF FORMAT, IS HOW THOSE DOCUMENTS ARE STORE, RECIPES AS WELL. 
+- OTHER THINGS THAT ARE FORMATTED ARE PDF FORMAT, IS HOW THOSE DOCUMENTS ARE STORE, RECIPES     AS WELL. 
 - Just a way of organizing data. 
 - xml example 
 
@@ -248,3 +251,48 @@ var pizzaPie = allPizzas[0];
         )
 
         - see new object. 
+
+
+- local storage is built into javascript, 
+- local storage works with key value pairs. 
+- the syntax is different but KVP's work the same as they do in objects. 
+- take local storage and type set Item
+
+```js
+
+//In the console. 
+localstorage.setItem('userName', 'Craig');
+
+
+```
+
+
+- look into the APPLICATION ON THE **localstorage** - see the key value in local storage is set .
+
+
+
+```js
+
+localstorage.getItem('userName')
+//See 
+
+```
+
+
+- Lets create a way for them to login and have us remember their name and then we will remember them when they log back in. 
+
+# hit submit and in the URL 
+- http://127.0.0.1:5502/?name=craig
+
+
+
+- local storage only holds strings. 
+- json is good with arrays 
+
+
+
+- Review lab assignment. 
+
+# You need to go in and number what to build out first 
+
+1. do the toString first 
