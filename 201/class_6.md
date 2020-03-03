@@ -6,6 +6,7 @@
 4. Introduce Salmon Cookies. (Finish each lab before moving forward.)
 
 # Announcements 
+- Read asignments will be close throughout the week if you did not complete them, I can open on Fridays, let me know. 
 - This week we will have one on one meetings. 
 - Cover feedback information from week one. 
  
