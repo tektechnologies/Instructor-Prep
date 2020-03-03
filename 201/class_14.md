@@ -11,11 +11,43 @@
 - time to think about what we are going to build. 
 - Talk to pyschological safety. 
 
+# Psychological Safety  (1 hour)
+
+- 60 second pitch
+- remind them of there 60 second pitch assignment
+- did you do the readings?
+
+### round table discussion.
+
+- students to close laptops,
+
+- lot of insight and experience in the room, so you want to hear from everyone.
+
+- You are looking to understand this new term "psychological safety".
+    1. In your own words, what defines psychological safety.
+    2. How does your previous experience relate to the things your read?
+    3. What are the results for teams who practice psychological safety?
+- white board the answers
+The screen recording is running, and we want it to pick up everyone's comments, so you will be walking around with the mircophone to ensure voices are picked up.
+Ensure this is all clear, and re-iterate the 3 prompts above to get it started.
+Segment the iPad into 2 sections with a line down the middle. Do not label the sections at the start.
 
 
-## Lab
-- Today is a paired lab 
-- This codebase is more complex than you've seen so far, but also less complex than what you will create on your own in the final project" really sets the tone for projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,17 +115,28 @@ function b() {
 ```
 
 
-- events. 
+# go back through Michelles class and create the inifinite loop counter on the images. 
+
+
+# turn off internet and play the chrome game. 
+- use this url https://github.com/codefellows
+- chrome dinosaur. important facts you should know as a dev. 
+
+## Transitions
+- make sure to use transitions sparingly. 
+
+- put hover on the parent 
 
 
 
 
 
 
+## Lab
+- Today is a paired lab 
+- create a repo , partner will fork, add partner as a contributor
+- This codebase is more complex than you've seen so far, but also less complex than what you will create on your own in the final project" really sets the tone for projects.
 
 
 
-
-
-
-# Break One
+- do the first one for them 
