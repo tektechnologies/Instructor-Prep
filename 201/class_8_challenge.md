@@ -73,7 +73,8 @@ for(var i =0; i < number; i++){
 answer = answer + string + ' ';
 
     }
-return answer.substring(0, answer.length -1);
+              //add in the answer.length -1
+return answer.substring(0, answer.length);
 }
 //we dont want space on the ends
 '''
@@ -165,4 +166,18 @@ function printTheThing(a) {
 
 printTheThing(4);
 printTheThing(b);
+```
+
+
+```js 
+
+
+//returns     these
+// VM18:3       5
+// VM18:6       7
+// VM18:7       2
+// VM18:10      4
+// VM18:10      3
+
+
 ```
