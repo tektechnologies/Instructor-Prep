@@ -1,6 +1,15 @@
 # Programming Concepts Covered
 
 
+
+
+1. Anouncements
+2. Code Review
+3. 201 Review
+4. Local storage in the console, then in the app - form first then do the votes.  
+5. Lab introduction. 
+
+
 # Talk about the project. 
 - Explain Plan for the rest of the class.
 - List out activities for assignemnts for class. 
@@ -66,7 +75,7 @@ for(var i =0; i < allVotes.length; i++){
 ## Add a debugger. 
 - Change vote total to five. 
 ## One thing the Sources in the inspector shows us is the call stack. 
-- Get a thumbs do you use the debugger in your code? 
+# Get a thumbs do you use the debugger in your code? 
 - You can step through your entire file with it to see what is happening each step of the way. 
 - You Can set up break point in the Sources by clicking on the line Numbers. 
 - Then refresh the code. 
@@ -76,7 +85,7 @@ for(var i =0; i < allVotes.length; i++){
 - And set up a break point on those things. You can break on node removal, subtree modification(shows where we got the addition error. ) , attribute modification. 
 **it shows the line of code where it is changing**
 - These are usefule debugging tools, use the ones that work best for you. 
-- Break point on the DOM node. for example is something you may not use but if you see it atleast you will understand it. 
+- Break point on the DOM node. for example is something you may not use but if you see it at least you will understand it. 
 - It makes finding hard problems easy to find. 
 - Part of being a developer is knowing what tools to use in the moment. 
 - Look at view counts for the first three images. 
@@ -104,8 +113,10 @@ You can call three random images for the click count as well.
 - Right click the error and get ride of it. 
 
 - var in the intialization of the for loop are available outside the for loop to and so it was accessible to our other loop - so we change the variable. 
-- it 301 we will use let and const. with let it is nolonger accessible. 
-- var vs let will be talked about day one of 301. 
+# in 301 we will use let and const. with let it is nolonger accessible.
+
+# var vs let will be talked about day one of 301. 
+
 - What other questions do you have about bus mall. 
 
 # todays lab will be using local storage. 
@@ -157,7 +168,7 @@ objects have behaviors that are functions that we call methods.
 3. **What does a constructor do?**
 - Builds objects. 
 - gives them 3 things
-1. instance variables
+1. instance variables that we access with contextual **this**
 2. keys
 3. properties. 
 

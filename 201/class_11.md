@@ -61,9 +61,9 @@ Locked out assignments are intentional, to the point that if you have missed it,
 - In the console type 
 
 ```js 
-document.getElementbyId('leaves');
+document.getElementbyId('leeves');
 //show the audio tag,  now set to var
-var audio = document.getElementById('leaves;');
+var audio = document.getElementById('leeves;');
 audio.play();
 //plays the audio
 // how do we make it stop?
@@ -137,7 +137,7 @@ randomizer.addEventListener('click',function(){
 
 - These 3 pieces of the script can be done in any order .
 - So in our javascript .
-# 2. On click show two new goats. 
+# 2. On click show two new pizzas. 
 //set up images to call that function when there is a click. 
 ```js
 //create a function to store clicks
@@ -161,10 +161,17 @@ for(var i = 0; i < imageElements.length; i++){
 
 # 3. Keep track of Votes.
 
+
+
+```js
+
+
 var img1Clicked = 0;
 var img2Clicked = 0;
 
-```js
+
+
+
 //create a function to store clicks
 function imageWasClicked(event){
  if(event.srcElement.id === '1'){
@@ -181,8 +188,8 @@ function imageWasClicked(event){
 ```js 
 if(img1Clicked + img2Clicked >= 5){
     //we made it to five clicks. 
-    var footerElement = document.getElementByTagName('footer');
-    footerElement.textContent = You picked Pizza 1 ${img1Clicked} times and Pizza 2 ${img2Clicked} times.';
+    var footerElement = document.getElementByTagName('footer')[0];
+    footerElement.textContent = `You picked Pizza 1 ${img1Clicked} times and Pizza 2 ${img2Clicked} times.`;
 }
 ```
 
