@@ -187,24 +187,28 @@ pizzaCrustType();
 ```
 
 ```js
+var sandwichType;
 function pizzaCrustType() {
-   var pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
-    if(pizzaCrustType < 2){
-        confirm('You would like to try our thin crust style pizza?');
-    } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
-        confirm('You would like the Deep Dish Chicago style pizza?');
-    } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
-        confirm('You would like the Detroit style pizza?');
-    } else {
-       confirm('You want the italian meat ball sub sandwich?');
-       pizzaType = 'MeatBall Sub Sandwich';
-    }
-    return pizzaCrustType;
+  
+  var pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
+  if(pizzaCrustType < 2){
+    
+    confirm('You would like to try our thin crust style pizza?');
+  } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
+    confirm('You would like the Deep Dish Chicago style pizza?');
+  } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
+    confirm('You would like the Detroit style pizza?');
+  } else {
+    confirm('You want the italian meat ball sub sandwich?');
+    console.log('Customer Order Place.');
+    sandwichType = 'MeatBall Sub Sandwich';
+  }
+  return sandwichType;
 }
 // We can remove this and call it in the console.
 pizzaCrustType();
 //run function then see the return value in the console and then run the log to see the value used.
-    console.log('Customer Pizza Crust Type is: ' + pizzaType);
+console.log('Customer sandwich is: ' + sandwichType);
 
 ```
 
