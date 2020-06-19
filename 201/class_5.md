@@ -188,27 +188,25 @@ pizzaCrustType();
 
 ```js
 var sandwichType;
+var pizzaCrustType;
 function pizzaCrustType() {
-  
-  var pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
-  if(pizzaCrustType < 2){
-    
-    confirm('You would like to try our thin crust style pizza?');
-  } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
-    confirm('You would like the Deep Dish Chicago style pizza?');
-  } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
-    confirm('You would like the Detroit style pizza?');
-  } else {
-    confirm('You want the italian meat ball sub sandwich?');
-    console.log('Customer Order Place.');
-    sandwichType = 'MeatBall Sub Sandwich';
-  }
-  return sandwichType;
+   pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
+    if(pizzaCrustType < 2){
+        confirm('You would like to try our thin crust style pizza?');
+    } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
+        confirm('You would like the Deep Dish Chicago style pizza?');
+    } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
+        confirm('You would like the Detroit style pizza?');
+    } else {
+       confirm('You want the italian meat ball sub sandwich?');
+       sandwichType = 'MeatBall Sub Sandwich';
+    }
+    return [pizzaCrustType , sandwichType];
 }
 // We can remove this and call it in the console.
 pizzaCrustType();
 //run function then see the return value in the console and then run the log to see the value used.
-console.log('Customer sandwich is: ' + sandwichType);
+    console.log('Customer Pizza Crust Type is: ' + sandwichType);
 
 ```
 
@@ -224,7 +222,7 @@ console.log('Customer sandwich is: ' + sandwichType);
 //Set Function to a global variable.
 var globalPizzaCrustType = pizzaCrustType();
 
-console.log('reorder point: ' + globalPizzaCrustType[1] + 3);
+console.log('reorder point: ' + (globalPizzaCrustType[1] + 3));
 console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
 ```
 
@@ -277,7 +275,7 @@ So lets pick some numbers and we will specifiy these numbers in the function usi
 
 
 ```js
-function lotteryNumbers(quantity lotteryMax){
+function lotteryNumbers(quantity, lotteryMax){
     var lotteryArray = [];
     for(var i = 0; i < quantity; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
