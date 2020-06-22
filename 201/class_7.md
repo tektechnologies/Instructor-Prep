@@ -2,17 +2,65 @@
 
 ![Hex conversion](hexConversion.png)
 
-# Announcements
 
+ written using a nibble, two are a byte 0-9 or A-F. 
+ 0
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ A - 10
+ B - 11
+ C - 12
+ D - 13
+ E - 14
+ F - 15
+#### Hexadecimal  10 is equal to RGB 16
+#### Hexadecimal  11 is equal to RGB 17
+#### Hexadecimal  19 is equal to RGB 25
+#### Hexadecimal  1A is equal to RGB 26
+#### Hexadecimal  1F is equal to RGB 31
+
+# #1F1A19    is equal to rgb(31, 26, 25)
+
+ This is how we get to 255 from hex to rgb(255, 255, 255). 
+                first position   second position
+# #(FF)FFFF  = to   (15(F) X 16)    +   (15(F) X 1)     = 255
+                         240        +     15
+
+
+
+ #### Create the pet array and the for loop.
+ ```js
+var people = [personOne, personTwo];
+for(var i = 0; i < people.length; i++){
+var newParagraph = document.createElement('p');
+newParagraph.textContent = `A nice person to code with is $(people[i].name) and they attended $(people[i].code()) `;
+personHolder.appendChild(newParagraph);
+}
+```
+
+# Announcements
+- Wednesday we have a guest lecturer, Jess slack handle @jbertling
 
 
 # Code Review 
 - This weeks project is meant to take all week with new implementations to our problem domain, we will look at the code possibly refactor some, code and see what we find along the way. 
-- What was the one thing that you found hardest, and what you want me to cover in code review. 
+- What was the one thing that you found hardest, 
+- and what you want me to cover in code review. 
+
 - Code review topics 
     1. How to do cookies per hour at each location.
+
     2. Sales amount in each city( adding things to the page) 
+
     3. id in html, then put other things into that from js. 
+
     4. ~ how to do css from js. 
 
 - What do we notice from the student repo. 
@@ -43,13 +91,13 @@
 
 
 
-- We willl look at how o creat html elements that we will append our UL and LI items to, inorder to create some child/parent relation ship. 
+- We willl look at how to create html elements that we will append our UL and LI items to, inorder to create some child/parent relation ship. 
 
 - dont forget to add the city object to the render to loop through each city instead of just hourly array. 
 
-- We do code review so that we get better at reading other's code. 
 
-- Question how was it creating each object literal? How would you feel if you had to type out another 250 stores, by hand from paper. 
+- Question how was it creating each object literal? 
+# How would you feel if you had to type out another 250 stores, by hand from paper. 
 
 
 - So since these are all the same object literals there are ways, to automate this process, how you ask?
@@ -60,7 +108,7 @@
 
 - So, with a constructor we can create objects, with a max of 15 lines(once) and we can add one line of code to 15 define each city and one to create store, this scales better the more objects we get, Constructors are powerful tools, for developers, so that we write less lines of code and have less of a chance to make mistakes, while coding out our problem domain. 
 
-**Back to our Kitten Demo.**
+**Back to our Kitten Demo.**   At 10:00
 
 # Constructors or Constructor functions. 
 
@@ -149,6 +197,12 @@ function Pet(petBreed, petWeight, petDescription){
 So the methods that exsist within the pets 
 - My next step is to take the getDescription function is accessible my every pet, so we have an exact peice of code to set up for this to work, so if there is one thing that you accept about how code just works and does things, we have this, 
 
+## Prototypes
+1. Every object has a prototype. It can be assigned explicitly, or is set to the global Object by default
+1. All objects have the props & methods of their prototype
+1. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it
+
+- There is a lot of potential for DOM manipulation and JS objects. We could potentially make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called:
 ```js
 //Pet.prototype.functionname = function(any, parameters, go, here)
 //Benefit is that with any pet that we create will have access to this function. 
