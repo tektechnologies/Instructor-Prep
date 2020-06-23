@@ -31,7 +31,7 @@
  This is how we get to 255 from hex to rgb(255, 255, 255). 
                 first position   second position
 # #(FF)FFFF  = to   (15(F) X 16)    +   (15(F) X 1)     = 255
--                         240       +        15
+                                 240       +        15
 
 
 
