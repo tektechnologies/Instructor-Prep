@@ -172,7 +172,7 @@ function Pet(petBreed, petWeight){
 ```js
 var nova = new Pet('Labrador',45);
 ```
-# Start Talk abou using prototypes to move functions out of constructor functions and use prototypes to make the methods accessible to the object that they were created for. 
+# Start Talk about using prototypes to move functions out of constructor functions and use prototypes to make the methods accessible to the object that they were created for. 
 
 - So we have methods in the object literals that we want to make accessible for our other pets methods and behaviors. 
 # Take this function as an example. 
