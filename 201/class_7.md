@@ -6,20 +6,20 @@
  written using a nibble, two are a byte 0-9 or A-F. 
 - 0
 - 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
- A - 10
- B - 11
- C - 12
- D - 13
- E - 14
- F - 15
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- A - 10
+- B - 11
+- C - 12
+- D - 13
+- E - 14
+- F - 15
 #### Hexadecimal  10 is equal to RGB 16
 #### Hexadecimal  11 is equal to RGB 17
 #### Hexadecimal  19 is equal to RGB 25
