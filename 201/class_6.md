@@ -535,15 +535,7 @@ var personTwo = {
   }
  };
 ```
- #### Create the person array and the for loop.
- ```js
-var people = [personOne, personTwo];
-for(var i = 0; i < people.length; i++){
-var newParagraph = document.createElement('p');
-newParagraph.textContent = `A nice person to code with is $(people[i].name) and they attended $(people[i].code()) `;
-personHolder.appendChild(newParagraph);
-}
-```
+
 
 
 Here is the JS code to add a `p` tag to our `div`
