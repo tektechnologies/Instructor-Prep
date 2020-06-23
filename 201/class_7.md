@@ -46,6 +46,14 @@ Here is a quick exercise to prove this point: in the console.
 # Announcements
 - Wednesday we have a guest lecturer, Jess slack handle @jbertling
 
+# Agenda for Today
+- Constructor Functions
+- ProtoTypes (Inheritance)
+- Template literals
+- new operator
+- html Tables
+- google fonts
+
 
 # Code Review 
 - This weeks project is meant to take all week 
