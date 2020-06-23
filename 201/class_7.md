@@ -4,8 +4,8 @@
 
 
  written using a nibble, two are a byte 0-9 or A-F. 
-- 0
- 1
+#### 0
+#### 1
  2
  3
  4
