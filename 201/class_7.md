@@ -177,16 +177,16 @@ var nova = new Pet('Labrador',45);
 - So we have methods in the object literals that we want to make accessible for our other pets methods and behaviors. 
 # Take this function as an example. 
 ```js
-function Pet(petBreed, petWeight, petDescription){
+function Pet(petBreed, petWeight, petInterests){
     this.breed = petBreed,
     //Name of parmeter and name of property can be the same or different.
     //this.weight = weight,
     this.weight = petWeight,
-    this.desciption = petDescription
+    this.desciption = petInterests
 }
 ```
 So the methods that exsist within the pets 
-- next step is to take the getDescription function and make it accessible for every pet
+- next step is to take the getInterests function and make it accessible for every pet
 - so we have an exact peice of code to set up for this to work
 #  So if there is one thing that you accept about how code just works in 201, and does things,it is this the Prototypes. And so we have this, 
 
@@ -204,29 +204,50 @@ Benefit is that with any pet that we create will have access to this function.
 Technical description takes about three hours of lecture to get through, so we will just trust that this will work, so that all the pet objects we create will have access to these functions, so lets focus on what functions our objects need and then accept the auto magically, the stuff that prototypes do for us. 
 
 ```js
-Pet.prototype.getDescription = function() {
+Pet.prototype.getInterests = function() {
 //The code that goes in here is already using contextual this, so it will work here for us as well. 
 //Creat a random index within the pet description array. 
-var randomIndex = Math.floor(Math.random() * this.petDescription.length);
+var randomIndex = Math.floor(Math.random() * this.petInterests.length);
 //Use that random index, to go into the array and grab a description.
-return this.petDescription[randomIndex];
+return this.petInterests[randomIndex];
 };
 //
-Pet.prototype.getDescription = function() {
-var randomIndex = Math.floor(Math.random() * this.petDescription.length);
-return this.petDescription[randomIndex];
+Pet.prototype.getInterests = function() {
+var randomIndex = Math.floor(Math.random() * this.petInterests.length);
+return this.petInterests[randomIndex];
 };
 ```
 - So, now lets take the firstPet
 ```js
     var firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
 ```
+```js
+function Pet(petBreed, petWeight, petInterests){
+    this.breed = petBreed,
+    this.weight = petWeight,
+    this.petInterests = petInterests
+}
+
+Pet.prototype.getInterests = function() {
+var randomIndex = Math.floor(Math.random() * this.petInterests.length + 1);
+return this.petInterests[randomIndex];
+};
+
+
+ var firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
+
+firstPet.getInterest();
+
+
+```
+
+
 # If we dont know the parameter, we write null, we dont leave it blank because we get syntax errors, so use null, however if we do math on say weight and there is a null you will get back a NaN, response. 
 - INSTANCES OF AN OBJECT
 - We may also call these objects pet instances. Any time we call the constructor we use the new and the name of the object constructor, and then provide arguments, for the constructor. 
 # So how did it go, THUMBS?
 #### Rememeber.....
-- The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getDescription, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods. 
+- The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getInterests, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods. 
 - Add another pet and it works because of us using the contextual this, we can access the description words of that specific pet object. 
 #### What other questions do you have about constuctors? 
 ## BREAK TIME Now work on the actual website after the constructor function demo.
@@ -316,7 +337,7 @@ Pet.prototype.render = function() {
 
     // Also add a description. While I type this out talk outloud about what we are doing. 
      var descriptionCell = document.createElement('td');
-    descriptionCell.textContent = this.petDescription;
+    descriptionCell.textContent = this.petInterests;
     petRow.appendChild(descriptionCell);
 
     //Add to page by appending the Table. 
@@ -332,7 +353,7 @@ Pet.prototype.render = function() {
 //     weightCell.textContent = this.petWeight;
 //     petRow.appendChild(weightCell);
 //      var descriptionCell = document.createElement('td');
-//     descriptionCell.textContent = this.petDescription;
+//     descriptionCell.textContent = this.petInterests;
 //     petRow.appendChild(descriptionCell); 
 //     animalTable.appendChild(petRow);
 // }
