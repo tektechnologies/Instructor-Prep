@@ -1,10 +1,10 @@
-# Programming Concepts Covered
+# Concepts in Review - 
 
 ![Hex conversion](hexConversion.png)
 
 
  written using a nibble, two are a byte 0-9 or A-F. 
- 0
+- 0
  1
  2
  3
