@@ -16,6 +16,11 @@ console.log('Choo Choo!);
 ## Challenge 2
 
 Write a function called `getTwo` that takes in no parameters and returns the number 2.
+
+
+
+
+
 ```js 
 function getTwo(){
     return 2;
@@ -41,9 +46,27 @@ Input | Output
 7     | 9
 -5.4  | -3.4
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Solution
 ```js 
-function addTwo(number){return number + 2;}
+function addTwo(number){
+  return number + 2;
+  }
 
 
 addTwo(2);
@@ -53,7 +76,6 @@ addTwo('2');
 4
 ```
 ## Challenge 4
-
 Write a function called `repeat` that takes in two parameters, a string and a number, and returns the string repeated that many times, with spaces between repeats.
 
 Input | Output

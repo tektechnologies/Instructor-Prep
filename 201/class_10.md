@@ -3,10 +3,8 @@
 # Agenda
 
 ## Announcements
-#### Don't forget. to....
-- Commit More
-- Turn off Projector
-- Increase Screen Size.
+A. Thursday, from 1-2, I will record the Project Requirements and share teams and prep for Monday of project week.
+1. Friday Morning, I will record the intro to 301. 
 
 ### Debug
 - Today is a review of some concepts we have already covered. And we will look at some salmon cookies projects that other people have done, that have some bugs in it and we will debug those. 
@@ -223,11 +221,12 @@ https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-
  // we can also do things like 'mouseover' https://developer.mozilla.org/en-US/docs/Web/Events
  clickableH1.addEventListener('click', function(event)){
      var randomNumber = Math.floor(Math.random() * 256 * 256 * 256);
-    document.getElementByTagName('html')[0].style.backgroundColor = '#' + randomNumber.toString(16);
+
+    document.getElementsByTagName('html')[0].style.backgroundColor = '#' + randomNumber.toString(16);
 });
 ```
 
-
+document.getElementsByTagName('html');
 
 - So one thing to note is that we are calling on things while listening on another.
 - so we set where we listen as to oppse what we effect and where the change occurs. 
@@ -247,7 +246,7 @@ var changeText = document.getElementById('change-text');
               //forms have 'change'
 changeText.addEventListener('input', function(event){
                       //  Tag
-    document.getElementByClassName('h1')[0].textContent = event.srcElement.value
+    document.getElementsByClassName('h1')[0].textContent = event.srcElement.value
 });
 
 ```
@@ -261,7 +260,7 @@ changeText.addEventListener('input', function(event){
 - create an input <input id='showPassword' type="password" />
 - in the console 
 ```js
-    document.getElementById('showPassword').type = text;
+    document.getElementById('showPassword').type = "text";
 ```
 
 #### here are the input types list. 

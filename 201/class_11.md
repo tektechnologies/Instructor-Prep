@@ -61,9 +61,9 @@ Locked out assignments are intentional, to the point that if you have missed it,
 - In the console type 
 
 ```js 
-document.getElementbyId('leeves');
+document.getElementbyId('levees');
 //show the audio tag,  now set to var
-var audio = document.getElementById('leeves;');
+var audio = document.getElementById('levees');
 audio.play();
 //plays the audio
 // how do we make it stop?
@@ -73,8 +73,6 @@ audio.pause()
 ```
 
 
-### White board the code suggestions. 
-- Demo the change sound button. 
 ### What do you think this javascript looks like for a button like this. 
 - Math.random()?
 - set as the volume of the audio element.

@@ -64,12 +64,14 @@ for(var i =0; i < allVotes.length; i++){
 ```
 
 <seatle>
+
 # Issue with list showing up 3 times. 
 - Look in the function that is generating the list. 
 - How do you find the peice of code? 
 ## Find the id in the browser and locate the same id in the file. 
 - But that sometimes doesn't work. 
 </seatle>
+
 ## Seeing a problem on the site and finding the code efficiently is a real skill to have. 
 - You will have some time during project week where you feel comfortable with the code especially stuff you have created or worked on and you mey have to review code that you have not worked on and you will have try and figure what it is doing so that you know before you accept the pull request and merge to a live site that it will not break the site or create weird behaviors. 
 ## Add a debugger. 

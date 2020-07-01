@@ -9,7 +9,7 @@
 - 
 
 ## How did bus mall go? Lets see a thumbs. 
-- If tired coming back to work is a good idea. 
+
 ## demo code, use as a ref, was the suggestion. 
 - Hard to navigate between elements? 
 - you have to understand you code to modify it. 
