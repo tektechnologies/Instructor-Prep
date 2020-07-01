@@ -1,6 +1,7 @@
 # Programming Concepts Covered
 
 # review
+```js
 class Square extends React.Component {
   constructor(props) {
     super(props);
@@ -18,7 +19,7 @@ class Square extends React.Component {
   }
 }
 
-
+```
 
 1. Anouncements
 2. Code Review
