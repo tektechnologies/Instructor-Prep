@@ -1,2 +1,2 @@
 # Good Day Happy Friday
-***You Made It to Friday***
+**You Made It to Friday**
