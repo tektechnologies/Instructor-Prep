@@ -11,10 +11,10 @@
 
 ---
 ## Ten Minute Break
-## Second Hour
+- ## Second Hour
 ---
 
 ---
 ## Ten Minute Break
-## Third Hour
+- ## Third Hour
 ---
