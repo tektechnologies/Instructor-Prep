@@ -23,8 +23,11 @@
 ![reducer function](/301/week_2/reducefunction.png)
 - no shared variable like a for loop would have. which makes reduce a pure function. foreach doesnt have a result but reduce() does. 
 
-# Challenge for class ten
+# Code Challenge for class 10
+-look at link to review 
   [use map filter reduce](https://github.com/codefellows/code-301-guide/tree/master/curriculum/class-10/challenges)
+
+  
 ---
 ## Ten Minute Break
 - ## Second Hour
