@@ -35,7 +35,9 @@
 
 - implement map using reduce. 
 ![reducer with a map function](/301/week_2/map-and-reduce-doesnt-work.png)
-
+- do it this way
+![map reducer works](/301/week_2/mapReduceWorks.png)
+![call Map Reduced](/301/week_2/callMapReduced.png)
 
 ---
 ## Ten Minute Break
