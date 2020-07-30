@@ -33,6 +33,10 @@
 - ## Second Hour
 ---
 
+- implement map using reduce. 
+![reducer with a map function](/301/week_2/map-and-reduce.png)
+
+
 ---
 ## Ten Minute Break
 - ## Third Hour
