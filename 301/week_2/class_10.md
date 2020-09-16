@@ -30,7 +30,7 @@
 
 ---
 ## Ten Minute Break
-- ## Second Hour
+## Second Hour
 ---
 
 - implement map using reduce. 
@@ -38,6 +38,19 @@
 - do it this way
 ![map reducer works](/301/week_2/mapReduceWorks.png)
 ![call Map Reduced](/301/week_2/callMapReduced.png)
+
+--- 
+
+## Talk about expanding things in the developer tool 
+
+
+# Talk about the Lab now. 
+- Find a middle wear that you can pass things around. 
+- Error handler in its own scope. 
+- Not Found Error Handler is for a page that doesnt exsist. 404 exsists but wasnt found. 
+
+
+
 
 ---
 ## Ten Minute Break
