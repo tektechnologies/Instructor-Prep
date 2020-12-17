@@ -33,6 +33,11 @@ So we start with a big picture to help develop the rules, list of steps, to crea
 1. Define the Goal
 2. Design the Script
 3. Code each step. 
+
+First, make it work, then make it right, then make it fast
+
+
+
 - Flow Charts 
 - List of the Steps. 
 Use a programmatic approach to problem solving and achieving goals. Computers need to be told exactly everystep of what to do, and when things go wrong and dont work we have several ways to uncover what happen, through the process of DEBUGGING. 
