@@ -108,6 +108,17 @@ https://chocolatey.org/
 ## Ten Minute Break
 ## Second Hour
 ---
+# Responsive design enters the picture. 
+<!-- 800 x 600 or one other standard size box. so it was easy to desgin for the web.  -->
+- now we have to cover many more sizes. 
+- We need to do more than say it works on our machines. 
+- Newer devices have doubled the pixalation wide and tall, 4x as many as the normal total, dragging from one to the next, what should happen? We dont know. It is no longer a simple matter of size or width. 
+- also look at device capabilities for certain apps. does the device have neccessary hardware/software to run the app? 
+
+### Use basic outline to show design type work 
+- open the html and smaccs styles 
+- show them the developer tool size characteristics. in inspector tool. 
+
 
 
 
