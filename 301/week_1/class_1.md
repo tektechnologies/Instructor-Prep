@@ -77,13 +77,23 @@ let carCustomer ={
 
 
 carCustomer.listCars();
+//if you are experiencing something weird it might be because of THIS
 
 ```
 - relativly few situations where you have to deal with binding, we use them because they are syntactically nicer. this in not getting assigned to what you want to make because of the arrow functions providing that weird behavior. 
 - if you use this in jQuery you will get back not what you expect. 
-
-
 ---
+
+### How did the smaccs stuff go? 
+ - When looking at styles, our modules sometimes are site wide with list styles, and in other modules like the main you may have lists with unique styles separate from the templated layout. 
+
+https://tachyons.io/
+
+- .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
+- git does not care about directories, only files. 
+
+
+
 ## Ten Minute Break
 - ## Second Hour
 ---
