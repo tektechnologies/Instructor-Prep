@@ -1,6 +1,7 @@
 # Good Day Happy Monday
 **What questions do you have already**
 --- 
+### Do Introductions for classes that have new students that have not worked together before.
 
 - ## First Hour
 
@@ -10,7 +11,19 @@
 - Weekly feed back on Saturdays - Please do not forget. 
 - Project groups based on size. We tend to have smaller groups, because larger groups tend to run into issues that we are not going to be going over. We will introduce project management and agile work environment. 
 - Standards to move forward are same as 201, requiring 90% to go on. 
+---
+# Go through the first for labs, and start students out on the day's layout. 
+- using smaccs is a good way to begin the layout infrastructure. 
+- There are few wrong answers when it comes to what goes where, but there are some best practices that offer rules to using smaccs. 
+## we will set up the Data Structures infrastructure
+- look to the configs folder to find files for the data structures repos. 
 
+### Work on setting up remote urls for class repo. for the forks that were created. 
+
+---
+## Ten Minute Break
+## Second Hour
+---
 ### Variables 
 - Note the const declaration binds a name with a value not allowing you to replace the declaration, but you can add to the object or array. 
 If you try you will get a Uncought TypeError: Assignment to constant variable.
@@ -105,8 +118,11 @@ https://chocolatey.org/
 - look at this in code challenge too. 
 
 ---
+
 ## Ten Minute Break
-## Second Hour
+## Third Hour
+---
+
 ---
 # Responsive design enters the picture. 
 <!-- 800 x 600 or one other standard size box. so it was easy to desgin for the web.  -->
@@ -120,11 +136,6 @@ https://chocolatey.org/
 - show them the developer tool size characteristics. in inspector tool. 
 
 
+- Pick a break point or two and go with it. 
+- CSS standards https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
-
-
----
-
-## Ten Minute Break
-## Third Hour
----
