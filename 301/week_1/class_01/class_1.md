@@ -154,10 +154,11 @@ carCustomer.listCars();
 
 https://tachyons.io/
 
-- .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
-- git does not care about directories, only files. 
+
 
 #### Did anyone have any trouble downloading npm stuff? 
+- .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
+- git does not care about directories, only files. 
 - chocolatey is homebrew for windows. 
 https://chocolatey.org/
 - made by one of Keiths friend.
