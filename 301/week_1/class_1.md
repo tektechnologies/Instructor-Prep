@@ -92,13 +92,28 @@ https://tachyons.io/
 - .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
 - git does not care about directories, only files. 
 
+#### Did anyone have any trouble downloading npm stuff? 
+- chocolatey is homebrew for windows. 
+https://chocolatey.org/
+- made by one of Keiths friend.
+- ESlint in 201. may identify bugs by using static analysis to see if it works, as opposed to actually running your code. which is dynamic analysis which will generate the errors when run. It is the defacto linter for JS. 
+# scaffolding file break down. 
+### eslintrc.json
+- config file eslintrc.json says this is how we should alway format our js. 
+### package.json
+- Package.json   https://www.json.org/json-en.html
+- look at this in code challenge too. 
 
-
+---
 ## Ten Minute Break
-- ## Second Hour
+## Second Hour
 ---
 
+
+
+
 ---
+
 ## Ten Minute Break
-- ## Third Hour
+## Third Hour
 ---
