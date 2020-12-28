@@ -85,7 +85,10 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 - Ajax is a set of web development techniques using many web technologies on the client side to create asynchronous web applications.
 - this is how we go out and fetch some data to use in our site. 
-
+- inside the ajax function 
+```js 
+   
+```
 - ajax is  static method a property on the jquery object, jquery is a function for jquery object , we dont make an instance of a jquery. 
 - $.get is an ajax get. 
 - $.get('data.json').then(...)  will try and figure out your data type this is an ajax get.

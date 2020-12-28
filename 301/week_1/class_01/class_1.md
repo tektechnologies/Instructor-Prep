@@ -1,4 +1,6 @@
 # Good Day Happy Monday
+Get stickers to send out to students for pro pack. 
+
 **What questions do you have already**
 --- 
 ### Do Introductions for classes that have new students that have not worked together before.
