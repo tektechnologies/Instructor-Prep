@@ -3,11 +3,11 @@
 # Agenda
 
 ## Announcements
-A. Thursday, from 1-2, I will record the Project Requirements and share teams and prep for Monday of project week.
-1. Friday Morning, I will record the intro to 301. 
+ 
 
 ### Debug
 - Today is a review of some concepts we have already covered. And we will look at some salmon cookies projects that other people have done, that have some bugs in it and we will debug those. 
+---
 ### Chocolate Pizza
 - Then with some additional css review we will  do a paired assignment where you and your partner will construct a wireframe from 
 
@@ -174,7 +174,7 @@ for(var fruit in fruits){
 
 ```js
  var clickableH1 = document.getElementById('click-h1');
-clickableH1.addEventListener('click', function(event)){
+clickableH1.addEventListener('click', function(event){
     console.log('H1 was clicked1');
 });
 ```
@@ -185,7 +185,7 @@ clickableH1.addEventListener('click', function(event)){
 
 ```js 
 var clickableH1 = document.getElementById('click-h1');
-clickableH1.addEventListener('click', function(event)){
+clickableH1.addEventListener('click', function(event){
     //console.log('H1 was clicked1');
     alert('Welcome to the site!');
 });
@@ -195,7 +195,7 @@ clickableH1.addEventListener('click', function(event)){
 
 ```js 
  var clickableH1 = document.getElementById('click-h1');
- clickableH1.addEventListener('click', function(event)){
+ clickableH1.addEventListener('click', function(event){
     document.getElementByTagName('html')[0].style.backgroundColor = '#23F';
 });
 ```
