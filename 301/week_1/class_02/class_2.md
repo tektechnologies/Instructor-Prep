@@ -1,5 +1,4 @@
-# Good Day Happy Friday
-**You Made It to Friday**
+# Good Day Happy Day
 --- 
 
 ## Lecture Outline
@@ -260,3 +259,6 @@ console.log(a) // [1, 2, 3, 4, 0] It now has the modification, changed from with
 ### Video for value vs REF.
 - https://www.youtube.com/watch?v=8lVbQYfS0Rg&list=PLVngfM2hsbi-L6G8qlWd8RyRbuTamHt3k&index=2
   - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+
+
+

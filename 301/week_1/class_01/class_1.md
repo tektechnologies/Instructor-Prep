@@ -4,16 +4,9 @@ Get stickers to send out to students for pro pack.
 **What questions do you have already**
 --- 
 ### Do Introductions for classes that have new students that have not worked together before.
+### All about 301
 
-- ## First Hour
-
-# Agenda
-- Readings
-- Labs  -- Lab 00 and lab 01 will be done this afternoon for tomorrows review. 
-- Weekly feed back on Saturdays - Please do not forget. 
-- Project groups based on size. We tend to have smaller groups, because larger groups tend to run into issues that we are not going to be going over. We will introduce project management and agile work environment. 
-- Standards to move forward are same as 201, requiring 90% to go on. 
-# The new schedule
+- The new schedule
   - **WHY?**
     - Mimics the life of a dev with an offshore team
     - Forces you to re-acclimate with the material the next day
@@ -33,7 +26,14 @@ Get stickers to send out to students for pro pack.
 - Grading standards
   - Minimum requirements
   - Take care of your TAs by following instructions
----
+  
+# Agenda and Reminders
+- Readings
+- Labs  -- Lab 00 and lab 01 will be done this afternoon for tomorrows review. 
+- Weekly feed back on Saturdays - Please do not forget. 
+- Project groups based on size. We tend to have smaller groups, because larger groups tend to run into issues that we are not going to be going over. We will introduce project management and agile work environment. 
+- Standards to move forward are same as 201, requiring 90% to go on. 
+
 ### Web Request Response Cycle
 - **Why** (2 min)
   - The internet is made up of requests and responses (we will dive more into this later)
@@ -47,6 +47,7 @@ Get stickers to send out to students for pro pack.
   - Demo this with the network panel
   - Point out the port that is servering the files in the url
 ---
+
 # Go through the first for labs, and start students out on the day's layout. 
 - using smaccs is a good way to begin the layout infrastructure. 
 - There are few wrong answers when it comes to what goes where, but there are some best practices that offer rules to using smaccs. 
@@ -59,13 +60,104 @@ Get stickers to send out to students for pro pack.
 ## Ten Minute Break
 ## Second Hour
 ---
-### Variables 
+- Variables   **LET AND CONST**
 - Note the const declaration binds a name with a value not allowing you to replace the declaration, but you can add to the object or array. 
 If you try you will get a Uncought TypeError: Assignment to constant variable.
 - let for the loops and const for everything else. 
 so lets not use VAR keyword anymore. 
 
 
+# Introduce code Challenge
+### Shred Talk
+- **Why**
+  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
+- **What**
+  # Array.forEach
+
+## Overview
+`Array.forEach` allows you to iterate through an array. Where a normal `for` loop is "iterative", forEach is more declarative or functional in nature.
+
+It is implemented as a method on your array instance.
+```
+  let myArray = ['a', 'b', 'c'];
+  myArray.forEach( ... )
+```
+
+It takes a callback as a parameter, which in turn receives the value and the iterator, and runs it on every element.
+
+```
+  let myArray = ['a','b','c'];
+
+  myArray.forEach( function(value, i) {
+    console.log(i);       // 0, 1, 2
+    console.log(value);   // a, b, c
+  })
+```
+
+## Caveats and Notes
+- Applies the callback to each element
+- You cannot "Return" a value
+- You cannot "break" or "continue" as you can with a for loop
+- By default, forEach does not mutate the array
+- If you mutate it in process, you will have interesting issues
+
+## Reference
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* [ForEach vs For](https://codeburst.io/javascript-the-difference-between-foreach-and-for-in-992db038e4c2)
+
+- **How** (10 min)
+ ```javascript
+let people = ['John','Cathy','Allie','Zach'];
+
+// For loops let us "break" away given a condition
+for (let i = 0; i <= people.length-1; i++) {
+  if (i === 2) {
+    break;
+  }
+  console.log(people[i]);
+}
+
+// For loops let us "continue" (skip over an iteration) given a condition
+for (let i = 0; i <= people.length-1; i++) {
+  if (i === 2) {
+    continue;
+  }
+  console.log(people[i]);
+}
+
+// In a function, you can return from a for loop...
+function findIt(arr, pos = 0) {
+  for (let i = 0; i <= arr.length - 1; i++) {
+    if (i === pos) {
+      return arr[i];
+    }
+  }
+  return null;
+}
+console.log( findIt(people,3) );
+
+
+// Array.forEach is a method on an array that processes every element in the array with a callback
+// The callback is always given the current element's value and index in the array as args
+// It cannot "break", "continue" or "return"
+
+people.forEach( function(item,idx) {
+  console.log(item);
+});
+
+// ... or as an arrow function ...
+
+people.forEach( (item,idx) => {
+  console.log(item);
+});
+
+// ... or as a named function
+
+let processor = (item,idx) => { console.log(item); };
+
+people.forEach(processor);
+
+```
 
 ### Arrow functions and syntax for interpolated strings. 
 ```js
@@ -132,7 +224,26 @@ carCustomer.listCars();
 - if you use this in jQuery you will get back not what you expect. 
 ---
 
-## How did the smaccs stuff go? 
+#### Did anyone have any trouble downloading npm stuff? 
+- .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
+- git does not care about directories, only files. 
+- chocolatey is homebrew for windows. 
+https://chocolatey.org/
+- made by one of Keiths friend.
+- ESlint in 201. may identify bugs by using static analysis to see if it works, as opposed to actually running your code. which is dynamic analysis which will generate the errors when run. It is the defacto linter for JS. 
+# scaffolding file break down. 
+### eslintrc.json
+- config file eslintrc.json says this is how we should always format our js. 
+### package.json
+- Package.json   https://www.json.org/json-en.html
+- look at this in code challenge too. 
+
+---
+
+## Ten Minute Break
+## Third Hour
+---
+
 ### SMACSS Modularization
 
 - **Why** (5 min)
@@ -156,28 +267,6 @@ carCustomer.listCars();
 
 https://tachyons.io/
 
-
-
-#### Did anyone have any trouble downloading npm stuff? 
-- .gitignore, will allow you to avoid uploading node modules on github, we will let the other devs go out and download those files. 
-- git does not care about directories, only files. 
-- chocolatey is homebrew for windows. 
-https://chocolatey.org/
-- made by one of Keiths friend.
-- ESlint in 201. may identify bugs by using static analysis to see if it works, as opposed to actually running your code. which is dynamic analysis which will generate the errors when run. It is the defacto linter for JS. 
-# scaffolding file break down. 
-### eslintrc.json
-- config file eslintrc.json says this is how we should alway format our js. 
-### package.json
-- Package.json   https://www.json.org/json-en.html
-- look at this in code challenge too. 
-
----
-
-## Ten Minute Break
-## Third Hour
----
-
 ---
 # Responsive design enters the picture. 
 <!-- 800 x 600 or one other standard size box. so it was easy to desgin for the web.  -->
@@ -193,8 +282,6 @@ https://chocolatey.org/
 
 - Pick a break point or two and go with it. 
 - CSS standards https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-
-
 
 ### Responsive Web Design
 
@@ -220,20 +307,7 @@ https://chocolatey.org/
     - Desktop: 3 side by side divs
     - Mobile: all stacking up
 
-
-# Introduce code Challenge
-### Shred Talk
-
-- **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
-- **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
-- **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md) to teach the material
-  - Since this is the first day of the course, students also need a complete demonstration of the Code Challenge Workflow. 
-  - Refer to the [Demo Guide](DEMO.md) for guidance
-
-
+## Lab Notes
 
   
 
