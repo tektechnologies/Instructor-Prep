@@ -34,19 +34,6 @@ Get stickers to send out to students for pro pack.
 - Project groups based on size. We tend to have smaller groups, because larger groups tend to run into issues that we are not going to be going over. We will introduce project management and agile work environment. 
 - Standards to move forward are same as 201, requiring 90% to go on. 
 
-### Web Request Response Cycle
-- **Why** (2 min)
-  - The internet is made up of requests and responses (we will dive more into this later)
-- **What** (3 min)
-  - We will use the term WRRC.
-  - This means Web Request-Response Cycle, which is THE method of communication for web pages, between client and server. 
-  - What is live-server? We can see that live-server is lying in wait, to send a response and serving the files, as requested by clients (browsers)
-- **How** (10 min)
-  - Demonstrate that the browser is making a request, eg: with Bus Mall
-  - Sketch out what's happening on a whiteboard
-  - Demo this with the network panel
-  - Point out the port that is servering the files in the url
----
 
 # Go through the first for labs, and start students out on the day's layout. 
 - using smaccs is a good way to begin the layout infrastructure. 
@@ -306,6 +293,23 @@ https://tachyons.io/
     - Main has a section (deck)
     - Desktop: 3 side by side divs
     - Mobile: all stacking up
+
+
+
+- LOOK AT Image of WRRC
+### Web Request Response Cycle
+- **Why** (2 min)
+  - The internet is made up of requests and responses (we will dive more into this later)
+- **What** (3 min)
+  - We will use the term WRRC.
+  - This means Web Request-Response Cycle, which is THE method of communication for web pages, between client and server. 
+  - What is live-server? We can see that live-server is lying in wait, to send a response and serving the files, as requested by clients (browsers)
+- **How** (10 min)
+  - Demonstrate that the browser is making a request, eg: with Bus Mall
+  - Sketch out what's happening on a whiteboard
+  - Demo this with the network panel
+  - Point out the port that is servering the files in the url
+---
 
 ## Lab Notes
 
