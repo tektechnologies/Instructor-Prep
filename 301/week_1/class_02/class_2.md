@@ -12,29 +12,29 @@ Predict how this code will be rendered on the page. Draw the outcome in the blan
 - https://css-tricks.com/snippets/css/clear-fix/
 
 ***Break into groups and give them 8 minutes.*** 
-
 ## index.html
-
-```
+html```
 <div>
-  <ul>
+<!-- Not all divs have height in them  -->
+  <ul> <!--is still block level with default margin but has zero height has a padding and a margin to deal with.-->
+   <!-- adding margin left or right to space these out -->
     <li>One</li>
     <li>Two</li>
     <li>Three</li>
+    the three floated items is what is giving us 
   </ul>
 </div>
 ```
-
 ## styles.css
-
-```
+```css
 div {
   border: 10px solid yellow;
 }
 
 li { 
   border: 1px solid red;
-  float: left;
+ float: left;  <!-- doesnt change display property  -->
+  <!-- we could try display: inline-block;   turns them into inline and block so that they take up height and width -->
   height: 25px;
   width: 100px;
 }
@@ -45,12 +45,148 @@ li {
 # Code Review
 
 ## This is the first time students will see User Acceptance Tests in the LAB.md files. Spend about ten minutes discussing UAT when discussing the lab assignment towards the end of lecture.
-- Show some answers to questions 3 and 4 from code Challenge 
-- Demonstrate the solution code for CSS layouts.
-  - Point out the proper use of SMACSS principles
-  - Whiteboard out other ways of marking this up with styles
+### Show some answers to questions 3 and 4 from code Challenge 
 
-# Shred Talk    -  Variables: Value vs. Reference
+```js 
+
+//CHALLENGE 1
+const addOne = (arr) => {
+  //<solution>
+  const newArr = [];
+
+  arr.forEach(value => {
+    newArr.push(value + 1);
+  });
+
+  return newArr;
+  //</solution>
+};
+
+```
+
+//CHALLENGE 2
+const addExclamation = (arr) => {
+  //<solution>
+  const newArr = [];
+
+  arr.forEach(value => {
+    newArr.push(value + '!');
+  });
+  return newArr;
+  //</solution>
+};
+
+//CHALLENGE 3
+
+const allUpperCase = (arr) => {
+  //<solution>
+  const newArr = [];
+
+  arr.forEach(value => {
+    newArr.push(value.toUpperCase());
+  });
+
+  return newArr;
+  //</solution>
+};
+
+
+//CHALLENGE 4
+
+const greeting = (word) => {
+  //<solution>
+  return word.toUpperCase() + "!";
+  //</solution>
+};
+
+const speaker = (words, callback) => {
+  //<solution>
+  const newArr = [];
+
+  words.forEach(value => {
+    newArr.push(callback(value));
+  });
+
+  return newArr;
+  //</solution>
+};
+
+//CHALLENGE 5
+
+const addValues = (arr, value) => {
+  //<solution>
+  arr.push(value);
+  //</solution>
+};
+
+const addNumbers = (num, arr, times, callback) => {
+  //<solution>
+  for (let i = 0; i < times; i++) {
+    callback(arr, num);
+  }
+  return arr;
+  //</solution>
+};
+
+
+//CHALLENGE 6
+
+const createList = (availableItems) => {
+  //<solution>
+  const list = [];
+
+  availableItems.forEach(item => {
+    if (item.available) {
+      list.push(item.name);
+    }
+  });
+
+  return list;
+  //</solution>
+};
+
+//STRETCH - CHALLENGE 7
+
+const fizzbuzz = (arr) => {
+  //<solution>
+  const output = [];
+
+  arr.forEach(num => {
+    if (num % 5 === 0 && num % 3 === 0) {
+      output.push('Fizz Buzz');
+    } else if (num % 3 === 0) {
+      output.push('Fizz');
+    } else if (num % 5 === 0) {
+      output.push('Buzz');
+    } else {
+      output.push(num);
+    }
+  });
+
+  return output;
+  //</solution>
+};
+
+```
+
+### Demonstrate the solution code for CSS layouts.
+### Point out the proper use of SMACSS principles
+### Whiteboard out other ways of marking this up with styles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Shred Talk -  Variables: Value vs. Reference
 - **Why**
 To understand the difference between the two.
  In Call by value, a copy of the variable is passed.
