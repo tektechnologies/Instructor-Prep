@@ -2,15 +2,19 @@
 --- 
 ## Agenda 
 - Warm Up Code
+ - We will do this every morning, with the intent that we review the concepts previously covered to help enforce those learnings as well to get a look at some of the type of code we will see in 401 
 - Code Review
 - Shred Talk our Code Challenge - Variables: Value vs. Reference
 - Lookin at Lab - jQuery Selectors and Events
 
-# Warm-Up Exercise
+# Warm-Up Exercise 
 Predict how this code will be rendered on the page. Draw the outcome in the blank space below. What would you change?
 - https://css-tricks.com/snippets/css/clear-fix/
 
+***Break into groups and give them 8 minutes.*** 
+
 ## index.html
+
 ```
 <div>
   <ul>
@@ -20,7 +24,9 @@ Predict how this code will be rendered on the page. Draw the outcome in the blan
   </ul>
 </div>
 ```
+
 ## styles.css
+
 ```
 div {
   border: 10px solid yellow;
@@ -33,6 +39,8 @@ li {
   width: 100px;
 }
 ```
+## End Warm up Exercise
+--- 
 
 # Code Review
 
