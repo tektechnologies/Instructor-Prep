@@ -1,0 +1,53 @@
+div {
+  background-color: #301d7030;
+  border: solid 1px #301d7070;
+ 
+  /* it is common to use flex in grid as well to handle different parts of the page */
+  display: flex;
+  /*  use these the same as we would in flex box. */
+  align-items: center;
+  justify-content: center;
+ /* this gives us a box to see */
+  height: 50px; 
+  width: 50px;   
+}
+
+body {
+  display: grid;
+  /* grid-template-columns: 100px 100px 300px 400px ;
+  grid-template-rows: 200px 500px 100px 200px; */
+
+
+
+
+  /* we can combine fr and pixels as well */
+  /* grid-template-columns: repeat(4,100px 1fr 3fr); */
+
+  /* we could also use fr and it assigns a fraction layout to the page */
+  grid-template-columns: repeat(4, 1fr 3fr);
+  grid-template-rows: 1fr 300px 1fr 1fr; 
+ 
+ 
+ 
+ /* Then we can try the height */
+   height: 98vh;
+
+
+   justify-items: content;
+
+  /* this will center the items  */
+  /* justify-items: center; */
+  /*align-items: center; */
+}
+
+
+
+/* add in the image which will not be apart of the grid until we tell it to be  */
+section {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; */
+}
+
+/* look at sub grid  */
+/* great for wireframes */
