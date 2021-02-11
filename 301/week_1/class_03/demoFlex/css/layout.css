@@ -1,0 +1,35 @@
+
+
+section {
+  display: flex;
+  /* it is like inline block or we can flex centers by default take control page from the top down */
+  /* flex: wrap; */
+  flex-wrap: wrap;
+/* width: 800px; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+/* Flex is going center and align boxes text */
+/* space evenly set the in between and leftmost and rightmost edge to be equal
+space around sets an even margin on left and right of each element are one unit of space, the middle each gets 2 units of space.  */
+
+  align-items: center;
+  align-items: baseline; 
+  align-items: stretch;
+  align-items: flex-end;
+  /* may shift where ever the text is even it is dynamic*/
+  flex-direction: row;
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row; */
+}
+
+
+div {
+  height: 200px;
+  width: 200px;
+}
+
+ div:nth-child(4n){
+  height: 400px;
+} 
