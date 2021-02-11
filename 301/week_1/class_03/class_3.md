@@ -8,13 +8,221 @@ Below is the expected lecture outline and flow. One possible way to present this
 ### Warm-Up
 
 - **Student Analysis** (5 min)
-  - Show or print the [warm-up code](../warm-up/warm-up.md)
+  # Warm-Up Exercise
+This code sample is written in Python. Read through the code and determine the output for each function.
+
+```
+DOCTORS = [
+    {'number': 1, 'actor': 'William Hartnell', 'begin': 1963, 'end': 1966},
+    {'number': 2, 'actor': 'Patrick Troughton', 'begin': 1966, 'end': 1969},
+    {'number': 3, 'actor': 'Jon Pertwee', 'begin': 1970, 'end': 1974},
+    {'number': 4, 'actor': 'Tom Baker', 'begin': 1974, 'end': 1981},
+    {'number': 5, 'actor': 'Peter Davison', 'begin': 1982, 'end': 1984},
+    {'number': 6, 'actor': 'Colin Baker', 'begin': 1984, 'end': 1986},
+    {'number': 7, 'actor': 'Sylvester McCoy', 'begin': 1987, 'end': 1989},
+    {'number': 8, 'actor': 'Paul McGann', 'begin': 1996, 'end': 1996},
+    {'number': 9, 'actor': 'Christopher Eccleston', 'begin': 2005, 'end': 2005},
+    {'number': 10, 'actor': 'David Tennant', 'begin': 2005, 'end': 2010},
+    {'number': 11, 'actor': 'Matt Smith', 'begin': 2010, 'end': 2013},
+    {'number': 12, 'actor': 'Peter Capaldi', 'begin': 2013, 'end': 2013},
+    {'number': 13, 'actor': 'Jodie Whittaker', 'begin': 2017, 'end': 2018},
+]
+
+def get_names():
+    for doc in DOCTORS:
+        print(doc['actor'])
+        
+get_names()
+
+
+def get_number(doctors):
+    return len(doctors)
+    
+get_number(DOCTORS)
+```
 - **Debrief** (5-10 min)
-  - Refer to the [Warmup Notes](../warm-up/NOTES.md)
-  - Optionally demo the running code at Repl.it
+  ## Overview of today's warm-up challenge
+
+This sample is written in Python. The `get_names` function will print the names of the doctors. The `get_number` function will return the length of the array.
+
+# Code Review
+
+
+
+
+# Do Flex Box Demo 
+
+
+
+
+# Do the Mustache Demo
+- is one of the original templating library 
+- we will use it to build our templates in an easier way
+- if you learn the syntax of this library it will be easier to learn other templating resources. 
+-react, mustache and even ejs, which we will look at later will make use of this syntax. 
+-handle bars  
+- it makes use of the {{}} so turned on it side it looks like a mustache. 
+-java, android, or php or ruby, can make use of mustache templating. 
+- use the mustache 5 documentation.
+- we are going to be tying text with {{}}curly braces with an object that has key value pairs that match. like an advance template literal. 
+
+- [mustache](https://mustache.github.io/)
+- [cndlibrary](https://cdnjs.com/libraries/mustache.js)
+- cnd 
+https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.min.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Shred Talk
 
+//arr.sort([comparisonFunction]);
+// Question: What does the sort method take in?
+// Answer: it takes in a function
+// Question : in MDN what does the [] mean?
+// Answer: it means that optional arugment, it optional the sort works all on its own. 
+
+
+const arr = [9,6,7,8,5];
+
+arr.sort() 
+//numbers are now sorted. 
+
+//sort is a destructive function
+// sorts the elements in the original array. doesnt create a new array, on its own it sort alphabetically
+arr;
+
+
+const words = ['cat','dog','Elephant','Anteater','pig','shark'];
+
+// words.sort();
+
+//Capitals come first for alphabetical order because javascript doesnt know what the alphabet is. it knows the unicode value of the letter. 
+
+const bigNums = [9, 90, 99, 10, 1, 129, 20, 30, 50, 60, 6, 7,8];
+
+// bigNums.sort();
+
+
+//this is a common approach you will find online. 
+// bigNums.sort((first, second) => first - second);
+
+//call back function has one job. to return a number greater than zero, less than zero or equal to zero, 
+//this will decide to swap, leave alone, or skip ahead in the sort
+
+// bigNums.sort((first, second)=>{
+// if(true){
+// return 1;
+// }else if(false){
+// return -1;
+// }else{
+// return 0;
+// }
+
+//lets write a comparison as we work through 
+// bigNums.sort((first, second)=>{
+// if(second > first){
+//   // leave it alone
+// return 1;
+// }else if(first > second){
+// return -1;
+// }else{
+//   //these must be equal
+// return 0;
+// }
+
+//flip the signs 
+bigNums.sort((first, second)=>{
+if(second < first){
+  // leave it alone
+return 1;
+}else if(first < second){
+return -1;
+}else{
+  //these must be equal
+return 0;
+}
+});
+
+words.sort((left, right ) => {
+if(left.toLowerCase() > right.toLowerCase()){
+  // leave it alone
+return 100;
+}else if(left.toLowerCase() < right.toLowerCase()){
+return -100;
+}else{
+  //these must be equal
+return 0;
+}
+
+});
+
+
+// const people = [
+//   {name: 'Zarry', power: 5},
+//   {name: 'Craig' , power: 70},
+//   {name: 'Garry', power: 9000},
+//   {name: 'Dog Dog',power: 65}
+// ];
+const people = [
+  {name: 'Zarry', power: 3},
+  {name: 'Craig' , power: 20},
+  {name: 'Garry', power: 900},
+  {name: 'Dog Dog',power: 6},
+   {name: 'Zarry', power: 5},
+  {name: 'Craig' , power: 70},
+  {name: 'Garry', power: 9000},
+  {name: 'Dog Dog',power: 65}
+];
+people.sort((first, second) => {
+
+    if(first.power > second.power) {
+       return 5;
+    }else if(first.power < second.power){
+      return -70;
+    }else{
+    return 0;
+    }
+});
+console.log(people);
+people.sort((first, second) => {
+
+    if(first.name > second.name) {
+       return 5;
+    }else if(first.name < second.name){
+      return -70;
+    }else{
+    return 0;
+    }
+});
+people.sort((first, second) => {
+
+    if(first.name > second.name) {
+       return 1;
+    }else if(first.name < second.name){
+      return -1;
+    }else{
+    return 0;
+    }
+});
 - **Why**
   - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
 - **What**
