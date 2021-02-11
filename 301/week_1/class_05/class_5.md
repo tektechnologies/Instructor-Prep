@@ -3,58 +3,57 @@
 --- 
 
 ## This has been a big week, thumbs up/down how are you feeling about this week.
-
-
-
 - ## First Hour
+
+
+# Agenda for today
+- We will be done by 11:50 today, as I have an appt at 12 to see a Dentist. Not sure when I will be back to lab. 
+
+## Lecture Outline
+### Warm-Up
+### Code Review
+### Shred Talk
+### City Explorer Build
+### Deployments
+
+
+
+--- 
+### Warm-Up
+![Warm UP](IMG_0058.jpg)
+
+
+### Code Review
+### Shred Talk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
 ## Ten Minute Break
 - ## Second Hour
 ---
-
----
-## Ten Minute Break
-- ## Third Hour
----
-
-## Lecture Outline
-
-Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../facilitator/LECTURE-EXAMPLE.md) notes.
-
-### Warm-Up
-
-- **Student Analysis** (5 min)
-  - Show or print the [warm-up code](../warm-up/warm-up.md)
-- **Debrief** (5-10 min)
-  - Refer to the [Warmup Notes](../warm-up/NOTES.md)
-  - Optionally demo the running code at Repl.it
-
-### Shred Talk
-
-- **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
-- **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
-- **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
-- **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
-
-### Code Review
-
+### Take a Look at the whiteBoard images 
 ### City Explorer Build
-
 - **Why** (5 min)
   - This simple app is a great opportunity to revisit jQuery and dynamic data to cap off the week.
   - We provide them a more complex version of this same app during the next lesson block. This provides the students some context on that application when they see it again.
 - **What** (5 min)
-  - City Explorer accepts a city name, draws a map, and then lists out some interesting data about the city, pulled from a remote data source (client + server!)
-  - Draw/Demonstrate the actual running City Explorer App
-- **How** (30 min)
-  - Using a live-coded demo ...
-    - Build the HTML and CSS scaffolding of City Explorer, pulling in some sample data and rendering to the page
 - **Experimentation and Discovery Ideas**
   - Get some suggestions from the students as how this app can be better
     - Multiple Cities
@@ -62,8 +61,17 @@ Below is the expected lecture outline and flow. One possible way to present this
     - What else can they think of?
   - Show the [official/deployed city explorer](https://codefellows.github.io/code-301-guide/curriculum/city-explorer-app/front-end/) to confirm their wishes
 
-### Deployments
 
+
+
+
+
+
+---
+## Ten Minute Break
+- ## Third Hour
+---
+### Deployments
 - **Why** (5 min)
   - Websites don't run from laptops
   - Consumers need to get to actual sites/data
@@ -80,22 +88,5 @@ Below is the expected lecture outline and flow. One possible way to present this
 - **Experimentation and Discovery Ideas**
   - Replace the "hello world" index.html file with the city-explorer-lite app that you previously built.
   - Suggest that students can deploy their portfolios
-
 ## Lab Notes
 
-- Students will be executing a deployment as part of this lab.
-- Refer them to the step by step instructions found in their README if they get stuck
-
-## What changed from the previous class?
-
-- Everything -- this is a new concept
-
-## What might students struggle with today?
-
-- The express server is a new concept
-
-## Past bugs, issues or surprises...
-
-## General Comments and Notes
-
-For students enrolled in the daytime track, lab 5 will take place on Monday morning of class 6, with the assignments due before lecture.
