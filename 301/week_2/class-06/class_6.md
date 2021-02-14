@@ -94,7 +94,7 @@ img:nth-child(2) {
 During your lectures, refer to the board to see the data contract/requirements for each API!
 
 ---
-![Draw req/res for city](944.jpg)
+![Draw req/res for city](/944.jpg)
 
 - What is a client? - A student to teacher, request things, tempory, googler/webpageForm(client as well.)
 - What is a server? A temporary. that server responses to requests, google 
@@ -113,7 +113,7 @@ During your lectures, refer to the board to see the data contract/requirements f
 # Draw out the WRRC Here AND OPEN UP SERVER JS FILE TO TYPE OUT COMMENTS. 
 
 ### The WRRC
-![Draw req/res for city](570.jpg)
+![Draw req/res for city](/570.jpg)
 
  **How** (30 min)
 
@@ -217,7 +217,7 @@ During your lectures, refer to the board to see the data contract/requirements f
 
 
 
-![Draw req/res for city](410.jpg)
+![Draw req/res for city](/410.jpg)
 
 
 
