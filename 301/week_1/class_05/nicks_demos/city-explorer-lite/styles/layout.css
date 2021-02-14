@@ -1,0 +1,26 @@
+img {
+  width: 400px;
+}
+
+main > ul {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-template-rows: repeat(auto-fill, 100px);
+/* auto-fill needs a max-height: ; */
+  max-height: 300vh;
+background-color: rgb(157, 199, 199);
+
+
+  /* Center in grid is to justify items  and align-items: ; */
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+li{
+  background-color: rgb(209, 209, 235);
+  color:white;
+  border-radius: 15px;
+  padding: 5px;
+}
