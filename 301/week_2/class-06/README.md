@@ -158,19 +158,122 @@ During your lectures, refer to the board to see the data contract/requirements f
 # Second Hour
 ---
 
+- Lets build our srver up, this is good practice for you and at least once a day you build up the server, as you become familar with the process you will be able to go on and create custom servers. 
+
+1. First thing to declare is our packages. 
+2. Then we need to make sure that we have access to the express framework, 
+```js
+  // the -s stands for save that creates three lines of code for anyone who downloads the repo will have access to express, if we didnt -s they would have to install on their own the library. 
+
+npm install -s express
+
+// This creates the package.json
+
+//we load one time per project we will download as the library will live with the project. 
+
+
+```
+
+
+
+```js 
+
+// The next library will be cors, which we will need this week only CORS 
+
+On our local machines we have firewalls that will watch to see if our local machines are trying access remote URLs, we will get blocked, this week we will run the front end and the back end, when we include CORS we wont get blocked when making the request. 
+
+
+```
+
+```js
+
+// The last package we need to load is our env library. 
+const env = require('dotenv');
+dotenv.config();
+
+// instead of saving it in memory we can call it to load and run. 
+// so best practice is this way. 
+
+require('dotenv').config(); runs once and loads env variables if they were loaded from a file instead of the terminal. 
 
 
 
 
 
 
+```
+
+# NOW IN THE TERMINAL run--- npm install -S cors dotenv express
+- we can now check our package.json to see the updated list of libraries. 
+- 
+# Any Questions about the packages that we are going to load. 
 
 
 
+# Now we can set up the application server
+
+1. const app = ('express');
+2. New line from Friday. app.use(cors()); So that local request dont get blocked. Loads before our routes get hit. 
+3. Load our Global Variables as we need them. 
+
+- This is the basic set up of our server. 
+- Then we will add routes. 
+
+4. Now lets Start the Server. We need to add the app.listen which takes in a callback
+```js
+app.listen(3000, () => console.log(`we are listening on PORT: ${3000}`));
+//- This is a server being built and now we only need to add the routes. 
+//- we will deal with the hard coded port in a minute, but this is the end goal in building servers. 
+//- got to local host 3000 and see the error coming from the express app. 
+//- Now lets make it better. 
+```
+5. Make a Global Variable for our PORT
+
+```js
+const PORT = 3000; 
+//Capitolization are sometimes refered to as Magic Variables. other things rely on this variable. 
+//- lets add the env file now. 
+const PORT = process.env.PORT;
+
+//- Show in browser the 3333 port not working when we go to 3000 and of course in the new terminal which has port 3000 will not find 333
+
+
+//- this file is going to be called the .env, which is a secondary location for referencing our variables, but our packages can read them 
+//-The specific syntax is the caps, no spaces, no semi colons. It is a file that is accessible from both terminal windows, so that we have a back up, 
+
+//We need to treat this as a secure file that will not go out onto git hub. 
 
 
 
+// Now another and third back up with the OR and select 
+const PORT = process.env.PORT || 3111;
+// - if we see our last result show up in the terminal we should look at our app and fix what is broken with our initial routes. 
 
+```
+
+# Lets build a home Route
+
+
+- Routes 
+1. app.get home route 
+2. its just the code that fires off when someone wants to access this route. 
+
+# But first lets fix our Server up alittle. 
+- Instead of starting our server with node. 
+- We are going to use nodemon 
+- Nodemon or nodemon, a demon is a process that runs in the back of your computer
+- It is a server that runs servers on it, it is like a live-server for your server files. 
+- We can say nodemon and it will run our server. 
+- We can see the changes in the terminal. 
+- and restarts the server but does not restart the browser, so we have to do that. 
+
+
+- The command is 
+# npm i -g nodemon
+
+- g is global and we can use it on all projects. 
+
+### Now lets do a route that can take dynamic data in. 
 
 
 
@@ -199,9 +302,71 @@ During your lectures, refer to the board to see the data contract/requirements f
 - **What**
   - Refer to the [challenge documentation](../challenges/README.md)
 - **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
-- **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+
+
+```js
+  //Object iteration 
+
+const cohort ={
+bob : {name: 'Bob', backGroundColor: 'red'},
+larry : {name: 'Larry', backGroundColor:'blue'},
+gerry : {name: 'Gerry', backGroundColor: 'green'},
+garry : {name: 'Garry', backGroundColor: 'yellow'}
+};
+// for(let i in arr) iterate i throug every key of the object
+ 
+// for(let i in cohort){
+//   console.log(i);
+//   console.log(cohort[i]);
+// }
+
+
+//Today we will use two methods. 
+
+//1. Object.keys(object);
+
+// console.log(Object.keys(cohort));
+
+
+//we could then 
+const keyArr = Object.keys(cohort);
+
+keyArr.forEach(studentKey => console.log('hello ' + studentKey));
+
+
+
+
+// keyArr.forEach(studentKey => console.log(cohort[studentKey]));
+
+keyArr.forEach(studentKey => {
+// console.log(cohort[studentKey])
+});
+
+
+
+
+
+console.log(Object.values(cohort));
+//is an array of values 
+
+
+Object.values(cohort).forEach(student => {
+  console.log(student.backGroundColor);
+});
+
+
+//Object.values(object); puts the values into another array. takes each entry in an object, then entry is the key and the value and puts it in an array of arrays. 
+console.log(Object.entries(cohort));
+
+Object.entries(cohort).forEach(minArr => {
+  if(/^[a-g]/.test(minArr[0])){
+    console.log(minArr[1].backGroundColor);
+  }
+});
+
+//in lab you will be asked to use these methods to get the job done today. 
+
+```
 
 
 
