@@ -11,10 +11,10 @@
 
 ## Lecture Outline
 ### Warm-Up
-### Shred Talk
 ### Code Review
 ### The WRRC
 ### Node.js, NPM, Servers   
+### Shred Talk
 
 # 3 Main things
 1. How do I start a server.
@@ -158,7 +158,7 @@ During your lectures, refer to the board to see the data contract/requirements f
 # Second Hour
 ---
 
-- Lets build our srver up, this is good practice for you and at least once a day you build up the server, as you become familar with the process you will be able to go on and create custom servers. 
+- Lets build our server up, this is good practice for you and at least once a day you build up the server, as you become familar with the process you will be able to go on and create custom servers. 
 
 1. First thing to declare is our packages. 
 2. Then we need to make sure that we have access to the express framework, 
