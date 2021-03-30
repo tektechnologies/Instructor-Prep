@@ -1,12 +1,61 @@
-# Good Day Happy Friday
-**You Made It to Friday**
+# Good Day Happy Tuesday. 
+
+**You Made It to today DAY 12 What!!?**
 --- 
 
-## This has been a big week, thumbs up/down how are you feeling about this week.
-
-
-
 - ## First Hour
+### Warm-Up
+
+1. componetization 
+2. forms 
+3. and mainly passing data around. 
+## Lab Notes
+-  six feature tasks in today's lab.
+-  we are not expecting you to complete every feature task in the time allotted.
+-  turn in what they completed during lab time
+-  continue to work on any incomplete features  next lab session.
+-  There are additional features in lab 13 (updating and deleting records), 
+-  lab 14 is a full stretch goal, so you can work remaining features as you choose.
+
+### Code Review
+we are going to rebuild yesterdays lab. 
+- npm install -S express cors dotenv superagent pg ejs
+- Create the views folder. 
+- we can run without cors
+- with routes we will get the error in an html file. 
+- the server is interpreting the path where the file is located
+- html is not smart about reading styles.css and it puts the path is the wrong spot 
+- easy to fix. 
+- int the ejs file with html we nee to take off the dot. the slash stands for absolute root of the server. 
+- so it starts at localhost://3000 and it is the same for images. 
+
+
+- Our server is talked to first, in our WRRC we start on the server 
+- we start with the client who makes the request to our local host and the server sends the index.ejs as html. this is our first response. 
+- first thing user does, is clicks the link, then opens the searchPage.ejs. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -14,34 +63,52 @@
 - ## Second Hour
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## Ten Minute Break
 - ## Third Hour
 ---
 ## Lecture Outline
 
-Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../facilitator/LECTURE-EXAMPLE.md) notes.
 
-### Warm-Up
-
-- **Student Analysis** (5 min)
-  - Show or print the [warm-up code](../warm-up/warm-up.md)
-- **Debrief** (5-10 min)
-  - Refer to the [Warmup Notes](../warm-up/NOTES.md)
-  - Optionally demo the running code at Repl.it
 
 ### Shred Talk
 
-- **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
-- **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
-- **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
-- **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
 
-### Code Review
+
 
 ### CRUD Workflow
 
@@ -86,12 +153,7 @@ Below is the expected lecture outline and flow. One possible way to present this
   - You can have a master page template that uses a partial for each type of content
   - You can have separate partials for header and footer
 
-## Lab Notes
 
-- Note that there are six feature tasks in today's lab.
-- Be clear with students that we are not expecting them to complete every feature task in the time allotted.
-- They should turn in what they completed during lab time, and they can continue to work on any incomplete features during the next lab session.
-- There are additional features in lab 13 (updating and deleting records), and a lab 14 is a full stretch goal, so they can work on all of the remaining features as they choose.
 
 ## What changed from the previous class?
 

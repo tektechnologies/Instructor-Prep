@@ -64,3 +64,35 @@ Below is the expected lecture outline and flow. One possible way to present this
 Today wraps up the book app and starts the transition into project week. Spend time filling in any gaps from this project so students feel prepared to complete any remaining feature tasks before final projects kick off.
 
 There are several assignments prior to the official start of final projects: finishing and submitting the book app, the small db normalization lab, and completing the week 3 survey. There are no resubmits allowed during final projects and any student whose grade is not at 90% after final projects will need special permission to resubmit additional assignments afterwards. Depending on the timeline for enrollment in 401, the timeline for these exceptions are important and the Admissions team should be included in the conversation.
+
+
+
+
+
+
+
+
+```js
+function fetchThing(url){
+ return fetch(url)
+ .then(result => { return result.json()
+ .then(thing => {const names = things.map(..)});
+ });
+
+}
+
+function logNames(names){
+  console.log(names);
+}
+myPromise
+.then(logNames);
+
+myPromise
+.then(console.log)
+.catch(console.error);
+
+
+app.get('/path', (req, res) => ...)
+
+
+```

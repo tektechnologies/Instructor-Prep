@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<h1>Welcome to the Search Page.</h1>
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Go Back Home for a New Search.</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <form action="/searches" method="POST">
+      <fieldset>
+        <legend>Book Search</legend>
+        <!-- radio button -->
+        <!-- Creating them under the same name will allow us to choose between them  -->
+
+        Title <input type="radio" name="searchType" value="title">
+        Author <input type="radio" name="searchType" value="author">
+        <input type="text"  name="searchQuery">
+
+        <input type="submit" value="search">
+
+      </fieldset>
+    </form>
+  </main>
+  
+</body>
+</html>

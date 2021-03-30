@@ -3,10 +3,77 @@
 --- 
 
 ## This has been a big week, thumbs up/down how are you feeling about this week.
-
-
+## Lecture Outline
 
 - ## First Hour
+- cover feedback
+- cover project guidelines. 
+- Rapid Api ted talks api
+
+
+### Warm-Up
+- what is the purpose of this code. 
+- arr[j]
+- arr[j] + 1 // these are access locations.
+- How does this sort? 
+
+- 10, 7, 3, 1, 9, 7,4, 3,
+- 7, 10, 3, 1, 9, 7, 4, 3
+- all the way to the end 7,3,1,9,7,4,3,10
+- then 
+- 7, 3, 1, 9, 7, 4, 3, 10
+- 3, 1, 7, 9, 7, 4, 3, 10
+- 3, 1, 7,  7, 9, 4, 3, 10
+
+then the 4 and the 3 make there way over
+- 3, 1, 7,  7, 4, 3, 9,  10
+- in one pass our numbers have become closer to where they want to be
+- this is called a bubble sort. 
+- it scans the whole thing and passes the largest thing to the end. 
+
+- https://repl.it/@tektechnologies/class11Warmup#main.cs
+
+### new Stuff
+- Server side templating. today. 
+- we are going back into time to 201 and we are going to build some web pages. 
+- it will look like we are writing html but in javascript. 
+- we will create and ejs files
+- we have wireframes as a guide line. 
+- put a form on the page to search for title or author
+- getting a book from google api. 
+- one req, so simple compared to last week. 
+- and then back to week one for styling the mobile view. 
+- 
+
+## first things to talk about is forms. 
+- new server npm init 
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -14,35 +81,8 @@
 - ## Second Hour
 ---
 
----
-## Ten Minute Break
-- ## Third Hour
----
 
-## Lecture Outline
 
-Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../facilitator/LECTURE-EXAMPLE.md) notes.
-
-### Warm-Up
-
-- **Student Analysis** (5 min)
-  - Show or print the [warm-up code](../warm-up/warm-up.md)
-- **Debrief** (5-10 min)
-  - Refer to the [Warmup Notes](../warm-up/NOTES.md)
-  - Optionally demo the running code at Repl.it
-
-### Shred Talk
-
-- **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
-- **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
-- **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
-- **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
-
-### Code Review
 
 ### HTML Forms
 
@@ -82,6 +122,42 @@ Below is the expected lecture outline and flow. One possible way to present this
   - Can you sort the list in the template?
   - Can you easily change the output style?
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+## Ten Minute Break
+- ## Third Hour
+---
 ### Google Books API
 
 - **Why** (5 min)
@@ -149,3 +225,40 @@ Below is the expected lecture outline and flow. One possible way to present this
 ### REST for Dummies
 
 ![REST for Dummies](whiteboard-diagrams/rest-for-dummies.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Shred Talk
+
+
+
+
+
+
+
+
+
+
+
+
