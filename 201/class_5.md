@@ -224,8 +224,9 @@ pizzaCrustType();
 ```js
 //Set Function to a global variable.
 letglobalPizzaCrustType = pizzaCrustType();
-
+//to see the concatentaion of the string
 console.log('reorder point: ' + (globalPizzaCrustType[1] + 3));
+//to see the NaN because we didnt parse. more usefule to see the error.
 console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
 ```
 
