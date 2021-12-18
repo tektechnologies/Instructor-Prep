@@ -1,5 +1,5 @@
 # Good Day Happy Friday
-**You Made It to Friday**
+**You Made It to Tuesday**
 --- 
 
 ## This has been a big week, thumbs up/down how are you feeling about this week.
@@ -15,7 +15,6 @@
 
 
 - ## First Hour
-
 - Warm-Up Exercise Java 
 - What does our code do? 
 - Type Specification. 
@@ -35,8 +34,11 @@
 - the Main, method is like the index.html in a website. 
 - the program will look for and find the Main to run it, 
 - Another thing is that the class has to have the same name as the file. 
+
+
 # Lets talk server. 
 - Today we will not add to much new to our servers.
+
 - we are going to learn about how to use api's and grabbing data from the interent. 
 - the information will be living on other servers. 
 - Today we will get rid of the hard coded data and pull from the info. 

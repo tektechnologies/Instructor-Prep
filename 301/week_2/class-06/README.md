@@ -2,7 +2,7 @@
 **How was your WEEKEnd**
 --- 
 
-## This will be a cool week jammed packe full of new concepts and terminology.
+## This will be a cool week jammed packed full of new concepts and terminology.
  - Node, NPM, Deployments, Routes, WRRC, ReST
 - Gleaning requirements only from Trello
   - Feeding the front end with their server data
@@ -375,46 +375,7 @@ Object.entries(cohort).forEach(minArr => {
 - Conclude Code Review time with an preview of what work will be done on the server side this week.
 
 
-
-
-
-
-
-
-
 ![Draw req/res for city](410.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -422,10 +383,6 @@ Object.entries(cohort).forEach(minArr => {
 ## Ten Minute Break
 #  Third Hour
 ---
-
-
-
-
 
 ### Node.js, NPM, Servers
 
