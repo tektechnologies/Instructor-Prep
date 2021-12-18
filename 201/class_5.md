@@ -110,10 +110,12 @@ rgb(184,)
 Ask why things are happening in their code, like why do we have all of our global variables at the top, and how does that effect scope if they are organized all over?
 - As long as we declare the variable, globally, it will be accessible in any function it will be in scope for those functions, as long as we declare them first, make sure to set those variables before we start running our functions.
 ```html
-<seatle>What happens on   var quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code.</seatle> 
+<p>
+<seatle>What happens on   let quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code.</seatle>
+</p> 
 ```
-var answer = yes;
-var wasRight = answer === 'yes' || answer === 'y';
+let answer = yes;
+let wasRight = answer === 'yes' || answer === 'y';
 
 If I look at wasRight it will be true. However if I reset my answer in the future to no, then wasRight is still yes. We can fix this using a function. OR keep the conditionals in the loop to recalculate the condition to be true or false.
 Discuss review code, for feedback on the about me lab. 
@@ -138,6 +140,9 @@ git checkout master takes us back to master.
 - Contains a set of statments that perform a specific tasks. 
 - functions usually describe a task that we do
 - it is a named piece of code. 
+
+- eventually our function will do most of our heavy lifting for our applications. Functions often look similiar and do similiar things. For instance, database connections, even if the data base is different language, the connections often look the same, there are differences in snytax. Sometimes we have to write functions that have never exsisted to solve some problem or algorithm.
+
 ### Why do we write functions? 
 - Makes code Dryer. (less copy and paste)
 - Call the code over and over. 
@@ -150,22 +155,20 @@ git checkout master takes us back to master.
 - Last step is writing the function.
 ## This follows our class 5 from 102 
 - We dont just jump into code. 
-A. Talk about it. //Read the assignment.
-B. Learn about it. //Place technical requirements in comments.
-C. Then code it. // complete a requirement and commit on branch that you can create a PR on.
+1. Talk about it. //Read the assignment.
+2. Learn about it. //Place technical requirements in comments.
+3. Then code it. // complete a requirement and commit on branch that you can create a PR on.
 first we need to figure out what the problem is and then we can start to build out our functions.
-# Cover this Below: 
-- Cover IFFEs and function expressions.
-https://github.com/codefellows/code-201-guide/blob/master/curriculum/class-04/demo/demo.md
+
 ### Talk about adding names to anonymous functions to show the outcome in the stacktrace in the console. 
 - We want to build out functions in a couple of differnet ways. For one, we may be working on a block of logic that does something and may eventually end up in a function where this named peice of code, can then have its parameters determined and can be called over and over. 
-- Some times we may know ahead of time because of we know the code that we will be writing and we start with a rough draft or smaller peice of that code and refactor or make it better as we go along. 
+ 
 //So lets write a function that prompts a user for a pizza crust.
 
 
 ```js
 function pizzaCrustType() {
-   var pizzaCrustType = prompt('What type of pizza crust would you like?');
+   let pizzaCrustType = prompt('What type of pizza crust would you like?');
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
@@ -177,7 +180,7 @@ console.log('Your Pizza Crust Type is: ' + pizzaCrustType);
 ```
 
 ```js
-var pizzaCrustType;
+let pizzaCrustType;
 function pizzaCrustType() {
    pizzaCrustType = prompt('What type of pizza crust would you like?');
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
@@ -187,8 +190,8 @@ pizzaCrustType();
 ```
 
 ```js
-var sandwichType;
-var pizzaCrustType;
+let sandwichType;
+let pizzaCrustType;
 function pizzaCrustType() {
    pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
     if(pizzaCrustType < 2){
@@ -220,7 +223,7 @@ pizzaCrustType();
 
 ```js
 //Set Function to a global variable.
-var globalPizzaCrustType = pizzaCrustType();
+letglobalPizzaCrustType = pizzaCrustType();
 
 console.log('reorder point: ' + (globalPizzaCrustType[1] + 3));
 console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
@@ -234,13 +237,13 @@ console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
 ```js
 function lotteryNumberPicker(){
     //Start by creating array for the numbers
-    var lotteryArray = [];
+    let lotteryArray = [];
     //Set the first number in the array to be 10
     lotteryArray[0] = 10;
     //Run 5 times to get five random numbers.
     //So lets use a loop
     //we can write with a for or a while loop. 
-    for(var i = 0; i < 5; i++){
+    for(let i = 0; i < 5; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
        //A method on arrays that allows us to put value o the end of arrays called push
         lotteryArray.push(Math.ceil(Math.random() * 99));
@@ -251,9 +254,9 @@ function lotteryNumberPicker(){
 ```
 ```js
 function lotteryNumberPicker(){
-    var lotteryArray = [];
+    let lotteryArray = [];
     lotteryArray[0] = 10;
-    for(var i = 0; i < 5; i++){
+    for(let i = 0; i < 5; i++){
         lotteryArray[i] = Math.ceil(Math.Random() * 99);
     }
    return lotteryArray;
@@ -276,8 +279,8 @@ So lets pick some numbers and we will specifiy these numbers in the function usi
 
 ```js
 function lotteryNumbers(quantity, lotteryMax){
-    var lotteryArray = [];
-    for(var i = 0; i < quantity; i++){
+    let lotteryArray = [];
+    for(let i = 0; i < quantity; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
         lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
     }
@@ -287,8 +290,8 @@ function lotteryNumbers(quantity, lotteryMax){
 
 ```js
 function lotteryNumbers(quantity, lotteryMax){
-    var lotteryArray = [];
-    for(var i = 0; i < quantity; i++){
+    let lotteryArray = [];
+    for(let i = 0; i < quantity; i++){
     console.log(i); 
         lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
     }
@@ -296,8 +299,8 @@ function lotteryNumbers(quantity, lotteryMax){
    return lotteryArray;
 }
 
-var lotteryQuantity = Number(prompt('How many numbers would you like?'));
-var lotteryMax = Number(prompt('What is the Max amount per number?'));
+let lotteryQuantity = Number(prompt('How many numbers would you like?'));
+let lotteryMax = Number(prompt('What is the Max amount per number?'));
 alert(lotteryNumbers(lotteryQuantity, lotteryMax));
 ```
 # end review ..................................
@@ -365,8 +368,8 @@ https://github.com/DeltaVCode/cr-201n-2020-lab-5
 
 
 
- var sumAnswer = a + b;
-    var stringAnswer = 'The sum of ' + a + ' and ' + b + ' is ' + sumAnswer;
+ let sumAnswer = a + b;
+    let stringAnswer = 'The sum of ' + a + ' and ' + b + ' is ' + sumAnswer;
     return [sumAnswer, stringAnswer];
 
 
@@ -390,10 +393,10 @@ Review with the students. https://www.freecodecamp.org/news/things-i-wish-someon
 console.log('It is working!');
 
 function firstQuestion() {
-    var user = prompt("What is your name?");
+    let user = prompt("What is your name?");
     console.log(user + " , thank you for taking the time to visit my page!");
     alert(user + " , thank you for taking the time to visit my page!");
-    var ready = prompt('Are you ready to start the quiz? \n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+    let ready = prompt('Are you ready to start the quiz? \n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     console.log(ready);
 
     if (ready === 'n' || ready === 'no') {
@@ -406,7 +409,7 @@ function firstQuestion() {
 }
 
 function dogNumber() {
-    var dog = prompt('Do I currently have four dogs?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+    let dog = prompt('Do I currently have four dogs?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     // // console.log(dog)
 
     if (dog === 'n' || dog === 'no') {
@@ -420,7 +423,7 @@ function dogNumber() {
 }
 
 function liveCo() {
-    var liveCo = prompt('Did I live in Colorado for five months?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+    let liveCo = prompt('Did I live in Colorado for five months?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     // // console.log(liveCo);
 
     if (liveCo === 'n' || liveCo === 'no') {
@@ -435,7 +438,7 @@ function liveCo() {
 
 
 function goalQuestion() {
-var goal = prompt('One of my goals is to reinvent myself\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+let goal = prompt('One of my goals is to reinvent myself\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
 console.log(goal);
     if (goal === 'n' || goal === 'no') {
         alert("That is incorrect!  I look forward to reinventing myself with these coding courses");
@@ -448,7 +451,7 @@ console.log(goal);
 }
 
 function workOutQuestion() {
-    var workOut = prompt('I workout in my own home\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
+    let workOut = prompt('I workout in my own home\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
     console.log(workOut);
 
     if (workOut === 'n' || workOut === 'no') {
@@ -461,7 +464,7 @@ function workOutQuestion() {
 }
 
 function guessNumber() {
-    var guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
+    let guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
     console.log(guessNumber);
     if (guessNumber === '17') {
         alert("You got it!");
@@ -479,13 +482,13 @@ function guessNumber() {
 
 
 function questionTwo() {
-var userCorrect = false;
-var bands = ['bon jovi', 'guns and roses', 'tesla', 'motley crue', 'cinderella', 'kix', 'def leppard', 'poison', 'warrant'];
-var guesses = 0;
+let userCorrect = false;
+let bands = ['bon jovi', 'guns and roses', 'tesla', 'motley crue', 'cinderella', 'kix', 'def leppard', 'poison', 'warrant'];
+let guesses = 0;
 
 while (guesses < 7) {
-var eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!").toLowerCase();
-  for (var i = 0; i < bands.length; i++) {
+let eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will let you know if it was one that I liked.  Go!").toLowerCase();
+  for (let i = 0; i < bands.length; i++) {
     if (eighties === bands[i]) {
       console.log('You guessed right.');
       alert("Bang your head!  Way to go!\n\nHere are the bands that were my top picks:  Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard, and Poison.");
