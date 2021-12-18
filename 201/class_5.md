@@ -361,14 +361,7 @@ https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascrip
 
 
 ## CSS coloring
-
-
-
-
-
-
 - Run through the labs starting with lab 5c then 5b then 5a.
-
 
 
 
@@ -377,17 +370,7 @@ https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascrip
     return [sumAnswer, stringAnswer];
 
 
-
-
-
-
-
-
 Review with the students. https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/
-
-
-
-
 
 
 # Student Code 
