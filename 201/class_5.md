@@ -123,14 +123,14 @@ Discuss review code, for feedback on the about me lab.
 
 
 # Git Branches
-What it does is create a parrelle line where work can be created and stored and kept separate from the master branch, so for lab 5a, we will keep track of the 5 or 6 functions that you work on in different branches, so on the branch you will then continue to do work like you normally would. So after you finish you work on project, you will then push that code not to master, but to the branch on git hub, up to the cloud. Once you have the code in the cloud, we will move the code on the branch to the master branch. We will od that through a pull request. Then once we merge the branch we created into master, we then need to pull those changes to our local master branch. 
+What it does is create a parrelle line where work can be created and stored and kept separate from the main branch, so for lab 5a, we will keep track of the 5 or 6 functions that you work on in different branches, so on the branch you will then continue to do work like you normally would. So after you finish you work on project, you will then push that code not to main, but to the branch on git hub, up to the cloud. Once you have the code in the cloud, we will move the code on the branch to the main branch. We will od that through a pull request. Then once we merge the branch we created into main, we then need to pull those changes to our local main branch. 
 
 
 ![Git Branch](gitBranch.png)
 
 
 //Start with 
-- git pull origin master
+- git pull origin main
 //To Start work
 - git checkout -b branchName
 - git branch
@@ -146,11 +146,11 @@ What it does is create a parrelle line where work can be created and stored and 
 -- go online to create a pull request --
 - back at your repo, you will see the pull request for the branch you just pushed. 
 - After you click on create pull request we can look at the page to see the changes that we are about to add to our project. 
-- Once the pull request is created we get a new screen taht will allow us to merge our pull request to master. 
-- Once we have the code merged to our master we can refresh our repo page and see the code merged into the project. 
-- Next we need to go back to our local bash, and we will update the branch that we just merged and switch back to our master branch, which will not have the code that our project in the cloud contains. So, 
-- git checkout master
-- git pull origin master
+- Once the pull request is created we get a new screen taht will allow us to merge our pull request to main. 
+- Once we have the code merged to our main we can refresh our repo page and see the code merged into the project. 
+- Next we need to go back to our local bash, and we will update the branch that we just merged and switch back to our main branch, which will not have the code that our project in the cloud contains. So, 
+- git checkout main
+- git pull origin main
 - Create a new branch for our next function,
 git checkout -b functionTwo
 git branch - two check branch status. 
@@ -167,7 +167,7 @@ https://github.com/DeltaVCode/cr-201n-2020-lab-5
 
 # Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
 We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows me to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
-git checkout master takes us back to master. 
+git checkout main takes us back to main. 
 
 # Break 7:10 - 7:20 
 - git commits to search for more information.
