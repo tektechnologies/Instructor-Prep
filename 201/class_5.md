@@ -119,6 +119,49 @@ let wasRight = answer === 'yes' || answer === 'y';
 
 If I look at wasRight it will be true. However if I reset my answer in the future to no, then wasRight is still yes. We can fix this using a function. OR keep the conditionals in the loop to recalculate the condition to be true or false.
 Discuss review code, for feedback on the about me lab. 
+
+
+
+# Git Branches
+What it does is create a parrelle line where work can be created and stored and kept separate from the master branch, so for lab 5a, we will keep track of the 5 or 6 functions that you work on in different branches, so on the branch you will then continue to do work like you normally would. So after you finish you work on project, you will then push that code not to master, but to the branch on git hub, up to the cloud. Once you have the code in the cloud, we will move the code on the branch to the master branch. We will od that through a pull request. Then once we merge the branch we created into master, we then need to pull those changes to our local master branch. 
+
+
+![Git Branch](gitBranch.png)
+
+
+//Start with 
+- git pull origin master
+//To Start work
+- git checkout -b branchName
+- git branch
+- touch index.html
+- touch style.css
+- git status
+- git add . 
+- git commit -m 'add initial scaffolding'
+- git status
+- git push
+- git push -u origin branchName
+
+-- go online to create a pull request --
+- back at your repo, you will see the pull request for the branch you just pushed. 
+- After you click on create pull request we can look at the page to see the changes that we are about to add to our project. 
+- Once the pull request is created we get a new screen taht will allow us to merge our pull request to master. 
+- Once we have the code merged to our master we can refresh our repo page and see the code merged into the project. 
+- Next we need to go back to our local bash, and we will update the branch that we just merged and switch back to our master branch, which will not have the code that our project in the cloud contains. So, 
+- git checkout master
+- git pull origin master
+- Create a new branch for our next function,
+git checkout -b functionTwo
+git branch - two check branch status. 
+- Now we can work on a new branch and add new unique code. 
+
+Lab 5b
+- Start with forking the repo, and everyone will start with the demo code. 
+- The starter code has directions to follow. 
+- Everyone lets go ahead and go through this together. Let's fork the project. 
+
+https://github.com/DeltaVCode/cr-201n-2020-lab-5
 - --------------------------------------------- 
 # 7:00
 
@@ -326,46 +369,6 @@ https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascrip
 
 - Run through the labs starting with lab 5c then 5b then 5a.
 
-# Git Branches
-What it does is create a parrelle line where work can be created and stored and kept separate from the master branch, so for lab 5a, we will keep track of the 5 or 6 functions that you work on in different branches, so on the branch you will then continue to do work like you normally would. So after you finish you work on project, you will then push that code not to master, but to the branch on git hub, up to the cloud. Once you have the code in the cloud, we will move the code on the branch to the master branch. We will od that through a pull request. Then once we merge the branch we created into master, we then need to pull those changes to our local master branch. 
-
-
-![Git Branch](gitBranch.png)
-
-
-//Start with 
-- git pull origin master
-//To Start work
-- git checkout -b branchName
-- git branch
-- touch index.html
-- touch style.css
-- git status
-- git add . 
-- git commit -m 'add initial scaffolding'
-- git status
-- git push
-- git push -u origin branchName
-
--- go online to create a pull request --
-- back at your repo, you will see the pull request for the branch you just pushed. 
-- After you click on create pull request we can look at the page to see the changes that we are about to add to our project. 
-- Once the pull request is created we get a new screen taht will allow us to merge our pull request to master. 
-- Once we have the code merged to our master we can refresh our repo page and see the code merged into the project. 
-- Next we need to go back to our local bash, and we will update the branch that we just merged and switch back to our master branch, which will not have the code that our project in the cloud contains. So, 
-- git checkout master
-- git pull origin master
-- Create a new branch for our next function,
-git checkout -b functionTwo
-git branch - two check branch status. 
-- Now we can work on a new branch and add new unique code. 
-
-Lab 5b
-- Start with forking the repo, and everyone will start with the demo code. 
-- The starter code has directions to follow. 
-- Everyone lets go ahead and go through this together. Let's fork the project. 
-
-https://github.com/DeltaVCode/cr-201n-2020-lab-5
 
 
 
