@@ -66,6 +66,44 @@ so we can specify our desired colors in RGB by the number of red, number of gree
  # The number 256 is an important number (16x16) 0r 2 to the 8th. 
  If we use base 16, we have a one's place and then a 16th's place and then a 256th's place, so all of our possible color values fit into and what that makes convenient is that all our possible values fit into just two digits of HEXIDecimal. So we can always use two digits to represent a HEX number, which is how they came up with Hexadecimal. 
  ### #RRGGBB 
+
+
+![Hex conversion](hexConversion.png)
+
+
+ written using a nibble, two are a byte 0-9 or A-F. 
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- A - 10
+- B - 11
+- C - 12
+- D - 13
+- E - 14
+- F - 15
+#### Hexadecimal  10 is equal to RGB 16
+#### Hexadecimal  11 is equal to RGB 17
+#### Hexadecimal  19 is equal to RGB 25
+#### Hexadecimal  1A is equal to RGB 26
+#### Hexadecimal  1F is equal to RGB 31
+
+# #1F1A19    is equal to rgb(31, 26, 25)
+
+ This is how we get to 255 from hex to rgb(255, 255, 255). 
+                first position   second position
+# #(FF)FFFF  = to   (15(F) X 16)    +   (15(F) X 1)     = 255
+                                           240       +        15
+
+------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------
  ## In base 16 we need something that means the number 10 (0-9 and then A)
  #### 0
  #### 1
@@ -506,3 +544,4 @@ goalQuestion();
 workOutQuestion();
 guessNumber();
 ```
+
