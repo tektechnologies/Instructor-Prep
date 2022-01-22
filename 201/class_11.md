@@ -104,27 +104,14 @@ randomizer.addEventListener('click',function(){
 
  ![wireFrame](goatWireFrame.png)
 
-
 - build out intial scaffolding
 - git acp flow. 
 - So to start out with I want to add some images to build the initial framework for the page. 
  
- 
-
 # 2. On click show two new pizzas. 
-
 
 # 3. Keep track of Votes.
 
-
-
-
-
-
-
-
-
- 
 # 4. Now I need to pick two random Pizzas to display. 
 - Start with a variable
 - Time to show these on the page. 
@@ -134,15 +121,6 @@ randomizer.addEventListener('click',function(){
 - Images now update but it will show duplicates. so lets handle the validation of the demo. 
 - keep the same one from showing up and keep from the last one from showing up as well. 
 - this handles dups from showing up. most of the time.
-
-
-
-
-
-
-
-
-
 
 - Make sure to build your app from scratch.  
 - plan your project. 
