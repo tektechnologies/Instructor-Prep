@@ -1,4 +1,18 @@
-# Class Agenda 
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
+
+
 
 # Code review
    - Review Truthy/Falsy

@@ -1,4 +1,17 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
+
 
 # announcements
  4 skills in language learning: Hearing, speaking, reading, writing, when we focus on specific material while doing this we learning faster and looking at specifics becomes less arduous. 

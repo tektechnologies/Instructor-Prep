@@ -1,4 +1,16 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
 
 # Career Coaching, how is it going?
 

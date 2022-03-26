@@ -1,4 +1,11 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
 
 
 ## 9:00 

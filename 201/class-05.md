@@ -1,4 +1,21 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
+
+
+
+
+
 ## Today's Schedule
 
 - [Readings and various topics](#readings) 

@@ -1,4 +1,16 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
 # Announcements
 - **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due at the time the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
 

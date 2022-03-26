@@ -1,4 +1,20 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
+
+
+
+
 
 
 - We did introductions and looked at a single page, index.html that was submiited by way of a Gist. 

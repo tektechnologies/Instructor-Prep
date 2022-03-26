@@ -1,4 +1,18 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
+
+
+
 
 
 - welcome to day 12 of 15 for lectures. 

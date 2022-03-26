@@ -1,4 +1,15 @@
-# Programming Concepts Covered
+# First Hour
+
+
+# Second Hour
+
+
+
+# Third Hour
+
+
+
+
 
 
 # Wonderful day. 
