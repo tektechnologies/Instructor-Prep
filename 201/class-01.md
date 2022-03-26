@@ -1,143 +1,166 @@
 # First Hour
 
 
+## Campus Kickoff
+
+Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://docs.google.com/presentation/d/10z8h0kdeHRtuBZ0RoJ1JWxSpiFKgyeMNyDoz1V4TtRU/edit#slide=id.gf7316a0f20_0_0). 
+
+
+## Intro to Canvas
+
+1. Modules view of assignments
+1. Syllabus
+1. Course Overview
+1. Calender view
+
+### Review of Career Coaching Assignments
+
+Students should have completed some prework assignments related to Career Coaching. Discuss the value of focusing on each of these, even though it is early in their career change process.
+
+- Career Coaching Overview: Sets the tone of the career assignments.
+- Professional Competency Self-Assessment: 
+- Prepare your Resume: 
+- Prepare your LinkedIn: 
+- Identify Your Accountability Partners: 
+- Partner Power Hour Reports: 
+- Talk to Your Network:
+- Attend a Meetup: 
+- Behavioral Interview Questions: Students will use the S.T.A.R method to write drafts of two behavioral interview questions.
+
+## Reading Review
+
+Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const` because they are more suited to writing clean code.
+
+
+
+
+
+
+### Take Break 10 Minute
 # Second Hour
 
 
 
-# Third Hour
 
+## Command Line, VS Code & Linter Setup
 
+### Command Line Basics  
 
+Review the basic Unix Commands:  
 
+- `pwd`
+- Filepaths and up/down navigation concepts  
+- `tree`  
+- `ls`, `ls -la`  
+- `cd`, `mkdir`  
+- `touch`, `code`  
+- `mv`, `rm`, `cp`
 
+### Intro to Git & GitHub
 
+Git Intro:  
 
+- What is Git?  
+- Version control concepts, show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
+  - Point out the benefits of keeping their code organized
+- Analogy of saving multiple versions of a term paper vs. overwriting changes with each save
+- Series of snapshots  
+- HEAD
 
+### Configure VS Code
 
-
-
-- We did introductions and looked at a single page, index.html that was submiited by way of a Gist. 
-
-## Anouncements
-Refer to the `lecture.md` for lecture details.
-
-1. Campus Kickoff
-    ## Aaron Talks and Welcomes Students
-   * Rules/Policies of the Campus
-#### If you haven't already, go around and do quick student intros:
-- Name
-- What brought them to the school
-- Background before coming to the school
-- Interesting/geeky/quirky fact about yourself
-
-
-1. Intro to Canvas
-   * Show them around the tool and how to find and submit assignments
-#### Introduce Canvas to the students. Show them the following:
-
-- Modules view of assignments
-- Syllabus
-- Course Overview
-- Calender view
-
-# Review of Career Coaching Assignments
-
-1. Reading Review
-   * Quick overview on how to "skim" readings
-#### 10 Minutes on how to do true / false 
-
-
-1. Configure VSCode
-   * setup tabSize, Indentation, and WordWrap settings
-   In settings:
+In settings:
 - editor.tabSize = 2
 - editor.detectIndentation = true
 - editor.wordWrap = on
 
-## Setup your Linter
-1. Command Line Basics
-   * Go over basic commands (see cheat sheet)
+### Setup your Linter
 
-- **pwd**
-- **Filepaths and up/down navigation concepts**
-- **tree**
-- **ls, ls -la**
-- **cd, mkdir**
-- **touch, code**
-- **mv, rm, cp**
+- this file should exist in **every** project you create in javascript, so save it somewhere that is easily accessible.
+- Have the students copy/paste that code into the `.eslintrc.json` file that they created, 
 
-### Intro to Git & GitHub
+  - Students will need to restart VSCode for the changes to take effect.
+  - Once they do, guide them through entering `code lint-test.js` at the command line and then paste the contents of the JS sample that you send to them through Slack.
 
-- What is Git?
-- Version control concepts, show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
-Point out the benefits of keeping their code organized
-- Analogy of saving multiple versions of a term paper vs. overwriting changes with each save
-Series of snapshots HEAD
 
-1. Code Demo ([Overview Outline](DEMO.md))
+
+
+### Take Break 10 Minute
+# Third Hour
+
+
+
+### Live code Demo
+
+1. The code demo should be written completely from scratch in front of the class.
+2. After lecture, push your code demo to the class repo and inform students that these demos will be available for their reference each day. 
+
+3. Introduce `let`. 
+Cover the difference between `var` and `let`. 
+We will be using only `let` and `const` in 201.
+
+Demonstrate how to use the `live-server` command to enable automatic browser refreshing.
+
+4. Code Demo
    * prompts
    * alerts
    * console.log
    * in-line styles
    * internal styles
 
-## (11 - 12) One Hour - Lab Demo 
-
-### Talk about html abd css basics. 
-### Talk about two places where we can write our css. 
-
 
 ```html
 <html>
-    <head>
-       <title>Day One</title>
-       <link rel="stylesheet" type="text/css" href="mainStyles.css">
-       <style>
-       a{color:rgb(71, 9, 33);}
-       
-       div{height:500px;
-width: 500px;
-background-color: blueviolet;}
-       
-       </style>
-       <!--this is a commmmmment...-->
-    </head>
-    <header>
-       <h1>This is a top level heading.</h1>
-       <h2>This is a an h2 title</h2>
-       <nav>
-          <ul>
-             <li><a href="https://www.google.com">Home</a></li>
-          </ul>
-       </nav>
-    </header>
-    <body>
-       <section>
-          <div>
-          </div>
-       </section>
-       <footer>
-          <p><strong>This</strong> is a Paragraph</p>
-       </footer>
-       ```js
-        <script>
-       var firstName = prompt('What\'s is your First Name?');
-       console.log('First Name = ' + firstName);
-       var lastName = prompt('What\'s is your Last Name?');
-       console.log('Last Name = ' + lastName);
-       var gameName = prompt('What\'s is your Favorite Game?');
-       console.log('Favorite Game = ' + gameName);
-       var systemName = prompt('What\'s is your Game Console?');
-       alert('Welcome ' + firstName + ' ' + lastName + ', ' + 'I too play, ' + gameName + ' on a  ' + systemName);
-       </script>
-       ```
-       
-    </body>
- </html>
+   <head>
+      <title>Day One</title>
+      <link rel="stylesheet" type="text/css" href="mainStyles.css">
+      <style>
+         a{color:rgb(71, 9, 33);}
+         div{height:500px;
+         width: 500px;
+         background-color: blueviolet;}
+      </style>
+      <!--this is a commmmmment...-->
+   </head>
+   <header>
+      <h1>This is a top level heading.</h1>
+      <h2>This is a an h2 title</h2>
+      <nav>
+         <ul>
+            <li><a href="https://www.google.com">Home</a></li>
+         </ul>
+      </nav>
+   </header>
+   <body>
+      <section>
+         <div>
+         </div>
+      </section>
+      <footer>
+         <p><strong>This</strong> is a Paragraph</p>
+      </footer>
+      ```js
+      <script>
+         var firstName = prompt('What\'s is your First Name?');
+         console.log('First Name = ' + firstName);
+         var lastName = prompt('What\'s is your Last Name?');
+         console.log('Last Name = ' + lastName);
+         var gameName = prompt('What\'s is your Favorite Game?');
+         console.log('Favorite Game = ' + gameName);
+         var systemName = prompt('What\'s is your Game Console?');
+         alert('Welcome ' + firstName + ' ' + lastName + ', ' + 'I too play, ' + gameName + ' on a  ' + systemName);
+      </script>
+      ```
+   </body>
+</html>
  
  ```
 
 
- 1. Lab Prep
-   * Show them how to submit their lab
+
+
+
+### Lab Setup
+
+1. To finish the day, go over the lab assignment and show students how to find/read the assignment.
+2. Complete the assignment as a code demo, and submit the assignment, submitted in a GitHub Gist.
