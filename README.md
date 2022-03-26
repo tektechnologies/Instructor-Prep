@@ -1,6 +1,5 @@
 # Instructor-Prep
 
-## class instruction prep
 ## 101
 [101](/101/)
 ## 102
