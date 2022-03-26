@@ -1,36 +1,8 @@
 # First Hour
 
 
-# Second Hour
-
-### Take Break 10 Minute
-
-
-# Third Hour
-
-
-
-
-
-
-
-
-
-
-## Today's Schedule
-
-- [Readings and various topics](#readings) 
-- [Various topics](#smattering) 
-- [Git Branching, including deployment](#git) 
-- [Lab Overview](#lab) 
-
 ## Announcements
-Setup 15 minute 1-on-1 meetings students with each student over the next few days. This will be your opportunity to check in with them individually to check where they are at and how they are doing in the course so far.
-# **Reminder:** 
-- Weekly surveys will go out to students in email. Your survey responses are very helpful and meaningful to us. **Feedback is a gift.**
-	- The instructor will have a 15-minute one-on-one meeting with each student during the coming week: this will be an opportunity to review your progress, answer any questions you have, and discuss any topics the instructor sees appropriate, such as your future plans in the program. We will start the process of scheduling those meetings very soon.
-
- 
+Setup 15 minute 1-on-1 meetings students with each student over the next few days. 
 
 ## Pair Programming Debrief
 ## Drawl on white board.
@@ -44,6 +16,7 @@ Setup 15 minute 1-on-1 meetings students with each student over the next few day
 1. Look at web page, check out the css, and how its working. 
 # Make sure every one has an eslinter on their About Me.
 - Show them how to identify, errors in the code, the left side bar shows little red boxes. We can fix those issues with hovering over the red lines, and selecting the "fix all" options. 
+
 
 
 # Base 16 and Hex code. 
@@ -86,7 +59,7 @@ so we can specify our desired colors in RGB by the number of red, number of gree
  ### #RRGGBB 
 
 
-![Hex conversion](hexConversion.png)
+![Hex conversion](/201/images/hexConversion.png)
 
 
  written using a nibble, two are a byte 0-9 or A-F. 
@@ -163,27 +136,10 @@ rgb(184,)
 # Note it is ok, if you can not computate these values by memory
 - the google will have resources that will aid in translating these values back and forth. 
 
-Ask why things are happening in their code, like why do we have all of our global variables at the top, and how does that effect scope if they are organized all over?
-- As long as we declare the variable, globally, it will be accessible in any function it will be in scope for those functions, as long as we declare them first, make sure to set those variables before we start running our functions.
-```html
-<p>
-<seatle>What happens on   let quizObject == creating a variable data type that will be an array. Inside the array we see that there are some objects and their properties, we have an array of objects. this allows a dev to loop through the objects and with dryer code.</seatle>
-</p> 
-```
-let answer = yes;
-let wasRight = answer === 'yes' || answer === 'y';
 
-If I look at wasRight it will be true. However if I reset my answer in the future to no, then wasRight is still yes. We can fix this using a function. OR keep the conditionals in the loop to recalculate the condition to be true or false.
-Discuss review code, for feedback on the about me lab. 
-
-
-
-# Git Branches
-What it does is create a parrelle line where work can be created and stored and kept separate from the main branch, so for lab 5a, we will keep track of the 5 or 6 functions that you work on in different branches, so on the branch you will then continue to do work like you normally would. So after you finish you work on project, you will then push that code not to main, but to the branch on git hub, up to the cloud. Once you have the code in the cloud, we will move the code on the branch to the main branch. We will od that through a pull request. Then once we merge the branch we created into main, we then need to pull those changes to our local main branch. 
 
 
 ![Git Branch](gitBranch.png)
-
 
 //Start with 
 - git pull origin main
@@ -217,17 +173,40 @@ Lab 5b
 - The starter code has directions to follow. 
 - Everyone lets go ahead and go through this together. Let's fork the project. 
 
-https://github.com/DeltaVCode/cr-201n-2020-lab-5
-- --------------------------------------------- 
-# 7:00
 
 # Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
 We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows me to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
 git checkout main takes us back to main. 
 
-# Break 7:10 - 7:20 
-- git commits to search for more information.
-- We can look at network graphs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
+# Second Hour
+
 
 
 # Warm up 
@@ -265,18 +244,28 @@ first we need to figure out what the problem is and then we can start to build o
 //So lets write a function that prompts a user for a pizza crust.
 
 
+
+# 1.
 ```js
+//This will return undefined. Because our variable scope is within the function where the variable is declared. 
+
 function pizzaCrustType() {
    let pizzaCrustType = prompt('What type of pizza crust would you like?');
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
 ```
+
 ```js
 console.log('Your Pizza Crust Type is: ' + pizzaCrustType);
 //This will return undefined. Because our variable scope is within the function where the variable is declared. 
 
 ```
+
+
+
+
+# 2.
 
 ```js
 let pizzaCrustType;
@@ -288,6 +277,10 @@ pizzaCrustType();
 //We dont always need access to global variables all the time, best practice is to keep your variables as local as possible.
 ```
 
+
+
+
+# 3. 
 ```js
 let sandwichType;
 let pizzaCrustType;
@@ -313,27 +306,15 @@ pizzaCrustType();
 ```
 
 
-
 - So when we initially called the function it displayed some output, with the return the variable value this then provided for use throughout the rest of the code, if needed.
 - This variable will **hold the value for the one time that the function was run.** 
 ### Return gives back the output and then we add it to a variable for later use. 
 - Getting back an answer is what allows the program to do the task that they are designed to do.
 #  Returns are much more useful than console.logs too. 
 
-```js
-//Set Function to a global variable.
-letglobalPizzaCrustType = pizzaCrustType();
-//to see the concatentaion of the string
-console.log('reorder point: ' + (globalPizzaCrustType[1] + 3));
-//to see the NaN because we didnt parse. more usefule to see the error.
-console.log('reorder point: ' + (globalPizzaCrustType[1] * 3));
-```
-
-//Lets pick lottery numbers and return them in an array. 
-- Think of adding the comments to your code before you add code, so that your code will be commented when you are done. 
 
 
-
+# 4.
 ```js
 function lotteryNumberPicker(){
     //Start by creating array for the numbers
@@ -363,13 +344,11 @@ function lotteryNumberPicker(){
 }
 ```
 
-
-
-
 - If we move the array variable outside of the function it will continually save the random 5 numbers each time the functin is run. 
 
 ### We have now specified output from a function
 ### So now lets look at how we handle input. 
+
 
 
 
@@ -403,126 +382,41 @@ let lotteryQuantity = Number(prompt('How many numbers would you like?'));
 let lotteryMax = Number(prompt('What is the Max amount per number?'));
 alert(lotteryNumbers(lotteryQuantity, lotteryMax));
 ```
-# end review ..................................
 
 
 
-# Images, Color, Text
-https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
-
-## HTML to insert Images
-
-
-## Custom font families
-
-
-## CSS coloring
-- Run through the labs starting with lab 5c then 5b then 5a.
 
 
 
- let sumAnswer = a + b;
-    let stringAnswer = 'The sum of ' + a + ' and ' + b + ' is ' + sumAnswer;
-    return [sumAnswer, stringAnswer];
 
 
-Review with the students. https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
+# Third Hour
+
 
 
 # Student Code 
-```
-'use strict';
-// use strict is almost alwayst the first line of our js files
-console.log('It is working!');
-
-function firstQuestion() {
-    let user = prompt("What is your name?");
-    console.log(user + " , thank you for taking the time to visit my page!");
-    alert(user + " , thank you for taking the time to visit my page!");
-    let ready = prompt('Are you ready to start the quiz? \n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
-    console.log(ready);
-
-    if (ready === 'n' || ready === 'no') {
-        alert("Okay then.  Good bye, " + user);
-    } else if (ready === 'yes' || ready === 'y') {
-        alert("Ok!  Let\'s go!");
-    } else {
-        alert("Please provide an answer in the correct format");
-    }
-}
-
-function dogNumber() {
-    let dog = prompt('Do I currently have four dogs?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
-    // // console.log(dog)
-
-    if (dog === 'n' || dog === 'no') {
-        alert("That is correct!  I have two pucheinies (pug/chihuahua/weinie dog");
-    } else if (dog === 'yes' || dog === 'y') {
-        alert("That is incorrect!    I have two pucheinies (pug/chihuahua/weinie dog");
-        // 	// tally
-    } else {
-        alert("Please provide an answer in the correct format");
-    }
-}
-
-function liveCo() {
-    let liveCo = prompt('Did I live in Colorado for five months?\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
-    // // console.log(liveCo);
-
-    if (liveCo === 'n' || liveCo === 'no') {
-        alert("That is correct!  I have never lived in Colorado.");
-    } else if (liveCo === 'yes' || liveCo === 'y') {
-        alert("You're incorrect!  I have never lived in Colorado");
-        // 	// tally
-    } else {
-        alert("Please provide an answer in the correct format");
-    }
-}
-
-
-function goalQuestion() {
-let goal = prompt('One of my goals is to reinvent myself\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
-console.log(goal);
-    if (goal === 'n' || goal === 'no') {
-        alert("That is incorrect!  I look forward to reinventing myself with these coding courses");
-    } else if (goal === 'yes' || goal === 'y') {
-        alert("That is correct!  I look forward to reinventing myself with these coding courses");
-        // 	// tally
-    } else {
-        alert("Please provide an answer in the correct format");
-    }
-}
-
-function workOutQuestion() {
-    let workOut = prompt('I workout in my own home\n\nAnswer wisely and make sure your answer is in the format of yes or no or y or n');
-    console.log(workOut);
-
-    if (workOut === 'n' || workOut === 'no') {
-        alert("That is incorrect!  I workout with Beachbody on Demand regularly");
-    } else if (workOut === 'yes' || workOut === 'y') {
-        alert("That is correct!  I workout with Beachbody on Demand regularly");
-    } else {
-        alert("Please provide an answer in the correct format");
-    }
-}
-
-function guessNumber() {
-    let guessNumber = prompt("I have a number in my bit-brain that is between 1 and 23.  What number am I thinking of?");
-    console.log(guessNumber);
-    if (guessNumber === '17') {
-        alert("You got it!");
-    } else if (guessNumber < '16' || guessNumber > '18') {
-        alert("You're too cold!");
-    } else if (guessNumber === '16' || guessNumber === '18') {
-        alert("You're getting warmer!");
-    } else {
-        alert("Please provide an answer in the correct format/between 1 and 23");
-    }
-}
-
-
-
-
+```js
 
 function questionTwo() {
 let userCorrect = false;
@@ -553,13 +447,5 @@ let eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I w
     }
 }
 
-
-firstQuestion();
-questionTwo();
-dogNumber();
-liveCo();
-goalQuestion();
-workOutQuestion();
-guessNumber();
 ```
 
