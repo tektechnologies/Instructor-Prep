@@ -1,2 +1,11 @@
 # Instructor-Prep
-101, 102, 201 class instruction prep
+
+## class instruction prep
+## 101
+[101](/101/)
+## 102
+[102](/102/)
+## 201
+[201](/201/)
+## 201
+[301](/301/)
