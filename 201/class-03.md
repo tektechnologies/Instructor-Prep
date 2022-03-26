@@ -85,6 +85,15 @@ Refer to `Demo.md` for further guidance
 You can use the comparison operators in an "if" statement (or if...else) to determine what to do when a situation is met.
 
 ```js
+
+//Control flow, in javascript
+
+// if(condition){......}
+// if(condition){....} else {.......}
+// if(condition){.....} else if(second condition) {....} else {.....}
+// if(condition){.....} else if(second condition) {....} else if (thirdCondition) {.....} else {.......}
+
+
 if(condition){
 // do something
 }
@@ -96,7 +105,7 @@ or
 if(condition){
 // do something
 } else{
-
+// do something else
 }
 ```
 
@@ -175,6 +184,8 @@ a = 'cookie'; //this is legit in JS
 Any existing value is considered truthy, so we can use a conditional to check whether something exists:
 
 ```javascript
+
+
 let a = 10;
 let obj = {};
 
