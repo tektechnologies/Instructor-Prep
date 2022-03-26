@@ -1,48 +1,16 @@
 # First Hour
 
-
-# Second Hour
-
-### Take Break 10 Minute
-
-
-# Third Hour
-
-
-
-
-
-
-
-
 # Code review
    - Review Truthy/Falsy
    - Review Arrays Question 7
    - Review Loops Question 6
-# CSS layout
-   - Introduce codepen.io
-   - Review box model
-   - Introduce Positioning
-   - Absolute
-   - Relative
-   - Fixed
-   - Block vs inline-block vs inline
-# JS functions
-   - What are they?
-   - Anatomy of a function
-   - Parameters, arguments
-   - Calls/invoke
-   - Anonymous functions
-   - Scope
-# Pair Programming
-# Lab prep
 
 
-
-# Start Code Review
 ## Statement vs Expression 
 - statement vs expression, the expression does a computation, but nothing is done with it, with a statement we group expressions as a way to express our conditions to do something with the computations. 
 - so x *= 5 is explicity implying the assignment of the variable value to x. 
+
+
 ## Array 
 - Arrays are a ref datatype to hold other data. They are not primitive.
 var fruits = ['apple','orange','bob','fred','tom'];
@@ -73,24 +41,32 @@ numGuess = parseInt(input);
 ### Method .includes()
 - We can use the method .includes()
 .includes() works on strings and sub strings. 
----
-# End of first Hour of Code Review Take Break
----
 
 
 
--- Start and Finish Demo Code by 11:00.
-# now demo css layouts.
-- last time we talked about the box model 
-- looked at margin padding and how to calculate the size to specify white space of the        elements as well as using 
-- box-sizing: border-box; 
-- Start with creating some scaffolding. 
-- let vs code add html template. 
-- Talking about layout and talking about positioning. 
-- Add body and h1. 
-- Make sure to run the test, on the css and js files. 
-- Try to show nav build out quick. 
-- Show the comments in css
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
+# Second Hour
+
+# CSS layout
+   - Introduce codepen.io
+   - Review box model
+   - Introduce Positioning
+   - Absolute
+   - Relative
+   - Fixed
+   - Block vs inline-block vs inline
+
+
+
 ### review hex colors as the RGB.
 - Let them know we will calculate hexidecimal in class 5.
 # Pro tip, The idea of your design will most likely not be what your final page looks like. 
@@ -132,6 +108,28 @@ Are **images inline or block level, they are inline**.
 
 
 
+
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
+# Third Hour
+
+# JS functions
+   - What are they?
+   - Anatomy of a function
+   - Parameters, arguments
+   - Calls/invoke
+   - Anonymous functions
+   - Scope
+
+
 # Start Function Demo 
 # two more things to do today. 
 brief look at **functions**. and how to do that within lab. 
@@ -149,29 +147,10 @@ so another thing today is that our lab is going to be **pair programming**.
 - So I think of a recipe, a function is the recipe, but inorder for the recipe to work I need to run the recipe, call for the ingredients
 - If I put that call in the console it will run and if I want I can add it to the app.js file. which is the normal practice. 
 
-
-
-
 --- 
 # Start at 11:45
 
 # Lab details
-- This is all you need to know to complete the lab today. This is a change that your partner will make that will not effect the functioning of your program, what questions do you have. 
-- This is our first experience with pair programming, so the code implementations that we are doing are fairly simplistic. 
-- if you find that you are writing alot of code for the lab, then you may be over doing it. 
-
-- So what i will say about today's lab is that there are several steps, and make sure to do one at a time. 
-- Explain pair programming, forking partners repo, while they navigate, since it is their project. 
-- So we know what to achieve, but you can also look at other code that you may be having issues with as well, during lab time. 
-- So we will go through the git process on forking, 
-- Give repo link to partner. 
-- git remote -v
-- change some stuff and push to master, to the drivers forked repo. 
-- Now how do we get the updates to the original repo.  
-- Create a pull request, to merge to master repo. 
-- Which takes us back to the original repo, 
-- Last step is to merge pull request and then pull the updated master to local copy and continue to work. 
-
 
 
 
