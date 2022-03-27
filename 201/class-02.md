@@ -1,9 +1,14 @@
 # Class 02
 
-# Announcements
-- **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due at the time the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
-### Brain storm why do we do code review, 1 minute, why are we doing this?
-- Maybe write down your answers so that if your called on you can just read your response. (popsicle sticks.)
+## Announcements
+
+- **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due when the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
+
+---
+
+### Brain storm: Why do we do code review? (1 minute) Why are we doing this?
+
+    Maybe write down your answers, so that if you're called on you can just read your response. (Popsicle sticks.)
 
 - It's a thing developers do.
 - Learning from working code.
@@ -12,19 +17,19 @@
 - We can learn to prevent mistakes and create best practices.
 - Teamwork.
 - Writing code is good. This is a chance to learn how to read code better (which you will do).
-- How to debug.
+- Learn how to debug.
 
 ---
 
 ## 10 Minutes
 
-1. Introduce
+1. *Introduce*
    - **Learning Journals**
-      - Starting today, there is a daily Learning Journal assignment in      Canvas. The purpose of this assignment is to reflect on what you have learned today. These assignments are due before the following class.
+      - Starting today, there is a daily Learning Journal assignment in Canvas. The purpose of this assignment is to reflect on what you have learned today. These assignments are due before the following class.
    - **Quizzes**
       - Note that there will be some quiz content from time to time.
       - Keep in mind that you have unlimited re-takes on the quizzes.
-      - **Two main purposes**:
+      - *Two main purposes*:
         1. To get you to re-engage with the content in a different way, reinforcing your knowledge.
         2. To help you prepare for the Code 301 entrance exam, which you will take at the end of Week 3. There is a minimum threshold you must pass on that exam (80%). And also, that exam factors into your grade in this class.
 
@@ -32,47 +37,24 @@
 
 ## 40 Minutes
 
-2. Code Review
+2. *Code Review*
     - Why is it important?
     - Code Review options:
-      - Look at code and practice reading code
-      - Go through code line-by-line and have a different person explain each line
+      - Look at code and practice reading code.
+      - Go through code line-by-line and have a different person explain each line.
       - Fix broken code together as a class.
 
-<<<<<<< HEAD
----
-
-## Break - 10 Minutes
+## Take Break 10 Minute
 
 ---
-=======
 
+## Second Hour
 
+## 30 Minutes.  Probably less than 30 more like 10. More time for code.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Take Break 10 Minute
-# Second Hour
-
-
-# 30 Minutes.  Probably less than 30 more like 10. More time for code.
 5. Git vs GitHub
    - git demo
 
->>>>>>> b2af880c40d29b83519bb8d695dbccf6115304c6
 
 # 30 Minutes
 3. Review of HTML/CSS
