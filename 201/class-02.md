@@ -1,21 +1,7 @@
 # First Hour
 
-
-# Second Hour
-
-
-### Take Break 10 Minute
-
-# Third Hour
-
-
-
-
-
 # Announcements
 - **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due at the time the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
-
-
 ### Brain storm why do we do code review, 1 minute, why are we doing this? 
 - Maybe write down your answers so that if your called on you can just read your response. (popsicle sticks.)
 
@@ -47,7 +33,32 @@
       - Go through code line-by-line and have a different person explain each line
       - Fix broken code together as a class.
 
-**Break 10 Minutes**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
+# Second Hour
+
+
+# 30 Minutes.  Probably less than 30 more like 10. More time for code.
+5. Git vs GitHub
+   - git demo
+
 
 # 30 Minutes
 3. Review of HTML/CSS
@@ -60,28 +71,134 @@
      - HTML lists (`<ol>` & `<ul>`)
      - CSS ids/classes
         * targeting specific value (ol li {})
-          ```css
-          section p.more-content {
-            background-color: #FF0000;
-          }
-
-          .more-content {
-            background-color: #0000FF;
-          }
-
-          #something-else {
-            border: 5px dashed #00FF00;
-          }
-
-          ```
      - targeting specific values
      - CSS reset
+
+
+
+# Demo Code for HTML 
+
+
+```HTML
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+       
+        <title>Class 2 Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       
+        <header>
+            <h1>Class 2</h1>
+            <nav>
+                <ul> 
+                    <li>Home</li>
+                    <li>Contact Page</li>
+                    <li>About Us</li>
+                </ul>
+            </nav>
+        </header>
+        <script>
+            let acceptTerms = prompt('Are you ready for something or anything or nothing?');
+        </script>
+        <main>
+            <section>
+                <p class="more-styles" >Are you ready?<script>document.write(acceptTerms);</script></p>
+            </section>
+            <p id="another-style">Where would you like to travel?</p>
+            <p>How many pets do you have?</p>
+            <p class="more-styles">Have you ever traveled into outter space.</p>
+
+        </main>
+        <footer>
+            <nav>
+                <ol>
+                    <li>Careers</li>
+                    <li>FAQ</li>
+                </ol>
+            </nav>
+        </footer>
+
+        <script src="js/app.js" ></script>
+    </body>
+</html>
+
+```
+
+
+
+# Demo Code for CSS
+
+```css
+/* * {
+    outline: dotted;
+} */
+
+body {
+    margin: 0 auto;
+    width: 1000px;
+                     /*    red  green blue  opacity */
+    background-color: rgba(27,  71,  218,  .5);
+}
+main {
+    background-color: rgb(213, 245, 166);
+}
+header {
+    margin-bottom: 10px;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+    background-color: rgb(85,136,212);
+    border-radius: 15px;
+}
+ol li {
+    display: inline;
+    padding: 10px;
+    background-color: rgb(85,136,212);
+    border-radius: 15px;
+}
+h1 {
+    background-color: hotpink;
+    color: #f50efd;
+    font-size: 50px;
+    text-shadow:2px 2px ivory;
+    margin-bottom: 20px;
+}
+nav {
+    background-color: rgb(44,94,141);
+    height: 250px;
+}
+section p.more-styles {
+
+    background-color: red;
+}
+
+.more-styles {
+color: white;
+background-color:  #0000FF;
+}
+
+#another-style {
+    border: 5px solid #00FF00;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+```
+
+
 
 # 40 Minutes
 4. JavaScript
    - Data Types - **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof**
-
-   **Break 10 Minutes**
 
    - Conditionals
     * There are 2 different types of conditionals:
@@ -90,17 +207,12 @@
 
    - Arrays
 
-# 30 Minutes. 
-5. Git vs GitHub
-   - git demo
-6. Lab Review
-
 
 ```js 
 'use strict';
 
 // If conditional based confirm command
-var answer1 = confirm('Do you dare to begin your coding journey?');
+let answer1 = confirm('Do you dare to begin your coding journey?');
 if (answer1 === true || answer1 !== true) {
   alert('LET\'S GO ON A JOURNEY THROUGH TIME AND SPACE!');
   console.log('LET\'S GO ON A JOURNEY THROUGH TIME AND SPACE!');
@@ -108,37 +220,43 @@ if (answer1 === true || answer1 !== true) {
   console.log('Oh. Well then.');
 }
 
+/////////////////////////////////////////////////////
 // logical operator example
-var myBooleenValueTrue = true;
-var anotherBooleenValueFalse = false;
-var thirdBooleenValueTrue = true;
+// let myBooleenValueTrue = true;
+// let anotherBooleenValueFalse = false;
+// let thirdBooleenValueTrue = true;
+//else if
+let myBooleenValueTrue = true;
+let anotherBooleenValueFalse = false;
+let thirdBooleenValueTrue = false;
+//next else if
+// let myBooleenValueTrue = false;
+// let anotherBooleenValueFalse = false;
+// let thirdBooleenValueTrue = true;
+//else
+// let myBooleenValueTrue = false;
+// let anotherBooleenValueFalse = false;
+// let thirdBooleenValueTrue = false;
 
-        // And = both conditions have to be true
-if (myBooleenValueTrue && thirdBooleenValueTrue) {
-    alert('The && will run if both conditions return true. And = both conditions have to be true');
-    console.log('thirdBooleenValueTrue and thirdBooleenValur were both true')
-} 
-        // only one of these have to be true
-else if (myBooleenValueTrue || anotherBooleenValueFalse) {
-    alert('The || will run if one of the conditions return true.');
-    console.log('the mybooleenValueTrue or anotherBooleenValueFalse was true!');
-} 
-        // only thirdBool can be true
-else if (thirdBooleenValueTrue) {
-    alert('The thirdBooleenValueTrue was true so this will run.');
-    console.log('myBool and anotherBool were false, but thirdBool was true.');
-} 
-         // none of the above conditions were true
-else {
-  console.log('Were any of my variables true?');
+if (myBooleenValueTrue && thirdBooleenValueTrue){
+  alert('The && will run if both are true');
+  console.log('both values were true');
+} else if(myBooleenValueTrue || anotherBooleenValueFalse){
+  alert('The || will run if both are true');
+  console.log('one of values was true');
+} else if(thirdBooleenValueTrue){
+  alert('the 3rd value was tru so this will run');
+  console.log('thirdBooleenValueTrue was true');
+} else {
+  console.log('There were no true values');
 }
 
-
+//////////////////////////////////////////////////////////////////////////////
 
 
 alert('Welcome to 4 Part spaceship repair.');
-var spaceHandle = prompt('What\'s your space name');
-var spaceShipPart = prompt('What spaceship part do you need?, 1 through 4');
+let spaceHandle = prompt('What\'s your space name');
+let spaceShipPart = prompt('What spaceship part do you need?, 1 through 4');
 
 // convert the variable of color to lower case and evaluate it
 switch (spaceShipPart) {
@@ -162,54 +280,168 @@ switch (spaceShipPart) {
     default:
         alert('i don\'t know if your ship will ever fly again?,  ¯\_(ツ)_/¯');
 }
-
+alert('Bye for now ' + spaceHandle);
 
 ```
 
 
 
-
-
 ```js
-// Create an empty array
-var emptyArray = [];
 
-// Create an array full of "quiz answers' by putting the values directly into a new array
-var quizAnswers = ['b', 'd', 'a', 'a', 'c'];
+/////////////////////////////////////////////////////////////////////////////////////////
+
+//create an empty array
+let emptyArray = [];
+//Create an array full of "quiz answers" by putting the answers into the array
+console.log(emptyArray);
+
+//                 0   1   2   3   4
+let quizAnswer = ['b','c','d','a','c'];
+console.log(quizAnswer);
 
 // we can even create an array of arrays!
-var nestedArray = [ ['yes', 'y'], ['no', 'n'], ['no', 'n'] ];
-// this is exactly the same as the nestedArray above, except just formatted slightly different.
-var multiLineArray = [
-                      ['yes', 'y'],
-                      ['no', 'n'],
-                      ['no', 'n']
-                    ];
+//nested array
+let nestedArray = [['yes', 'y'], ['no', 'n'],['maybe', 'maybeNot']];
+console.log(nestedArray);
 
-// we don't always have to commit to one data type in an array. here is an example of a mixed data type array.
-var mixedArray = ['Harry', 'Potter', 10, true, 'luxurious'];
+// this is exactly the same as the nestedArray above, except just formatted slightly different.
+//multiline
+let nestedArrayMultiLine  = [
+  ['yes', 'y'],
+  ['no', 'n'],
+  ['maybe', 'maybeNot']
+];
+console.log(nestedArrayMultiLine);
+
+/////////////////////////////////////////////////////////////////////////////////////////
 
 ```
 
+
+
+### Take Break 10 Minute
+# Third Hour
+
+6. Lab Review
+
 ```js
-var myArray = ['a' 'b', 'c'];
+
+'use strict';
+//first thing to do
+console.log('This file is connected.');
+
+//prompt our user for input data
+let userName;
+console.log(userName);
+while (!userName) {
+  userName = prompt('Enter your name!');
+}
+
+//Greet the user
+alert('Hello ' + userName);
+
+//convert the input to lowerCase
+let lowerCaseName = userName.toLowerCase();
+console.log(lowerCaseName);
+
+//Validate the input using conditional logic using strict equals.
+if(lowerCaseName === 'craig' || lowerCaseName === 'bob') {
+  alert('Welcom back to my page, ' + userName);
+} else {
+  alert('Welcome new user to my page.');
+}
+
+```
+
+
+```js
+
+// we don't always have to commit to a specific data type
+let mixedDataTypes = ['Harry', 'Potter', 10, true, 'magic'];
+console.log('Mixed Data Types',mixedDataTypes);
+
+
+let myArray = ['a', 'b', 'c'];
 myArray[0] = 'z'; // myArray is now equal to ['z' 'b', 'c']
+console.log('My Array at position 0',myArray[0]);
 //We can easily check if a specific index in the array is equal to specific value
 
-var myArray = ['a' 'b', 'c'];
-if(myArray[1] === 'b')
+let myArrayOne = ['a', 'b', 'c'];
+if(myArrayOne[1] === 'b')
 {
-    // do something here
+  // do something here
+  console.log('This is where we add the message', myArrayOne[1]);
 }
 //If we wanted to "add" an item to the end of the array, we can do so by the .push() method.
 
-var myArray = [1,2,3,4,5];
-myArray.push(6);
+let myArrayTwo = [1,2,3,4,5];
+myArrayTwo.push(6);
+console.log('My Array Two', myArrayTwo);
 // myArray now is equal to [1,2,3,4,5,6]
 //To remove an item from the end of an array, is a .pop().
 
-var myArray = [1,2,3,4,5];
-myArray.pop();
+let myArrayThree = [1,2,3,4,5];
+myArrayThree.pop();
+console.log('My Array Three',myArrayThree);
 // myArray is now equal to [1,2,3,4]
+
+
+
 ```
+
+```js
+
+//Lab2 tech requirements
+
+//  short biography
+//  education history,
+//  overview of your job experience,
+//  goals that you may have.
+//  Prompt the user a total of exactly five yes or no questions.
+
+
+// The user input for the answer must accept either y/n or yes/no responses 
+// toUpperCase() or .toLowerCase()
+// let the user know if they answered the question correctly by alerting them with a response.
+// console.log() messages within your app then alerts
+
+
+// personalized welcome message so that I feel like I am interacting with the site owner.
+// Ask the user their name through a prompt()
+
+// Display that name back to the user at the start and the final message to the user.
+
+// Your JS file must contain a 'use strict' declaration at the top, 
+// and your javascript file must be linked in your html file as an external script file.
+// Make sure that all code is cleanly written use formatter
+// Follow the Add, Commit, Push process. 
+
+// Push yourself in your CSS work.
+//  Experiment, try some layout feature or technique that you have not tried before
+//   (maybe a sticky header
+//      or sticky footer, 
+//      icon fonts such as FontAwesome
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
