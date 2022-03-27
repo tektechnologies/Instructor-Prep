@@ -31,7 +31,7 @@ Discuss the value of focusing on each of these, even though it is early in their
 
 Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const`, because they are more suited to writing clean code.
 
-### Break - 10 Minute
+### Break - 10 Minutes
 
 # Second Hour
 
@@ -75,7 +75,7 @@ In settings:
   - Students will need to restart VSCode for the changes to take effect.
   - Once they do, guide them through entering `code lint-test.js` at the command line and then paste the contents of the JS sample that you send to them through Slack.
 
-### Break - 10 Minute
+### Break - 10 Minutes
 
 # Third Hour
 
