@@ -1,5 +1,7 @@
 # Class 02
 
+## First Hour
+
 ## Announcements
 
 - **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due when the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
@@ -44,43 +46,44 @@
       - Go through code line-by-line and have a different person explain each line.
       - Fix broken code together as a class.
 
-## Take Break 10 Minute
+---
+
+## Break - 10 Minutes
 
 ---
 
 ## Second Hour
 
-## 30 Minutes.  Probably less than 30 more like 10. More time for code.
+## Git vs GitHub - git demo
 
-5. Git vs GitHub
-   - git demo
+## 30 Minutes
 
+*Probably less than 30 more like 10. More time for code.*
 
-# 30 Minutes
-3. Review of HTML/CSS
+---
+
+## 30 Minutes
+
+3. *Review HTML/CSS*
    - HTML/CSS
-   - Start to talk about css.  Add reset . look at web page in browser see reset diff.
-   **https://meyerweb.com/eric/tools/css/reset/**
+   - Start to talk about CSS. Add reset. Look at web page in browser see reset difference.
+   **[https://meyerweb.com/eric/tools/css/reset/]**
    - Look at the same web page in two different browsers.
-   - Use the reset css copy and paste into a style tag. And show the differences in the two browsers.
+   - Use the reset CSS copy and paste into a style tag. And show the differences in the two browsers.
      - HTML heading/paragraph tags
      - HTML lists (`<ol>` & `<ul>`)
      - CSS ids/classes
-        * targeting specific value (ol li {})
-     - targeting specific values
-     - CSS reset
+        - targeting specific value (`ol` + `li` + `{}`)
 
+---
 
-
-# Demo Code for HTML
-
+## Demo Code for HTML
 
 ```HTML
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-
         <title>Class 2 Demo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,7 +91,6 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
         <header>
             <h1>Class 2</h1>
             <nav>
@@ -108,8 +110,7 @@
             </section>
             <p id="another-style">Where would you like to travel?</p>
             <p>How many pets do you have?</p>
-            <p class="more-styles">Have you ever traveled into outter space.</p>
-
+            <p class="more-styles">Have you ever traveled into outer space?</p>
         </main>
         <footer>
             <nav>
@@ -119,60 +120,57 @@
                 </ol>
             </nav>
         </footer>
-
         <script src="js/app.js" ></script>
     </body>
 </html>
-
 ```
 
+---
 
-
-# Demo Code for CSS
+## Demo Code for CSS
 
 ```css
 /* * {
-    outline: dotted;
+  outline: dotted;
 } */
 
 body {
-    margin: 0 auto;
-    width: 1000px;
-                     /*    red  green blue  opacity */
-    background-color: rgba(27,  71,  218,  .5);
+  margin: 0 auto;
+  width: 1000px;
+                      /* red green blue opacity */
+  background-color: rgba(27,  71,  218,  .5);
 }
 main {
-    background-color: rgb(213, 245, 166);
+  background-color: rgb(213, 245, 166);
 }
 header {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 ul li {
-    display: inline;
-    padding: 10px;
-    background-color: rgb(85,136,212);
-    border-radius: 15px;
+  display: inline;
+  padding: 10px;
+  background-color: rgb(85,136,212);
+  border-radius: 15px;
 }
 ol li {
-    display: inline;
-    padding: 10px;
-    background-color: rgb(85,136,212);
-    border-radius: 15px;
+  display: inline;
+  padding: 10px;
+  background-color: rgb(85,136,212);
+  border-radius: 15px;
 }
 h1 {
-    background-color: hotpink;
-    color: #f50efd;
-    font-size: 50px;
-    text-shadow:2px 2px ivory;
-    margin-bottom: 20px;
+  background-color: hotpink;
+  color: #f50efd;
+  font-size: 50px;
+  text-shadow:2px 2px ivory;
+  margin-bottom: 20px;
 }
 nav {
-    background-color: rgb(44,94,141);
-    height: 250px;
+  background-color: rgb(44,94,141);
+  height: 250px;
 }
 section p.more-styles {
-
-    background-color: red;
+  background-color: red;
 }
 
 .more-styles {
@@ -181,41 +179,30 @@ background-color:  #0000FF;
 }
 
 #another-style {
-    border: 5px solid #00FF00;
+  border: 5px solid #00FF00;
 }
 
 footer {
-    margin-top: 15px;
+  margin-top: 15px;
 }
-
 ```
 
+---
 
+## 40 Minutes
 
-# 40 Minutes
-4. JavaScript
-   - Data Types - **https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof**
-
-   - Conditionals
-    * There are 2 different types of conditionals:
-    * if/if....else statements
-    * switch statements
-
-   - Arrays
-
-<<<<<<< HEAD
-# 30 Minutes.
-5. Git vs GitHub
-   - git demo
-6. Lab Review
-
-=======
->>>>>>> b2af880c40d29b83519bb8d695dbccf6115304c6
+4. *Javascript*
+    - Data Types **[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof]**
+    - Conditionals
+    - There are 2 different types of conditionals:
+    - if/if....else statements
+    - switch statements
+    - Arrays
 
 ```js
 'use strict';
 
-// If conditional based confirm command
+// If conditional-based confirm command
 let answer1 = confirm('Do you dare to begin your coding journey?');
 if (answer1 === true || answer1 !== true) {
   alert('LET\'S GO ON A JOURNEY THROUGH TIME AND SPACE!');
@@ -226,94 +213,66 @@ if (answer1 === true || answer1 !== true) {
 
 /////////////////////////////////////////////////////
 // logical operator example
-<<<<<<< HEAD
-var myBooleenValueTrue = true;
-var anotherBooleenValueFalse = false;
-var thirdBooleenValueTrue = true;
-
-        // And = both conditions have to be true
-if (myBooleenValueTrue && thirdBooleenValueTrue) {
-    alert('The && will run if both conditions return true. And = both conditions have to be true');
-    console.log('thirdBooleenValueTrue and thirdBooleenValur were both true')
-}
-        // only one of these have to be true
-else if (myBooleenValueTrue || anotherBooleenValueFalse) {
-    alert('The || will run if one of the conditions return true.');
-    console.log('the mybooleenValueTrue or anotherBooleenValueFalse was true!');
-}
-        // only thirdBool can be true
-else if (thirdBooleenValueTrue) {
-    alert('The thirdBooleenValueTrue was true so this will run.');
-    console.log('myBool and anotherBool were false, but thirdBool was true.');
-}
-         // none of the above conditions were true
-else {
-  console.log('Were any of my variables true?');
-=======
-// let myBooleenValueTrue = true;
-// let anotherBooleenValueFalse = false;
-// let thirdBooleenValueTrue = true;
+// let myBooleanValueTrue = true;
+// let anotherBooleanValueFalse = false;
+// let thirdBooleanValueTrue = true;
 //else if
-let myBooleenValueTrue = true;
-let anotherBooleenValueFalse = false;
-let thirdBooleenValueTrue = false;
+let myBooleanValueTrue = true;
+let anotherBooleanValueFalse = false;
+let thirdBooleanValueTrue = false;
 //next else if
-// let myBooleenValueTrue = false;
-// let anotherBooleenValueFalse = false;
-// let thirdBooleenValueTrue = true;
+// let myBooleanValueTrue = false;
+// let anotherBooleanValueFalse = false;
+// let thirdBooleanValueTrue = true;
 //else
-// let myBooleenValueTrue = false;
-// let anotherBooleenValueFalse = false;
-// let thirdBooleenValueTrue = false;
+// let myBooleanValueTrue = false;
+// let anotherBooleanValueFalse = false;
+// let thirdBooleanValueTrue = false;
 
-if (myBooleenValueTrue && thirdBooleenValueTrue){
-  alert('The && will run if both are true');
-  console.log('both values were true');
-} else if(myBooleenValueTrue || anotherBooleenValueFalse){
-  alert('The || will run if both are true');
-  console.log('one of values was true');
-} else if(thirdBooleenValueTrue){
-  alert('the 3rd value was tru so this will run');
-  console.log('thirdBooleenValueTrue was true');
+if (myBooleanValueTrue && thirdBooleanValueTrue){
+  alert('The && will run if both are true.');
+  console.log('Both values were true.');
+} else if(myBooleanValueTrue || anotherBooleanValueFalse){
+  alert('The || will run if one value was true.');
+  console.log('One of values was true.');
+} else if(thirdBooleanValueTrue){
+  alert('The 3rd value was true, so this will run.');
+  console.log('thirdBooleanValueTrue was true.');
 } else {
-  console.log('There were no true values');
->>>>>>> b2af880c40d29b83519bb8d695dbccf6115304c6
+  console.log('There were no true values!');
 }
 
 //////////////////////////////////////////////////////////////////////////////
 
+alert('Welcome to 4-Part Spaceship Repair!');
+let spaceHandle = prompt('What\'s your space name?');
+let spaceShipPart = prompt('What spaceship part do you need? Select a number between 1 and 4.');
 
-alert('Welcome to 4 Part spaceship repair.');
-let spaceHandle = prompt('What\'s your space name');
-let spaceShipPart = prompt('What spaceship part do you need?, 1 through 4');
-
-// convert the variable of color to lower case and evaluate it
 switch (spaceShipPart) {
     case '1':
+        confirm(spaceHandle + 'You need Part One?');
         console.log('This is Part One.');
         break;
     case '2':
-        confirm(spaceHandle + 'you need Part Two?');
-        alert(spaceHandle + 'You will recieve your part in two to three light years.');
-        console.log('your favorite color was blue!');
+        confirm(spaceHandle + 'You need Part Two?');
+        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears. However long that takes!');
+        console.log('Your favorite color was blue!');
         break;
     case '3':
         alert('This is Part Three.');
-        console.log('your favorite color was blue!');
+        console.log('Your favorite color was blue!');
         break;
     case '4':
     alert('This is Part Four.');
-    console.log('your favorite color was blue!');
+    console.log('Your favorite color was blue!');
     break;
 
     default:
-        alert('i don\'t know if your ship will ever fly again?,  ¯\_(ツ)_/¯');
+        alert('I don\'t know if your ship will ever fly again!  ¯\_(ツ)_/¯');
 }
 alert('Bye for now ' + spaceHandle);
 
 ```
-
-
 
 ```js
 
@@ -346,10 +305,13 @@ console.log(nestedArrayMultiLine);
 
 ```
 
-
+---
 
 ### Take Break 10 Minute
-# Third Hour
+
+---
+
+## Third Hour
 
 6. Lab Review
 
