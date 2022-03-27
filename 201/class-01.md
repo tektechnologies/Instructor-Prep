@@ -1,21 +1,21 @@
 # First Hour
 
-
 ## Campus Kickoff
 
 Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://docs.google.com/presentation/d/10z8h0kdeHRtuBZ0RoJ1JWxSpiFKgyeMNyDoz1V4TtRU/edit#slide=id.gf7316a0f20_0_0). 
 
-
 ## Intro to Canvas
 
-1. Modules view of assignments
+1. Module-view of assignments
 1. Syllabus
 1. Course Overview
-1. Calender view
+1. Calendar view
 
 ### Review of Career Coaching Assignments
 
-Students should have completed some prework assignments related to Career Coaching. Discuss the value of focusing on each of these, even though it is early in their career change process.
+Students should have completed some prework assignments related to Career Coaching. 
+
+Discuss the value of focusing on each of these, even though it is early in their career change process.
 
 - Career Coaching Overview: Sets the tone of the career assignments.
 - Professional Competency Self-Assessment: 
@@ -29,18 +29,11 @@ Students should have completed some prework assignments related to Career Coachi
 
 ## Reading Review
 
-Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const` because they are more suited to writing clean code.
+Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const`, because they are more suited to writing clean code.
 
+### Break - 10 Minute
 
-
-
-
-
-### Take Break 10 Minute
 # Second Hour
-
-
-
 
 ## Command Line, VS Code & Linter Setup
 
@@ -61,7 +54,7 @@ Review the basic Unix Commands:
 Git Intro:  
 
 - What is Git?  
-- Version control concepts, show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
+- Version control concepts; Show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
   - Point out the benefits of keeping their code organized
 - Analogy of saving multiple versions of a term paper vs. overwriting changes with each save
 - Series of snapshots  
@@ -76,19 +69,15 @@ In settings:
 
 ### Setup your Linter
 
-- this file should exist in **every** project you create in javascript, so save it somewhere that is easily accessible.
-- Have the students copy/paste that code into the `.eslintrc.json` file that they created, 
+- This file should exist in **every** project you create in javascript, so save it somewhere that is easily accessible.
+- Have the students copy/paste that code into the `.eslintrc.json` file that they created 
 
   - Students will need to restart VSCode for the changes to take effect.
   - Once they do, guide them through entering `code lint-test.js` at the command line and then paste the contents of the JS sample that you send to them through Slack.
 
+### Break - 10 Minute
 
-
-
-### Take Break 10 Minute
 # Third Hour
-
-
 
 ### Live code Demo
 
@@ -141,23 +130,20 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
       </footer>
       ```js
       <script>
-         var firstName = prompt('What\'s is your First Name?');
+         var firstName = prompt('What\'s your First Name?');
          console.log('First Name = ' + firstName);
-         var lastName = prompt('What\'s is your Last Name?');
+         var lastName = prompt('What\'s your Last Name?');
          console.log('Last Name = ' + lastName);
-         var gameName = prompt('What\'s is your Favorite Game?');
+         var gameName = prompt('What\'s your Favorite Game?');
          console.log('Favorite Game = ' + gameName);
-         var systemName = prompt('What\'s is your Game Console?');
-         alert('Welcome ' + firstName + ' ' + lastName + ', ' + 'I too play, ' + gameName + ' on a  ' + systemName);
+         var systemName = prompt('What is your Game Console?');
+         alert('Welcome ' + firstName + ' ' + lastName + ', ' + 'I too play ' + gameName + ' on a  ' + systemName);
       </script>
       ```
    </body>
 </html>
  
  ```
-
-
-
 
 
 ### Lab Setup
