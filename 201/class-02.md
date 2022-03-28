@@ -251,20 +251,20 @@ let spaceShipPart = prompt('What spaceship part do you need? Select a number bet
 switch (spaceShipPart) {
     case '1':
         confirm(spaceHandle + 'You need Part One?');
-        console.log('This is Part One.');
+        console.log(spaceHandle +  ' needs part one!');
         break;
     case '2':
         confirm(spaceHandle + 'You need Part Two?');
-        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears. However long that takes!');
-        console.log('Your favorite color was blue!');
+        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears. However long that takes! :)');
+        console.log(spaceHandle +  ' needs part two!');
         break;
     case '3':
-        alert('This is Part Three.');
-        console.log('Your favorite color was blue!');
+        alert('You need Part Three?');
+        console.log(spaceHandle +  ' needs part three!');
         break;
     case '4':
-    alert('This is Part Four.');
-    console.log('Your favorite color was blue!');
+    alert('You need Part Four?');
+    console.log(spaceHandle +  ' needs part four!');
     break;
 
     default:
@@ -276,7 +276,7 @@ alert('Bye for now ' + spaceHandle);
 
 ```js
 
-/////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////
 
 //create an empty array
 let emptyArray = [];
@@ -284,8 +284,8 @@ let emptyArray = [];
 console.log(emptyArray);
 
 //                 0   1   2   3   4
-let quizAnswer = ['b','c','d','a','c'];
-console.log(quizAnswer);
+let quizAnswers = ['b','c','d','a','c'];
+console.log(quizAnswers);
 
 // we can even create an array of arrays!
 //nested array
@@ -307,13 +307,13 @@ console.log(nestedArrayMultiLine);
 
 ---
 
-### Take Break 10 Minute
+## Break - 10 Minutes
 
 ---
 
 ## Third Hour
 
-6. Lab Review
+6. *Lab Review*
 
 ```js
 
@@ -329,7 +329,7 @@ while (!userName) {
 }
 
 //Greet the user
-alert('Hello ' + userName);
+alert('Hello ' + userName + '!');
 
 //convert the input to lowerCase
 let lowerCaseName = userName.toLowerCase();
@@ -337,51 +337,53 @@ console.log(lowerCaseName);
 
 //Validate the input using conditional logic using strict equals.
 if(lowerCaseName === 'craig' || lowerCaseName === 'bob') {
-  alert('Welcom back to my page, ' + userName);
+  alert('Welcome back to my page, ' + userName + '!');
 } else {
-  alert('Welcome new user to my page.');
+  alert('Welcome to my page, ' + userName + '!');
 }
 
 ```
 
+---
 
 ```js
 
 // we don't always have to commit to a specific data type
 let mixedDataTypes = ['Harry', 'Potter', 10, true, 'magic'];
-console.log('Mixed Data Types',mixedDataTypes);
-
+console.log('Mixed Data Types: ', mixedDataTypes);
 
 let myArray = ['a', 'b', 'c'];
+
+//Let's change the value of 'a' to 'z', using the index position
+
 myArray[0] = 'z'; // myArray is now equal to ['z' 'b', 'c']
-console.log('My Array at position 0',myArray[0]);
+console.log('My Array at position 0 is ', myArray[0]);
 //We can easily check if a specific index in the array is equal to specific value
 
 let myArrayOne = ['a', 'b', 'c'];
 if(myArrayOne[1] === 'b')
 {
   // do something here
-  console.log('This is where we add the message', myArrayOne[1]);
+  console.log('This is where we add the message.', myArrayOne[1]);
 }
-//If we wanted to "add" an item to the end of the array, we can do so by the .push() method.
+//If we wanted to "add" an item to the end of the array, we can do so by using the .push() method.
 
 let myArrayTwo = [1,2,3,4,5];
 myArrayTwo.push(6);
-console.log('My Array Two', myArrayTwo);
+console.log('My Array Two: ', myArrayTwo);
 // myArray now is equal to [1,2,3,4,5,6]
-//To remove an item from the end of an array, is a .pop().
 
+
+//To remove an item from the end of an array, is a .pop().
 let myArrayThree = [1,2,3,4,5];
 myArrayThree.pop();
-console.log('My Array Three',myArrayThree);
+console.log('My Array Three: ', myArrayThree);
 // myArray is now equal to [1,2,3,4]
-
-
-
 ```
 
-```js
+---
 
+```js
 //Lab2 tech requirements
 
 //  short biography
@@ -397,15 +399,15 @@ console.log('My Array Three',myArrayThree);
 // console.log() messages within your app then alerts
 
 
-// personalized welcome message so that I feel like I am interacting with the site owner.
+// Personalized welcome message so that I feel like I am interacting with the site owner.
 // Ask the user their name through a prompt()
 
 // Display that name back to the user at the start and the final message to the user.
 
-// Your JS file must contain a 'use strict' declaration at the top,
-// and your javascript file must be linked in your html file as an external script file.
-// Make sure that all code is cleanly written use formatter
-// Follow the Add, Commit, Push process.
+// Your JS file must contain a 'use strict;' declaration at the top,
+// And your javascript file must be linked in your html file as an external script file.
+// Make sure that all code is cleanly written (use formatter)
+// Follow the "Add, Commit, Push" process.
 
 // Push yourself in your CSS work.
 //  Experiment, try some layout feature or technique that you have not tried before
@@ -414,28 +416,3 @@ console.log('My Array Three',myArrayThree);
 //      icon fonts such as FontAwesome
 
 ```
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> b2af880c40d29b83519bb8d695dbccf6115304c6
