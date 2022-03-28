@@ -1,8 +1,10 @@
-# First Hour
+# Class 01
+
+## First Hour
 
 ## Campus Kickoff
 
-Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://docs.google.com/presentation/d/10z8h0kdeHRtuBZ0RoJ1JWxSpiFKgyeMNyDoz1V4TtRU/edit#slide=id.gf7316a0f20_0_0). 
+Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://docs.google.com/presentation/d/10z8h0kdeHRtuBZ0RoJ1JWxSpiFKgyeMNyDoz1V4TtRU/edit#slide=id.gf7316a0f20_0_0).
 
 ## Intro to Canvas
 
@@ -13,52 +15,60 @@ Work with your campus director for the Class 1 kickoff, using the [201 orientati
 
 ### Review of Career Coaching Assignments
 
-Students should have completed some prework assignments related to Career Coaching. 
+Students should have completed some prework assignments related to Career Coaching.
 
 Discuss the value of focusing on each of these, even though it is early in their career change process.
 
 - Career Coaching Overview: Sets the tone of the career assignments.
-- Professional Competency Self-Assessment: 
-- Prepare your Resume: 
-- Prepare your LinkedIn: 
-- Identify Your Accountability Partners: 
-- Partner Power Hour Reports: 
+- Professional Competency Self-Assessment:
+- Prepare your Resume:
+- Prepare your LinkedIn:
+- Identify Your Accountability Partners:
+- Partner Power Hour Reports:
 - Talk to Your Network:
-- Attend a Meetup: 
+- Attend a Meetup:
 - Behavioral Interview Questions: Students will use the S.T.A.R method to write drafts of two behavioral interview questions.
 
 ## Reading Review
 
 Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const`, because they are more suited to writing clean code.
 
-### Break - 10 Minutes
+---
 
-# Second Hour
+## Break - 10 Minutes
+
+---
+
+## Second Hour
 
 ## Command Line, VS Code & Linter Setup
 
-### Command Line Basics  
+### Command Line Basics
 
-Review the basic Unix Commands:  
+Review the basic Unix Commands:
 
 - `pwd`
-- Filepaths and up/down navigation concepts  
-- `tree`  
-- `ls`, `ls -la`  
-- `cd`, `mkdir`  
-- `touch`, `code`  
+- Filepaths and up/down navigation concepts
+- `tree`
+- `ls`, `ls -la`
+- `cd`, `mkdir`
+- `touch`, `code`
 - `mv`, `rm`, `cp`
+
+---
 
 ### Intro to Git & GitHub
 
-Git Intro:  
+Git Intro:
 
-- What is Git?  
+- What is Git?
 - Version control concepts; Show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
   - Point out the benefits of keeping their code organized
 - Analogy of saving multiple versions of a term paper vs. overwriting changes with each save
-- Series of snapshots  
+- Series of snapshots
 - HEAD
+
+---
 
 ### Configure VS Code
 
@@ -70,22 +80,26 @@ In settings:
 ### Setup your Linter
 
 - This file should exist in **every** project you create in javascript, so save it somewhere that is easily accessible.
-- Have the students copy/paste that code into the `.eslintrc.json` file that they created 
+- Have the students copy/paste that code into the `.eslintrc.json` file that they created
 
   - Students will need to restart VSCode for the changes to take effect.
   - Once they do, guide them through entering `code lint-test.js` at the command line and then paste the contents of the JS sample that you send to them through Slack.
 
-### Break - 10 Minutes
+---
 
-# Third Hour
+## Break - 10 Minutes
 
-### Live code Demo
+---
+
+## Third Hour
+
+### Live Code Demo
 
 1. The code demo should be written completely from scratch in front of the class.
-2. After lecture, push your code demo to the class repo and inform students that these demos will be available for their reference each day. 
+2. After lecture, push your code demo to the class repo and inform students that these demos will be available for their reference each day.
 
-3. Introduce `let`. 
-Cover the difference between `var` and `let`. 
+3. Introduce `let`.
+Cover the difference between `var` and `let`.
 We will be using only `let` and `const` in 201.
 
 Demonstrate how to use the `live-server` command to enable automatic browser refreshing.
@@ -142,9 +156,10 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
       ```
    </body>
 </html>
- 
+
  ```
 
+---
 
 ### Lab Setup
 
