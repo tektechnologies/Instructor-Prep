@@ -61,12 +61,12 @@ Scripts without any Decision Points aren't very useful, so we use conditionals t
 
 ## Evaluating Comparisons
 
-1. syntax: `(<operand> <operator> <operand>)`
-1. each operand can be a value, a variable, or an expression
-1. comparisons will usually be wrapped in `()`
-1. if comparing expressions using a logical operator:
-   1. evaluate each expression to get `true` or `false`
-   1. use the booleans to evaluate the logical expression
+1. Syntax: `(<operand> <operator> <operand>)`
+2. Each operand can be a value, a variable, or an expression
+3. Comparisons will usually be wrapped in `()`
+4. If comparing expressions using a logical operator:
+   1. Evaluate each expression to get `true` or `false`
+   2. Use the booleans to evaluate the logical expression
 
 ```javascript
 1 === 1     -> true
@@ -178,6 +178,8 @@ if (a && obj) {
 }
 ```
 
+---
+
 ## Short Circuit Values
 
 Logical operators work from left -> right, and stop as soon as they get a result. When they stop, they return whatever value stopped them, so we can write logical expressions that return a value other than `true` or `false`. This can be used to set default values.
@@ -192,9 +194,13 @@ let userName2 = (name2 || 'unknown'); -> userName2 = 'unknown'
 
 ---
 
-## Loops
+## Break - 10 Minutes
 
-### Control Flow (Loops)
+---
+
+## Third Hour
+
+## Loops
 
 *What are loops? Why do we need them?*
 
@@ -214,50 +220,40 @@ Check a condition. If `condition === true`, repeatedly execute a code block unti
 
 ---
 
-## Break - 10 Minutes
-
----
-
-# Third Hour
-
-### for loops
-
-`for` loops are primarily used when iterating over arrays. A for loop runs "for the number of times specified" is the basic summary of a for loop. The syntax is as follows:
-
-```js
-  for(starting val; condition; increment) {
-    do something for a finite number of times
-  }
-```
-
 ## 'for' Loops
 
-Use a `for` loop when you want to run a loop a certain number of times. Track how many times the loop has executed using a counter variable.
+`for` loops are primarily used when iterating over arrays.
+A `for` loop runs "**for** the number of times specified".
 
-Order of operations:
+Use a `for` loop when you want to run a loop a certain number of times.
+Track how many times the loop has executed using a counter variable.
 
-1. set counter = <initial value>
-1. check counter against <stop condition>. if this expression is true, continue
-1. execute the loop statements once
-1. increment counter
-1. repeat steps 2 - 4 until <stop condition> is met
+The syntax is as follows:
 
 ```js
-for (let counter = <initial value>; <stop condition>; <increment>) {
+for(let counter = <initial value>; <stop condition>; <increment>){
   //do stuff
 }
 ```
 
-For loop:
+Order of operations:
+
+1. Set counter = `<initial value>`.
+2. Check counter against `<stop condition>`. If this expression is true, continue.
+3. Execute the loop statements once.
+4. Increment counter.
+5. Repeat steps 2 - 4 until `<stop condition>` is met.
+
+### Examples:
 
 ```js
-for (let i = 0; i < 10; i++) {
-    console.log(i);
+for (let i = 0; i < 10; i++)
+{
+  console.log(i);
 }
 ```
 
 ```js
-
 //console log the values in an array
 let arr = ['a', 2, false, {}, 'I am last'];
 for (let i = 0; i < arr.length; i++) {
@@ -265,29 +261,17 @@ for (let i = 0; i < arr.length; i++) {
 }
 ```
 
-### while loops
-
-```js
-  while(condition) {
-    do something until the condition is false
-  }
-```
-
-### do...while loops
-
-do...while loops can guarantee an iteration occurs at least once. the "do" code will run initially before the "while" condition gets evaluated.
-
-```javascript
-  do {
-    do this at least once and until the condition is false
-  } while (condition)
-```
+---
 
 ## 'while' and 'do...while' Loops
 
-Use a `while` loop when you don't know how many times you need to loop - maybe even zero times. Use a 'do...while' loop when you know you want to run the loop once, but don't know how many more times.
+Use a `while` loop when you don't know how many times you need to loop - maybe even zero times.
 
-These loops will keep running until `condition === false`, so you must ensure that the condition will become false at some point. If you don't, you'll get an infinite loop.
+Use a `do...while` loop when you know you want to run the loop once, but don't know how many more times.
+
+These loops will keep running until `condition === false`, so you must ensure that the condition will become false at some point.
+
+***If you don't, you'll get an infinite loop!***
 
 ```javascript
 let myNumber = 3;
@@ -320,19 +304,21 @@ do {
 } while (index > 0);
 ```
 
+---
+
 ## Box Model
 
-Review the basics of the box model
+### Review the basics of the box model
 
 1. Margin
 2. Border
 3. Padding
 
-(ManBearPig)
+`ManBearPig!`
 
-Layouts using CSS with the Box Model
+Layouts using CSS with the Box model:
 
-- Can't put a top and bottom margin on inline elements.
+- Cannot put a top and bottom margin on inline elements.
 - If we want to display margin on top, we will use display-inline block, which adds the margin all around.
 
 ---
