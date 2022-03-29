@@ -1,13 +1,16 @@
-# First Hour
-- Introduce the Career assignments for the first week that students will be working on. 
+# Class 03
+
+## First Hour
+
+- Introduce the Career assignments for the first week that students will be working on.
 - What does use strict do?
 - Prompt Cancel returns a null value and Alert returns an undefined
 - Collective ownership, we share in the responsibility of each others success
-- Inside the document we have head and we have a body and that's it. 
-- Explain the control flow, in general means the how to program decides which code to run. 
-- Ask question, make choice, should we take or not. Then if we do, how do we handle the question and response. So we control to flow of our program. 
-- What kinds of control flow are there? 
-- Condition comments for control flow, we say show this code or not, on Internet Explorer. 
+- Inside the document we have head and we have a body and that's it.
+- Explain the control flow, in general means the how to program decides which code to run.
+- Ask question, make choice, should we take or not. Then if we do, how do we handle the question and response. So we control to flow of our program.
+- What kinds of control flow are there?
+- Condition comments for control flow, we say show this code or not, on Internet Explorer.
 - Banner of Doom (Change your browser, to something not IE, )
 
 
@@ -27,7 +30,7 @@
 
 
 
-# Add git repo build our html and css cover js below as we go. 
+# Add git repo build our html and css cover js below as we go.
 
 
 
@@ -48,7 +51,7 @@ Scripts without any Decision Points aren't very useful, so we use conditionals t
 
 ## Comparison Operators
 
-Compare two values and get a result in the form of `true` or `false`  
+Compare two values and get a result in the form of `true` or `false`
 
 | Operator | Name | Evaluates |
 | -------- | ---- | --------- |
@@ -289,13 +292,13 @@ for (let counter = <initial value>; <stop condition>; <increment>) {
 }
 ```
 
-For loop:  
+For loop:
 
 ```js
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
-``` 
+```
 
 ```js
 
@@ -348,7 +351,7 @@ do {
 } while (i < 1);
 ```
 
-While and do while loops:  
+While and do while loops:
 
 ```javascript
 let index = 0;
@@ -375,26 +378,6 @@ Review the basics of the box model
 Layouts using CSS with the Box Model
 
 
-- Cant put a top and bottom margin on inline elements. 
-- If we want to display margin on top we will use display-inline block, which adds the margin all around. 
-- The only way to get better at programming is to practice. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Cant put a top and bottom margin on inline elements.
+- If we want to display margin on top we will use display-inline block, which adds the margin all around.
+- The only way to get better at programming is to practice.
