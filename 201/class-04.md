@@ -1,7 +1,64 @@
 # First Hour
 
+```js
+alert('Welcome to 4-Part Spaceship Repair!');
+let spaceHandle = prompt('What\'s your space name?');
+let spaceShipPart = prompt('What spaceship part do you need? Select a number between 1 and 4.');
+
+switch (spaceShipPart) {
+    case '1':
+        confirm(spaceHandle + 'You need Part One?');
+        console.log(spaceHandle +  ' needs part one!');
+        break;
+    case '2':
+        confirm(spaceHandle + 'You need Part Two?');
+        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears. However long that takes! :)');
+        console.log(spaceHandle +  ' needs part two!');
+        break;
+    case '3':
+        alert('You need Part Three?');
+        console.log(spaceHandle +  ' needs part three!');
+        break;
+    case '4':
+    alert('You need Part Four?');
+    console.log(spaceHandle +  ' needs part four!');
+    break;
+
+    default:
+        alert('I don\'t know if your ship will ever fly again!  ¯\_(ツ)_/¯');
+}
+alert('Bye for now ' + spaceHandle);
+
+```
+
+```javascript
+1 === 1     -> true
+1 == '1'    -> true
+1 === '1'   -> false
+
+let a = 10;
+let b = 100;
+a < b         -> true
+a >= 50       -> false
+
+(a + b === 110) -> (10 + 100 === 110)
+                -> (110 === 110)
+                -> true
+
+(a + b > a - b) -> (110 > -90)
+                -> true
+
+(a === b && true) -> (false && true)
+                  -> false
+
+((a !== b) || (a < b)) -> (true || true)
+                       -> true
+```
+
+
 # Code review
    - Review Truthy/Falsy
+   - https://dorey.github.io/JavaScript-Equality-Table/
    - Review Arrays Question 7
    - Review Loops Question 6
 
