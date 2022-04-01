@@ -11,11 +11,9 @@ Setup 15 minute 1-on-1 meetings students with each student over the next few day
 - navigator still has control
 - style nitpicks or variable name nitpicks. 
 
-# Code Review around 20 Minutes then cover Hexadecimal and then finsih review
-
-1. Look at web page, check out the css, and how its working. 
-# Make sure every one has an eslinter on their About Me.
-- Show them how to identify, errors in the code, the left side bar shows little red boxes. We can fix those issues with hovering over the red lines, and selecting the "fix all" options. 
+# Code Review around 20 Minutes 
+# Then cover Hexadecimal 
+# Do Warm Up
 
 
 
@@ -63,34 +61,6 @@ so we can specify our desired colors in RGB by the number of red, number of gree
 
 
  written using a nibble, two are a byte 0-9 or A-F. 
-- 0
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- A - 10
-- B - 11
-- C - 12
-- D - 13
-- E - 14
-- F - 15
-#### Hexadecimal  10 is equal to RGB 16
-#### Hexadecimal  11 is equal to RGB 17
-#### Hexadecimal  19 is equal to RGB 25
-#### Hexadecimal  1A is equal to RGB 26
-#### Hexadecimal  1F is equal to RGB 31
-
-# #1F1A19    is equal to rgb(31, 26, 25)
-
- This is how we get to 255 from hex to rgb(255, 255, 255). 
-                first position   second position
-# #(FF)FFFF  = to   (15(F) X 16)    +   (15(F) X 1)     = 255
-                                           240       +        15
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -124,8 +94,8 @@ This is how Hex codes work.
                         
 FFFFFF  is equal to (15 X 16) + (15 X 1) = 255
 ![FF in Hex](FFHEx.png)
-
-### Convert an RGB to HEX.
+- 
+# Convert an RGB to HEX.
 rgb(184,)
 - 184   (16 x 12 = 192 to high)       16 x 11(B - 11) = 176   
 - 176                   +              1 x  8(8 - 8 ) = 184
@@ -175,10 +145,22 @@ Lab 5b
 
 
 # Show them that the TA will provide feedback within github pull requests, as well as grading in class. 
-We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows me to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
+We have that history for review, each commit has a hash, it is base 16, although it is still really long, we can run in command git checkout and that hash number. This allows us to go back in time and look at the code how it was in the past throughout its development. Now if we look at the code we are seeing the code before the commit was made. 
 git checkout main takes us back to main. 
 
 
+### Git branching & deployment
+
+- **Why**
+  - Branching allows each developer to branch out from the original code base and isolate their work from others.
+  - Allows all risk involved in a merge to be deferred until that point.
+- **What**
+  - Branches represent an isolated line of development.
+- **How**
+  - Use a whiteboard to demonstrate branching.
+  - Demonstrate using a project that you may have onr your local machine.
+    - Create and checkout to a branch.
+  - Demonstrate the pull requests and merging the branch back into main.
 
 
 
@@ -412,6 +394,153 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
 
 ### Take Break 10 Minute
 # Third Hour
+
+
+
+### Images, Color, Text
+
+- **Why**
+  - Images, font color, and text are a great way for students to style their applications.
+- **What**
+  - Images
+    - JPEG (.jpg, .jpeg)
+    - GIF (.gif)
+    - PNG (.png)
+- **How**
+  - Image Demo:
+    - Discuss the advantages and disadvantages of the different image file formats listed above.
+    - Can use VSCode for image demo - build out HTML and CSS pages.
+    - Add image in HTML along with other HTML elements like `<p>` or `<article>`.
+    - Style figure and show different ways you can resize image.
+  - CSS Color / Font Demo:
+    - Using the same CSS file that was used in the Image demo, show how to style the `<p>` or `<article>` elements.
+    - Style text using `font-family`, `color`, `line-height`, and `font size`.
+
+
+
+
+### Lab prep
+
+- **Why**
+  - Provides students with the tools to be successful with their lab.
+- **What**
+  - Review Lab 05a, 05b, and 05c instructions in Canvas.
+- **How**
+  - Lab05a review:
+    - Code out the first problem with students so they have an understanding of what is asked of them.
+    - Confirm what the function needs to return to meet the test requirements.
+    - Point out after question 2 they are NOT allowed to use the arthmetic operators.
+    - Students should not touch the test file!
+  - Lab05b review:
+    - Point out where they should be navigating to in GitHub for deployment.
+  - Lab05c review:
+    - Walk through a few of the first questions in CSS Diner.
+    - Advise students they will need to take a screenshot of the menu once completed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
