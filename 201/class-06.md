@@ -1,58 +1,39 @@
 # First Hour
 
-
-# Second Hour
-
-### Take Break 10 Minute
-
-
-# Third Hour
-
-
-
-
 ## Today's Agenda
 1. Announcements
 2. Code Review of lab 5A (using template literals)
 3. Lecture. JavaScript Objects
 4. Introduce Salmon Cookies. (Finish each lab before moving forward.)
 
+
 # Announcements 
-- Read asignments will be close throughout the week if you did not complete them, I can open on Fridays, let me know. 
 - This week we will have one on one meetings. 
 - Cover feedback information from week one. 
- 
-# What we will work on today. 
+
+## What we will work on today. 
 - Translate a real-world problem domain into a code model.
 - Browser represents an HTML document as an object that can be manipulated with JavaScript.
 - We Use JavaScript to dynamically render array data into the site page from the DOM
 - Demonstrate an understanding of how object literals are structured in JavaScript
 - how to access and reassign values/functionality to their properties and methods
 - Demonstrate an understanding of how dot notation and bracket notation are used to access/reassign properties and methods in JavaScript objects.
+## Template Literals
+A smaller topic for today is the introduction of ES6 template literals. Let us look at how to refactor the concatenation from week 1 lab 5a into template literals.
+1. Template literal: use backticks instead of single qoutes.  
+2. Using backticks alert me as a dev that something weird is about to happen. If I am writing a regular string, I will just write it as a string.   
+3. The template literal does make things shorter and more readable and I can more easily see what the out come of the line will be.
+
 
 ## Code Review
   - Demonstrate how to solve the problems from the lab.
   - This is also their first exposure to callbacks, so
   - point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
-  
-## Template Literals
-A smaller topic for today is the introduction of ES6 template literals. Let us look at how to refactor the concatenation from week 1 lab 5a into template literals.
 
-# Open up the homework lab 5a. 
+# Notes for demo with students work.
 
-### Problem 2
-1. What data type is our return statement?  //A
-2. What are at index 0 and index 1. 
-3. What is going on with that string.
-4. Instead of single qoutes and plus sign
-5. Use back tics, by the one key.
-6. Using dollar sign and curly braces to pull in those variables.
-7. Template literal: use backticks instead of single qoutes.  
-8. Using backticks alert me as a dev that something weird is about to happen. If I am writing a regular string, I will just write it as a string.   
-9. The template literal does make things shorter and more readable and I can more easily see what the out come of the line will be. 
-
-#### start with this problem
-```
+## start with this problem
+```js
 function multiply(a,b){
     return [a * b, `The product of ${a} and ${b} is ${a * b}. `];
 }
@@ -61,6 +42,7 @@ function multiply(a,b){
 - sum(4,7) returns an array
 - sum(4,7) + 11 returns a string value with the sum answer concating to the 11. 
     Looking like 11.11
+
 - var ans = sum(4,7);
 - ans.push(12)
 - returns, the array with 12 at the end. 
@@ -69,6 +51,7 @@ function multiply(a,b){
 - ans[0] give me the first thing out of that array.
 - we could do this -
 - sum(3,7)[0] - this is the number ten. Which we can now use as an argument to another sum. 
+
 - So sum(sum(3,7)[0], 5);
 - Will give us sum(10,5) === 15 ===[15]
 
@@ -82,22 +65,8 @@ function multiply(a,b){
 
 ### Problem 3
 
-// TODO: Write your code here
-```
-function sumAndMultiply(a,b,c){ //eslint-disable-line
-  var theSum = sum(sum(a, b)[0] ,c)[0];
-  console.log(theSum);
-  var product = multiply(a, multiply(b,c)[0])[0];
-
-  return [theSum, product, `${a} and ${b} and ${c} sum to ${sumAnswer}. `,
-
-  `The product of ${a} and ${b} and ${c} is {product}.  `];  
-  return [theSum, product, message1, message2];
-}
-```
 
 # The What is that game.
-# //////////////////////////////////
 
 - multiply(a, multiply(b,c)[0])[0];
 - ---------------------------------
@@ -110,8 +79,103 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
 - c is also a number 
 
 - object is always a good answer because everything in javascript is an object, but multiply returns an array. 
-
 - so the second multiply function that returns an array, has a [0] that just returns the number. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Second Hour
+
+### Take Break 10 Minute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Third Hour
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
 
 #  this ends the code review. 
 # /////////////////first break.///////////////////////
