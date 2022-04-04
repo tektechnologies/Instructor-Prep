@@ -9,6 +9,26 @@
 # Third Hour
 
 
+
+
+## Prototypes
+1. Every object has a prototype. It can be assigned explicitly, or is set to the global Object by default
+1. All objects have the props & methods of their prototype
+1. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it
+
+- There is a lot of potential for DOM manipulation and JS objects. We could potentially make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called:
+
+```js
+render: function(){
+  let parent = document.getElementById('parentElement');
+    for(let i=0; i < people.length; i++){
+      let newTag = document.createElement('li');
+      newTag.textContent = myArray[i];
+      parent.appendChild(newTag);
+    }
+}
+``` 
+
 # Concepts in Review - 
 ## review quiz and feedback
 
