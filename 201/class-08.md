@@ -1,6 +1,215 @@
 # First Hour
 
 
+
+
+
+# Review Challenges
+## Use console.log for printing things out. We will complete these review challenges together as there's time.
+
+## Challenge 1
+Write a piece of code that creates a variable 'numberOfChugga' and sets the value of that variable to 4. Then, write code that uses that variable to print out the word 'chugga' 4 times, and then at the end prints out 'choo choo!' once.
+```js
+let numOfChugga = 4;
+while(numOfChugga > 0){
+    console.log('chugga');
+    numberOfChugga--;
+}
+console.log('Choo Choo!);
+```
+
+## Challenge 2
+Write a function called 'getTwo' that takes in no parameters and returns the number 2.
+
+```js 
+function getTwo(){
+    return 2;
+}
+```
+- what data type is getTwo // it is a function 
+- what data type is this getTwo() // it is a number. 
+- getTwo() + 5 // becomes a string 7
+- getTwo() - 5// becomes -3
+- getTwo -5 // because its math it return Nan
+
+## Challenge 3
+Write a function called `addTwo` that takes in one parameter, a number, and returns 2 more than the input number.
+Input | Output
+------|-------
+0     | 2
+7     | 9
+-5.4  | -3.4
+
+## Solution
+```js 
+function addTwo(number){
+  return number + 2;
+  }
+
+addTwo(2);
+addTwo(getTwo());//4
+addTwo(getTwo(),getTwo()); //4
+addTwo('2'); //'22'
+```
+
+## Challenge 4
+Write a function called `repeat` that takes in two parameters, a string and a number, and returns the string repeated that many times, with spaces between repeats.
+Input | Output
+------|-------
+`'a',0` | `''`
+`'a',1` | `'a'`
+`'a',2` | `'a a'`
+`'a',4` | `'a a a a'`
+`'abc',3` | `'abc abc abc'`
+
+## Solution
+```js
+//going to need a loop
+function repeat(string, number){
+    let answer = '';
+    //some code here and test. 
+    for(let i =0; i < number; i++){
+        answer = answer + string + ' ';
+    }
+    //add in the answer.length -1
+    return answer.substring(0, answer.length);
+}
+
+```
+```js
+//we dont want space on the ends
+function repeat(string, number){
+    let answer = '';
+    for(let i =0; i < number; i++){
+        answer = answer + string + ' ';
+    }
+    return answer.substring(0, answer.length -1);
+}
+//
+function repeat(string, number){
+    let answer = '';
+    for(let i =0; i < number; i++){
+        answer = answer + string;
+        if(i < number - 1){
+            answer = answer + ' ';
+        }
+    }
+    return answer;
+}
+```
+
+## Challenge 5
+Write a function that takes in 2 parameters, a string and a number, and returns a string consisting of the number, followed by the string, followed by an 's' if the string should be pluralized based on the number.
+
+Input      | Output
+-|-
+`'cookie', 1` | `'1 cookie'`
+`'cookie', 2` | `'2 cookies'`
+`'cookie', 12` | `'12 cookies'`
+`'cookie', 0` | `'0 cookies'`
+`'salmon', 1` | `'1 salmon'`
+`'salmon', 2` | `'2 salmons'`
+`'mouse', 3` | `'3 mouses'`
+
+## Solution
+```js
+function takeTwo(string, number){
+    let stringResult;
+    if(number > 1){
+     stringResult = `${number} ${string}\'s`;
+    } else {
+      stringResult =  `${number} ${string}`
+    }
+    return stringResult;
+}
+```
+
+## Challenge 6
+In what order will these `console.log` statements run?
+```javascript
+console.log(1);
+function doStuff() {
+  console.log(2);
+}
+console.log(3);
+function doThings() {
+  console.log(4);
+  doStuff();
+  console.log(5);
+}
+console.log(6);
+doStuff();
+console.log(7);
+doThings();
+console.log(8);
+```
+
+## Challenge 7
+What will this code log to the console?
+```javascript
+    let a = 2;
+    let b = 3;
+    console.log(a + b);
+    let c = a;
+    a = 7;
+    console.log(a);
+    console.log(c);
+
+    function printTheThing(a) {
+        console.log(a);
+    }
+
+    printTheThing(4);
+    printTheThing(b);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Second Hour
 
 
@@ -45,41 +254,11 @@
 # third hour 
 - take break
 - CSS layout. 
-- jess intro lab
-```js
 
+```js
+//Create a layout of tech req, if students are having a hard time visualizing.
 // Student submitted example of commenting prior to building out javascript. 
 // Problem Domain
-//Create a new branch for today’s lab.
-// Replace all of your object literals for the salmon cookie stand with a single constructor function that, when called with the ‘new’ keyword, it creates a new instance.
- 
-//calculate cookies sold per hour
-//calculate cookies sold per day
- 
-//build a single table of data using render().
-//Get the table from the html.
-//create a row.
-//create a td.
-//get city name and set to text content.
-//append that td to the table row.
-//loop through the hours length, create td's w/ text content of cookies sold per hour then append td to the row.
-//then append tr to table.
- 
-//Now render the bottom row the day hourly totals from each store added up.
-//for each city in the cities array add to the hourly total that cities total for that hour after looping through all the cities, create a td and set the textcontent to hourly total and append it to the row.
-// When I see this I know that I am going to need some html basically a table setup
-//6:00am7:00am8:00am9:00am10:00am11:00am12:00pm 1:00pm2:00pm3:00pm4:00pm5:00pm6:00pm7:00pm  Daily Location Total
- 
-// Seattle                                                          
-// Tokyo                                                            
-// Dubai                                                            
-// Paris                                                            
-// Lima                                                         
-// Totals              
- 
-// Each cookie stand location should have a separate render() method that creates and appends its row to the table
-// The header row and footer row are each created in their own stand-alone function
-//Put our function calls here.
 ```
 - It’s ok that students feel confused with the nested loop. 2 parts to writing good code. 
 - Organize what it is going to do
@@ -172,7 +351,7 @@ cityArray[0].cookiesSoldPerHour;
 ```js
 // create the row and append the first td that says total
 // for each hour of the day
-// var hourlyTotal = 0; 
+// let hourlyTotal = 0; 
 // I want to loop through each of my cities. 
 // for each cities in the cities array I am going to add to my hourlyTotal the City total
 // then I will create a td and set text content to hourlyTotal and append it to the row.
@@ -193,13 +372,13 @@ cityArray[0].cookiesSoldPerHour;
 
 ```js
 function renderFooterThisWay(){
-    var footerRow = document.createElement('tr');
-    var totalId = document.createElement('td');
+    let footerRow = document.createElement('tr');
+    let totalId = document.createElement('td');
     totalId.textContent = 'Total');
     footerRow.appendChild(totalId);
 
 //To do rest of row. So far we have a row and space for numbers. 
-var tableFoot = document.getElementById('div-id');
+let tableFoot = document.getElementById('div-id');
 tableFoot.appendChild(footerRow);
 
 }
@@ -211,16 +390,16 @@ tableFoot.appendChild(footerRow);
 ### ---------------------------------------
 ```js
 function renderFooterThisWay(){
-    var footerRow = document.createElement('tr');
-    var totalId = document.createElement('td');
+    let footerRow = document.createElement('tr');
+    let totalId = document.createElement('td');
     totalId.textContent = 'Total');
     footerRow.appendChild(totalId);
 //Set Table Data
-var grandTotal = 0;
-for(var i = 0; i < salesHour.length; i ++){
-    var hourlyTotal = 0;
+let grandTotal = 0;
+for(let i = 0; i < salesHour.length; i ++){
+    let hourlyTotal = 0;
     //go through cities to get total
-    for(var j = 0; j < cityArray.length; j++){
+    for(let j = 0; j < cityArray.length; j++){
         //add to my  hourly total the city total for that hour. 
         //Lets look in the console. 
     debugger;
@@ -239,15 +418,15 @@ hourlyTotal = hourlyTotal + cityArray[j].cookiesSoldPerHour[i];
     //two things add hourly total to grand total and append it to the row
     grandTotal += hourlyTotal;
     //display the hourly total for each hour.
-    var hourlyTotalTd = document.createElementById('td');
+    let hourlyTotalTd = document.createElementById('td');
     hourlyTotalTd.textContent = hourlyTotal;
     footerRow.appendChild(hourlyTotalTd);
 }
-var grandTotalTd = document.createElement('td');
+let grandTotalTd = document.createElement('td');
 grandTotalTd.textContent = grandTotal;
 footerRow.appendChild(grandTotalTd);
 
-var tableFoot = document.getElementById('div-id');
+let tableFoot = document.getElementById('div-id');
 tableFoot.appendChild(footerRow);
 
 }
@@ -338,53 +517,6 @@ Compared to **display: inline**, the major difference is that display: inline-bl
 
 
 
-# Review Challenges
-## Use console.log for printing things out. 
-We will complete these review challenges together as there's time.
-
-## Challenge 1
-
-Write a piece of code that creates a variable `numberOfChugga` and sets the value of that variable to 4. Then, write code that uses that variable to print out the word `chugga` 4 times, and then at the end prints out `choo choo!` once.
-```js
-var numOfChugga = 4;
-while(numOfChugga > 0){
-    console.log('chugga');
-    numberOfChugga--;
-}
-console.log('Choo Choo!);
-```
-## Challenge 2
-
-Write a function called `getTwo` that takes in no parameters and returns the number 2.
-
-
-
-
-
-```js 
-function getTwo(){
-    return 2;
-}
-```
-- what data type is getTwo // it is a function 
-
-- what data type is this getTwo() // it is a number. 
-
-- getTwo() + 5 // becomes a string 7
-
-- getTwo() - 5// becomes -3
-
-- getTwo -5 // because its math it return Nan
-
-## Challenge 3
-
-Write a function called `addTwo` that takes in one parameter, a number, and returns 2 more than the input number.
-
-Input | Output
-------|-------
-0     | 2
-7     | 9
--5.4  | -3.4
 
 
 
@@ -393,142 +525,6 @@ Input | Output
 
 
 
-
-
-
-
-
-
-
-
-
-# Solution
-```js 
-function addTwo(number){
-  return number + 2;
-  }
-
-
-addTwo(2);
-addTwo(getTwo());
-addTwo(getTwo()getTwo());
-addTwo('2');
-4
-```
-## Challenge 4
-Write a function called `repeat` that takes in two parameters, a string and a number, and returns the string repeated that many times, with spaces between repeats.
-
-Input | Output
-------|-------
-`'a',0` | `''`
-`'a',1` | `'a'`
-`'a',2` | `'a a'`
-`'a',4` | `'a a a a'`
-`'abc',3` | `'abc abc abc'`
-```js
-
-//going to need a loop
-function repeat(string, number){
-var answer = '';
-//some code here and test. 
-for(var i =0; i < number; i++){
-answer = answer + string + ' ';
-
-    }
-              //add in the answer.length -1
-return answer.substring(0, answer.length);
-}
-//we dont want space on the ends
-'''
-
-```js
-function repeat(string, number){
-var answer = '';
-for(var i =0; i < number; i++){
-answer = answer + string + ' ';
-    }
-return answer.substring(0, answer.length -1);
-}
-
-
-
-
-function repeat(string, number){
-var answer = '';
-for(var i =0; i < number; i++){
-answer = answer + string;
-if(i < number - 1){
-    answer = answer + ' ';
-     }
- }
-return answer;
-}
-'''
-
-## Challenge 5
-
-Write a function that takes in 2 parameters, a string and a number, and returns a string consisting of the number, followed by the string, followed by an 's' if the string should be pluralized based on the number.
-
-Input      | Output
--|-
-`'cookie', 1` | `'1 cookie'`
-`'cookie', 2` | `'2 cookies'`
-`'cookie', 12` | `'12 cookies'`
-`'cookie', 0` | `'0 cookies'`
-`'salmon', 1` | `'1 salmon'`
-`'salmon', 2` | `'2 salmons'`
-`'mouse', 3` | `'3 mouses'`
-
-## Challenge 6
-
-In what order will these `console.log` statements run?
-
-```javascript
-console.log(1);
-
-function doStuff() {
-  console.log(2);
-}
-
-console.log(3);
-
-function doThings() {
-  console.log(4);
-  doStuff();
-  console.log(5);
-}
-
-console.log(6);
-
-doStuff();
-
-console.log(7);
-
-doThings();
-
-console.log(8);
-```
-
-## Challenge 7
-
-What will this code log to the console?
-
-```javascript
-var a = 2;
-var b = 3;
-console.log(a + b);
-var c = a;
-a = 7;
-console.log(a);
-console.log(c);
-
-function printTheThing(a) {
-  console.log(a);
-}
-
-printTheThing(4);
-printTheThing(b);
-```
 
 
 ```js 
@@ -704,7 +700,7 @@ cityArray[0].cookiesSoldPerHour;
 ```js
 // create the row and append the first td that says total
 // for each hour of the day
-// var hourlyTotal = 0; 
+// let hourlyTotal = 0; 
 // I want to loop through each of my cities. 
 // for each cities in the cities array I am going to add to my hourlyTotal the City total
 // then I will create a td and set text content to hourlyTotal and append it to the row.
@@ -725,13 +721,13 @@ cityArray[0].cookiesSoldPerHour;
 
 ```js
 function renderFooterThisWay(){
-    var footerRow = document.createElement('tr');
-    var totalId = document.createElement('td');
+    let footerRow = document.createElement('tr');
+    let totalId = document.createElement('td');
     totalId.textContent = 'Total');
     footerRow.appendChild(totalId);
 
 //To do rest of row. So far we have a row and space for numbers. 
-var tableFoot = document.getElementById('div-id');
+let tableFoot = document.getElementById('div-id');
 tableFoot.appendChild(footerRow);
 
 }
@@ -743,16 +739,16 @@ tableFoot.appendChild(footerRow);
 ### ---------------------------------------
 ```js
 function renderFooterThisWay(){
-    var footerRow = document.createElement('tr');
-    var totalId = document.createElement('td');
+    let footerRow = document.createElement('tr');
+    let totalId = document.createElement('td');
     totalId.textContent = 'Total');
     footerRow.appendChild(totalId);
 //Set Table Data
-var grandTotal = 0;
-for(var i = 0; i < salesHour.length; i ++){
-    var hourlyTotal = 0;
+let grandTotal = 0;
+for(let i = 0; i < salesHour.length; i ++){
+    let hourlyTotal = 0;
     //go through cities to get total
-    for(var j = 0; j < cityArray.length; j++){
+    for(let j = 0; j < cityArray.length; j++){
         //add to my  hourly total the city total for that hour. 
         //Lets look in the console. 
     debugger;
@@ -771,15 +767,15 @@ hourlyTotal = hourlyTotal + cityArray[j].cookiesSoldPerHour[i];
     //two things add hourly total to grand total and append it to the row
     grandTotal += hourlyTotal;
     //display the hourly total for each hour.
-    var hourlyTotalTd = document.createElementById('td');
+    let hourlyTotalTd = document.createElementById('td');
     hourlyTotalTd.textContent = hourlyTotal;
     footerRow.appendChild(hourlyTotalTd);
 }
-var grandTotalTd = document.createElement('td');
+let grandTotalTd = document.createElement('td');
 grandTotalTd.textContent = grandTotal;
 footerRow.appendChild(grandTotalTd);
 
-var tableFoot = document.getElementById('div-id');
+let tableFoot = document.getElementById('div-id');
 tableFoot.appendChild(footerRow);
 
 }
