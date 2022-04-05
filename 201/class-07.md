@@ -1,28 +1,5 @@
 # First Hour
 
-
-# Second Hour
-
-### Take Break 10 Minute
-
-
-# Third Hour
-
-
-# Concepts in Review - 
-## review quiz and feedback
-
- #### Document Object Model Review. 
-
-Here is a quick exercise to prove this point: in the console.
-
-1. type `document` IN THE CONSOLE within your browser
-1. find `document.body`
-1. actually type in `document.body`
-1. change the document.body.textContext = 'to something else'
-1. look at all the options on the `document.` dot notation.
-
-
 # Agenda for Today
 - Constructor Functions
 - ProtoTypes (Inheritance)
@@ -31,8 +8,7 @@ Here is a quick exercise to prove this point: in the console.
 - html Tables
 - google fonts
 
-
-# Code Review 
+## Code Review 
 - This weeks project is meant to take all week 
 - with new implementations to our problem domain, 
 - we will look at the code possibly refactor some code
@@ -44,7 +20,7 @@ Here is a quick exercise to prove this point: in the console.
     3. id in html, then put other things into that from js. 
     4. ~ how to do css from js.
 
-# Look at Git Repo and notice the differences
+## Look at Git Repo and notice the differences
 - What do we notice from the student repo. 
     1. latest commits
     2. different branches 
@@ -59,25 +35,20 @@ Here is a quick exercise to prove this point: in the console.
 ***MustDoThis***
 - Show the running total with the debugger
 
-
 ## Did they use a render method 
-
 - We will look at how to create html elements that we will append to our UL and LI items, inorder to create some child/parent relationships. 
 
- 
 ```js
-
 let allStores = ['storeOne','storeTwo'];
-
 ```
 - There is a lot of potential for DOM manipulation and JS objects. 
 - We could make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called: 
 
-
 - Question how was it creating each object literal? 
-# How would you feel if you had to type out another 250 stores, by hand from paper. 
+## How would you feel if you had to type out another 250 stores, by hand from paper. 
 - So since these are all the same object literals there are ways, to automate this process, how you ask?
-# Constructor Functions
+
+## Constructor Functions
 - With code constructors, instead of object literals. 
 - Which is what lab 7 will be on.
 - currently we have about 15 - 25 lines of code, x 250 objects. 
@@ -88,11 +59,9 @@ let allStores = ['storeOne','storeTwo'];
 
 
 
----
 
-
-
-
+# Second Hour
+## Take Break 10 Minute
 
 **Back to our Kitten Demo. In the Console Run Code**   At 10:00am
 # Constructors or Constructor functions. 
@@ -103,48 +72,26 @@ let allStores = ['storeOne','storeTwo'];
 - Constructor names tend to be a singular noun. 
 - This is how we define a constructor function.  
 
----
-
 ```js
-
 //function key word and capitol letter on the function name.
-
 function Pet(){
     //code goes here.
 }
-
 ```
-
----
-
-
-- Other than the capital letter there is no difference with any other function.
-- So now inside the constructor, set up the properties we want for objects created with this constructor
-- We need key/value pairs on the new object. 
-- Within constructor functions we are going to use the contextual this, so we can say that 
-
-
-
-## This is a bad constructor, but we will fix it in a minute. 
----
+1. Other than the capital letter there is no difference with any other function.
+2. So now inside the constructor, set up the properties we want for objects created with this constructor
+3. We need key/value pairs on the new object. 
+4. Within constructor functions we are going to use the contextual this. 
 
 ```js
-
+//not a great example!
 function Pet(){
 
     this.breed = 'Labrador';
 
 } //show the "function" first.
-
 ```
----
-
-
-
-
-
 ![Screen Shot](consoleObject.png)
-
 - Console.log to create a new Pet: 
 - let buddy  = new Pet();
 - type buddy  to see the new Pet object, 
@@ -155,65 +102,67 @@ function Pet(){
 - In general if we have a function
   and we want to provide information to those functions.
   We pass inbetween parathesis.
-
 - What do we call those thing in the parathesis.?????????????
-
 - In general we call them parameters, to give the function information so that it can run. 
 - So, we will take in the values that we want as parameters to out functions. 
-
 ![Screen Shot](consoleParameter.png)
-
 ```js
-
 function Pet(petBreed){
-
     //So I want to change this to the breed that I am passing in 
     //this.breed = 'Labrador',
     this.breed = petBreed;
-
 }
 
 ```
-
 - Which means now that I need to pass in an argument to the parameter for petBreed.
 - So, now in the console I can type 
-
-
 ```js
-
 let cricket = new Pet('Tabby');
-
 ```
 
 ```js
-
 function Pet(petBreed, petWeight){
-
     this.breed = petBreed;
     //Name of parmeter and name of property can be the same or different.
     //this.weight = weight;
     this.weight = petWeight;
-
 }
-
 ```
-
 ![Screen Shot](consoleTwoParameters.png)
-
 - Now go back to the console and pass both parameters in. 
-
 ```js
-
 let buddy  = new Pet('Labrador', 45);
-
 ```
-# Start Talk about using prototypes to move functions out of constructor functions and use prototypes to make the methods accessible to the object that they were created for. 
+## Prototypes 
+1. To move functions out of constructor functions 
+2. Use prototypes to make the methods accessible to the object that they were created for. 
+3. Every object has a prototype. 
+   - It can be assigned explicitly, or is set to the global Object by default
+4. All objects have the props & methods of their prototype
+5. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it.
+
+- There is a lot of potential for DOM manipulation and JS objects. We could potentially make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called:
+```js
+render: function(){
+  let parent = document.getElementById('parentElement');
+    for(let i=0; i < people.length; i++){
+      let newTag = document.createElement('li');
+      newTag.textContent = myArray[i];
+      parent.appendChild(newTag);
+    }
+}
+```
+
+
+
+
+# Third Hour
+## Take Break 10 Minute
+
 
 - So we have methods in the object literals that we want to make accessible for our other pets methods and behaviors. 
-# Take this function as an example. 
-
+## Take this function as an example. 
 ```js
-
 function Pet(petBreed, petWeight, petInterests){
     this.breed = petBreed;
     //Name of parmeter and name of property can be the same or different.
@@ -225,27 +174,13 @@ function Pet(petBreed, petWeight, petInterests){
 So the methods that exsist within the pets 
 - next step is to take the getInterests function and make it accessible for every pet
 - so we have an exact peice of code to set up for this to work
-
-
----
-
-#  So if there is one thing that you accept about how code just works in 201, and does things,it is this the Prototypes. And so we have this, 
-
-## Prototypes
-1. Every object has the prototype. 
-- It can be assigned explicitly, or is set to the global Object by default
-2. All objects have the propertys' & methods of their prototype
-3. If a property or method can't be found on the object itself, the JS engine will look up the prototype chain for it
-
-
-```js
+ ```js
 Pet.prototype.functionname = function(any, parameters, go, here){};
 ```
 Benefit is that with any pet that we create will have access to this function. 
 Technical description takes about three hours of lecture to get through, so we will just trust that this will work, so that all the pet objects we create will have access to these functions, so lets focus on what functions our objects need and then accept the auto magically, the stuff that prototypes do for us. 
 
 ```js
-
 Pet.prototype.getInterests = function() {
 //The code that goes in here is already using contextual this, so it will work here for us as well. 
 //Creat a random index within the pet description array. 
@@ -253,28 +188,20 @@ let randomIndex = Math.floor(Math.random() * this.petInterests.length);
 //Use that random index, to go into the array and grab a description.
 return this.petInterests[randomIndex];
 };
-//
+
 Pet.prototype.getInterests = function() {
 let randomIndex = Math.floor(Math.random() * this.petInterests.length);
 return this.petInterests[randomIndex];
 };
-
 ```
 
 - So, now lets take the firstPet
 
----
-
 ```js
-
     let firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
-
 ```
 
----
-
 ```js
-
 function Pet(petBreed, petWeight, petInterests){
     this.breed = petBreed,
     this.weight = petWeight,
@@ -286,40 +213,26 @@ let randomIndex = Math.floor(Math.random() * this.petInterests.length + 1);
 return this.petInterests[randomIndex];
 };
 
-
- let firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
-
+let firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
 firstPet.getInterest();
-
-
 ```
-
-
 # If we dont know the parameter, we write null,
 - we dont leave it blank because we get syntax errors,
 - so use null, however if we do math on say weight and there is a null you will get back a NaN, response. 
 
-- INSTANCES OF AN OBJECT
-
+## INSTANCES OF AN OBJECT
 - We may also call these objects pet instances. Any time we call the constructor we use the new and the name of the object constructor, and then provide arguments, for the constructor. 
-
+- Rememeber..... The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getInterests, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods. 
+- Add another pet and it works because of us using the contextual this, we can access the description words of that specific pet object. 
+- What other questions do you have about constuctors? 
 # So how did it go, THUMBS?
 
 
-#### Rememeber.....
-
-- The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getInterests, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods. 
-- Add another pet and it works because of us using the contextual this, we can access the description words of that specific pet object. 
-#### What other questions do you have about constuctors? 
-
----
-
-
-## BREAK TIME Now work on the actual website after the constructor function demo.
-
+## Now do the tables.
 - One other part of your lab for today, is HTML tables. 
 - So, lab tasks say we should implement a constructor function, instead of the object literal. 
-- Change out lists of data to tables of data. Which is how we will build out these tables of data. 
+- Change out lists of data to tables of data. 
+- Which is how we will build out these tables of data. 
 - I advise that you do the constructors first and then build out the tables, 
 # do not try and build the entire lab at once, 
 - make sure to create our lab 7 branch and commit as soon as you complete a feature. 
@@ -371,16 +284,12 @@ th td {
     <td></td>
     <td></td>
 </tr>
-
-
 </table>
 
 - So when we refresh it will have a single row with the titles for our columns. 
 - So I am going to add them to the table
 - the way that I am going to do that is use creating a render(). on each of my pets. 
-```js
- //Add prototype method to add pets to the table.
- ```
+- Add prototype method to add pets to the table.
 - The render() method will allow me to render my pets to the page into a table. 
 
 ```js
@@ -425,36 +334,23 @@ Pet.prototype.render = function() {
 //     animalTable.appendChild(petRow);
 // }
 };
-
-
 ```
-
 
 - Now is when we run firstPet.render(); in the console it add the information to the page. 
 - petTwo.render()
 - petThree.render()
-
 - Any object instance being created will have access to the render method by way of the prototype. Because it is a prototype method, all pets using the pet constructor will be able to call this function. 
 
----
-
-# Template literals. 
-
-let name = `Ryan`;
-
-console.log(`Hi my name is ${name}`);
 
 ```js
-
 for(let i = 0; i < adoptPets.length; i++) {
-
 let newParagraph = document.createElement('p');
 //set text content with template literals.
 newParagraph.textContent = `A nice kitten to code with is  ${adoptPets[i].name}  because they are good at ${adoptPets[i].interests} .` ;
-
 petParagraph.appendChild(newParagraph);
 }
 ```
+
 - We will update too: 
 # Use and IIFE
 ```js
@@ -463,13 +359,10 @@ for(let i = 0; i < adoptPets.length; i++){
     pets[i].render();
 }
 )();
-
 ```
 
-- This is the last bit of code I am going to write for this render, so each time we loop through the pet objects we will call the render function and the render function will create our table for us. 
-
-- For lab we still want the store totals, but we also want to add in the hourly totals as well. 
 
 
 
-# Go to **Google Fonts**. You can combine font links to one, and then specify in css. 
+
+
