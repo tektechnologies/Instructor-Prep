@@ -1,4 +1,46 @@
+# Agenda
+## First Hour 
+- review the app and how it is working 
+- review constuctors and 
+- the new walk through the app. 
+- render footer total if needed. 
+- calculations in code, ask students what they are doing, 
+# Second Hour
+- take break 
+- talk about pseudo code. 
+- Start code challenge, 6 questions 
+# Third Hour 
+- take break
+- CSS layout. 
+
 # First Hour
+
+**Hello, good morning, happy day…,** 
+
+## Explain the lab for today and Thursday and that the 
+- LAB FRIDAY  is chocolate pizza and explain the format of the lab activity. 
+- Ties in the wireframe lab today as practice for tomorrow’s lab. forms and js events 
+- What questions do you have about that for now? 
+- Do the form in the html even if you have the js skills, good advice. 
+- Show Class 8. html forms and js evens. on Screen.
+- Announcements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,7 +142,6 @@ function repeat(string, number){
 
 ## Challenge 5
 Write a function that takes in 2 parameters, a string and a number, and returns a string consisting of the number, followed by the string, followed by an 's' if the string should be pluralized based on the number.
-
 Input      | Output
 -|-
 `'cookie', 1` | `'1 cookie'`
@@ -209,12 +250,25 @@ What will this code log to the console?
 
 
 
-
+### Take Break 10 Minute
 # Second Hour
 
 
-### Take Break 10 Minute
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Take Break 10 Minute
 # Third Hour
 
 
@@ -229,31 +283,6 @@ What will this code log to the console?
 
 
 
-**Hello, good morning, happy day…,** 
-
-### Explain the lab for today and Tuesday and that the 
-- lab friday is chocolate pizza and explain the format of the lab activity. 
-
-- Ties in the wireframe lab today as practice for tomorrow’s lab. forms and js events 
-- What questions do you have about that for now? 
-
-### Do the form in the html even if you have the js skills, good advice. 
-# Show Class 8. html forms and js evens. on Screen.
-# Announcements.
-
-# first hour 
-- review the app and how it is working 
-- review constuctors and 
-- the new walk through the app. 
-- render footer total if needed. 
-- calculations in code, ask students what they are doing, 
-# second hour look at 
-- take break 
-- talk about pseudo code. 
-- Start code challenge, 6 questions 
-# third hour 
-- take break
-- CSS layout. 
 
 ```js
 //Create a layout of tech req, if students are having a hard time visualizing.
