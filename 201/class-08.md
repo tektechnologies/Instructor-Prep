@@ -364,5 +364,3 @@ Compared to **display: inline**, the major difference is that display: inline-bl
 - we give you a wire frame to make in html, you can use what positioning you want to make the page, 
 - Here are some guide lines to creating a wireframe to help start this process. 
 - we have place holder spots, to show us what our demensions will be, so as a developer how will these break down on my page and what styles will I need to apply to get the elements on the page to move where I need them to go.
-
- ![WireFrame](images/wireFrame.png)
