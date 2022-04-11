@@ -1,23 +1,24 @@
 # First Hour
 
 
-# Second Hour
+## announcements
+ **10 Minutes**
+ 4 skills in language learning: 
+ - Hearing, 
+ - speaking, 
+ - Reading, 
+ - Writing
+ ## when we focus on specific material while doing this:
+ 1. We learning faster.
+ -  and 
+ 2. looking at specifics becomes less arduous. 
+ **5 Minutes**
 
-### Take Break 10 Minute
+ # AGENDA 
+## SEO, analytics, and site hosting.
+## Project
+## Project Examples on Friday. check slack for links to previous projects.
 
-
-# Third Hour
-
-
-
-
-
-
-
-# announcements
- 4 skills in language learning: Hearing, speaking, reading, writing, when we focus on specific material while doing this we learning faster and looking at specifics becomes less arduous. 
-
-# agenda
 1. Look at final project requirements. 
 2. Final Project Key Elements (In Scope)
     - forms
@@ -34,25 +35,16 @@
     - bootstrap
     - 3rd party library's front end tools talk to me first. 
     - Be aware of using CDN's for longevity of your project. 
-## Project Example 
-    https://github.com/sajafisher29/Adulting101
 
 
+ **10 Minutes**
 # Chocolate Pizza Get some copies of the submissions for code review. 
 - do a code review, on the classes code.
 
----
-## Now lets take a look at a code demo of some audio and video. 
-- We know we can embed an image into a page. 
-- So we have a prebuilt site, in order to jump right in. 
-- Lets look at what this demo does. 
-- We have an audio tag with a source with several attributes. 
-- Set to be muted by default. auto play not allowed. 
-- Video in general should not be auto played, chrome will check for the auto to be off. 
-- Controls - adds an attribute to show the menu for users to control the audio. 
 
--
-# In the console type 
+
+**15 Minutes**
+### In the console type 
 
 ```js 
 document.getElementbyId('levees');
@@ -74,16 +66,28 @@ audio.pause()
 - add an event listener // listen for click event. 
 
 
-# We can add another event listener here that does this. 
+### We can add another event listener here that does this. 
 ```js
 randomizer.addEventListener('click',function(){
     console.log('You clicked the volume button.');
 });
 ```
 
----
 
-# Video 
+
+
+
+
+
+
+
+
+
+
+# Second Hour
+### Take Break 10 Minute
+
+### Video 
 - works like images and audio 
 - make a video and give it a source. 
 - can set multiple source formats for the browser so it will find a suitable format to play. 
@@ -96,6 +100,39 @@ randomizer.addEventListener('click',function(){
 - What questions do you have about audio and video. 
  **Thumbs how do you feel about putting a video into your projects**
 
+
+
+**15 Minutes**
+### CSS Grid
+
+- **Why**
+  - With CSS grid, we can work with rows **and** columns together, where flexbox only allowed to us to work with rows **or** columns. This allows us to build more complex and organized designs.
+- **What**
+  - Grid is a layout system that allows you to set up a series of row and column lines and place items within specified segments of the page based on the row/column number.
+- **How**
+  - Use a CodePen or VSCode to demonstrate grid.
+  - Instructor may also pass on the following site to students to help them with grid practice: [CSS Grid Garden](https://cssgridgarden.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Third Hour
+### Take Break 10 Minute
+**40 Minutes**
  # Start Pizza Vote Tracker
  - Begin with the Lab in Canvas. 
  - Explain the Problem Domain the Bus Mall
@@ -103,10 +140,10 @@ randomizer.addEventListener('click',function(){
  - click, record, console, 3 new images.
  - once we click through 25 of these it will list out the results. 
  - What questions do you have about this lab? 
-
- ## in repo
+ **5 Minutes**
+# WireFrame the design. Show finished Product. 
  - Pizza vote. 
- -  no new concepts
+ - no new concepts
  - use the skills you learned in new ways, 
  - take some time to plan out the assignment. 
  - We will start the demo with a wireframe of our pizza 
@@ -116,27 +153,7 @@ randomizer.addEventListener('click',function(){
  - script to count 5 clicks 
  - keep track of votes
 
- ![wireFrame](goatWireFrame.png)
 
-- build out intial scaffolding
-- git acp flow. 
-- So to start out with I want to add some images to build the initial framework for the page. 
- 
-# 2. On click show two new pizzas. 
+**5 Minutes**
+# Review Assignments due for the day. 
 
-# 3. Keep track of Votes.
-
-# 4. Now I need to pick two random Pizzas to display. 
-- Start with a variable
-- Time to show these on the page. 
-- grab image elements at the top of the page. You can use loop through for event listener and inside the display code.
-
-- need to change to the URL attribute src
-- Images now update but it will show duplicates. so lets handle the validation of the demo. 
-- keep the same one from showing up and keep from the last one from showing up as well. 
-- this handles dups from showing up. most of the time.
-
-- Make sure to build your app from scratch.  
-- plan your project. 
-- good practice for this week to build things out bit by bit. 
-- What questions do you have? 
