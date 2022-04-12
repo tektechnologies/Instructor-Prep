@@ -12,7 +12,6 @@
 ## Lab 14, Is a pair assignment Then next class Lab15a is also a pair assignment.
 
 
-
 ## Assignments for today. 
 - Read: 13 - Local Storage. 
 - Lab: 13 - Add local storage to BusMall
@@ -94,7 +93,26 @@ objects have behaviors that are functions that we call methods.
 - body of constructor is where we get properties are set. 
 - and at the same time they gain access to the prototype methods as a built in function of the constructor. 
 
+- Object have keys we can access and strings dont. 
+- that is what we get to work with when we stringify an object. 
+- thumbs on objects vs strings knowing the difference. 
+- local storage only stores strings, 
+- and a tool that will take those string and turn them back into objects. 
+- local storage is built into javascript, 
+- local storage works with key value pairs. 
+- the syntax is different but KVP's work the same as they do in objects. 
+- take local storage and type set Item
+- local storage only holds strings. 
+- json is good with arrays 
 
+- look into the APPLICATION ON THE **localstorage** - see the key value in local storage is set .
+```js
+//In the console. 
+localstorage.setItem('userName', 'Craig');
+```
+```js
+localstorage.getItem('userName');
+```
 
 
 
@@ -108,40 +126,16 @@ objects have behaviors that are functions that we call methods.
 # Third Hour
 ### Take Break 10 Minute
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Build out local storage in the Pizza App
 
 
 
 - Pizza Picker has a new feature where we can store a new vote total. 
-
 - Store vote total over the course of multiple page load. 
 - it will have all the data each time and will continue to add to that total. 
-- We will do two things first - look at 2 concepts of how to do this 
+- We will do two things first - look at 2 concepts of how to do this. 
 1. json that will allow us to do this and 
 2. local storage.  that will let us save data between page view. 
-
-
-
 
 # Start build out of site. 
 Throughout other languages you will see the pattern of constructors having methods for their objects. 
@@ -155,116 +149,29 @@ let allPizzas = [5, '5'];
 let pizza = allPizzas[0];
   pizza.toString();
 ```
-## Pizza.prototype is an object, everything in js is an object
-
-we can put it in the constructor but use it in the prototype. 
-in the constructor it creates a function for each instance the constructor creates, which becomes a performance issue on larger projects. 
-
-- in the console type
-```js
-let allPizzas = ['Detroit', 'New York Style'];
-1.
- let pizzaNames = allPizzas[0];
-
-     pizzaNames.name;
-
-2.
-JSON.stringify(pizzaNames);
-
-               pizzaNames.toString // we can call the function on the object. 
-
-3.
- let pizzaNameString = JSON.stringify(pizzaNames);
- 
-    pizzaNameString.toString();
-
-4.
-//Now take the string and turn it back into an object. 
-let pizzaString2Object = JSON.parse(pizzaNameString);
-
-/*type :*/ pizzaString2Object
-
-           pizzaString2Object.name //works
 
 
 
 
 
-```
-## what did we get back a string that represents an object.
-- Object have keys we can access and strings dont. 
-- that is what we get to work with when we stringify an object. 
-thumbs on objects vs strings knowing the difference. 
-local storage only stores strings, a tool that will do that for is local storage. and a tool that will take those string and turn them back into objects. 
-
-
-# So we need a times clicked in the constructor
-- so that we can add that property to our instances and then be able to pass that value back and forth from the local storage and back. 
-
-
-# After you update the constructor 
-
-let pizzaPie = allPizzas[0];
-
- log: pizzaPie   - see the object
-
- let stringPizza = JSON.stringify(pizzaPie);
-
- log: stringPizza  - see the string
-
-
-# transform back to object
-    let pizzaStrObj = JSON.parse(stringPizza);
-
-    log: pizzaStrObj - see the object
-
-    call: new Pizza(pizzaStrObj.name,    pizzaStrObj.imageUrl,
-        pizzaStrObj.timesClicked,
-        )
-
-        - see new object. 
-
-
-- local storage is built into javascript, 
-- local storage works with key value pairs. 
-- the syntax is different but KVP's work the same as they do in objects. 
-- take local storage and type set Item
-
-```js
-
-//In the console. 
-localstorage.setItem('userName', 'Craig');
-
-
-```
-
-
-- look into the APPLICATION ON THE **localstorage** - see the key value in local storage is set .
 
 
 
-```js
-
-localstorage.getItem('userName')
-//See 
-
-```
-
-
-- Lets create a way for them to login and have us remember their name and then we will remember them when they log back in. 
-
-# hit submit and in the URL 
-- http://127.0.0.1:5502/?name=craig
 
 
 
-- local storage only holds strings. 
-- json is good with arrays 
 
 
 
-- Review lab assignment. 
 
-# You need to go in and number what to build out first 
 
-1. do the toString first 
+
+
+
+
+
+
+
+
+
+
