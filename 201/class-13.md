@@ -65,8 +65,8 @@ Our values can be any data types:
     - Keys(stringy) are mostly strings. bracket notation is a string in qoutes. that is how we get those values. 
     - Keys are also call properties. 
     - values: numbers, strings, functions, arrays, other objects, values can be about any data type. 
-- We treat keys like letiables. 
-- When we have a constructor involved we call that an instance letiables. 
+- We treat keys like variables. 
+- When we have a constructor involved we call that an instance variables. 
 - console 
 ```js
    allPizzasArray[0]
@@ -80,7 +80,7 @@ objects have behaviors that are functions that we call methods.
 3. **What does a constructor do?**
 - Builds objects. 
 - gives them 3 things
-1. instance letiables that we access with contextual **this**
+1. instance variables that we access with contextual **this**
 2. keys
 3. properties. 
 
