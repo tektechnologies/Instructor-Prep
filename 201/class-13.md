@@ -1,8 +1,8 @@
 # First Hour
 
-1. Anouncements
-2. Code Review
-3. 201 Review
+1. Anouncements -
+2. Code Review - 
+3. 201 Review - review a couple topics.
 4. Local storage in the console, then in the app - form first then do the votes.  
 5. Lab introduction. 
 
@@ -20,8 +20,7 @@
 
 
 ## Code Review
-
-# What to look for:
+**What to look for:**
 - Look at Chart Js stuff. 
 - Look at Styling issues. 
 - Get student input on what to look at. 
@@ -127,9 +126,6 @@ localstorage.getItem('userName');
 ### Take Break 10 Minute
 
 ## Build out local storage in the Pizza App
-
-
-
 - Pizza Picker has a new feature where we can store a new vote total. 
 - Store vote total over the course of multiple page load. 
 - it will have all the data each time and will continue to add to that total. 
