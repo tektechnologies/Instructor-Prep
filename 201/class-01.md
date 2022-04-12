@@ -165,3 +165,26 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 
 1. To finish the day, go over the lab assignment and show students how to find/read the assignment.
 2. Complete the assignment as a code demo, and submit the assignment, submitted in a GitHub Gist.
+
+
+
+
+
+
+
+
+
+
+
+#### Move from class 13
+# What does .gitignore do? 
+- You can avoid accidently commiting those file that you do not want to commit to git hub. Like the ds_store file that macs create and will include to push if you do not have the ingore file. Which will be even more important in 301. 
+- You can create certain setting in VS code that are project specific. 
+- look at the git ignore and show the files that you do not want to commit. 
+- What questions do you have about git ignore. 
+- show the link to the gitignore. link URL
+- You DO want to push the git ignore to github so that other people can get the same project settings for is needed to run the application correctly. 
+
+# Open up the console. 
+- I usually open the console when I am working in javascipt so that I can see the console logs I work through some code. 
+- If I am working css I like to use a second monitor where I can see a full display and have a screen with two windows with one screen with css code and the dev tools with the elements window open to trouble shoot the present.
