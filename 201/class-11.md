@@ -1,12 +1,12 @@
 # First Hour
 
-
 ## announcements
+
  **10 Minutes**
  4 skills in language learning: 
  - Hearing, 
- - speaking, 
- - Reading, 
+ - speaking,
+ - Reading,
  - Writing
  ## when we focus on specific material while doing this:
  1. We learning faster.
