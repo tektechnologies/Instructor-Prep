@@ -55,7 +55,6 @@
 ### Work on setting up remote urls for class repo. for the forks that were created
 
 
-
 ## Ten Minute Break
 
 ## Second Hour
