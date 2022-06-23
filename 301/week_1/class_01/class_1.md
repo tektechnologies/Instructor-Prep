@@ -312,8 +312,3 @@ https://tachyons.io/
 ---
 
 ## Lab Notes
-
-  
-
-  
-
