@@ -1,6 +1,7 @@
 # First Hour
 
-# Agenda for Today
+## Agenda for Today
+
 - Constructor Functions
 - ProtoTypes (Inheritance)
 - Template literals
@@ -8,11 +9,12 @@
 - html Tables
 - google fonts
 
-## Code Review 
+- Code Review
+
 - This weeks project is meant to take all week 
-- with new implementations to our problem domain, 
+- with new implementations to our problem domain
 - we will look at the code possibly refactor some code
-- What was the one thing that you found hardest, 
+- What was the one thing that you found hardest?
 
 - Code review topics 
     1. How to do cookies per hour at each location.
