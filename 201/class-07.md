@@ -112,7 +112,7 @@ function Pet(){
 } //show the "function" first.
 ```
 
-![Screen Shot](consoleObject.png)
+![Screen Shot](images/consoleObject.png)
 
 - Console.log to create a new Pet:
 - let buddy  = new Pet();
@@ -127,7 +127,7 @@ function Pet(){
 - What do we call those thing in the parathesis.?????????????
 - We call them parameters, to give the function information so that it can run.
 - So, we will take in the values that we want as parameters to out functions.
-![Screen Shot](consoleParameter.png)
+![Screen Shot](images/consoleParameter.png)
 
 ```js
 function Pet(petBreed){
@@ -154,7 +154,7 @@ function Pet(petBreed, petWeight){
 }
 ```
 
-![Screen Shot](consoleTwoParameters.png)
+![Screen Shot](images/consoleTwoParameters.png)
 
 - Now go back to the console and pass both parameters in.
 
