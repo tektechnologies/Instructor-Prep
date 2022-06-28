@@ -76,13 +76,13 @@ let allStores = ['storeOne','storeTwo'];
 - for developers, in that we write less lines of code and have less of a chance
 - to make mistakes, while coding out our problem domain.
 
-# Second Hour
+## Second Hour
 
-## Take Break 10 Minute
+### Take Break 10 Minute
 
-**Back to our Kitten Demo. In the Console Run Code**   At 10:00am
+**Back to our Demo. In the Console Run Code**   At 10:00am
 
-# Constructors or Constructor functions
+## Constructors or Constructor functions
 
 - it is a function
 - it has a specific job to set up objects. (with specific properties(AKA keys))
@@ -99,9 +99,9 @@ function Pet(){
 ```
 
 1. Other than the capital letter there is no difference with any other function.
-2. So now inside the constructor, set up the properties we want for objects created with this constructor
+2. So now inside the constructor, set up the properties we want for our objects
 3. We need key/value pairs on the new object.
-4. Within constructor functions we are going to use the contextual this.
+4. Using constructor functions we gain access to use the contextual this.
 
 ```js
 //not a great example!
@@ -120,12 +120,12 @@ function Pet(){
 - notice that it say's Pet outside the object braces.
 - Try a different dog,
 - console.log is something we write some times.
-- What do we do  = when we want to give a function information?
+- What do we do  =  when we want to give a function information?
 - In general if we have a function
   and we want to provide information to those functions.
   We pass inbetween parathesis.
 - What do we call those thing in the parathesis.?????????????
-- In general we call them parameters, to give the function information so that it can run.
+- We call them parameters, to give the function information so that it can run.
 - So, we will take in the values that we want as parameters to out functions.
 ![Screen Shot](consoleParameter.png)
 
@@ -142,7 +142,7 @@ function Pet(petBreed){
 - So, now in the console I can type
 
 ```js
-let cricket = new Pet('Tabby');
+let cricketCat = new Pet('Tabby');
 ```
 
 ```js
@@ -165,13 +165,16 @@ let buddy  = new Pet('Labrador', 45);
 ## Prototypes
 
 1. To move functions out of constructor functions
-2. Use prototypes to make the methods accessible to the object that they were created for.
+2. Use prototypes to make the methods accessible for the object created.
 3. Every object has a prototype.
    - It can be assigned explicitly, or is set to the global Object by default
 4. All objects have the props & methods of their prototype
-5. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it.
+5. If a prop or method can't be found on the object itself,
+    - the JS engine will look up the prototype chain for it.
 
-- There is a lot of potential for DOM manipulation and JS objects. We could potentially make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called:
+- There is a lot of potential for DOM manipulation and JS objects.
+- We could potentially make a `render` method on one of the JS objects.
+- that can render these new HTML tags as a list to our page when called:
 
 ```js
 render: function(){
@@ -184,11 +187,12 @@ render: function(){
 }
 ```
 
-# Third Hour
+## Third Hour
 
-## Take Break 10 Minute
+- Take Break 10 Minute
 
-- So we have methods in the object literals that we want to make accessible for our other pets methods and behaviors.
+- So we have methods in the object literals that we want to make accessible
+- for our other pets methods and behaviors.
 
 ## Take this function as an example
 
@@ -204,19 +208,23 @@ function Pet(petBreed, petWeight, petInterests){
 
 So the methods that exsist within the pets
 
-- next step is to take the getInterests function and make it accessible for every pet
-- so we have an exact peice of code to set up for this to work
+- next step is to take the getInterests function and make it accessible for
+- every pet so we have an exact peice of code to set up for this to work
 
  ```js
 Pet.prototype.functionname = function(any, parameters, go, here){};
 ```
 
 Benefit is that with any pet that we create will have access to this function.
-Technical description takes about three hours of lecture to get through, so we will just trust that this will work, so that all the pet objects we create will have access to these functions, so lets focus on what functions our objects need and then accept the auto magically, the stuff that prototypes do for us.
+Technical description takes about three hours of lecture to get through, so we
+will just trust that this will work, so that all the pet objects we create
+will have access to these functions, so lets focus on what functions our objects
+need and then accept the auto magically, the stuff that prototypes do for us.
 
 ```js
 Pet.prototype.getInterests = function() {
-//The code that goes in here is already using contextual this, so it will work here for us as well. 
+//The code that goes in here is already using contextual this,
+// so it will work here for us as well. 
 //Creat a random index within the pet description array. 
 let randomIndex = Math.floor(Math.random() * this.petInterests.length);
 //Use that random index, to go into the array and grab a description.
@@ -232,7 +240,7 @@ return this.petInterests[randomIndex];
 - So, now lets take the firstPet
 
 ```js
-    let firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
+    let firstPet = new Pet('Labrador', 45, ['Playful','Hungary','Sleepy']);
 ```
 
 ```js
@@ -247,42 +255,74 @@ let randomIndex = Math.floor(Math.random() * this.petInterests.length + 1);
 return this.petInterests[randomIndex];
 };
 
-let firstPet = new Pet('Labrador', 45, ['playful','excited','cuddly', 'good girl']);
+let firstPet = new Pet('Labrador', 45, ['Playful','Hungary','Sleepy']);
 firstPet.getInterest();
 ```
 
-# If we dont know the parameter, we write null
+## If we dont know the parameter, we write null
 
 - we dont leave it blank because we get syntax errors,
-- so use null, however if we do math on say weight and there is a null you will get back a NaN, response.
+- so use null, however if we do math on say weight and there is a null you will
+ get back a NaN, response.
 
 ## INSTANCES OF AN OBJECT
 
-- We may also call these objects pet instances. Any time we call the constructor we use the new and the name of the object constructor, and then provide arguments, for the constructor.
-- Rememeber..... The prototype allows us to create methods accessible by any instance or any object being created by the constructor function, in the console we can call getInterests, now all pets have access to the get description function. Now we can add as many pets as we want and they will all have access to these prototype methods.
-- Add another pet and it works because of us using the contextual this, we can access the description words of that specific pet object.
-- What other questions do you have about constuctors?
-
-# So how did it go, THUMBS?
+- We may also call these objects pet instances. Any time we call the constructor
+ we use the new and the name of the object constructor, and then provide arguments
+ for the constructor.
+- Rememeber..... The prototype allows us to create methods accessible by any
+instance or any object being created by the constructor function, in the console
+we can call getInterests, now all pets have access to the get description function.
+ Now we can add as many pets as we want and they will all have access to these
+prototype methods.
+- Add another pet and it works because of us using the contextual this, we can
+access the description words of that specific pet object.
 
 ## Now do the tables
 
 - One other part of your lab for today, is HTML tables.
-- So, lab tasks say we should implement a constructor function, instead of the object literal.
+- So, lab tasks say we should implement a constructor function, instead of the
+ object literal.
 - Change out lists of data to tables of data.
 - Which is how we will build out these tables of data.
 - I advise that you do the constructors first and then build out the tables,
 
-# do not try and build the entire lab at once
+## Do not try and build the entire lab at once
 
 - make sure to create our lab 7 branch and commit as soon as you complete a feature.
 
-# demo tables in the pet adoption
+## DEMO TABLES
 
 - So to start lets look at tables in the HTML
 - A table tag encloses the rows and cells of our table.
-- So, inside the table we want to add a table row, and inside the table row we will have a cell tag called a <td></td>.
-- Each table row is defined with the <tr> tag. A table header is defined with the <th> tag. By default, table headings are bold and centered. A table data/cell is defined with the <td> tag.
+- So, inside the table we want to add a table row, and inside the table row we
+will have a cell tag called a
+
+```html
+<td></td>
+```
+
+Each table row is defined with the
+
+```html
+<tr>
+```
+
+ tag. A table header is defined with the
+
+```html
+<th>
+```
+
+ tag. By default, table headings are bold and centered. A table data/cell is
+ defined with the
+
+ ```html
+<td></td>
+```
+
+tag.
+
 - Tables are not good when it comes to mobile design.
 
 ```html
@@ -311,24 +351,28 @@ th td {
 ```
 
 - watch out for addition td tags being displayed that will mess up the table order.
-- It allocates space by the content within the cell, tables are not good at being styled and even worse with mobile app. Tables are being styled by the browser as well.
+- It allocates space by the content within the cell, tables are not good at being
+ styled and even worse with mobile app. Tables are being styled by the browser.
 
 ### Let's create some tables now in our javascript
 
 - Writing tables in html is a bit heavy,
 - So lets add a table to store pet data.
-- So typing out our tables can be time consuming and more keystrokes than if we let our javascript, build the table for us.
+- So typing out our tables can be time consuming and more keystrokes than if we
+ let our javascript, build the table for us.
 - So for each of these pets, I want to display a
 - Add table to pet-holder -
 - Then I am going to add a table.
 - With a table row header with breed, weight, and description of that pet is.
 
+```html
 <table id="pet-table">
 <tr>
     <td></td>
     <td></td>
 </tr>
 </table>
+```
 
 - So when we refresh it will have a single row with the titles for our columns.
 - So I am going to add them to the table
@@ -346,16 +390,17 @@ Pet.prototype.render = function() {
     // And that tr needs to hold some td's
     let petRow = document.createElement('tr');
     let breedCell = document.createElement('td');
-    //Set text content to the breed of the object, how do we access the breed for the object we are referencing we use this. 
+    //Set text content to the breed of the object,
+    // how do we access the breed for the object we are referencing we use this
     breedCell.textContent = this.petBreed;
-    //Now take the piece of data that we created and append it to the row as a child. 
+    //Now take the piece of data that we created and append it to the row as a child
     petRow.appendChild(breedCell);
     
     let weightCell = document.createElement('td');
     weightCell.textContent = this.petWeight;
     petRow.appendChild(weightCell);
 
-    // Also add a description. While I type this out talk outloud about what we are doing. 
+    // Also add a description.
      let descriptionCell = document.createElement('td');
     descriptionCell.textContent = this.petInterests;
     petRow.appendChild(descriptionCell);
@@ -380,23 +425,27 @@ Pet.prototype.render = function() {
 };
 ```
 
-- Now is when we run firstPet.render(); in the console it add the information to the page.
+- Now is when we run firstPet.render();
+in the console it add the information to the page.
 - petTwo.render()
 - petThree.render()
-- Any object instance being created will have access to the render method by way of the prototype. Because it is a prototype method, all pets using the pet constructor will be able to call this function.
+- Any object instance being created will have access to the render method by way
+of the prototype. Because it is a prototype method, all pets using the pet
+constructor will be able to call this function.
 
 ```js
 for(let i = 0; i < adoptPets.length; i++) {
 let newParagraph = document.createElement('p');
 //set text content with template literals.
-newParagraph.textContent = `A nice kitten to code with is  ${adoptPets[i].name}  because they are good at ${adoptPets[i].interests} .` ;
+newParagraph.textContent = `A nice kitten to code with is  ${adoptPets[i].name} 
+ because they are good at ${adoptPets[i].interests} .` ;
 petParagraph.appendChild(newParagraph);
 }
 ```
 
 - We will update too:
 
-# Use and IIFE
+## Use and IIFE
 
 ```js
 (
