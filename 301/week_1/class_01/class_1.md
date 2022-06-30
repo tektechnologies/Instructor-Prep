@@ -137,8 +137,10 @@ let carCustomer ={
        // you can set to another work around.
         var that = this;
         //and then in the function use the 'that' variable
-        //devs are like f 'this' but I dont know what this is there is a binding challenge.
-        //call bind and apply are ways to change this in a function but arrow function will ignore those as well. 
+        //devs are like f 'this' but I dont know what this is there is a
+        // binding challenge.
+        //call bind and apply are ways to change this in a function but arrow 
+       //function will ignore those as well. 
 
         //this.cars.forEach(function (car){
         this.cars.forEach((car) => {
