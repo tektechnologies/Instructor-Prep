@@ -1,69 +1,49 @@
 # Good Day Happy Friday
-**You Made It to Friday**
---- 
-
-## This has been a big week, thumbs up/down how are you feeling about this week.
-
-
-
-- ## First Hour
-
-
----
-## Ten Minute Break
-- ## Second Hour
----
-
----
-## Ten Minute Break
-- ## Third Hour
----
-## Lecture Outline
 
 Below is the expected lecture outline and flow. One possible way to present this material is documented in the [example lecture](../facilitator/LECTURE-EXAMPLE.md) notes.
 
 ### Warm-Up
 
 - **Student Analysis** (5 min)
-  - Show or print the [warm-up code](../warm-up/warm-up.md)
+    - Show or print the [warm-up code](../warm-up/warm-up.md)
 - **Debrief** (5-10 min)
-  - Refer to the [Warmup Notes](../warm-up/NOTES.md)
-  - Optionally demo the running code at Repl.it
+    - Refer to the [Warmup Notes](../warm-up/NOTES.md)
+    - Optionally demo the running code at Repl.it
 
 ### Shred Talk**
 
 - **Why**
-  - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
+    - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series
 - **What**
-  - Refer to the [challenge documentation](../challenges/README.md)
+    - Refer to the [challenge documentation](../challenges/README.md)
 - **How** (10 min)
-  - Follow the [Demo Code](../challenges/DEMO.md)
+    - Follow the [Demo Code](../challenges/DEMO.md)
 - **Note**
-  - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+    - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
 
 ### Code Review
 
 ### Database Normalization
 
 - **Why** (5 min)
-  - Repeated data between records should be consistent
-    - (sports, Sports, SPORTS) are all different
-  - We can perform more complicated queries by tying more than one table together
+    - Repeated data between records should be consistent
+        - (sports, Sports, SPORTS) are all different
+    - We can perform more complicated queries by tying more than one table together
 - **What** (10 min)
-  - Create a new reference table to carry the repeated items
-    - In our case, this is "authors" which has the category name
-    - Can you see other use cases?
-      - Locations, bookshelves, etc
-  - Once we do this, though, there's a problem in that views that relied on the column that had the name of the author might now only have an ID
+    - Create a new reference table to carry the repeated items
+        - In our case, this is "authors" which has the category name
+        - Can you see other use cases?
+            - Locations, bookshelves, etc
+    - Once we do this, though, there's a problem in that views that relied on the column that had the name of the author might now only have an ID
 - **How** (30 min)
-  - Thoughtful Migration process
-  - This actually very common in large corporations.
-  - How do we create this helper table without breaking what's out there now?
-  - Interactive Drawing
-    - What does our database look like now?
-    - How should it look when we're done?
-    - What query then gets run to draw the views?
-  - Sketch a final WRRC for Book App using the new database.
+    - Thoughtful Migration process
+    - This actually very common in large corporations.
+    - How do we create this helper table without breaking what's out there now?
+    - Interactive Drawing
+        - What does our database look like now?
+        - How should it look when we're done?
+        - What query then gets run to draw the views?
+    - Sketch a final WRRC for Book App using the new database.
 
 ## Lab Notes
 
@@ -73,9 +53,9 @@ Below is the expected lecture outline and flow. One possible way to present this
 
 During lab time, students will take the Code 401 entrance exam, which serves as the Code 301 final exam. Encourage students to take time with the exam, as they only have one attempt to take it, unless the Instructor and Admissions team decides to allow an additional attempt. The exam is due by the end of class 14 lab time. Students must complete the exam on their own but can use any resource available, such as their textbooks, Google, Stack Overflow, etc. They can test any code snippets in the console, a code editor, or a website like repl.it. The exam is challenging though, so students should plan to spend several hours and make sure they have a quiet, distraction-free place to work on it.
 
-If a student fails the exam, you may offer them additional time following a one on one meeting with you to address what their challenges were and what they plan to do differently in a retake including trouble shooting their exam-taking process/environemnt. 
+If a student fails the exam, you may offer them additional time following a one on one meeting with you to address what their challenges were and what they plan to do differently in a retake including trouble shooting their exam-taking process/environemnt.
 
-The deadline to submit/resubmit ALL assignments, including extended time for the exam, is 11:59 p.m. the night before the day projects start. 
+The deadline to submit/resubmit ALL assignments, including extended time for the exam, is 11:59 p.m. the night before the day projects start.
 
 ## What changed from the previous class
 
