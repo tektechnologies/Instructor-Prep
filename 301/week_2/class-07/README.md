@@ -1,47 +1,30 @@
 # Good Day Happy Friday
 
-**You Made It to Tuesday**
----
-
-## This has been a big week, thumbs up/down how are you feeling about this week
-
-## Lecture Outline
-
-### Warm-Up
-
-### Shred Talk
-
-### Code Review
-
-### Code Review / Rebuild / Review
-
-### Promises and Async
-
-### 3rd Party APIs
-
-- ## First Hour
-
 - Warm-Up Exercise Java
 - What does our code do?
 - Type Specification.
 - .methods are quite semantic. put() add()
 - <> are type brackets, which may determine the type. like integer or string.
 - so in our list we will have ints, once we populate the arraylist.
-- Java is a compiled language, so it builds itself and turns itself into machine code and will then will execute. If the code doesnt compile it will not run.
-- the new arraylist is empty, in java we have reflexive types in java a list of integers, the arraylist will inherit integer, so it is implied.
-- Hash Map, in javascipt is like an object, which are always key value pairs where the key is a type string, with Hash map your keys can be any value, could be cat.
+- Java is a compiled language, so it builds itself and turns itself into machine
+  code and will then will execute. If the code doesnt compile it will not run.
+- the new arraylist is empty, in java we have reflexive types in java a list of
+  integers, the arraylist will inherit integer, so it is implied.
+- Hash Map, in javascipt is like an object, which are always key value pairs where
+  the key is a type string, with Hash map your keys can be any value, could be cat.
 - the put allows us to put a key value pair in the map.
 - When they recieve the incrementing values tally.get(key) will update the counter
 - Our random is pretty much like javascript
 - system.out.println.. Is like javascript console.log
-- variables, if else, is just like JS, string concatination and type coersion is like JS as well.
+- variables, if else, is just like JS, string concatination and type coersion is
+  like JS as well.
 - Java is a clean language.
 - it is not a scripting language.
 - the Main, method is like the index.html in a website.
 - the program will look for and find the Main to run it,
 - Another thing is that the class has to have the same name as the file.
 
-# Lets talk server
+## Lets talk server
 
 - Today we will not add to much new to our servers.
 
@@ -58,7 +41,7 @@
 - **How** (30 min)
     - Review the Trello board feature tasks & requirements
 
-# What would you like to look at in code review?
+## What would you like to look at in code review?
 
 - lab? //lets look at incomplete or broken code.
 - code challenge? //what numbers.
@@ -81,7 +64,7 @@ return output;
 console.log('array object values', Object.values(arr));
 ```
 
-# Look at Lab pull it down
+## Look at Lab pull it down
 
 - look at npm install to get node modules.
 - it will now look in the list to make sure we have our express cors and dotenv
@@ -97,10 +80,6 @@ console.log('array object values', Object.values(arr));
 - Ask students what is happening with the Home Route.
 - What is happening with the (req, res) this is passing the callback function.
 - that takes in a request and a response.
-
-# Lets build the weather route when we get back from break
-
----
 
 ## Ten Minute Break
 
@@ -158,9 +137,10 @@ function Weather(jsonObj){
 
 ```
 
-# Shred Talk
+## Shred Talk
 
-it is the identical callback to the forEach, there are like four methods that will look this way, with a value, index and an array.
+it is the identical callback to the forEach, there are like four methods that
+will look this way, with a value, index and an array.
 
 ```js
 //Array.prototype.map
@@ -172,7 +152,9 @@ let newArray = arr.map(callback(currentValue[, index[, array]]){
 
 identical in its structure to forEach
 iterates over every element
-it puts items in a new array as it iterates, one for every element no matter what an array of 5 things as the input will always have 5 things as the output. It's a forEach that makes arrays. 
+it puts items in a new array as it iterates, one for every element no matter
+what an array of 5 things as the input will always have 5 things as the output.
+It's a forEach that makes arrays. 
 
 The callback function takes whatever you return and puts it in the new array
 
@@ -211,18 +193,14 @@ newArray.push(callback(array[i], i, array));
 
 fakeMap(nums, callback);
 
-//map() is great to pass info into our constructors, map will work with our labs, one of the goals for today is to use it this week. 
+//map() is great to pass info into our constructors, map will work with our labs,
+// one of the goals for today is to use it this week. 
 
 
 
 ```
 
-# Lets rebuild our front end again to become more familiar with it
-
--
----
-
-## Ten Minute Break
+## Lets rebuild our front end again to become more familiar with it
 
 - ## Third Hour
 
@@ -238,24 +216,25 @@ fakeMap(nums, callback);
 - we want the same data in our app
 - how have we made our URL request so far?
 
-# To install Super Agent
+## To install Super Agent
 
 - npm install -S superagent
 - similiar to jquery we are going to pass in a URL
 - super agent is going to take a while to load.
 
-# Today we will talk about Promises and see what is going on behind the scene
+## Today we will talk about Promises and see what is going on behind the scene
 
-# api  (we will be using these in our 301 project.)
+## api  (we will be using these in our 301 project.)
 
 - some one pays and collects the information for these api's
 <https://rapidapi.com/>
 <https://github.com/public-apis/public-apis>
 
 - our site is an api, but not awesome, but it will be soon. when we add cool data.
-- no one will know if they are coming from us or the api, of which could be pulling from other apis
+- no one will know if they are coming from us or the api, of which could be pulling
+  from other apis
 
-# Talk about promises
+## Talk about promises
 
 - See code for notes.
 
@@ -282,8 +261,10 @@ fakeMap(nums, callback);
 
 - **Why** (5 min)
     - All of the data in the world is literally all over the world
-    - REST give us a common language and set of methods to access all of it, with WRRC
-    - By using APIs in creative ways, you can make really interesting apps, but leave the data management to the experts
+    - REST give us a common language and set of methods to access all of it, with
+      WRRC
+    - By using APIs in creative ways, you can make really interesting apps, but
+      leave the data management to the experts
 - **What** (10 min)
     - Identify the APIs that you need
     - Inspect the "shape" of the data and see if it conforms to your needs
@@ -302,10 +283,14 @@ fakeMap(nums, callback);
 
 ## What changed from the previous class?
 
-- We will be refactoring our data fetchers from simply `require()` on a static .json file into pulling data from a live API with superagent, and having to wade through a promise to do so.
+- We will be refactoring our data fetchers from simply `require()` on a static.
+  json file into pulling data from a live API with superagent, and having to wade
+  through a promise to do so.
 - We will truly be feeding the city explorer front end live data
     - This is an ongoing requirement for the week
-- Not a lot of code movement (really a single change to the fetching functions), but a lot of cognitive changes for the students today as they wrestle with Promises both syntactically and conceptually
+- Not a lot of code movement (really a single change to the fetching functions),
+  but a lot of cognitive changes for the students today as they wrestle with
+  Promises both syntactically and conceptually
 
 ## What might students struggle with today?
 
