@@ -1,51 +1,38 @@
 # Happy Day
 
-**You Made It**
----
+## Warm-Up
 
-- ## First Hour
+![warm up](content/warmup.png)
 
-## Lecture Outline
-
-### Warm-Up
-
-- Binary Search
-- log2(6470000000000000) universes.
-- so we are starting at the mid point and checking for values.
-- which implies we have a sorted list.
-- [1,2,3,4,5,6,7,8,9,10,11]
-
-![warm up](warmup.png)
-
-### Code Review
-
-- **What** (10 min)
-    - HTML, CSS, JS
-    - jQuery/Mustache
-    - Express
-    - Build a **simple** dynamic web app with a template
-    - Build a **simple** express server with 1 route serving JSON
-    - Connect them with `$.ajax()`
-    - Students should know 100% of this
-    - Stress that this is boilerplate!
-
-### Shred Talk
+## Array.prototype.Reduce
 
 ```js
-//Array.prototype.Reduce
-//arr.reduce(callback (accumulator, currentValie, [, index[, array]] )[,initialValue])
+arr.reduce(callback (accumulator, currentValie, [, index[, array]] )[,initialValue])
+```
 
-// The salad chopper of js
-//takes an array and turns it into 1 new thing
-//take an array and reduces it into just one number : sum, average, count, total of all the string lengths. 
-//take an array and reduce it into another array: do filter or map or anything like that
-//take in an array and reduce it into a concatenated string : a bunch of names into a stringwith all of them. 
-//Take a bunch of charactersinto one string. An array of objects of pizzas places into a string of pizza places who are similiar. 
-//take an array and put every value into one new object. 
-// is a bit different that map and forEach 
-// reduce call back  
-// arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])
-//accumulator is the salad we are trying to make 
+- The salad chopper of js
+  takes an array and turns it into 1 new thing
+  take an array and reduces it into just one number : sum, average, count,
+  total of all the string lengths.
+  take an array and reduce it into another array: do filter or map or anything
+  like that
+  take in an array and reduce it into a concatenated string : a bunch of names
+  into a stringwith all of them.
+  Take a bunch of characters into one string. Like
+  An array of objects of pizzas places
+  into a string of pizza places who are similiar.
+  take an array and put every value into one new object.
+  is a bit different that map and forEach
+  reduce call back  
+
+```js
+arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])
+```
+
+accumulator is the salad we are trying to make
+
+```js
+
 const nums = [5, 10,15,20,25,30];
 nums.reduce((accumulator, value, index, array) => {
   console.log('accumulator', accumulator);
@@ -70,7 +57,8 @@ characters.reduce((accumulator, value) => {
   return accumulator + value;
 });
 //can be used to build things. 
-//reduce allows us to provide an optional second argument to reduce with a starting value. 
+//reduce allows us to provide an optional second argument to reduce with a starting
+// value. 
 nums.reduce((acc, value) => {
   console.log(acc, value);
   return acc + value;
@@ -80,7 +68,8 @@ nums.reduce((acc, value) => {
   return acc + value;
 }, 10000);
 //can start at specified number
-//if I provide a starting value it will start at the first iteration at zero instead. 
+//if I provide a starting value it will start at the first iteration at zero
+// instead. 
 //reduce handles the work and is more difficult to read when writing in 
 nums.reduce(makeABigNum, 1000000000);
 // a call back or a call back with a starting value. 
@@ -104,7 +93,7 @@ nums.reduce(makeABigNum);
 // To do for array
 //lets do something like a map()
 //take in the numbers and multiply times 2
-nums.reduce(putItInArrayTimesTwo, []);                       //  []          5   
+nums.reduce(putItInArrayTimesTwo, []);                       //  []          5
 function putItInArrayTimesTwo(accArray, valueNumber){
   console.log(accArray, valueNumber);
   //starts as an array and then becomes undefined. 
@@ -130,16 +119,12 @@ function makeGradeObject2(accObj, valuePerson){
   return accObj;
 }
 students2.reduce(makeGradeObject2, {});
-// write code easier while its easy to read, everything that can be done with a reduce can be done with four loop
+// write code easier while its easy to read, everything that can be done with a
+// reduce can be done with four loop
+
 ```
 
----
-
-## Ten Minute Break
-
-- ## Second Hour
-
----
+## Second Hour
 
 ### Refactoring
 
@@ -164,24 +149,3 @@ students2.reduce(makeGradeObject2, {});
 ## Ten Minute Break
 
 - ## Third Hour
-
----
-
-### Pagination
-
-- **Why** (5 min)
-    - Most APIs don't provide all the data they have
-    - Rather, you'll get to all of it in chunks of, for example 10 records at a time
-    - How can the user get to the data they don't see on the initial rendering, when they are ready for it?
-- **What** (10 min)
-    - A "get more" button is a great place to start
-    - We already went to the server with `$.ajax()` to get the data to render
-    - We can go back again for more to augment our display
-        - We are allowing WRRC "on demand". User action triggers another request-response.
-        - This can be as simple as "get more" and append to the list, making it infinitely scrolling
-        - Alternatively, add links for "Next" and "Previous" to let the user fetch a different page of results and toggle between them
-    - What's the difference?
-        - The calls to the server are the same.
-        - It comes down to the rendering. Are you replacing what's in the target element with the data you fetch (`.html()`) or are you adding to it (`.append()`)
-- **How** (30 min)
-    - Demo: Pagination
