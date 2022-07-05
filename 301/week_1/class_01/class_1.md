@@ -2,13 +2,74 @@
 
 ## First Hour
 
+
+
+
+
+
+
+
+
+
 - Take Break 10 Minute
 
 ## Second Hour
 
-- Take Break 10 Minute
+- Introductions to class, course, DeltaV, a look at student / prework.
+- Look at Code Challenges set up and create in the demo. 
+
+
+
+
+
+
+
+
+
 
 ## Third Hour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - Array.forEach allows you to iterate through an array.
 - Where a normal `for` loop is "iterative";
@@ -162,6 +223,20 @@ let carCustomer ={
 carCustomer.listCars();
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - relativly few situations where you have to deal with binding
 - we use them because they are syntactically nicer.
