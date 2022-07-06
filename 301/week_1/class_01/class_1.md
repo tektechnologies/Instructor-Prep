@@ -2,16 +2,11 @@
 
 ## First Hour
 
-
-
-
-
-
-
-
-
-
 - Take Break 10 Minute
+
+## Slide Deck
+
+<https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
 
 ## Second Hour
 
@@ -19,81 +14,4 @@
 - Look at Code Challenges set up and create in the demo.
 - Walk through create react app
 
-
-
-
-
-
-
-
 ## Third Hour
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- relativly few situations where you have to deal with binding
-- we use them because they are syntactically nicer.
-- this in not getting assigned to what you want, because of the arrow functions.
-- if you use this in jQuery you will get back not what you expect.
-
-### eslintrc.json
-
-- config file eslintrc.json says this is how we should always format our js.
-
-### package.json
-
-- Package.json   <https://www.json.org/json-en.html>
-- look at this in code challenge too.
