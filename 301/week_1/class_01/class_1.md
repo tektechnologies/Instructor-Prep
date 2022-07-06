@@ -2,6 +2,22 @@
 
 ## First Hour
 
+### All about 301 (30 min)
+
+- In-Class schedule and assignments
+    - Career Coaching
+    - Readings
+        - Done in a reading-notes repo
+    - Warmups
+        - Every language!
+    - Code Challenges (and shred talks)
+        - Node and Test Driven Development
+        - Practice!
+    - Lab Assignments
+        - New workflows (Trello) on the way
+- Grading standards
+    - Minimum requirements
+    - Take care of your TAs by following instructions
 - Take Break 10 Minute
 
 ## Slide Deck
