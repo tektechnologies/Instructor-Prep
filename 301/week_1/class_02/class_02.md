@@ -1,8 +1,10 @@
-# Good Day Happy Monday
+# Good Day Happy Day
 
 ## First Hour
 
-### Shred Talk (15 min)
+## Code Warm-up
+
+## Shred Talk (15 min)
 
 ## Second Hour
 
