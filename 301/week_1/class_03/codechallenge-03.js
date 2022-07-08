@@ -1,5 +1,4 @@
 
-```js
 //arr.sort([comparisonFunction]);
 // Question: What does the sort method take in?
 // Answer: it takes in a function
