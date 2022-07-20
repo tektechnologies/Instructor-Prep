@@ -168,6 +168,31 @@
         - Create a Header Component
         - Add to our App.js
         - Show how to many a component tag
-        - Show copy and paste component for reusability. 
+        - Show copy and paste component for reusability.
         - Make the Main.js Component
-        
+
+        - Possibly white board here for help.
+        - Show what we customize and what we dont(index.html, App.js, index.js)
+        - create a person component
+        - How do we get different data into these same components.
+
+    ```js
+    function sayHello(){ console.log('hello Tom');}
+
+
+    function sayHello(name){
+        console.log('hi, ', name);
+    }
+
+sayHello('Bart');
+sayHello('Dude');
+sayHello('Scooby');
+    ```
+
+- Show props from main.js <Person name="Bart" />
+- Then access the value from props using this.props.name in the Person.js
+- Now we see our names
+- Talk about curly braces and meaning. Interpret as js. it is jsx
+- props is like a package getting passed to child components 
+- Check netlify deployment. 
+- 
