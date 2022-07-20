@@ -46,6 +46,8 @@
     - Use the branch names given in the assignment.
     - Run npm test, see failing tests then run code demo on foreach()
     - start with going to the mozilla documentation and showcase site.
+    - run for each() demo
+    - Then do the first challenge and see tests pass.
 - Walk through create react app
 - Refer to the [301 Intro Concepts Demo](../class_01/preworkReview.js)
 
