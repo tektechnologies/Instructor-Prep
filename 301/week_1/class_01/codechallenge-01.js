@@ -167,8 +167,22 @@ carCustomer.listCars();
 
 
 
+let array = [2,5,6,78,3,9];
+let newArray = [];
+
+//we can declare inline anonymously
+array.forEach((number) => {
+  // newArray.push(number++) does this work? can not alter number in place.
+  // it does not work with arrow functions. Quarks... we can not change.
+  newArray.push(number + 1);
+});
+console.log('newArray: ',newArray);
 
 
+//In 201 
+for(let i = 0; i < array.length; i++){
+  newArray.push(arr[i] + 1);
+}
 
 
 
