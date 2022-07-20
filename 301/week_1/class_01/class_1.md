@@ -41,7 +41,11 @@
 ## Second Hour
 
 - Introductions to class, course, DeltaV, a look at student / prework.
-- Look at Code Challenges set up and create in the demo.
+- Look at **Code Challenges** set up and create in the demo.
+    - Look at code challenge one in canvas.
+    - Use the branch names given in the assignment.
+    - Run npm test, see failing tests then run code demo on foreach()
+    - start with going to the mozilla documentation and showcase site.
 - Walk through create react app
 - Refer to the [301 Intro Concepts Demo](../class_01/preworkReview.js)
 
