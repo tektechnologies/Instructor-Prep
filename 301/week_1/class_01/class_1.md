@@ -81,16 +81,24 @@
 
 ### React and Component-Based UI (40 min)
 
+- Lab 01.
+- Create a react app
+- Create 4 components inside the react app
+- Pass unique values using Props to those four components.
+
 - **Why** (5 min)
+![Static website](/content/staticsites.png)
     - React is a growing trend in the industry for front end development.
     - Allows us to break things down into individual components that can easily
      be resued and tested.
     - Can update state without reloading the entire page.
 - **What** (10 min)
+    - Check out medium website. <https://medium.com/>
     - React (and Angular and Vue) are "Component-based libraries"
     - They take care of binding data (state) to The DOM
         - React uses a Virtual DOM to do so, re-rendering things when data changes
     - As a developer, we get many advantages
+        - thinking smaller and still managing templeting issues at the same time.
         - Separation of Concerns
         - Reusable parts
     - Components
@@ -112,12 +120,7 @@
             - who is the client? who is the server?
             - The client makes a request
             - The files are served
-    - Demonstrate how to use `create react app` to make a React template
-        - Be sure to spend some time going through each thing that
-         `create react app`
-         gives you and discuss the components you want to keep and the ones that
-          we are not going to use
-    - Talk about what it means when we say a class `extends React.Component`
+            - Talk about what it means when we say a class `extends React.Component`
     - Pull up an application and get student ideas on ways we can break it down
      into components
         - Here is a `Header` - a `Footer` - a `Main`
@@ -126,3 +129,45 @@
     - Build the [demo](../demo)
 - **Experimentation and Discovery Ideas**
     - Discussions can arise about Modularity, Connections between components
+
+    - Demonstrate how to use `create react app` to make a React template
+        - Be sure to spend some time going through each thing that
+         `create react app`
+        - Start with what is Chart.js
+        - npx create-react-app name-of-my-app
+        - lowercase with dashes.
+        - installing will take a few minutes
+        - Go to GitHub and create an empty repo
+        - then cd into demo project
+        - show that git is set up
+        - then grab github commands and connect up the repos.
+        - NOW go through file folder scaffolding and talk about what is there and
+         what it does.
+        - grabbing root "id" from index.html in the index.js
+        - Live server doesnt work, it needs to be compiled before sent to browser.
+        - we need to run npm start
+        - npm is node.
+        - is going to run our tests and our react pages
+        - Set up netlify and import git hub repo to deploy react. Boom.
+        - Delete react files, App.test.js, logo.svg, reportWebVitals.js and setupTests.js
+        - Clean up the instances where they were used.
+        - Two ways to write functional and class based components.
+        - 1. import react
+        - 2. extends react component
+        - 3. export default App;
+        - Then in the class we render a return()
+        - show the () for multi line
+        - show fragments <> or <div>
+        - Show the css file and how to add styles
+        - making reusable code avoid id and use class or the html element.
+        - Link the css file show how linking works
+        - Go over lab requirements
+         gives you and discuss the components you want to keep and the ones that
+          we are not going to use
+
+        - Create a Header Component
+        - Add to our App.js
+        - Show how to many a component tag
+        - Show copy and paste component for reusability. 
+        - Make the Main.js Component
+        
