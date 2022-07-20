@@ -43,6 +43,7 @@
 - Introductions to class, course, DeltaV, a look at student / prework.
 - Look at Code Challenges set up and create in the demo.
 - Walk through create react app
+- Refer to the [301 Intro Concepts Demo](../class_01/preworkReview.js)
 
 ### Classes (20 min)
 
