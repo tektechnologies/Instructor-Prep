@@ -193,6 +193,10 @@ sayHello('Scooby');
 - Then access the value from props using this.props.name in the Person.js
 - Now we see our names
 - Talk about curly braces and meaning. Interpret as js. it is jsx
-- props is like a package getting passed to child components 
-- Check netlify deployment. 
-- 
+- props is like a package getting passed to child components
+- Check netlify deployment.
+- Show deployment preview and make sure we are good to merge.
+- Show how to indent components for readability
+- Explain Lab requirements
+- dont go over board on css. 
+
