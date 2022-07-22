@@ -6,8 +6,7 @@
 
 - **Student Analysis** (5 min)
     - Show code instruct students to draw what they think the css will produce.
-- **Debrief** (5-10 min)
-   Predict how this code will be rendered on the page. Draw the outcome in the
+      Predict how this code will be rendered on the page. Draw the outcome in the
    blank space below. What would you change?
 
 ## index.html
@@ -35,6 +34,50 @@ li {
   height: 25px;
   width: 100px;
 }
+```
+
+- **Debrief** (5-10 min)
+
+## styles.css solutions
+
+```css
+div {
+
+  border: 10px solid yellow;
+  height:max-content; /* doesnt work because floated */
+  /* we need a clear fix */
+  overflow: auto;
+  /* will now contain elements */
+
+
+  
+
+}
+
+ul {
+ /* here we need display: flex */
+}
+
+
+li { 
+
+  border: 1px solid red;
+
+/* but we may not want floats  
+we could use display: inline or -block;
+*/
+  float: left;
+
+
+/* another way is to use flex
+up top
+*/
+  /* yellow box doesnt have li's because of this float */
+  height: 25px;
+  width: 100px;
+}
+
+/* show float with wrapping text this is when we would use it.  */
 ```
 
 
