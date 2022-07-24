@@ -8,7 +8,7 @@
 
 ### All about 301 (30 min)
 
-## go to Canvas 
+## go to Canvas
 
 - In-Class schedule and assignments
 - I will call on you, dont forget to pass or phone a friend. If I have spelling
@@ -29,6 +29,8 @@
     - Take care of your TAs by following instructions
 - Take Break 10 Minute
 
+## Second Hour
+
 ### Shred Talk (15 min)
 
 - **Why**
@@ -43,9 +45,8 @@
     - Review tests in action.
     - run the tests in the terminal.
 
-## Second Hour
-
 - Introductions to class, course, DeltaV, a look at student / prework.
+
 - Look at **Code Challenges** set up and create in the demo.
     - Look at code challenge one in canvas.
     - Use the branch names given in the assignment.
@@ -81,6 +82,10 @@
     - Contextual `this` will bubble up to the next non-arrow function
 - **How** (10 min)
     - Review the arrow-functions lab with the students
+
+## Before Break lets set up the code Challeneges
+
+## Run the foreach Demo
 
 ## Third Hour
 
@@ -203,5 +208,4 @@ sayHello('Scooby');
 - Show deployment preview and make sure we are good to merge.
 - Show how to indent components for readability
 - Explain Lab requirements
-- dont go over board on css. 
-
+- dont go over board on css.

@@ -23,6 +23,33 @@
 // - If you mutate it in process, you will have interesting issues
 
  
+
+//Code Fellows in class Demo of For each.
+
+let array = [2,5,6,78,3,9];
+let newArray = [];
+
+//we can declare inline anonymously
+array.forEach((number) => {
+  // newArray.push(number++) does this work? can not alter number in place.
+  // it does not work with arrow functions. Quarks... we can not change.
+  newArray.push(number + 1);
+});
+console.log('newArray: ',newArray);
+
+
+//In 201 
+for(let i = 0; i < array.length; i++){
+  newArray.push(arr[i] + 1);
+}
+
+
+
+
+
+
+//for loop examples 
+
 let people = ['John','Cathy','Allie','Zach'];
 
 // For loops let us "break" away given a condition
@@ -124,65 +151,46 @@ console.log('absolute2 arrow function:  ', abs2(a));
 // - Use the arrow function as a way to get practice.
 
 
-[1,2,3].map(n => n *2);
+// [1,2,3].map(n => n *2);
 
 
-let carCustomer ={
-    name: 'bob',
-    cars: ['Datsun 210','76 Cutlass Supreme'],
-    listCars: function(){
-       // this = carCustomer = bob 
-       // Last example.  with this. 
-       // you can set to another work around.
-        var that = this;
-        //and then in the function use the 'that' variable
-        //devs are like f 'this' but I dont know what this is there is a
-        // binding challenge.
-        //call bind and apply are ways to change this in a function but arrow 
-       //function will ignore those as well. 
+// let carCustomer ={
+//     name: 'bob',
+//     cars: ['Datsun 210','76 Cutlass Supreme'],
+//     listCars: function(){
+//        // this = carCustomer = bob 
+//        // Last example.  with this. 
+//        // you can set to another work around.
+//         var that = this;
+//         //and then in the function use the 'that' variable
+//         //devs are like f 'this' but I dont know what this is there is a
+//         // binding challenge.
+//         //call bind and apply are ways to change this in a function but arrow 
+//        //function will ignore those as well. 
 
-        //this.cars.forEach(function (car){
-        this.cars.forEach((car) => {
-            //OR 2 pass the this in here. above. in making an arrow function. 
-            //this should still be bob, but it is bound to another : the global object.
-            //two ways around 
-            //consol.log(that);
-            console.log(this);//global object...
-            console.log(`${this.name}'s car: `)
-            console.log(car);
-            //1 pass this into the forEach...
-            //this is a workaround  
-         })
-        // }, this)
-    }
-}
-
-
-carCustomer.listCars();
+//         //this.cars.forEach(function (car){
+//         this.cars.forEach((car) => {
+//             //OR 2 pass the this in here. above. in making an arrow function. 
+//             //this should still be bob, but it is bound to another : the global object.
+//             //two ways around 
+//             //consol.log(that);
+//             console.log(this);//global object...
+//             console.log(`${this.name}'s car: `)
+//             console.log(car);
+//             //1 pass this into the forEach...
+//             //this is a workaround  
+//          })
+//         // }, this)
+//     }
+// }
 
 
-
-
-//Code Fellows in class Demo of For each.
+// carCustomer.listCars();
 
 
 
-let array = [2,5,6,78,3,9];
-let newArray = [];
-
-//we can declare inline anonymously
-array.forEach((number) => {
-  // newArray.push(number++) does this work? can not alter number in place.
-  // it does not work with arrow functions. Quarks... we can not change.
-  newArray.push(number + 1);
-});
-console.log('newArray: ',newArray);
 
 
-//In 201 
-for(let i = 0; i < array.length; i++){
-  newArray.push(arr[i] + 1);
-}
 
 
 
