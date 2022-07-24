@@ -42,17 +42,13 @@ li {
 
 ```css
 div {
-
   border: 10px solid yellow;
   height:max-content; /* doesnt work because floated */
   /* we need a clear fix */
   overflow: auto;
   /* will now contain elements */
-
-
-  
-
 }
+
 
 ul {
  /* here we need display: flex */
@@ -60,15 +56,11 @@ ul {
 
 
 li { 
-
   border: 1px solid red;
-
 /* but we may not want floats  
 we could use display: inline or -block;
 */
   float: left;
-
-
 /* another way is to use flex
 up top
 */
@@ -80,34 +72,26 @@ up top
 /* show float with wrapping text this is when we would use it.  */
 ```
 
+## Review class 1 code challenge 10 - 15 minutes
 
+## Code Review (30 min)
 
-
-
-
-
-
-
-
-
+- Demonstrate the solution code for React components.
+- Be sure to talk about how to render an image in React.
 
 
 ## Shred Talk
 
 - **Why**
-    - Daily "Shred Talks" introduce the student to a new javascript coding concept, setting them up to complete the daily "Code Challenge" series.
+
+    
 - **What**
-    - Refer to the [challenge documentation](../challenges/README.md)
+    
 - **How** (10 min)
-    - Follow the [Demo Code](../challenges/DEMO.md)
+    
 - **Note**
-    - If you are short on time, this can be omitted from class lecture. There are official videos that students can watch in lieu of you leading this portion of class.
+    
 
-## Code Review (30 min)
-
-- Following the first lab, students will be in need of answers.
-- It is also important that early in the course we start ingraining them in a daily schedule/format.
-- Demonstrate the solution code for React components. Be sure to talk about how to render an image in React.
 
 ## State and Props
 

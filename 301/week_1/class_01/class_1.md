@@ -8,7 +8,11 @@
 
 ### All about 301 (30 min)
 
+## go to Canvas 
+
 - In-Class schedule and assignments
+- I will call on you, dont forget to pass or phone a friend. If I have spelling
+    errors let me know.
     - Career Coaching
     - Readings
         - Done in a reading-notes repo
@@ -18,6 +22,7 @@
         - Node and Test Driven Development
         - Practice!
     - Lab Assignments
+        - Look at grade percentages. 
         - New workflows (Trello) on the way
 - Grading standards
     - Minimum requirements
