@@ -1,8 +1,6 @@
 //Array.prototype.map
 
-
 /*
-
 let newArray = arr.map(callback(currentValue[, index[, array]]){
 //return element for newArray, after executing something
 });
@@ -25,18 +23,20 @@ const output = nums.map(() => 'I was returned!');
 console.log('output: ',output);
 console.log('nums: ', nums);
 
+
+
 //A Tenet of functional programming is that we dont change the original thing. 
-
-
 nums.map((value, index, array) => {
   console.log('V-I-A',value, index, array);
   return value * 7;
 });
 
+
 nums.map(number => number * number);
 
-//we can pass in a named callback
 
+
+//we can pass in a named callback
 function callback(value, index){
   // return value * value;
   //for below
@@ -45,11 +45,11 @@ function callback(value, index){
 
 nums.map(callback);
 
-
+//Here is the long way to do a map.....
 function fakeMap(array, callback){
   const newArray = [];
   for(let i = 0; i < array.length; i++){
-newArray.push(callback(array[i], i, array));
+    newArray.push(callback(array[i], i, array));
   }
   return newArray;
 }

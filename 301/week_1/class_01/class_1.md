@@ -22,7 +22,7 @@
         - Node and Test Driven Development
         - Practice!
     - Lab Assignments
-        - Look at grade percentages. 
+        - Look at grade percentages.
         - New workflows (Trello) on the way
 - Grading standards
     - Minimum requirements
