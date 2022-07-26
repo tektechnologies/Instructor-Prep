@@ -79,51 +79,15 @@ up top
 - Demonstrate the solution code for React components.
 - Be sure to talk about how to render an image in React.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Shred Talk
 
 - **Why**
 
-    
 - **What**
-    
+
 - **How** (10 min)
-    
+
 - **Note**
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## State and Props
 
@@ -140,24 +104,6 @@ up top
     - Go through the [state and props demo](../demo/state-and-props).
     - Be sure to pause periodically to draw how props are being passed from parent to child on the whiteboard.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## React-Bootstrap
 
 - **Why** (2 min)
@@ -169,25 +115,6 @@ up top
     - Add a `navbar` to the demo on state and props.
     - Get suggestions on what to add next from the class and add it.
     - Be sure to read all the documentation for that component. This is a great opportunity to introduce students to reading documentation so take your time with this!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Deploy
 
@@ -206,15 +133,17 @@ up top
             - Make sure that you have a React application available to deploy.
         - Deploy your React application
   
-
-
-
-
-
   1. Annoucements daily alerts 5
   2. Warm-up 10
   3. Review Code Challenge 20
   4. Review Lab 1 20
   Second Hour
-  1. Code challenge demo 15
-  2. 
+  1a. Code challenge demo 15
+  2a. Bring in Json data and render name and image of pizza
+  3a. Slide show and talking about state. Create some event handlers
+  4a. Add Constructor, state, onclick, see likes!
+  Third Hour
+  1b. Start CSS
+  2b. Google BootStrap, install, run and look at options, ternary
+  3b. Netlify deployment
+  4b. Look at Lab
