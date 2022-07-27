@@ -1,19 +1,20 @@
 # Good Day Happy Day
 
-## Warm-Up
+## Annoucements daily alerts 5
 
-- **Student Analysis** (5 min)
-- **Debrief** (5-10 min)
+### Warm-Up
 
-### Shred Talk
+- 10 minutes
 
-- **Why**
-  
-- **What**
+- Python
 
-- **How** (10 min)
+### Review Code Challenge
+
+- 20 Minutes
 
 ### Code Review
+
+- 30 Minutes
 
 - TDD workflow with the class.
     - Every day a new branch
@@ -21,21 +22,13 @@
     - TDD
     - Submit a PR for grading
 
-## Mapping over data
+## Second Hour
 
-- **Why** (5 min)
-    - React is an excellent templating framework that allows us to take large datasets
-     and map over them to display them
-- **What** (10 min)
-    - a built in array method that returns a new array
-    - allows you to change the shape of the data
-- **How** (30 min)
-    - Explain Dry code.
-    - Refactor the code, importing the data.json file and use .map() to render
-     each component to the page.
-    - First introduction to accessing properties from an object
-     in an array. Go over where each value is coming from
-      in addition to the syntax of using .map() in the JSX.
+- Code challenge demo 15
+
+- Go through review lab slide deck for demo plan.
+
+- Demo the slide deck concepts with displaying pizza by passing a function.
 
 ## Passing Functions as Props
 
@@ -51,3 +44,41 @@
 - **How** (50 min)
     - Demonstrate in demo: passing-functions
     - Use a lot of whiteboard drawings.
+    - We use the this to make the passing of functions work, data can only be
+    passed down from the parent component, and the child component can use the
+     props passed to it to pass the update back to the parent for it to re-render
+      the component with the updated state.
+
+- Read the Lab
+
+- Talk about modals
+
+1.
+
+- Begin in app.js and and a constructor function also move the data
+- to start the layout of props.
+- write the addPizza function to show the pizza emoji, add prop to <Main /> then
+    in main add it to <Pizza />, then in Pizza add the onclick to the image
+- Update the Header with props emoji
+
+2.
+
+- Show the modal test in a <p> to see that the modal shows up.
+- Add Modal and see it
+- Add Modal arrow functions for handleOnHide in App.js
+- Add to Modal show={this.state.showModal}  onHide={this.handleOnHide}
+- Add  In App.js to the  <Main handleOnShowModal={this.handleOnShowModal}  /> component
+- And then pass it to <Pizza handleOnShowModal={this.props.handleOnShowModal} /> 
+- And then add it to h3  <h3 onClick={this.handleHeadlineClick} >{this.props.pizzaName}</h3>
+- Add the arrow function to pass name of pizza into the modal 
+- Add helper function for the modal pizza name
+
+```js  handleHeadlineClick = () => {
+    this.props.handleOnShowModal(this.props.pizzaName)
+  };
+
+  ```
+
+- Add Bootstrap
+- update foreach to map
+- add netlify to github repo.

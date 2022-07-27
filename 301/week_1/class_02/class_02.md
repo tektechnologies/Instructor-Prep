@@ -79,16 +79,6 @@ up top
 - Demonstrate the solution code for React components.
 - Be sure to talk about how to render an image in React.
 
-## Shred Talk
-
-- **Why**
-
-- **What**
-
-- **How** (10 min)
-
-- **Note**
-
 ## State and Props
 
 - **Why** (2 min)
@@ -99,39 +89,18 @@ up top
     - Props: a memory of persistant values passed in by a parent.
 - **How** (40 min)
     - Begin with a review of the WRRC from yesterday.
-    - Draw the components on the whiteboard. Demonstrate the way each component can hold its own state and parent components can pass props down to children components. Be sure to emphasize that children components cannot pass state back up to parents. State flows down.
-        - There are a lot of great analogies for this. I like using a waterfall, but find one that works for you.
+    - Draw the components on the whiteboard. Demonstrate the way each component
+     can hold its own state and parent components can pass props down to children
+     components. Be sure to emphasize that children components cannot pass state
+      back up to parents. State flows down.
+        - There are a lot of great analogies for this. I like using a waterfall,
+         but find one that works for you.
     - Go through the [state and props demo](../demo/state-and-props).
-    - Be sure to pause periodically to draw how props are being passed from parent to child on the whiteboard.
+    - Be sure to pause periodically to draw how props are being passed from parent
+     to child on the whiteboard.
 
-## React-Bootstrap
 
-- **Why** (2 min)
-    - We want our application to look nice but we don't always know how to accomplish that.
-- **What** (5 min)
-    - A styling library that allows us to tap into built, styled components.
-- **How** (30 min)
-    - Read through the documentation for react-bootstrap.
-    - Add a `navbar` to the demo on state and props.
-    - Get suggestions on what to add next from the class and add it.
-    - Be sure to read all the documentation for that component. This is a great opportunity to introduce students to reading documentation so take your time with this!
 
-## Deploy
-
-- **Why** (2 min)
-    - We want to share our application with the world.
-- **What** (5 min)
-    - Netlify is a platform that allows us to deploy our React application.
-- **How** (5 min)
-    - Perform the following steps for the class, or have a student share his/her
-     screen and walk them through the process since your React app will most likely
-      be in the class repo.
-        - Create a Netlify account
-            - Students may follow along if they wish, but don't stop the class
-             to troubleshoot.
-        - Hook up your Netlify account to your GitHub
-            - Make sure that you have a React application available to deploy.
-        - Deploy your React application
   
   1. Annoucements daily alerts 5
   2. Warm-up 10
@@ -139,11 +108,15 @@ up top
   4. Review Lab 1 20
   Second Hour
   1a. Code challenge demo 15
+
+  ## Look at the slide show.
+
   2a. Bring in Json data and render name and image of pizza
   3a. Slide show and talking about state. Create some event handlers
+
   4a. Add Constructor, state, onclick, see likes!
   Third Hour
   1b. Start CSS
   2b. Google BootStrap, install, run and look at options, ternary
-  3b. Netlify deployment
+  3b. Netlify deployment - Deploy the build/setings/command CI= npm run build save
   4b. Look at Lab
