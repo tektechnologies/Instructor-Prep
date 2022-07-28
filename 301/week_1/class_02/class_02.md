@@ -99,9 +99,6 @@ up top
     - Be sure to pause periodically to draw how props are being passed from parent
      to child on the whiteboard.
 
-
-
-  
   1. Annoucements daily alerts 5
   2. Warm-up 10
   3. Review Code Challenge 20
@@ -109,7 +106,7 @@ up top
   Second Hour
   1a. Code challenge demo 15
 
-  ## Look at the slide show.
+## Look at the slide show
 
   2a. Bring in Json data and render name and image of pizza
   3a. Slide show and talking about state. Create some event handlers
