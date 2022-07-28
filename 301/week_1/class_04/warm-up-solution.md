@@ -1,45 +1,48 @@
 # Warm-Up Exercise
 
-Read through this code as if you are the interpreter. Find all of the mistakes
-in this code and write down the correct syntax for each mistake.
+Read through this code as if you are the interpreter. Find all of the mistakes in this code and write down the correct syntax for each mistake.
 
 ## app.js
 
 ```javascript
-import Header from './header.js';
+import React from 'react';
+import Header from './Header.js';
 
 class App extends React.Component {
-  constructor {
-    super(props)
+  constructor(props) {
+    super(props);
     this.state={
-      counter=0
-    }
+      counter: 0
+    };
   }
 
   addCount = () => {
-    this.setState({ counter: counter++ });
-  }
+    this.setState({ counter: this.state.counter + 1 });
+  };
 
   render() {
     return(
-      <button click={addCount}>Click Me</button>
-      <p>this.state.counter<p>
-      <Header title="the best counter app in the world!">
+      <>
+        <button onClick={this.addCount}>Click Me</button>
+        <p>{this.state.counter}<p>
+        <Header title="the best counter app in the world!"/>
+      </>
     )
   }
 }
 
-export App;
+export default App;
 ```
 
-## header.js
+## Header.js
 
 ```javascript
+import React from 'react';
 class Header extends React.Component {
   render(){
-    <h1>{title}</h1>
+    return <h1>{this.props.title}</h1>
   }
 }
 
-export Header;
+export default Header;
 ```
