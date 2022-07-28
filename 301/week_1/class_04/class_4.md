@@ -21,15 +21,25 @@
 
 - sorting by first letter but with string the values of lower vs uppercase are different.
 
+## Start review of react
 
-
-
-
+- npx create form app
+- create git hub and push
+- create branch
+- Delete old files
+- Add Bootstrap to the project
 
 ## Hour Three
 
 ## Break 2
 
+- Now lets do some react form stuff
+- since we may have these values change lets keep track of them in state
+- add a constructor
+- wire up the select
+- show how state is slow
+- update map for sorted data and update the index for sorted data
+- talk about bootstrap forms
 - Talk about and draw the WRRC.
 
 ## Forms and Modals
@@ -58,3 +68,5 @@
     - Code Review
     - Lab Review
     - sort() method for Code Challenge
+    - React Review
+    - React Form
