@@ -33,3 +33,15 @@
 
 - Talk about career assignments
 - Build out Form example
+
+
+## Agenda
+
+- Warm up
+- Code Challenge Review
+- Lab Review
+- Introduce the Lab Portfolio and set up
+- Reduce
+- WRRC
+- Build out Form example
+- Career Assignments
