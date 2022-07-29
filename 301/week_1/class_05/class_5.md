@@ -14,13 +14,17 @@
 
 ## Break 1
 
+## Intro the Lab for today and show the set up
+
+- Introduce the Lab for today.
+- Talk about how it relates to the final
+- Look at the Lab in Canvas
+- demo pulling down the repo template
+
 ### Shred Talk
 
 - Talk about reduce.
-- Introduce the Lab for today.
-- Talk about how it relates to the final
 
-- 
 
 
 
