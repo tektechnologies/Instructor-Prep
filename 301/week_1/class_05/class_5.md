@@ -2,11 +2,33 @@
 
 ## This has been a big week, thumbs up/down how are you feeling about this week
 
-- Lets look at some Code Challenge and then we can take a look at someones grid layout.
-- Take a Look at the whiteBoard images lets talk about WRRC
-- So we are going to take a look at servers today.
-- Lets talk about live server, our client and how we request and it responds
-  with rendering
+## Warm-Up
+
+[Solution Code](./class_05/IMG_0058.jpg)
+
+## Code Challenge Review
+
+## Lab Review
+
+## Hour Two
+
+## Break 1
+
+### Shred Talk
+
+- Talk about reduce.
+- Introduce the Lab for today.
+- Talk about how it relates to the final
+
+- 
+
+
+
+
+
+
+
+
 - we will create a front end site that will have a server that will talk to
   google and a parks api and yelp, and by the end of next week this is how our
   app with look
@@ -19,7 +41,6 @@
 -<https://city-explorer-backend.herokuapp.com>  is our back end
 - next week the labs will have starter code for you to build on, and each day
   we will add a new path to our app.
-- What does our default do? when we submit a form
 
 ## Lab Notes
 
