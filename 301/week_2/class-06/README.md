@@ -1,5 +1,29 @@
 # Good Day Happy Monday WEEK 2
 
+- Feed Back.
+    - remo is booooo. (stick to zoom)
+    - Career work.
+- Start with Warm - up
+- Code Challenge Review
+- Code Lab Review. (Look at Routes.)
+    - Code agnostics - meaning change the content without changing
+     the    archetecture. Add names to things by how they are used
+     rather than what they represent in the structure of our documentation.
+     So we name things for there purpose as apposed to where they are location.
+
+## Replit
+
+- Code Challenge for today pass by value and pass by reference.
+
+
+
+
+
+
+
+
+
+
 ## 3 Main things
 
 1. How do I start a server.
@@ -37,7 +61,6 @@ key, so that we can render an image from our calls to the api.
  server.js file.
 5. We will also talk about the concept of the env.
 
-
 - **Why** (5 min)
     - An understand of The Web Request Response Cycle is critical to being
       a solid full-stack developer
@@ -70,28 +93,6 @@ key, so that we can render an image from our calls to the api.
     - We could use this port by running our app on 3333. which we will see
       change as we go on this week as it may not be the same port that it
       runs on, on another machine.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Second Hour
 
@@ -220,7 +221,6 @@ const PORT = process.env.PORT || 3111;
 
 ### Now lets do a route that can take dynamic data in
 
-
 - Deploy to Heroku, so review the PROCESS of that deployment with them.
 - Don't dig in to the server code, since that will be a topic today anyway.
 - Conclude Code Review time with an preview of what work will be done on the
@@ -228,31 +228,7 @@ const PORT = process.env.PORT || 3111;
 
 ![Draw req/res for city](content/410.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Third Hour
-
 
 - we will create a front end site that will have a server that will talk to
   google and a parks api and yelp, and by the end of next week this is how our
