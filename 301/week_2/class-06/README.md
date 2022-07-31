@@ -15,14 +15,31 @@
 
 - Code Challenge for today pass by value and pass by reference.
 
+## Intro to API
+
+- Look at white boards
+- Look at star wars api
+- we will use axios today to make these requests.
+- go to <https://swapi.dev/>
+- <https://swapi.dev/api/people/?pag=1>
+- gets me several people.
+- Look at the data and figure out the array data[objects]
+- Start up app
+- follow steps in demo
+
+- Explain after list renders that data has costs and how larger
+companys might handlde thousands of requests and why we use Keys
+for managing our data.
+- go to location IQ website look at the keys
+- 
 
 
 
+# Instructions to get a key: https://developers.themoviedb.org/3/getting-started/introduction
+MOVIE_API_KEY=PASTE-API-KEY-HERE
 
-
-
-
-
+# Create an account, log in, see your key here: [National Parks Service)[https://www.nps.gov/subjects/developer/api-documentation.htm]
+PARKS_API_KEY=PASTE-API-KEY-HERE
 
 ## 3 Main things
 
