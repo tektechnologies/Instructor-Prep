@@ -33,3 +33,9 @@ for managing our data.
 - go to location IQ website look at the keys
 - Once demo is done review pull request and netlify
 - add key from loqIq to netlify.
+- trigger redeploy
+- we are using trello for rest of project. dont wait longer than 15 minutes
+ to get help.
+- turn in what you get done.
+- we will pick partners.
+
