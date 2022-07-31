@@ -569,3 +569,40 @@ fakeMap(nums, callback);
 - Remind students HOW to set their API environment options in Heroku
 
 ## General Comments and Notes
+
+
+
+
+
+
+
+
+
+## 3 Main things
+
+1. How do I start a server.
+2. How do I create a route.
+3. How do I make it give data when someone tries talking to it.
+
+A. by the End of the Day we will have some data rendering to our pages and one
+list of weather information. Tomorrow we will look at something called an api
+key, so that we can render an image from our calls to the api.
+
+## Today we will be learning all about servers
+
+- Lets start by looking at the Lab. In Cavas.
+
+- This is the first day that the labs will be executed through Trello.
+
+![Draw req/res for city](content/944.png)
+
+- What is a client? - A student to teacher, request things, tempory,
+ googler/webpageForm(client as well.)
+- What is a server? A temporary. that server responses to requests, google
+
+- Client makes req to server for Food. The relationships are the same. We will
+ make req and delegate our responsibilites to another server.
+- Server in a restaurant will make a req to the cook for food.
+- Afer this week you may begin to see the req/res cycle everywhere, its ok, its
+ a code thing.
+- for us we will have an actual server.js.
