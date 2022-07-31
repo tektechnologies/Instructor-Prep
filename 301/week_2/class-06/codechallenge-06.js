@@ -6,9 +6,7 @@ let c = b;
 let d = c; 
 
 
-// console.log(a,b,c,d);
-
-//7,7,7,7
+// console.log(a,b,c,d);    //Gets : 7,7,7,7
 
 b = 5000; //this deletes the 7 in b and replaces it with 5000
 

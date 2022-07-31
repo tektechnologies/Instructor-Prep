@@ -10,60 +10,6 @@ A. by the End of the Day we will have some data rendering to our pages and one
 list of weather information. Tomorrow we will look at something called an api
 key, so that we can render an image from our calls to the api.
 
-### html
-
-```html
-
-<!-- our default order is 0 like an array.  Start and replacing it with the end and vice versa, end to start by default because of reverse order they  100 115 120 130, order one moves to end means it does not stand for the first, -->
-
-  <div>
-  <img src="http://via.placeholder.com/100">  <!--  0  -->
- 
-  <img src="http://via.placeholder.com/115"><!--  1  This is lexical order with out the css rule it would have laid out in normal order-->
-
-  <img src="http://via.placeholder.com/120"><!-- 0  The order is the order they will layout from left to right-->
-
-  <img src="http://via.placeholder.com/130"><!--  0  At the first flip the 1 will be in this position -->
-
-</div>
-
-```
-
-### styles.css
-
-```css
-div {
-  display: flex;
-  /* Start out with a flex start and then a flex end */
-  justify-content: flex-end;
-  /* this is saying that we are going to center vertically up and down creating
-     spacing on top and bottom of an image or div  */
-  align-items: center;
-  height: 200px;
-  This is reversing the order of our content
-  flex-direction: row-reverse;
-
-  /* last try a align-items baseline to show what happens 
-  align-items: baseline; 
-  
-  text and images will try and share the same baseline, same row they written on.
-  grid does work with flex , align-items are shared between the two. its the
-  content justigy items or content grid vs flex is where some differences are. 
-  
-  */
-  
-}
-
-
-/* we have to pay attention to the order since they are reversed.  */
-img:nth-child(2) {
-  border: 2px solid red;
-  order: 1;
-  align-self: baseline;
-}
-
-```
-
 ## Today we will be learning all about servers
 
 - Lets start by looking at the Lab. In Cavas.
@@ -91,15 +37,6 @@ img:nth-child(2) {
  server.js file.
 5. We will also talk about the concept of the env.
 
-## Draw out the WRRC Here AND OPEN UP SERVER JS FILE TO TYPE OUT COMMENTS
-
-### The WRRC
-
-![Draw req/res for city](570.png)
-
- **How** (30 min)
-
-- Interactively draw the WRRC for a Single Page App
 
 - **Why** (5 min)
     - An understand of The Web Request Response Cycle is critical to being
@@ -133,6 +70,28 @@ img:nth-child(2) {
     - We could use this port by running our app on 3333. which we will see
       change as we go on this week as it may not be the same port that it
       runs on, on another machine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Second Hour
 
@@ -261,71 +220,6 @@ const PORT = process.env.PORT || 3111;
 
 ### Now lets do a route that can take dynamic data in
 
-```js
-  //Object iteration 
-
-const cohort ={
-bob : {name: 'Bob', backGroundColor: 'red'},
-larry : {name: 'Larry', backGroundColor:'blue'},
-gerry : {name: 'Gerry', backGroundColor: 'green'},
-garry : {name: 'Garry', backGroundColor: 'yellow'}
-};
-// for(let i in arr) iterate i throug every key of the object
- 
-// for(let i in cohort){
-//   console.log(i);
-//   console.log(cohort[i]);
-// }
-
-
-//Today we will use two methods. 
-
-//1. Object.keys(object);
-
-// console.log(Object.keys(cohort));
-
-
-//we could then 
-const keyArr = Object.keys(cohort);
-
-keyArr.forEach(studentKey => console.log('hello ' + studentKey));
-
-
-
-
-// keyArr.forEach(studentKey => console.log(cohort[studentKey]));
-
-keyArr.forEach(studentKey => {
-// console.log(cohort[studentKey])
-});
-
-
-
-
-
-console.log(Object.values(cohort));
-//is an array of values 
-
-
-Object.values(cohort).forEach(student => {
-  console.log(student.backGroundColor);
-});
-
-
-//Object.values(object); puts the values into another array. takes each entry
-// in an object, then entry is the key and the value and puts it in an array
-// of arrays. 
-console.log(Object.entries(cohort));
-
-Object.entries(cohort).forEach(minArr => {
-  if(/^[a-g]/.test(minArr[0])){
-    console.log(minArr[1].backGroundColor);
-  }
-});
-
-//in lab you will be asked to use these methods to get the job done today. 
-
-```
 
 - Deploy to Heroku, so review the PROCESS of that deployment with them.
 - Don't dig in to the server code, since that will be a topic today anyway.
@@ -334,15 +228,30 @@ Object.entries(cohort).forEach(minArr => {
 
 ![Draw req/res for city](content/410.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Third Hour
-
----
-
-
-
-
-
-
 
 
 - we will create a front end site that will have a server that will talk to
@@ -400,8 +309,8 @@ Object.entries(cohort).forEach(minArr => {
 - we have a server event listener that makes the server listen to
 
 - app.listen(3000)
--localhost:8080 is the default live server.
-//express is so pop that the dev server is 3000. so we
+- localhost:8080 is the default live server.
+- express is so pop that the dev server is 3000. so we
 - const PORT = 3000;
 
 -app.listen('PORT', () => {`server.js file is started on PORT: ${PORT}`});
