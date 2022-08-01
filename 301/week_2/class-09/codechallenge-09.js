@@ -57,3 +57,5 @@
         console.log(minArr[2].backGroundColor);
       }
     });
+
+    // clone functions and clone objects. 
