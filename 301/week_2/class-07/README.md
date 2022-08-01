@@ -1,5 +1,37 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Make an entry point to the server file called server.js
 2. Then we want to run the npm init command to set up of file scaffolding.
 3. Then complete the set questions, to finish setting up apps link to the server

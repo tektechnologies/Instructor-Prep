@@ -5,6 +5,9 @@
     - Career work.
 - Start with Warm - up
 - Code Challenge Review
+- Map and filter produce a new array. Reduce is typically used to
+  "reduce" the array to a single value - a sum, a min/max, etc.
+  There are more clever uses of reduce, and map/filter can be implemented using reduce.
 - Code Lab Review. (Look at Routes.)
     - Code agnostics - meaning change the content without changing
      the    archetecture. Add names to things by how they are used
@@ -18,7 +21,7 @@
 ## Intro to API
 
 - Look at white boards
-- Look at star wars api
+- Then go to star wars api, Look at objects and returned data
 - we will use axios today to make these requests.
 - go to <https://swapi.dev/>
 - <https://swapi.dev/api/people/?pag=1>
@@ -30,6 +33,7 @@
 - Explain after list renders that data has costs and how larger
 companys might handlde thousands of requests and why we use Keys
 for managing our data.
+
 - go to location IQ website look at the keys
 - Once demo is done review pull request and netlify
 - add key from loqIq to netlify.
@@ -38,4 +42,17 @@ for managing our data.
  to get help.
 - turn in what you get done.
 - we will pick partners.
+
+## Agenda
+
+1. Any Announcements
+2. Cover Feedback
+3. Code Challenge review - Look at Reduce
+4. Lab Review - Look at Portfolio
+5. Code Challenge for today
+6. White Board Intro to API
+7. Star Wars API
+8. LocationIq
+9. Build a City Search
+10. Look at Lab and Trello
 

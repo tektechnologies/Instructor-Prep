@@ -108,6 +108,12 @@ console.log(obj2);
 // with an assignment operator.
 
 
+
+
+
+// stuff passed by reference lives on the "heap" as opposed to the value living on the "stack" (variables that disappear when you "return" to the calling function)
+// So the list variable on the call stack is a memory location in the heap
+
 function appendZero(list) {
   list.push(0);
   // We can modify the array passed in directly! No return value needed! 
