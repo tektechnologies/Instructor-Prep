@@ -20,12 +20,9 @@
     - Every day a new file
     - TDD
     - Submit a PR for grading
+- show key on image in app.
 
 ## Second Hour
-
-  
-
-
 
 ```js
 
@@ -87,18 +84,7 @@ not goDaddy (goDaddy is a dns, redirects to where it lives)
 */
 
 // ========================== end theory ======================
-
-// ==== packages ====
-const express = require('express'); // implies that express has been downloaded
-//via npm
-// the command to download it and save it is `npm install -S express`
-const cors = require('cors'); // Cross Origin Resource Sharing : allows connection
-// between 2 local servers or websites : It can block or allow access to any list
-//of urls.
-//By default it allows localhost to talk itself
-// - needed this week only
-require('dotenv').config(); // runs once and loads all the environment variables
-//IF they were declared in a file instead of the terminal
+killall -9 node
 
 // ==== setup the application (server) ====
 const app = express(); // creates a server from the express library
@@ -175,7 +161,8 @@ longTask('c - 1')
   .then( data => { console.log(data); return longTask('c - 4'); } );
 
 
-// Running Many Async Things Simultaneously ... they may not all finish in order, but the collected responses will be GIVEN to you in order
+// Running Many Async Things Simultaneously ... they may not all finish in order,
+// but the collected responses will be GIVEN to you in order
 console.log('------- Promise.all() ----------');
 let stuffToDo = [];
 for( let i = 1; i <= 10; i++ ) {
