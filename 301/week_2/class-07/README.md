@@ -1,4 +1,61 @@
-# e
+# Good Day Happy Tuesday WEEK 2
+
+## First Hour
+
+### Announcements
+
+### Warm - up code
+
+- Warm-Up Exercise Java
+- What does our code do?
+- Type Specification.
+- .methods are quite semantic. put() add()
+- <> are type brackets, which may determine the type. like integer or string.
+- so in our list we will have ints, once we populate the arraylist.
+- Java is a compiled language, so it builds itself and turns itself into machine
+  code and will then will execute. If the code doesnt compile it will not run.
+- the new arraylist is empty, in java we have reflexive types in java a list of
+  integers, the arraylist will inherit integer, so it is implied.
+- Hash Map, in javascipt is like an object, which are always key value pairs where
+  the key is a type string, with Hash map your keys can be any value, could be cat.
+- the put allows us to put a key value pair in the map.
+- When they recieve the incrementing values tally.get(key) will update the counter
+- Our random is pretty much like javascript
+- system.out.println.. Is like javascript console.log
+- variables, if else, is just like JS, string concatination and type coersion is
+  like JS as well.
+- Java is a clean language.
+- it is not a scripting language.
+- the Main, method is like the index.html in a website.
+- the program will look for and find the Main to run it,
+- Another thing is that the class has to have the same name as the file.
+
+
+### Review Code Challenge
+
+### Review Lab
+
+## Second Hour plus ten minute break
+
+- Node is every where console, terminal
+- Build git hub repo for our server
+- Add license, readme
+- Add linter config
+- clone and cd into the folder
+- 1. Install Node (npm init)
+- npm i -g nodemon
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Make an entry point to the server file called server.js
 2. Then we want to run the npm init command to set up of file scaffolding.
@@ -239,30 +296,6 @@ const PORT = process.env.PORT || 3111;
 -app.listen('PORT', () => {`server.js file is started on PORT: ${PORT}`});
 
 # Good Day Happy Friday
-
-- Warm-Up Exercise Java
-- What does our code do?
-- Type Specification.
-- .methods are quite semantic. put() add()
-- <> are type brackets, which may determine the type. like integer or string.
-- so in our list we will have ints, once we populate the arraylist.
-- Java is a compiled language, so it builds itself and turns itself into machine
-  code and will then will execute. If the code doesnt compile it will not run.
-- the new arraylist is empty, in java we have reflexive types in java a list of
-  integers, the arraylist will inherit integer, so it is implied.
-- Hash Map, in javascipt is like an object, which are always key value pairs where
-  the key is a type string, with Hash map your keys can be any value, could be cat.
-- the put allows us to put a key value pair in the map.
-- When they recieve the incrementing values tally.get(key) will update the counter
-- Our random is pretty much like javascript
-- system.out.println.. Is like javascript console.log
-- variables, if else, is just like JS, string concatination and type coersion is
-  like JS as well.
-- Java is a clean language.
-- it is not a scripting language.
-- the Main, method is like the index.html in a website.
-- the program will look for and find the Main to run it,
-- Another thing is that the class has to have the same name as the file.
 
 ## Lets talk server
 
