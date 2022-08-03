@@ -63,3 +63,14 @@ console.log(numString.match(numRegex));
 
 
 // .test(/^([a-zA-Z0-9\+_\-]+)(\.[a-zA-Z0-9\+_\-]+)*@([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,6}$/)) 
+
+let regex = /o/;
+let string = 'Fox jumps over the lazy land';
+
+let hasPattern = regex.test(string);
+console.log('has pattern',hasPattern);
+
+let reg = /\w*o\w*/gm;
+
+let matches = string.match(reg) || [];
+console.log('matches',matches);
