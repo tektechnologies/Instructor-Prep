@@ -25,13 +25,12 @@ http requests contain a lot of info
 The basics are a lot like mail
 there is an address: url
 there is a to and a from  to: route, from: client url
-There can be a letter inside: encode information completely hidden in 
+There can be a letter inside: encode information completely hidden in
 the response - like a letter in the envelope
 There can be info written on the outside of the letter - this is our queries
 info on the visible url
 
 Express reads all of this for us and much more
-
 
 ================ Environment  ===============
 A server has to run somewhere
@@ -64,7 +63,6 @@ not goDaddy (goDaddy is a dns, redirects to where it lives)
 
 - ## Third Hour
 
-
 ## Promises
 
 - Any time javascript recognizes an event as taking more than instant time, it
@@ -82,3 +80,4 @@ not goDaddy (goDaddy is a dns, redirects to where it lives)
 if we req something it is promising to bring something back which is what async
 await is doing for us.
 
+## remind them to be kind to themselves this week we have taken in a lot of info
