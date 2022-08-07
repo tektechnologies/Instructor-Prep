@@ -65,3 +65,18 @@ const totalSum = (matrix) => {
 };
 
 ```
+
+## Second Hour
+
+- Code challenge chaining methods.
+
+
+## Persistant Data
+
+- Cache is not cash.
+- Let us Data base
+- Can of books is a partnered lab. 
+- Start code consists of a front end and back end.
+- we will create a database and retrieve data using mongoose by way
+  of a data model; a schema.
+- 
