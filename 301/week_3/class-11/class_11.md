@@ -70,7 +70,6 @@ const totalSum = (matrix) => {
 
 - Code challenge chaining methods.
 
-
 ## Persistant Data
 
 - Cache is not cash.
@@ -79,4 +78,8 @@ const totalSum = (matrix) => {
 - Start code consists of a front end and back end.
 - we will create a database and retrieve data using mongoose by way
   of a data model; a schema.
-- 
+- On to Atlas DB
+- show how to log in and create a cluster0
+- select browse selections if we have a pre-built db to look at. 
+- look at how to add new users 
+- look at how to get your connection link. 
