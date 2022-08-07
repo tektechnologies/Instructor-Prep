@@ -3,8 +3,8 @@
 - ## First Hour
 
 - cover feedback
-- cover project guidelines.
-- Rapid Api ted talks api
+- Week two was a lot of information. Good work.
+- This week is about working with data bases. 
 
 ### Warm-Up
 
@@ -12,7 +12,6 @@
 - arr[j]
 - arr[j] + 1 // these are access locations.
 - How does this sort?
-
 - 10, 7, 3, 1, 9, 7,4, 3,
 - 7, 10, 3, 1, 9, 7, 4, 3
 - all the way to the end 7,3,1,9,7,4,3,10
@@ -20,12 +19,49 @@
 - 7, 3, 1, 9, 7, 4, 3, 10
 - 3, 1, 7, 9, 7, 4, 3, 10
 - 3, 1, 7,  7, 9, 4, 3, 10
-
-then the 4 and the 3 make there way over
-
+  then the 4 and the 3 make there way over
 - 3, 1, 7,  7, 4, 3, 9,  10
 - in one pass our numbers have become closer to where they want to be
 - this is called a bubble sort.
 - it scans the whole thing and passes the largest thing to the end.
 
-- <https://repl.it/@tektechnologies/class11Warmup#main.cs>
+## Code Challenge
+
+- 6. return arr[2].items[1].quantity;
+
+```js
+
+const howManyTreats = (arr) => {
+  let treats = 0;
+  arr.forEach(obj => {
+    let listArray = obje.items;
+    listArray.forEach(item => {
+      if(item.name === 'Treats'){
+        treats = item.quantity;
+      }
+    });
+  });
+  return treats;
+  };
+
+```
+
+- 7.
+
+```js
+
+const totalSum = (matrix) => {
+  let totalSum = 0; 
+  matrix.forEach(nestedArr => { //slower loop
+    nestedArr.forEach(number => { //faster loop
+      totalSum += number;
+    });
+  });
+    return totalSum;
+
+    return matrix.flat().reduce((preVal, current) => {
+      preVal + Current;
+    })
+};
+
+```

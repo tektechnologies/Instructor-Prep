@@ -16,7 +16,7 @@
 - go through trello add steps to complete
 
 - TDD workflow with the class.
-    - Every day a new branch - follow branch naming from repo.
+  - Every day a new branch - follow branch naming from repo.
     - Every day a new file
     - TDD
     - Submit a PR for grading

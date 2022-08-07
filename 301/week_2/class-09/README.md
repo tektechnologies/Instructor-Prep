@@ -57,7 +57,8 @@ not goDaddy (goDaddy is a dns, redirects to where it lives)
     - Identify common patterns
     - Seek opportunities to extend or abstract functionality
 
----
+
+
 
 ## Ten Minute Break
 
