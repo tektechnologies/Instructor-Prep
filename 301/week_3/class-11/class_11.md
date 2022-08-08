@@ -4,7 +4,7 @@
 
 - cover feedback
 - Week two was a lot of information. Good work.
-- This week is about working with data bases. 
+- This week is about working with data bases.
 
 ### Warm-Up
 
@@ -74,12 +74,13 @@ const totalSum = (matrix) => {
 
 - Cache is not cash.
 - Let us Data base
-- Can of books is a partnered lab. 
+- Can of books is a partnered lab.
 - Start code consists of a front end and back end.
 - we will create a database and retrieve data using mongoose by way
   of a data model; a schema.
 - On to Atlas DB
 - show how to log in and create a cluster0
-- select browse selections if we have a pre-built db to look at. 
-- look at how to add new users 
-- look at how to get your connection link. 
+- select browse selections if we have a pre-built db to look at.
+- look at how to add new users
+- look at how to get your connection link.
+- look at front end fix errors talk about component did mount
