@@ -1,28 +1,19 @@
-# Good Day Happy Friday
+# Good Day Happy Wednesday
 
-## Delete and Update
+## Announcements
 
-- **Why** (5 min)
-    - Delete and Update complete the CRUD cycle
-    - Results in a truly "Full Stack" application
-- **What** (10 min)
-    - With REST, the WRRC is, in it's essence, an ACTION and a THING: a VERB is
-     happening to a NOUN... Today: new verbs!
-    - Identify the resource you want to work with
-    - Usually by ID
-    - Communicate your intent to the server
-        - ID, Action to take, and possibly any changed data
-- **How** (30 min)
-    - The server wants to use REST verbs (GET/POST/PUT/DELETE)
-    - The browser can only use GET and POST
-    - We need some help to send those Actions down
-        - Express has custom middleware called "Method Override" that allows us
-          to fudge this.
-        - Do a walk through of just the middleware to explain it's operation.
-- **Experimentation and Discovery Ideas**
+- This Friday I am out at 3 again. 101 on Saturday.
+- Career stuff due Sunday after Project week
+- need to be done before 401
 
-### Demo Build
+## warm-up
 
-- Implement Update and Delete in the To Do app, using Method Override
-- Note clearly: When we redirect after doing one of these actions,
-- we are chaining together 2 WRRCs. Draw it!
+## code challenge
+
+- look at new concepts only
+
+- do base submission and finish later.
+
+## Implement the update
+
+## Final exam review
