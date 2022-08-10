@@ -24,3 +24,5 @@ console.log( 'charCodeAt: A ','A'.charCodeAt(0) );
 console.log( 'fromCharCode(77)', String.fromCharCode(77) );
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+
+
