@@ -19,6 +19,7 @@
     <li>Three</li>
   </ul>
 </div>
+
 ```
 
 ## styles.css
@@ -41,6 +42,7 @@ li {
 ## styles.css solutions
 
 ```css
+
 div {
   border: 10px solid yellow;
   height:max-content; /* doesnt work because floated */
@@ -49,11 +51,9 @@ div {
   /* will now contain elements */
 }
 
-
 ul {
  /* here we need display: flex */
 }
-
 
 li { 
   border: 1px solid red;
@@ -70,6 +70,7 @@ up top
 }
 
 /* show float with wrapping text this is when we would use it.  */
+
 ```
 
 ## Review class 1 code challenge 10 - 15 minutes

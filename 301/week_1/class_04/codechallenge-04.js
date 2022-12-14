@@ -96,6 +96,8 @@ return 0;
 //   {name: 'Garry', power: 9000},
 //   {name: 'Dog Dog',power: 65}
 // // ];
+
+
 const people = [
   {name: 'Zarry', power: 3},
   {name: 'Craig' , power: 20},
