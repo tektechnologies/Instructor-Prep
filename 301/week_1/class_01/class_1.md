@@ -16,9 +16,9 @@
 
 ## Our class schedule
 
-- Saturday equals one whole class
-- Monday equals one whole lecture
-- Tuesday equals first code concept then lab
+- Saturday equals one whole Class(lecture and lab)
+- Monday equals one whole Lecture
+- Tuesday equals first Code Concept Demo and then lab
 - Wednesday equals lab
 - Thursday equals lab
 
