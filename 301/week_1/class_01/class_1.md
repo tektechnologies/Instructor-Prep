@@ -57,12 +57,7 @@
 - Function Expression
 - Arrow Function - How does that look? With one line of code? 
 
-
-
-
-
-
-### Shred Talk (15 min)
+### Shred Talk (15 min to 1 Hour)
 
 - **Why**
     - Daily "Shred Talks" introduce students to a new javascript coding concept.
@@ -75,8 +70,6 @@
   
     - Review tests in action.
     - run the tests in the terminal.
-
-- Introductions to class, course, DeltaV, a look at student / prework.
 
 - Look at **Code Challenges** set up and create in the demo.
     - Look at code challenge one in canvas.
@@ -114,29 +107,11 @@
 - **How** (10 min)
     - Review the arrow-functions lab with the students
 
-
-
-
-
-
-## Before Break lets set up the code Challeneges
-
-
-
-
-## Run the foreach Demo
-
-
-
-
-
-
-
-
+## After Break lets set up the code Challeneges
 
 ## Third Hour
 
-
+### Install / Create Data Structures repo for 301 and then 401. 
 
 
 
@@ -260,3 +235,8 @@ sayHello('Scooby');
 - Show how to indent components for readability
 - Explain Lab requirements
 - dont go over board on css.
+
+
+
+
+## Run the foreach Demo
