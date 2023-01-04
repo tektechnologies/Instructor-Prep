@@ -2,11 +2,34 @@
 
 ## First Hour
 
-## Slide Deck
+- Tour with Beth
+
+- Slide Deck 45 minutes intro slides
 
 <https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
 
+## TAKE BREAK
+
+## Second Hour
+
 ### All about 301 (30 min)
+
+## Our class schedule
+
+- Saturday equals one whole Class(lecture and lab)
+- Monday equals one whole Lecture
+- Tuesday equals first Code Concept Demo and then lab
+- Wednesday equals lab
+- Thursday equals lab
+
+## REPO and REMO
+
+- we will get back into the configs in the second week when we look at building
+  out a server file
+
+- We will no doubt be remote at some point so lets look at remo and how it works
+- When asking for help, 15 minutes(what have you tried) student, TA and then
+  Instructor.
 
 ## go to Canvas
 
@@ -27,11 +50,14 @@
 - Grading standards
     - Minimum requirements
     - Take care of your TAs by following instructions
-- Take Break 10 Minute
 
-## Second Hour
+## Go through the Prework Review
 
-### Shred Talk (15 min)
+- Function Declaration
+- Function Expression
+- Arrow Function - How does that look? With one line of code? 
+
+### Shred Talk (15 min to 1 Hour)
 
 - **Why**
     - Daily "Shred Talks" introduce students to a new javascript coding concept.
@@ -44,8 +70,6 @@
   
     - Review tests in action.
     - run the tests in the terminal.
-
-- Introductions to class, course, DeltaV, a look at student / prework.
 
 - Look at **Code Challenges** set up and create in the demo.
     - Look at code challenge one in canvas.
@@ -83,11 +107,16 @@
 - **How** (10 min)
     - Review the arrow-functions lab with the students
 
-## Before Break lets set up the code Challeneges
-
-## Run the foreach Demo
+## After Break lets set up the code Challeneges
 
 ## Third Hour
+
+### Install / Create Data Structures repo for 301 and then 401
+
+- <https://codefellows.github.io/setup-guide/code-301/2-code-challenges>
+- bring in code challenge number one
+- run npm test to see things pass
+- ACP
 
 ### React and Component-Based UI (40 min)
 
@@ -209,3 +238,8 @@ sayHello('Scooby');
 - Show how to indent components for readability
 - Explain Lab requirements
 - dont go over board on css.
+
+
+
+
+## Run the foreach Demo
