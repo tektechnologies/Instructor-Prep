@@ -2,9 +2,16 @@
 
 ## First Hour
 
+### Tour with Beth
+
+
 ## Slide Deck
 
+### Melissa 45 minutes intro slides. 
+
 <https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
+
+## TAKE BREAK
 
 ### All about 301 (30 min)
 
