@@ -4,16 +4,32 @@
 
 ### Tour with Beth
 
-
 ## Slide Deck
 
-### Melissa 45 minutes intro slides. 
+### 45 minutes intro slides
 
 <https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
 
 ## TAKE BREAK
 
 ### All about 301 (30 min)
+
+## Our class schedule
+
+- Saturday equals one whole class
+- Monday equals one whole lecture
+- Tuesday equals first code concept then lab
+- Wednesday equals lab
+- Thursday equals lab
+
+## REPO and REMO
+
+- we will get back into the configs in the second week when we look at building
+  out a server file
+
+- We will no doubt be remote at some point so lets look at remo and how it works
+- When asking for help, 15 minutes(what have you tried) student, TA and then
+  Instructor.
 
 ## go to Canvas
 
@@ -34,7 +50,6 @@
 - Grading standards
     - Minimum requirements
     - Take care of your TAs by following instructions
-- Take Break 10 Minute
 
 ## Second Hour
 
