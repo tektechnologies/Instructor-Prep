@@ -116,7 +116,7 @@
 - <https://codefellows.github.io/setup-guide/code-301/2-code-challenges>
 - bring in code challenge number one
 - run npm test to see things pass
-- ACP
+- Create Branch then ACP
 
 ### React and Component-Based UI (40 min)
 
