@@ -121,6 +121,10 @@
 
 ### React and Component-Based UI (40 min)
 
+### Start with the IN slide deck intro to REACT concepts. 
+
+- <https://craigbarkley702658.invisionapp.com/freehand/Class-One---301-QqjvhWV8j>
+
 - Lab 01.
 - Create a react app
 - Create 4 components inside the react app
