@@ -55,7 +55,7 @@
 
 - Function Declaration
 - Function Expression
-- Arrow Function - How does that look? With one line of code? 
+- Arrow Function - How does that look? With one line of code?
 
 ### Shred Talk (15 min to 1 Hour)
 
