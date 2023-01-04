@@ -117,6 +117,7 @@
 - bring in code challenge number one
 - run npm test to see things pass
 - Create Branch then ACP
+- Start Challenge one explain resources, videos and when we are demoing the concepts.
 
 ### React and Component-Based UI (40 min)
 
