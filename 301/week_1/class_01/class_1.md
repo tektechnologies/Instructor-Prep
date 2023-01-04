@@ -2,15 +2,15 @@
 
 ## First Hour
 
-### Tour with Beth
+- Tour with Beth
 
-## Slide Deck
-
-### 45 minutes intro slides
+- Slide Deck 45 minutes intro slides
 
 <https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
 
 ## TAKE BREAK
+
+## Second Hour
 
 ### All about 301 (30 min)
 
@@ -51,7 +51,16 @@
     - Minimum requirements
     - Take care of your TAs by following instructions
 
-## Second Hour
+## Go through the Prework Review
+
+- Function Declaration
+- Function Expression
+- Arrow Function - How does that look? With one line of code? 
+
+
+
+
+
 
 ### Shred Talk (15 min)
 
@@ -105,11 +114,31 @@
 - **How** (10 min)
     - Review the arrow-functions lab with the students
 
+
+
+
+
+
 ## Before Break lets set up the code Challeneges
+
+
+
 
 ## Run the foreach Demo
 
+
+
+
+
+
+
+
+
 ## Third Hour
+
+
+
+
 
 ### React and Component-Based UI (40 min)
 
