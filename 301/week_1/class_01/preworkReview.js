@@ -7,7 +7,7 @@
 
 //will this work
 console.log(add(4,7)); //works because of hoisting.
-console.log(myAdd(4,7)); // can not call before defining it.
+// console.log(myAdd(4,7)); // can not call before defining it.
 
 // answer:
 function add(a, b){
@@ -34,7 +34,7 @@ let arrowAdd2 = (a,b) => a + b;
 
 console.log(arrowAdd2(5, 7));  
 
-//this will refer to the context to which its declared. so plain old 201 constructor you can use this to refer to the instance of the object that is being created. 
+//this will refer to the context to which its declared. so plain old 201 constructor you can use this to refer to the instance of the object that is being created. this will refer to stuff outside of the arrow function itself. 
 
 
 
@@ -46,10 +46,8 @@ function Musician(artist, style){
   this.style = style;
   this.isAmazing = true;
 }
-
-let beyonce = new Musician('Beyonce', 'RB soul');
-
-console.log('our new object',beyonce);
+let godFather = new Musician('James Brown', 'Funk');
+console.log('our new object',godFather);
 
 
 
@@ -61,14 +59,17 @@ class MusicianClass {
     this.style = style;
     this.isAmazing = true;
   }
+
+  //remember that outside our constructor we can add functions.
   //then demo ()
-  awesome = () => {
-    console.log('I\'m a rock star!');
+  makeItFunky = () => {
+    console.log('Get up, get into it and get involved!');
   }
 }
 
-let classBeyonce = new MusicianClass('Beyonce', 'RB soul');
-console.log('our new class object', classBeyonce);
+let classGodFather = new MusicianClass('James Brown', 'Funk');
+console.log('our class object',classGodFather);
+
 
 
 //whats nice about classes is that our class constructors can be extended. 
@@ -76,13 +77,13 @@ console.log('our new class object', classBeyonce);
 
 class MusicGroup extends MusicianClass{
   constructor(artist, style, members){
-    super(artist, style, members);
+    super(artist, style);
       this.members = members;
      
   }
   //then demo ()
-  wow = () => {
-    console.log('We will Rock you!')
+  help = () => {
+    console.log('I need somebody!')
   }
 }
 
@@ -90,6 +91,11 @@ let beatles = new MusicGroup('Beatles', 'Rock and Roll', ['john', 'paul', 'georg
 
 console.log('what did we inherit from MusicClass?',beatles);
 
-beatles.awesome();// works because its extended
+beatles.help();// works because its extended
+beatles.makeItFunky();
 
-beyonce.wow();// will not work, beyonce only has access to their class 
+// godFather.makeItFunky();
+//will not work, only has access to their class 
+
+classGodFather.makeItFunky();
+// classGodFather.help();
