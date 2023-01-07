@@ -55,7 +55,7 @@
 
 - Function Declaration
 - Function Expression
-- Arrow Function - How does that look? With one line of code? 
+- Arrow Function - How does that look? With one line of code?
 
 ### Shred Talk (15 min to 1 Hour)
 
@@ -117,8 +117,13 @@
 - bring in code challenge number one
 - run npm test to see things pass
 - Create Branch then ACP
+- Start Challenge one explain resources, videos and when we are demoing the concepts.
 
 ### React and Component-Based UI (40 min)
+
+### Start with the IN slide deck intro to REACT concepts. 
+
+- <https://craigbarkley702658.invisionapp.com/freehand/Class-One---301-QqjvhWV8j>
 
 - Lab 01.
 - Create a react app
