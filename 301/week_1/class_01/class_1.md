@@ -231,7 +231,9 @@
 sayHello('Bart');
 sayHello('Dude');
 sayHello('Scooby');
-    ```
+
+```
+
 
 - Show props from main.js <Person name="Bart" />
 - Then access the value from props using this.props.name in the Person.js
@@ -243,8 +245,5 @@ sayHello('Scooby');
 - Show how to indent components for readability
 - Explain Lab requirements
 - dont go over board on css.
-
-
-
 
 ## Run the foreach Demo
