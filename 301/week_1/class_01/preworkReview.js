@@ -34,6 +34,8 @@ let arrowAdd2 = (a,b) => a + b;
 
 console.log(arrowAdd2(5, 7));  
 
+//this will refer to the context to which its declared. so plain old 201 constructor you can use this to refer to the instance of the object that is being created. 
+
 
 
 //Lets talk about classes. 
