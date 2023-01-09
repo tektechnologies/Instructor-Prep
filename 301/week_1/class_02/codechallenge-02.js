@@ -16,12 +16,21 @@ map() is a built in method to all arrays.
  */
 
 const nums = [10, 30, 35, 50, 88];
-
+const stringArray = ['Bob','Sandy','Patrick','Squidward'];
 //one line function the value is implicit. 
+
 const output = nums.map(() => 'I was returned!');
 
 console.log('output: ',output);
 console.log('nums: ', nums);
+
+
+
+let newArr = nums.map(num => num * 5);
+console.log('New Nums Array: ',newArr);
+
+let newStringArray = stringArray.map(string = string.toUpperCase());
+console.log('New Strings Array: ', newStringArray);
 
 
 
@@ -32,8 +41,8 @@ nums.map((value, index, array) => {
 });
 
 
-nums.map(number => number * number);
-
+let newNumsArray = nums.map(number => number * number);
+console.log('new Nums Array', newNumsArray);
 
 
 //we can pass in a named callback
