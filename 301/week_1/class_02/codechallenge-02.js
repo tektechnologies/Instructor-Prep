@@ -1,59 +1,79 @@
-//Array.prototype.map
+/**
+Array.prototype.map
 
-/*
-let newArray = arr.map(callback(currentValue[, index[, array]]){
-//return element for newArray, after executing something
-});
 
-identical in its structure to forEach
-iterates over every element
-it puts items in a new array as it iterates, one for every element no matter what an array of 5 things as the input will always have 5 things as the output. It's a forEach that makes arrays. 
+let newArray = arr.map(callback(currentValue[, index[, array]])){
+  //return element for newArray, after executing some code. 
+}
 
-The callback function takes whatever you return and puts it in the new array
 
-map() is a built in method to all arrays. 
-
- */
+1. Identical in its structure to forEach.
+2. Iterates over every element.
+3. Map() puts items in the new array as it iterates, one for every element no matter what an array of 5 things, as the input will always have 5 things as the output. It's a forEach that makes arrays. 
+4. map() is a built in method to call on arrays.
+*/
 
 const nums = [10, 30, 35, 50, 88];
 
-//one line function the value is implicit. 
-const output = nums.map(() => 'I was returned!');
+const output = nums.map(() => 'I am returning now.');
 
-console.log('output: ',output);
-console.log('nums: ', nums);
+console.log('output:', output);
+console.log('nums array: ',nums);
 
+//Tenent of functional programming, is that we dont change th original thing array
 
+console.log('---------------------------');
 
-//A Tenet of functional programming is that we dont change the original thing. 
 nums.map((value, index, array) => {
-  console.log('V-I-A',value, index, array);
+console.log('V_I_A', value, index, array);
+
   return value * 7;
 });
+console.log('---------------------------');
+
+let newNumsArray = nums.map(number => number * number);
+console.log('line 36: nums array', newNumsArray);
+console.log('---------------------------');
 
 
-nums.map(number => number * number);
+function callback(value, index){
+  return value * index;
+}
+
+console.log('nums map callback: ',nums.map(callback));
 
 
 
-//we can pass in a named callback
+/**
+map() is great to pass info into our constructors
+map will work with labs. 
+one of the goals for today.
+you will do this week. 
+*/
+
+
 function callback(value, index){
   // return value * value;
   //for below
+  console.log('this is the call back ', value);
   return value * index;
 }
 
 nums.map(callback);
 
-//Here is the long way to do a map.....
+
 function fakeMap(array, callback){
   const newArray = [];
+    // console.log('this is the array ', array);
+
   for(let i = 0; i < array.length; i++){
-    newArray.push(callback(array[i], i, array));
+newArray.push(callback(array[i], i, array));
   }
+    // console.log('this is the newArray ', newArray);
+
   return newArray;
 }
 
 fakeMap(nums, callback);
 
-//map() is great to pass info into our constructors, map will work with our labs, one of the goals for today is to use it this week. 
+console.log('fake map: ',fakeMap(nums, callback));
