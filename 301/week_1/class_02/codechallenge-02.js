@@ -39,8 +39,7 @@ console.log('---------------------------');
 function callback(value, index){
   return value * index;
 }
-
-console.log('nums map callback: ',nums.map(callback));
+console.log('nums map callback: ', nums.map(callback));
 
 
 
@@ -55,7 +54,7 @@ you will do this week.
 function callback(value, index){
   // return value * value;
   //for below
-  console.log('this is the call back ', value);
+  console.log('call back value and index', value, index);
   return value * index;
 }
 
@@ -67,13 +66,11 @@ function fakeMap(array, callback){
     // console.log('this is the array ', array);
 
   for(let i = 0; i < array.length; i++){
-newArray.push(callback(array[i], i, array));
+     newArray.push(callback(array[i], i));
   }
-    // console.log('this is the newArray ', newArray);
-
+    console.log('this is the newArray ', newArray);
   return newArray;
 }
 
-fakeMap(nums, callback);
-
+// fakeMap(nums, callback);
 console.log('fake map: ',fakeMap(nums, callback));
