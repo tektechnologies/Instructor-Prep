@@ -6,37 +6,43 @@
 
 const names = ['Lister','Holly','SmegHead','Kyrton','Rimmer', 'Toasty','Cat'];
 
-names.filter((value, index, arr) => {
+let returnTrue = names.filter((value, index, arr) => {
   return true;
 });
-
-
-names.filter((value, index, arr) => {
+console.log('returnTrue : ', returnTrue);
+console.log('\n');
+let returnFalse =  names.filter((value, index, arr) => {
   return false;
 });
-
-names.filter((value, index, arr) => {
+console.log('returnFalse : ', returnFalse);
+console.log('\n');
+let modulusOperator = names.filter((value, index, arr) => {
   if(index % 2){
     return true;
   } else {
     return false;
   }
 });
-
-names.filter((value, index, arr) => {
+console.log('modulusOperator: ', modulusOperator);
+console.log('\n');
+let lengthLessSix = names.filter((value, index, arr) => {
   if(value.length < 6){
     return true;
   } else {
     return false;
   }
 });
-
-names.filter((value, index, arr) => {
+console.log('lengthLessSix : ', lengthLessSix);
+console.log('\n');
+let filteredNames = names.filter((value, index, arr) => {
+  console.log('value', value);
   if(value.match(/a/)){
+    
     return true;
   } else {
     return false;
   }
 });
-
+console.log('filteredNames: ', filteredNames);
+console.log('\n');
 //return true or return false, and filter will build out the array. 
