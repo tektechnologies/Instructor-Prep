@@ -68,9 +68,9 @@
 - Add Modal arrow functions for handleOnHide in App.js
 - Add to Modal show={this.state.showModal}  onHide={this.handleOnHide}
 - Add  In App.js to the  <Main handleOnShowModal={this.handleOnShowModal}  /> component
-- And then pass it to <Pizza handleOnShowModal={this.props.handleOnShowModal} /> 
+- And then pass it to <Pizza handleOnShowModal={this.props.handleOnShowModal} />
 - And then add it to h3  <h3 onClick={this.handleHeadlineClick} >{this.props.pizzaName}</h3>
-- Add the arrow function to pass name of pizza into the modal 
+- Add the arrow function to pass name of pizza into the modal
 - Add helper function for the modal pizza name
 
 ```js  handleHeadlineClick = () => {
