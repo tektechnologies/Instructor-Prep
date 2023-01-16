@@ -65,7 +65,6 @@
 
     - warm-up
     - Code Challenge Review
-    - Code Review
     - Lab Review
     - sort() method for Code Challenge
     - React Review
