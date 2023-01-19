@@ -40,8 +40,8 @@
 - Warm up
 - Code Challenge Review
 - Lab Review
-- Introduce the Lab Portfolio and set up
 - Reduce
+- Introduce the Lab Portfolio and set up
 - WRRC
-- Build out Form example
+- Build out City Explorer
 - Career Assignments
