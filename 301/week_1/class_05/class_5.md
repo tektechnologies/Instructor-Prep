@@ -4,6 +4,9 @@
 
 ## Warm-Up
 
+- C# 10
+- Then the practice website - 10
+
 [Solution Code](./class_05/IMG_0058.jpg)
 
 ## Code Challenge Review
@@ -14,6 +17,10 @@
 
 ## Break 1
 
+### Shred Talk
+
+- Talk about reduce.
+
 ## Intro the Lab for today and show the set up
 
 - Introduce the Lab for today.
@@ -21,19 +28,13 @@
 - Look at the Lab in Canvas
 - demo pulling down the repo template
 
-### Shred Talk
-
-- Talk about reduce.
-
 ## talk about WRRC
 
 [Draw](./class_05/wrrc.png)
 
 - Next week the students will be FULL STACK DEVELOPER
-
 - Talk about career assignments
 - Build out Form example
-
 
 ## Agenda
 
@@ -43,5 +44,5 @@
 - Reduce
 - Introduce the Lab Portfolio and set up
 - WRRC
-- Build out City Explorer
+- Build out City Explorer - http cat
 - Career Assignments

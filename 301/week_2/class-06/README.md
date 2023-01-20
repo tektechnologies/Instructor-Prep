@@ -1,7 +1,6 @@
 # Good Day Happy Monday WEEK 2
 
 - Feed Back.
-    - remo is booooo. (stick to zoom)
     - Career work.
 - Start with Warm - up
 - Code Challenge Review
