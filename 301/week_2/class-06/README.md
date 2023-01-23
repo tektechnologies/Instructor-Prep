@@ -48,10 +48,12 @@ for managing our data.
 2. Cover Feedback - 
 3. Code Challenge review - Pass REF vs Value.
 4. Lab Review - Look at Portfolio
-5. Code Challenge for today reduce challenge
+5. Code Challenge for today reduce challenge - 
+- Share the json extension for formatting. 
+- search Cat to see URL search and ? click on paw.
 6. White Board Intro to API - 
 7. Star Wars API
-8. LocationIq
+8. go to LocationIq
 9. Build a City Search
 10. Look at Lab and Trello
 
