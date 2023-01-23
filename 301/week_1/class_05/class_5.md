@@ -43,6 +43,6 @@
 - Lab Review
 - Reduce
 - Introduce the Lab Portfolio and set up
-- WRRC
+- WRRC - diagram both of them.
 - Build out City Explorer - http cat
 - Career Assignments

@@ -9,7 +9,7 @@
   There are more clever uses of reduce, and map/filter can be implemented using reduce.
 - Code Lab Review. (Look at Routes.)
     - Code agnostics - meaning change the content without changing
-     the    archetecture. Add names to things by how they are used
+     the   architecture. Add names to things by how they are used
      rather than what they represent in the structure of our documentation.
      So we name things for there purpose as apposed to where they are location.
 
