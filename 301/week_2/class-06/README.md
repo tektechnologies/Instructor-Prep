@@ -44,12 +44,12 @@ for managing our data.
 
 ## Agenda
 
-1. Any Announcements
-2. Cover Feedback
-3. Code Challenge review - Look at Reduce
+1. Any Announcements - 
+2. Cover Feedback - 
+3. Code Challenge review - Pass REF vs Value.
 4. Lab Review - Look at Portfolio
-5. Code Challenge for today
-6. White Board Intro to API
+5. Code Challenge for today reduce challenge
+6. White Board Intro to API - 
 7. Star Wars API
 8. LocationIq
 9. Build a City Search
