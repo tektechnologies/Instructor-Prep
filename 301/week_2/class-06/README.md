@@ -11,7 +11,7 @@
     - Code agnostics - meaning change the content without changing
      the   architecture. Add names to things by how they are used
      rather than what they represent in the structure of our documentation.
-     So we name things for there purpose as apposed to where they are location.
+     So we name things for there purpose as opposed to where they are location.
 
 ## Replit
 
@@ -44,16 +44,17 @@ for managing our data.
 
 ## Agenda
 
-1. Any Announcements - 
-2. Cover Feedback - 
-3. Code Challenge review - Pass REF vs Value.
-4. Lab Review - Look at Portfolio
-5. Code Challenge for today reduce challenge - 
-- Share the json extension for formatting. 
-- search Cat to see URL search and ? click on paw.
-6. White Board Intro to API - 
-7. Star Wars API
-8. go to LocationIq
-9. Build a City Search
-10. Look at Lab and Trello
+1. Any Announcements -
+2. Cover Feedback -
+3. Lab Review - Look at Portfolio
+4. Code Challenge for today reduce challenge -
+5. Code Challenge review - Pass REF vs Value.
 
+- Share the json extension for formatting.
+- search Cat to see URL search and ? click on paw.
+
+1. White Board Intro to API -
+2. Star Wars API
+3. go to LocationIq
+4. Build a City Search
+5. Look at Lab and Trello

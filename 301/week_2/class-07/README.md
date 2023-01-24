@@ -1,8 +1,7 @@
-# Good Day Happy Tuesday WEEK 2
+# Go
 
-## First Hour
 
-### Announcements
+## Announcements
 
 ### Warm - up code
 
@@ -35,7 +34,6 @@
 
 ### Review Lab
 
-## Second Hour plus ten minute break
 
 - Node is every where console, terminal
 - Build git hub repo for our server
@@ -295,24 +293,7 @@ const PORT = process.env.PORT || 3111;
 
 -app.listen('PORT', () => {`server.js file is started on PORT: ${PORT}`});
 
-# Good Day Happy Friday
 
-## Lets talk server
-
-- Today we will not add to much new to our servers.
-
-- we are going to learn about how to use api's and grabbing data from the interent.
-- the information will be living on other servers.
-- Today we will get rid of the hard coded data and pull from the info.
-- **Why** (5 min)
-    - Lab 06 was big in concept, short on code
-    - WRRC drawings
-- **What** (10 min)
-    - The WRRC should be coming more into focus now that we've built some of it out
-    - The server should be feeding the front end actual data that works
-    - Trello should be leading the way
-- **How** (30 min)
-    - Review the Trello board feature tasks & requirements
 
 ## What would you like to look at in code review?
 
