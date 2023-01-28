@@ -1,6 +1,5 @@
 # Go
 
-
 ## Announcements
 
 ### Warm - up code
@@ -29,11 +28,9 @@
 - the program will look for and find the Main to run it,
 - Another thing is that the class has to have the same name as the file.
 
-
 ### Review Code Challenge
 
 ### Review Lab
-
 
 - Node is every where console, terminal
 - Build git hub repo for our server
@@ -42,18 +39,6 @@
 - clone and cd into the folder
 - 1. Install Node (npm init)
 - npm i -g nodemon
-
-
-
-
-
-
-
-
-
-
-
-
 
 1. Make an entry point to the server file called server.js
 2. Then we want to run the npm init command to set up of file scaffolding.
@@ -98,9 +83,9 @@
 
 ## Second Hour
 
-- Lets build our server up, this is good practice for you and at least once a
-  day you build up the server, as you become familar with the process you will
-  be able to go on and create custom servers.
+- Lets build our server up, this is good practice for you and at least once a day
+ you build up the server, as you become familar with the process you will be able
+  to go on and create custom servers.
 
 1. First thing to declare is our packages.
 2. Then we need to make sure that we have access to the express framework,
@@ -293,13 +278,10 @@ const PORT = process.env.PORT || 3111;
 
 -app.listen('PORT', () => {`server.js file is started on PORT: ${PORT}`});
 
-
-
 ## What would you like to look at in code review?
 
 - lab? //lets look at incomplete or broken code.
 - code challenge? //what numbers.
-
 
 - look at npm install to get node modules.
 - it will now look in the list to make sure we have our express cors and dotenv
@@ -350,9 +332,8 @@ const PORT = process.env.PORT || 3111;
 - **How** (30 min)
     - Demo the signup and access key retrieval process
         - Location IQ
-        - Zomato
     - Integrate into your server application
-        - Fetch Data
+        - Fetch Data with Axios
         - Massage it into shape (constructors)
         - Test with your client application
 - **Experimentation and Discovery Ideas**
