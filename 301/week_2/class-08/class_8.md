@@ -37,13 +37,13 @@
 
 
 
-// Steps for heroku
-// 1 create app
-// 2. upload your code to github
-// 3. connect github to heroku on heroku
-// 4. load the server by clicking deploy branch
-// 5. click open app in the top right to get the live url
-// 6. paste the url into the front end site and test it (remove the trailing /)
+// Steps for render
+// 1  
+// 2. 
+// 3. 
+// 4. 
+// 5. 
+// 6. 
 
 /*
 ================= Servers ====================
