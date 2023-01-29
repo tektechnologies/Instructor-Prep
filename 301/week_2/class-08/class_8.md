@@ -4,11 +4,7 @@
 
 ## Regex review for new code challenge today
 
-- 10
-
 ## Review Code Challenge
-
-- 10 Minutes
 
 ### Code Review
 
@@ -16,10 +12,10 @@
 - go through trello add steps to complete
 
 - TDD workflow with the class.
-  - Every day a new branch - follow branch naming from repo.
-    - Every day a new file
-    - TDD
-    - Submit a PR for grading
+    - Every day a new branch - follow branch naming from repo.
+        - Every day a new file
+        - TDD
+        - Submit a PR for grading
 - show key on image in app.
 
 ## Second Hour
@@ -84,7 +80,6 @@ not goDaddy (goDaddy is a dns, redirects to where it lives)
 */
 
 // ========================== end theory ======================
-killall -9 node
 
 // ==== setup the application (server) ====
 const app = express(); // creates a server from the express library
