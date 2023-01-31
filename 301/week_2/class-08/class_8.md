@@ -20,7 +20,8 @@
 - build server quickly moving through file until server is running then,
 - use thunderclient to build the URL
 - send data to front end
-- 
+- look at render and talk about adding weather keys for api calls
+- look at lab 8 tech requirements in trello
   
 ```js
 // Any time javascript recognizes an event as taking more than instant time, it
