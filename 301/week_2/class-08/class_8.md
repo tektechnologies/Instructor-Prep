@@ -2,19 +2,26 @@
 
 ## Annoucements
 
-- Saturday will be somewhat of a catch up day.
+- Saturday will be somewhat of a catch up day. Mary as TA.
 
 ## Regex review for new code challenge today
 
 ## Review Code Challenge and Code Review
 
 - 40 Minutes
-- go through trello add steps to complete
+- go through trello add steps to complete show data from json on the front end.
 
 ## Second Hour
 
 ## build out back end as review using the photo unsplash api
 
+- use notes below to add to server build for unsplash
+- Start with C/P of front end to correlate the weather front end api call to server
+- build server quickly moving through file until server is running then,
+- use thunderclient to build the URL
+- send data to front end
+- 
+  
 ```js
 // Any time javascript recognizes an event as taking more than instant time, it
 // can use a promise to wait for the event to finish before handling it
