@@ -99,12 +99,11 @@ app.get('/', (request, response) => {
   response.send('you made it home, party time    ');
 });
 
-// localhost:3333/pet-the-pet?name=ginger&quantity=3&lastName=carignan
-// expect a key value pair of name:ginger and quantity:3
-// send `petting ginger carignan petting ginger petting ginger`
+// localhost:3333/name-the-pizza?name=detroit&quantity=3&toppings=pepperoni
+// expect a key value pair of name:detroit and quantity:3
 // this lives with all the client data, in the `request (req)` parameter
 // inside request will always live a property :
-// -  query: { name: 'ginger', quantity: '3', lastName: 'carignan' },
+// -  query: { name: 'detroit', quantity: '3', toppings: 'pepperoni' },
 
 
 
