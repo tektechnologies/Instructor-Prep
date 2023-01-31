@@ -2,12 +2,14 @@
 
 ## Annoucements
 
+- Saturday will be somewhat of a catch up day.
+
+## Regex review for new code challenge today
+
 ## Review Code Challenge and Code Review
 
 - 40 Minutes
 - go through trello add steps to complete
-
-## Regex review for new code challenge today
 
 ## Second Hour
 
@@ -30,7 +32,7 @@
 // 1  
 // 2. 
 // 3. 
-// 4. 
+// 4. http://api.weatherbit.io/v2.0/forecast/daily?key=<your api key>&&lat=38.123&lon=-78.543
 // 5. 
 // 6. 
 
