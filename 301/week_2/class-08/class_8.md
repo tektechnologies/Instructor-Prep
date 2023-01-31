@@ -13,6 +13,8 @@
 
 ## Second Hour
 
+## build out back end as review using the photo unsplash api
+
 ```js
 // Any time javascript recognizes an event as taking more than instant time, it
 // can use a promise to wait for the event to finish before handling it
@@ -25,16 +27,6 @@
 // so far we have always been going through the `success` path: this path triggers
 // the .then(callback)
 // failure triggers another function `.catch`
-
-
-
-// Steps for render
-// 1  
-// 2. 
-// 3. 
-// 4. http://api.weatherbit.io/v2.0/forecast/daily?key=<your api key>&&lat=38.123&lon=-78.543
-// 5. 
-// 6. 
 
 /*
 ================= Servers ====================
@@ -107,6 +99,12 @@ app.get('/', (request, response) => {
 // -  query: { name: 'ginger', quantity: '3', lastName: 'carignan' },
 
 
+
+```
+
+## ends server review / Start promise review
+
+```js
 
 
 // Promises DECLARE functionality
