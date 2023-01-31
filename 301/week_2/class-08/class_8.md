@@ -24,7 +24,6 @@
 - look at lab 8 tech requirements in trello
 - lastly build the weather api in thunderclient for second url demo
 
-  
 ```js
 // Any time javascript recognizes an event as taking more than instant time, it
 // can use a promise to wait for the event to finish before handling it
