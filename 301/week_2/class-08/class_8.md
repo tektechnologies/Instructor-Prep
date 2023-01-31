@@ -2,27 +2,16 @@
 
 ## Annoucements
 
-## Regex review for new code challenge today
-
-## Review Code Challenge
-
-### Code Review
+## Review Code Challenge and Code Review
 
 - 40 Minutes
 - go through trello add steps to complete
 
-- TDD workflow with the class.
-    - Every day a new branch - follow branch naming from repo.
-        - Every day a new file
-        - TDD
-        - Submit a PR for grading
-- show key on image in app.
+## Regex review for new code challenge today
 
 ## Second Hour
 
 ```js
-
-
 // Any time javascript recognizes an event as taking more than instant time, it
 // can use a promise to wait for the event to finish before handling it
 // A promise is just an object that contains the necessary info to continue
@@ -69,7 +58,7 @@ Express reads all of this for us and much more
 
 ================ Environment  ===============
 A server has to run somewhere
-Heroku, AWS, terminal
+Heroku, AWS, terminal, render
 The server needs to run on a PORT on our local we use 3000, 3001, heroku tends to
 gravitate towards like 27000-32000, aws i have no clue
 There are settings our server has to pay attention to when it runs.
@@ -98,7 +87,7 @@ const PORT = process.env.PORT || 3111; // all caps because it is a variable futu
 //(route, and a callback)
 // '/' : route - we can visit the server at localhost:3000 or localhost:3000/ and
 //trigger this callback
-// (request, response) => : the callback function, think of it ass (event) => on
+// (request, response) => : the callback function, think of it as (event) => on
 //an event handler
 // request : all the data from the client
 // response: all the data from us + we can attach data to it + we can trigger a
@@ -118,14 +107,9 @@ app.get('/', (request, response) => {
 
 
 
-
-
-
-
-'use strict';
-
 // Promises DECLARE functionality
-// "Go ahead and do your work and let me know when you're done.  Meanwhile, I'm going to do other things."
+// "Go ahead and do your work and let me know when you're done. 
+// Meanwhile, I'm going to do other things."
 
 let longTask = (status) => new Promise( (resolve,reject) => {
   let timer = Math.floor(Math.random() * 1000);
@@ -166,12 +150,5 @@ for( let i = 1; i <= 10; i++ ) {
 Promise.all(stuffToDo)
   .then(things => console.log('Promise.all() Response Array', things))
   .catch(console.error);
-
-
-
-
-
-
-
 
 ```
