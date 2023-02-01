@@ -1,10 +1,34 @@
-# Happy Day
+# Happy Saturday
 
 ## Announcements
 
-- Friday I will be out at 3. Working Saturday.
 
-## Warm-Up
+
+## Warm-Up 
+
+- Python
+
+```js
+let array = [1,2,3,4,5,6,7,8];
+
+let start = 0;
+let end = array.length 
+console.log(end);
+while(end - start > 1){
+    mid = start + end;
+    console.log(mid);
+    if(key == array[mid]){
+        mid = array[mid];
+    }
+    if(key > array[mid]){
+        start = mid + 1;
+    }
+    if(key < array[mid]){
+    end = mid -1
+    }
+   
+}
+```
 
 - Object Iterations.
 
