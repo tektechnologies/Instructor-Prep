@@ -1,4 +1,4 @@
-# Happy Days
+# Happy Nights
 
 ## Annoucements
 
@@ -26,17 +26,18 @@
 - lastly, lastly show the movie api docs
 
 ```js
-// Any time javascript recognizes an event as taking more than instant time, it
-// can use a promise to wait for the event to finish before handling it
-// A promise is just an object that contains the necessary info to continue
-// running code for delayed process
-// promises are a javascript thing, not a superagent or jquery
-// promises fail and succeed We call this resolving and rejecting
-// a promise can be directed to a failure or success callback just like we can
-// have a try catch with two different options
-// so far we have always been going through the `success` path: this path triggers
-// the .then(callback)
-// failure triggers another function `.catch`
+/** 
+Any time javascript recognizes an event as taking more than instant time, it 
+can use a promise to wait for the event to finish before handling it
+A promise is just an object that contains the necessary info to continue
+running code for delayed processpromises are a javascript thing, not a superagent
+or jquery promises fail and succeed We call this resolving and rejecting a promise
+can be directed to a failure or success callback just like we can have a try
+catch with two different options so far we have always been going through the
+ `success` path: this path triggers the .then(callback) failure triggers another
+  function `.catch`
+*/
+
 
 /*
 ================= Servers ====================
