@@ -2,13 +2,10 @@
 
 ## Announcements
 
-hey can you see me type?
-yes haha cool
-one last thing at the bottom in the blue bar
-it says live share chat 1new click on that
-
 - no new content to add to our server today.
 - if you have not used the vs live share, lets test that today.
+- new features to implement in our server through modularization.
+- Keith will join us next Saturday. 
 
 ## Warm-Up
 
@@ -32,7 +29,6 @@ while(end - start > 1){
     if(key < array[mid]){
     end = mid -1
     }
-   
 }
 ```
 
