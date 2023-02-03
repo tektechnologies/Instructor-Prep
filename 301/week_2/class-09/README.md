@@ -2,6 +2,11 @@
 
 ## Announcements
 
+hey can you see me type?
+yes haha cool
+one last thing at the bottom in the blue bar
+it says live share chat 1new click on that
+
 - no new content to add to our server today.
 - if you have not used the vs live share, lets test that today.
 
@@ -39,9 +44,9 @@ while(end - start > 1){
 
 ## Second Hour
 
-### Refactoring
+## Refactoring
 
-    - Code isn't always poetry
+- Code isn't always poetry
     - You want to integrate new technologies/libraries
     - You get better and learn new things
     - You want to integrate more advanced design patterns
