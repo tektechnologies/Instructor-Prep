@@ -5,7 +5,7 @@
 - no new content to add to our server today.
 - if you have not used the vs live share, lets test that today.
 - new features to implement in our server through modularization.
-- Keith will join us next Saturday. 
+- Keith will join us next Saturday.
 
 ## Warm-Up
 
