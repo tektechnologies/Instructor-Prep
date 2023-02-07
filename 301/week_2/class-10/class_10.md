@@ -21,8 +21,9 @@ session.
 Examples of a good WRRC is included here. Do NOT share this example with students
 but use it as a guide when planning your lesson.
 
-1. warm - up
-2.solve weather and movies
-3.For loop demo.
-4.Code out the Cache photo
-5.Look at the Lab integrate lab starter code
+1. Annoucements
+2. warm - up
+3. solve weather and movies
+4. For loop demo.
+5. Code out the Cache photo
+6. Look at the Lab integrate lab starter code
