@@ -21,8 +21,6 @@ session.
 Examples of a good WRRC is included here. Do NOT share this example with students
 but use it as a guide when planning your lesson.
 
-
-
 1. warm - up
 2.solve weather and movies
 3.For loop demo.
