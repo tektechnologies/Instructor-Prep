@@ -23,6 +23,32 @@ but use it as a guide when planning your lesson.
 
 1. Annoucements
 2. warm - up
+
+```js
+
+
+'use strict';
+
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const app = express();
+app.use(cors());
+const PORT = process.env.PORT || 3001;
+
+app.get('/username', (request, response) => {
+  const userInfo = {};
+
+  userInfo.name = request.username;
+  userInfo.password = request.password;
+
+  response.send(userInfo);
+})
+
+app.listen(PORT, () => console.log(`listening on ${PORT}`));
+
+```
+
 3. solve weather and movies
 4. For loop demo.
 5. Code out the Cache photo
