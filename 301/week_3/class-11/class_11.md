@@ -29,24 +29,7 @@
 
 - 6. return arr[2].items[1].quantity;
 
-```js
 
-const howManyTreats = (arr) => {
-  let treats = 0;
-  arr.forEach(obj => {
-    let listArray = obje.items;
-    listArray.forEach(item => {
-      if(item.name === 'Treats'){
-        treats = item.quantity;
-      }
-    });
-  });
-  return treats;
-  };
-
-```
-
-- 7.
 
 ```js
 
