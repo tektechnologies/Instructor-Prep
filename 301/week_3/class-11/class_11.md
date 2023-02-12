@@ -2,7 +2,7 @@
 
 - ## First Hour
 
-- Lab this 'week' is a partnered lab all week. 
+- Lab this 'week' is a partnered lab all week.
 
 - cover feedback
 - Week two was a lot of information. Good work.
