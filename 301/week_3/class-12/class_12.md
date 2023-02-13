@@ -2,7 +2,7 @@
 
 **You Made It to today DAY 12 What!!?**
 
-## Lecture Notes: Today we will look at create and delete for our database.
+## Lecture Notes: Today we will look at create and delete for our database
 
 ## Warm-Up
 
