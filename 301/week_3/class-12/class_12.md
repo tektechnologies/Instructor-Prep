@@ -1,7 +1,5 @@
 # Good Day Happy Tuesday Class 12
 
-**You Made It to today DAY 12 What!!?**
-
 ## Lecture Notes: Today we will look at create and delete for our database
 
 - Saturday our lab content will be less so you will have some time to catch up.
