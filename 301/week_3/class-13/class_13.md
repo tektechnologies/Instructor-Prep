@@ -2,6 +2,8 @@
 
 ## Announcements
 
+- talk about test 4 hour/start time and final presentation time.
+
 - Feb 20th -  Monday night we have DEI session for the first hour of lab.
 - Feb 21st - Tuesday night we have 301 Final assesement.(In-person)
 - Feb 22 and 23 -  Wednesday and Thursday we have lab.(we will cover React Router)
