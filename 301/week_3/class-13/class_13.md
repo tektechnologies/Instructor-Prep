@@ -19,7 +19,6 @@
 - Thursday - project 6pm - 9pm March 9th
 - Friday Presentations starting at 2pm. March 10th
 
-
 ## warm-up
 
 ## code challenge
