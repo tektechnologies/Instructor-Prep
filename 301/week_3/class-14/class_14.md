@@ -4,24 +4,19 @@
 
 ## warm-up
 
+- Java
+
 ## Final exam review
 
-- heroku first step to deploy.
-- Add new project - create a new app
-- Cat-back-end-301
-- Click Connect to Github - search for repo on github
-- Deploy branch
-- Enable automatic deployment
-- Hit View and see application error
+- Deploy to Netlify
+- Deploy to render
+- View and see application error
 - Then we need to add our environmental variables
 - From our server we have the DB_URL
-- Add it.
 - Reveal config vars
 - redeploy our main branch, but does it work?
-
-- then add cats to netlify
 - build and deploy env variables from the front end.
-- REACT_APP_SERVER and our value is going to be heroku the '/' route to Value..
+- REACT_APP_SERVER and our
 - dont forget to remove the / at the end.
 
 ## Assessment Administration
@@ -39,7 +34,7 @@
 
 - Students will have 4 hours to complete assessment.
 - At the end of the designated time, all code must be committed to the repositories.
-- we will agree at on a start time.
+- we will agree at on a start time. 5-9
 
 ### Permissible Questions to Instructional Team
 
@@ -55,7 +50,8 @@ Instructional team will **NOT** debug with students nor provide problem solving 
 Emphasize that the intention is not to be be blocked by procedural issues.
 
 If you dont pass first time through, no judgement, we will review the quiz and
-you will take it again. What you miss on the exam is what you can focus on going forward.
+you will take it again. What you miss on the exam is what you can focus on going
+forward.
 
 ## Distribute the Assessment
 
@@ -116,7 +112,7 @@ CRUD (Create, Read, Update, Delete) operations on a mongo/mongoose data model: `
 
 How will you know that you've found them all? The tests will all pass!
 
-#### Server: Running the tests
+### Server: Running the tests
 
 - Make sure the server is **NOT** running.
 - From the root directory of the server in the terminal, run the command `npm test`.
