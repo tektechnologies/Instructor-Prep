@@ -1,5 +1,15 @@
 # Project Guidelines
 
+## links to project planning guides
+
+[Project_Prep_1](https://codefellows.github.io/common_curriculum/projects/Project_Prep_1)
+
+[Project_Prep_2](https://codefellows.github.io/common_curriculum/projects/Project_Prep_2)
+
+[Project_Prep_3](https://codefellows.github.io/common_curriculum/projects/Project_Prep_3)
+
+[Project_Prep_4](https://codefellows.github.io/common_curriculum/projects/Project_Prep_4)
+
 Welcome to Final Projects! Here is a list of industry best practices for proper Git and GitHub workflow with your project team.
 
 <a id="top"></a>
