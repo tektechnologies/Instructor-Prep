@@ -4,14 +4,18 @@
 
 ## Announcements
 
-- **Lab 05c** will be published at the end of class. It is a tutorial on working with CSS selectors, and will be due when the other Lab 05 assignments are due. It is being published early to give you flexibility and extra time to complete these tutorials.
-- Quizes are open today with our first quiz. Take often until you get 100 percent. 
+- **Lab 05c** will be published at the end of class. It is a tutorial on working
+ with CSS selectors, and will be due when the other Lab 05 assignments are due.
+  It is being published early to give you flexibility and extra time to complete
+   these tutorials.
+- Quizes are open today with our first quiz. Take often until you get 100 percent.
 
 ---
 
 ### Brain storm: Why do we do code review? (1 minute) Why are we doing this?
 
-    Maybe write down your answers, so that if you're called on you can just read your response. (Popsicle sticks.)
+    Maybe write down your answers, so that if you're called on you can just read
+   your response. (Popsicle sticks.)
 
 - It's a thing developers do.
 - Learning from working code.
@@ -28,13 +32,18 @@
 
 1. *Introduce*
    - **Learning Journals**
-      - Starting today, there is a daily Learning Journal assignment in Canvas. The purpose of this assignment is to reflect on what you have learned today. These assignments are due before the following class.
+      - Starting today, there is a daily Learning Journal assignment in Canvas.
+       The purpose of this assignment is to reflect on what you have learned today.
+        These assignments are due before the following class.
    - **Quizzes**
       - Note that there will be some quiz content from time to time.
       - Keep in mind that you have unlimited re-takes on the quizzes.
       - *Two main purposes*:
-        1. To get you to re-engage with the content in a different way, reinforcing your knowledge.
-        2. To help you prepare for the Code 301 entrance exam, which you will take at the end of Week 3. There is a minimum threshold you must pass on that exam (80%). And also, that exam factors into your grade in this class.
+        1. To get you to re-engage with the content in a different way, reinforcing
+         your knowledge.
+        2. To help you prepare for the Code 301 entrance exam, which you will take
+         at the end of Week 3. There is a minimum threshold you must pass on that
+          exam (80%). And also, that exam factors into your grade in this class.
 
 ---
 

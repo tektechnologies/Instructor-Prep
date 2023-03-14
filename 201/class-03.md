@@ -6,32 +6,28 @@
 
 Week 1 Career assignments:
 
-- **Due Wednesday, March 30 at 11:59 pm:**
-  - *Identify Your Accountability Partners*
-
----
-
-- **Due Saturday(?), April 2nd at 11:59 pm:**
-  - *Behavioral Interview Questions*
-  - *Career Coaching Overview*
-  - *Social Media*
-  - *Status Report*
-  - *Reflect on Emotional Intelligence*
+- *Behavioral Interview Questions*
+- *Career Coaching Overview*
+- *Social Media*
+- *Status Report*
+- *Reflect on Emotional Intelligence*
 
 ---
 
 ### To Cover
 
 - What does **'use strict';** do?
-- Cancelling a Prompt() window returns a ***null*** value and the Alert() message returns ***undefined*** if no user input.
+- Cancelling a Prompt() window returns a ***null*** value
+- Alert() message returns ***undefined*** if no user input.
 - Collective ownership: We share in the responsibility of each other's success.
 - Inside the document, we have `<head>` and we have a `<body>` and that's it.
-- Explain the **control flow**. In general, means how the program decides which code to run, in which order.
-  - Ask question, make choice, should we take or not. (?)
-  - Then if we do, how do we handle the question and response. So we control the flow of our program.
+- Explain the **control flow**.
+    - In general, means how the program decides which code to run, in which order.
+    - Ask question, make choice, should we take or not. (?)
+    - Then if we do, how do we handle the question and response. 
+    - So we control the flow of our program.
 - What kinds of control flow are there?
-- Condition comments for control flow: We say "show this code" or not, on Internet Explorer.
-- Banner of Doom (Change your browser, to something not IE)
+- Condition comments for control flow: We say "show this code" or not.
 
 ---
 
@@ -244,7 +240,7 @@ Order of operations:
 4. Increment counter.
 5. Repeat steps 2 - 4 until `<stop condition>` is met.
 
-### Examples:
+### Examples
 
 ```js
 for (let i = 0; i < 10; i++)
