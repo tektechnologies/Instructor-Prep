@@ -209,17 +209,20 @@ let userName2 = (name2 || 'unknown'); -> userName2 = 'unknown'
 
 Introduce the concepts of loops and discuss the importance of them.
 
-A great way to introduce the concepts of loops is to talk about how something needs to repeated over and over again, such as mixing ingredients in a recipe.
+A great way to introduce the concepts of loops is to talk about how something
+needs to repeated over and over again, such as mixing ingredients in a recipe.
 
 Walk through with the students how "they know they are done" with the prompt.
 
 In programming, we can create loops a few different ways.
 
-Check a condition. If `condition === true`, repeatedly execute a code block until the condition becomes `false`.
+Check a condition. If `condition === true`, repeatedly execute a code block
+until the condition becomes `false`.
 
 1. Keywords
    1. `break` - stop the loop and go to the next statement outside the loop
-   1. `continue` - stop looping, re-check the loop condition, and keep looping if `condition === true`
+   1. `continue` - stop looping, re-check the loop condition, and keep
+       looping if `condition === true`
 
 ---
 
@@ -268,11 +271,14 @@ for (let i = 0; i < arr.length; i++) {
 
 ## 'while' and 'do...while' Loops
 
-Use a `while` loop when you don't know how many times you need to loop - maybe even zero times.
+Use a `while` loop when you don't know how many times you need to loop - maybe
+even zero times.
 
-Use a `do...while` loop when you know you want to run the loop once, but don't know how many more times.
+Use a `do...while` loop when you know you want to run the loop once, but don't
+know how many more times.
 
-These loops will keep running until `condition === false`, so you must ensure that the condition will become false at some point.
+These loops will keep running until `condition === false`, so you must ensure
+that the condition will become false at some point.
 
 ***If you don't, you'll get an infinite loop!***
 
@@ -322,10 +328,11 @@ do {
 Layouts using CSS with the Box model:
 
 - Cannot put a top and bottom margin on inline elements.
-- If we want to display margin on top, we will use display-inline block, which adds the margin all around.
+- If we want to display margin on top, we will use display-inline block,
+  which adds the margin all around.
 
 ---
 
-    The only way to get better at programming is to practice.
+## The only way to get better at programming is to practice
 
 ---
