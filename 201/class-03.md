@@ -33,10 +33,6 @@ Week 1 Career assignments:
 
 ## Review Code from Class 2
 
-    Add git repo, build our html and css, cover js below as we go
-
----
-
 ## Break - 10 Minutes
 
 ---
@@ -51,7 +47,9 @@ Week 1 Career assignments:
 
 a.k.a. *In What Order Shall We Do All of the Things?*
 
-Scripts without any Decision Points aren't very useful, so we use conditionals to decide which parts of our script to run. All conditionals return a `true` or `false` and we use this value to make `if / else if / else` decisions.
+Scripts without any Decision Points aren't very useful, so we use conditionals
+to decide which parts of our script to run. All conditionals return a `true` or
+`false` and we use this value to make `if / else if / else` decisions.
 
 ---
 
@@ -92,7 +90,8 @@ a >= 50       -> false
 
 ## 'if...else' Statements
 
-Evaluate a conditional and proceed based on whether the result is `true` or `false`. All `if` and `else if` conditions are checked, even if a match is found.
+Evaluate a conditional and proceed based on whether the result is `true` or
+`false`. All `if` and `else if` conditions are checked, even if a match is found.
 
 ```javascript
 if (condition === true) {
@@ -118,14 +117,15 @@ Compare two values and get a result in the form of `true` or `false`
 | a !== b | strict not equal to | inequality of **values and types** a & b |
 | a > b | greater than | is value a greater than value b |
 | a < b | less than | is value a less than value b |
-| a >= b | greater than or equal to | is value a greater than OR equal to value b |
+| a >= b | greater than or equal to | is val a greater than OR equal to value b |
 | a <= b | less than or equal to | is value a less than OR equal to value b |
 
 ---
 
 ## Logical Operators
 
-Compare the results of multiple comparison operators and (usually) get a final `true` or `false` result
+Compare the results of multiple comparison operators and (usually) get a final
+`true` or `false` result
 
 | Operator | Name | Evaluates |
 | -------- | ---- | --------- |
@@ -137,7 +137,10 @@ Compare the results of multiple comparison operators and (usually) get a final `
 
 ## Type Coercion, Weak Typing, and Truthy/Falsy Values
 
-JavaScript is called *weakly typed*, because values can be changed from one data type to another. Languages that don't allow this are *strongly typed*. When performing loose equality checks, JS performs *type coercion* to see if values are equal if they are evaluated as having the same data type.
+JavaScript is called *weakly typed*, because values can be changed from one data
+type to another. Languages that don't allow this are *strongly typed*. When
+performing loose equality checks, JS performs *type coercion* to see if values
+are equal if they are evaluated as having the same data type.
 
 ```javascript
 let a = 5;
@@ -159,7 +162,8 @@ a = 'cookie'; //this is legit in JS
 
 ---
 
-Any existing value is considered truthy, so we can use a conditional to check whether something exists:
+Any existing value is considered truthy, so we can use a conditional to check
+whether something exists:
 
 ```javascript
 let a = 10;
@@ -178,19 +182,22 @@ if (a && obj) {
 
 ## Short Circuit Values
 
-Logical operators work from left -> right, and stop as soon as they get a result. When they stop, they return whatever value stopped them, so we can write logical expressions that return a value other than `true` or `false`. This can be used to set default values.
+Logical operators work from left -> right, and stop as soon as they get a result.
+When they stop, they return whatever value stopped them, so we can write logical
+expressions that return a value other than `true` or `false`. This can be used
+to set default values.
 
 ```javascript
-let name1 = 'Dan';
+let name1 = 'Bob';
 let name2 = '';
 
-let userName1 = (name1 || 'unknown'); -> userName = 'Dan'
+let userName1 = (name1 || 'unknown'); -> userName = 'Bob'
 let userName2 = (name2 || 'unknown'); -> userName2 = 'unknown'
 ```
 
 ---
 
-## Break - 10 Minutes
+## Break
 
 ---
 
