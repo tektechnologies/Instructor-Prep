@@ -5,7 +5,7 @@
 ## Code Review
 
 - Review Truthy/Falsy
-- https://dorey.github.io/JavaScript-Equality-Table/
+- <https://dorey.github.io/JavaScript-Equality-Table/>
 - Review Arrays Question 7
 - Review Loops Question 6
 
@@ -134,81 +134,90 @@ numGuess = parseInt(input);
 # Second Hour
 
 # CSS layout
-   - Introduce codepen.io
-   - Review box model
-   - Introduce Positioning
-   - Absolute
-   - Relative
-   - Fixed
-   - Block vs inline-block vs inline
 
+- Introduce codepen.io
+- Review box model
+- Introduce Positioning
+- Absolute
+- Relative
+- Fixed
+- Block vs inline-block vs inline
 
+### review hex colors as the RGB
 
-### review hex colors as the RGB.
 - Let them know we will calculate hexidecimal in class 5.
-# Pro tip, The idea of your design will most likely not be what your final page looks like.
+
+# Pro tip, The idea of your design will most likely not be what your final page looks like
+
 - So we start with a low fidelity, rendering of the page, called a wireframe.
 - css is the part of the coding process that will take as much time as you give it, that may not be the best use of our time, so maybe time box or save the work until the end of the day.
 - Label out the page as to what we may think we might need, with marking up some elements.
 - Now we have a basic structure, we can start to add some styling.
 - Add up to two css declarations.
 - Use a span, a span is an inline element.
-### Rerender the page to see that the tag does nothing by itself.
+
+### Rerender the page to see that the tag does nothing by itself
+
 - add a **border** to see what the span is doing.
 - Try text-align, but didnt change anything because we are aligning it right in the tiny red box. So we could do a margin left, of 75%, when we shrink page, the margin does not operate the way we want.
-# Lets try a new property the position property,
+
+# Lets try a new property the position property
+
 with position we have
 ---
+
 # relative
+
 1. relative - meaning relative to where ever it was supposed to be otherwise. Start with where are you supposed to be and then move accordingly, we can use negative values to move relative values. Switching from abs to rel are not used very often, unless we are looking for a specific spot. Because there are weird side effects that change the way other things get laid out near by.
+
 - So, we should think of these layout issues early on to avoid being lost in what our css is doing to our elements.
+
 ---
+
 # fixed
+
 2. fixed - position fixed at first may look like nothing has changed from absolute, however the position fixed keeps the element in position while content on the page moves around it.
+
 ---
+
 # absolute
+
 3. absolute.
 Absolute we set what the spacing should be.
 set absolute top-bottom-left-right within the page. It doesnt matter what the parent element is or doing it now goes where ever you tell it to go. Lets you leave the parent element and what it is doing. It is possible to use it within the element. We can keep the elements grouped together so that screen readers can access that grouped data, possibly styling too.
+
 ---
+
 ### inline and block level elements
+
 - So now what we need to talk about is inline and block level elements.
 anchor tags ? are they block or inline. It is an inline element. Because it doesnt take up the whole line.
 - If we add an **h5 those are block level elements**, so we can see the element push the content down the page,
 - As we have seen in our styles we can add a display of block, we dont standardly use block on inline elements.
 Are **images inline or block level, they are inline**.
 - We can change the image to block, but usually not a tool I reach for.
+
 ---
-# End CSS Layout Demo.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# End CSS Layout Demo
 
 ### Take Break 10 Minute
+
 # Third Hour
 
 # JS functions
-   - What are they?
-   - Anatomy of a function
-   - Parameters, arguments
-   - Calls/invoke
-   - Anonymous functions
-   - Scope
 
+- What are they?
+- Anatomy of a function
+- Parameters, arguments
+- Calls/invoke
+- Anonymous functions
+- Scope
 
 # Start Function Demo
-# two more things to do today.
+
+# two more things to do today
+
 brief look at **functions**. and how to do that within lab.
 we will look more at functions in lab five.
 so another thing today is that our lab is going to be **pair programming**.
@@ -225,6 +234,7 @@ so another thing today is that our lab is going to be **pair programming**.
 - If I put that call in the console it will run and if I want I can add it to the app.js file. which is the normal practice.
 
 ---
+
 # Start at 11:45
 
 # Lab details
