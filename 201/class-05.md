@@ -36,7 +36,7 @@ With Computers there are two.
 - are zero's  " 0 "and " 1 "one's, because it is **base 2**.
 - we count from zero to 1 and then begin again.
 - So we start at the 1's position and then move to the 2's position and then
- the 4's position and then the 8's position, 16th, 32nd place, we multiply 
+ the 4's position and then the 8's position, 16th, 32nd place, we multiply
  by two each time.
 
 128's - 64's - 32's - 16's - 8's - 4's - 2's - 1's . 1/10's (decimal)
@@ -368,7 +368,8 @@ function lotteryNumberPicker(){
     //we can write with a for or a while loop. 
     for(let i = 0; i < 5; i++){
        //lotteryArray[i] = Math.ceil(Math.Random() * 99);
-       //A method on arrays that allows us to put value o the end of arrays called push
+       //A method on arrays that allows us to put value o the end of arrays called
+       // push
         lotteryArray.push(Math.ceil(Math.random() * 99));
     }
     //pick one number and return it. 
@@ -445,7 +446,7 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
         - Add image in HTML along with other HTML elements like `<p>` or `<article>`.
         - Style figure and show different ways you can resize image.
     - CSS Color / Font Demo:
-        - Using the same CSS file that was used in the Image demo, show how to 
+        - Using the same CSS file that was used in the Image demo, show how to
         style the `<p>` or `<article>` elements.
         - Style text using `font-family`, `color`, `line-height`, and `font size`.
 
@@ -457,7 +458,7 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
     - Review Lab 05a, 05b, and 05c instructions in Canvas.
 - **How**
     - Lab05a review:
-        - Code out the first problem with students so they have an understanding 
+        - Code out the first problem with students so they have an understanding
         of what is asked of them.
         - Confirm what the function needs to return to meet the test requirements.
         - Point out after question 2 they are NOT allowed to use the arthmetic operators.
@@ -474,13 +475,13 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
 
 function questionTwo() {
 let userCorrect = false;
-let bands = ['bon jovi', 'guns and roses', 'tesla', 'motley crue', 'cinderella', 'kix', 
-'def leppard', 'poison', 'warrant'];
+let bands = ['bon jovi', 'guns and roses', 'tesla', 'motley crue', 'cinderella',
+ 'kix', 'def leppard', 'poison', 'warrant'];
 let guesses = 0;
 
 while (guesses < 7) {
-let eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and I will 
-let you know if it was one that I liked.  Go!").toLowerCase();
+let eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and
+ I will let you know if it was one that I liked.  Go!").toLowerCase();
   for (let i = 0; i < bands.length; i++) {
     if (eighties === bands[i]) {
       console.log('You guessed right.');
