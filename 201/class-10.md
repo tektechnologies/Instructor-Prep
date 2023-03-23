@@ -2,6 +2,8 @@
 
 ## First Hour
 
+- look over the lab 8a wireframe
+
 ## Second Hour
 
 ### Take Break 10 Minute
