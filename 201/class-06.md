@@ -158,7 +158,8 @@ to make programming easier, you can do one of two things:
 
 It ultimately comes down to how the problem is organized and defined. It is important
  to stress that there is no substitute for good planning, and that if a problem seems
-too big to effectively define, then it needs to be broken down more. 
+too big to effectively define, then it needs to be broken down more.
+
 - There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/).
 
 - It's a good time to talk about some business parts of the tech industry and the

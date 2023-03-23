@@ -19,7 +19,7 @@
 
 ## show what pseudo code is
 
-- It’s ok that students feel confused with the nested loop. 
+- It’s ok that students feel confused with the nested loop.
 - 2 parts to writing good code.
 - Organize what it is we are going to do.
 - Translate that strategy into the code.
