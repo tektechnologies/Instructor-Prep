@@ -1,67 +1,76 @@
-# First Hour
+# Class 10
 
+## First Hour
 
-# Second Hour
+## Second Hour
+
 ### Take Break 10 Minute
 
-
-
-# Third Hour
-
-
-
-
-
-
-
-
+## Third Hour
 
 ## Announcements
- 
 
 ### Debug
-- Today is a review of some concepts we have already covered. And we will look at some salmon cookies projects that other people have done, that have some bugs in it and we will debug those. 
+
+- Today is a review of some concepts we have already covered. And we will look
+at some salmon cookies projects that other people have done, that have some bugs
+in it and we will debug those.
+
 ---
+
 ### Chocolate Pizza
-- Then with some additional css review. We will  do a paired assignment where you and your partner will construct a wireframe for a website. 
+
+- Then with some additional css review. We will  do a paired assignment where you
+ and your partner will construct a wireframe for a website.
 
 - thumbs up how is your cookie salmon going.
 
-# Code Review. 
+# Code Review
 
 ## good practice
-- Note if we encounter an error in our js it will stop the rest of the page from populating, and even keeps working code from continuing to run. 
-- So remember to fix errors before moving forward in the program and 
-- even avoid adding in additional code that could further cause issues within your code. 
+
+- Note if we encounter an error in our js it will stop the rest of the page from
+ populating, and even keeps working code from continuing to run.
+- So remember to fix errors before moving forward in the program and
+- even avoid adding in additional code that could further cause issues within
+ your code.
 
 ## redundate info in html pages
-- In addition to DRY code we want to keep redundant data at a minimum and that will become even more important when we add in databases to our application in 301. 
+
+- In addition to DRY code we want to keep redundant data at a minimum and that
+ will become even more important when we add in databases to our application in 301.
 - The js is our logic in which we determine the data that should be displayed.
 
 ## when does our html end up in the JS
-- Modern single page web app the SPA pattern, where the actual html, just contains the basic div structure. Which is a normal build pattern. You will see that in 301. 
+
+- Modern single page web app the SPA pattern, where the actual html, just
+ contains the basic div structure. Which is a normal build pattern. You will
+  see that in 301.
 
 ## FORMS - place holder form styling
-- Place holder attribute. Is a 'bad' idea, as a user if I type in the box, I can not see what it was that I was supposed to fill in the input, not a great user experience, and it does not make the form accessible, in fact with out labels, it is not accessible by any screen readers. 
 
-## labels on forms. 
-- We put labels on our inputs. 
-- Materialize css.  to use the no label approach. Where the label is shown on click of the input box. https://materializecss.com/text-inputs.html
+- Place holder attribute. Is a 'bad' idea, as a user if I type in the box, I can
+ not see what it was that I was supposed to fill in the input, not a great user
+ experience, and it does not make the form accessible, in fact with out labels,
+ it is not accessible by any screen readers.
 
-#### styling tables
+## labels on forms
+
+- We put labels on our inputs.
+- Materialize css.  to use the no label approach. Where the label is shown on
+click of the input box. <https://materializecss.com/text-inputs.html>
+
+### styling tables
+
 - Styling the table is not an easy thing to do.
-- And generally tables are not looked at as a first choice to implement. 
-- Once upon a time, they were a dev's friend. 
- 
+- And generally tables are not looked at as a first choice to implement.
+- Once upon a time, they were a dev's friend.
 
+---
 
+### linking two html pages to a js page
 
-
-
---- 
-
-### linking two html pages to a js page.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith>
 
 ```js
 if(window.location.pathname.endsWith('sales.html')){
@@ -80,16 +89,9 @@ if(window.location.pathname.endsWith('index.html')){
 
 ```
 
-
-
-
-
-
-
 ---
 
-
-# Here we can add a reset button example. 
+## Here we can add a reset button example
 
 ```js
 
@@ -106,73 +108,63 @@ document.getElementById('resetbutton').addEventLister('clickReset', function() {
 // This is calling the fieldset. 
 ```
 
+---
 
+### In the console
 
---- 
-
-
-#### In the console
 - event.srcElement // shows the element reset button so find the parent element.
 
-- event.srcElement.parentElement.parentElement.reset();// is where we find the form id. 
+- event.srcElement.parentElement.reset(); is where we find the form id.
 
-#### This is the add event listener format. 
+#### This is the add event listener format
+
 - element.addEventListener('whichEvent', handlerFunction);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# First Break. 
 ---
-# JS Errrrors
 
-- Error messages are awesome!, No really they tell us what to do next. 
+## JS Errrrors
 
-## how to start to trouble shoot. 
--
--
-- If what I added doesnt work, I usually take it back out. 
-- ASK did we make it better or worse? 
-- We made progress right? 
+- Error messages are awesome!, No really they tell us what to do next.
 
-## need semi colon. 
-- we need a semi colon at the end of any js statement, any js assignment. end of a line of code. 
-- we dont need if it is an expression or a loop, or function declarations, not a statement. 
+## how to start to trouble shoot
 
-#### call stack for errors
+- If what I added doesnt work, I usually take it back out.
+- ASK did we make it better or worse?
+- We made progress right?
+
+## need semi colon
+
+- we need a semi colon at the end of any js statement, any js assignment. end of
+ a line of code.
+- we dont need if it is an expression or a loop, or function declarations, not
+a statement.
+
+### call stack for errors
+
 - The call stack shows us the path with which our error was called.  
 
+- we are setting these properties on the constructor without the prototype deal
+ with all of the stores data that all stores share in common but not individually.
+These are high level properties. With the prototypes, the stores have access to
+those functions but do not have to call them on all the objects, we can call the
+method.
 
+- While in the global name space, we can access as CookieStand.all, setting those
+ variables to be namespaced to the constructor. As it is a property on the cookie
+stand constructor.
 
-- we are setting these properties on the constructor without the prototype deal with all of the stores data that all stores share in common but not individually. These are high level properties. With the prototypes, the stores have access to those functions but do not have to call them on all the objects, we can call the method. 
+- Global variables are kinda a bad idea. Especially with multiple devs on a
+project with 1000's of lines of code.
 
-- While in the global name space, we can access as CookieStand.all, setting those variables to be namespaced to the constructor. As it is a property on the cookie stand constructor. 
-
-- Global variables are kinda a bad idea. Especially with multiple devs on a project with 1000's of lines of code. 
-
-
-
-
-
-# Time for Second Break. 
+## Time for Second Break
 
 ```js
 // event Listeners : where, what event, what to do. 
 ```
+
 - So lets add an event listener to the h1
-- so we need an id on the h1, 
-- No forms involved, 
+- so we need an id on the h1,
+- No forms involved,
 
 ```js
  var clickableH1 = document.getElementById('click-h1');
@@ -180,12 +172,14 @@ clickableH1.addEventListener('click', function(event){
     console.log('H1 was clicked1');
 });
 ```
+
 - What element did I add this too? // it is an h1 in the html
-- open console and click. 
+- open console and click.
 
-- We can define other things that we want to have happen, we could do lots of things, but how about we say welcome to the site, through an alert, 
+- We can define other things that we want to have happen, we could do lots of
+ things, but how about we say welcome to the site, through an alert,
 
-```js 
+```js
 var clickableH1 = document.getElementById('click-h1');
 clickableH1.addEventListener('click', function(event){
     //console.log('H1 was clicked1');
@@ -195,30 +189,38 @@ clickableH1.addEventListener('click', function(event){
 
 - great that is working now lets change the background color
 
-```js 
+```js
  var clickableH1 = document.getElementById('click-h1');
  clickableH1.addEventListener('click', function(event){
     document.getElementByTagName('html')[0].style.backgroundColor = '#23F';
 });
 ```
+
 - from documentation online examples
 - document.getElementById("myDiv").style.backgroundColor = "lightblue";
 - alert(document.getElementById("myDiv").style.backgroundColor);
 
-#### the style method on the object
+### the style method on the object
+
 [STYLE OBJECT](https://www.w3schools.com/jsref/dom_obj_style.asp)
-#### Syntax for the background property.
+
+#### Syntax for the background property
+
 - Return the backgroundColor property:
+
 ### object.style.backgroundColor
+
 - Set the backgroundColor property:
+
 #### object.style.backgroundColor = "color|transparent|initial|inherit"
+
 [BACKGROUND](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp)
 
+### randomize the background color
 
-#### randomize the background color. 
-https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-in-javascript
+<https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-in-javascript>
 
-```js 
+```js
  var clickableH1 = document.getElementById('click-h1');
  // we can also do things like 'mouseover' https://developer.mozilla.org/en-US/docs/Web/Events
  clickableH1.addEventListener('click', function(event)){
@@ -231,17 +233,16 @@ https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-
 document.getElementsByTagName('html');
 
 - So one thing to note is that we are calling on things while listening on another.
-- so we set where we listen as to oppse what we effect and where the change occurs. 
--  * where - are we listening
-   * how - are we accessing  the where (element)
-   * what - are events to take place. 
+- so we set where we listen as to oppse what we effect and where the change occurs.
+    - where - are we listening
+    - how - are we accessing  the where (element)
+    - what - are events to take place.
 
+## Additional event add listeners to demo
 
-
-# Additional event add listeners to demo 
 - add an id to an input on the html form
-- target the page h1 to change the text. 
-- To update while the user types. 
+- target the page h1 to change the text.
+- To update while the user types.
 
 ```js
 var changeText = document.getElementById('change-text');
@@ -252,29 +253,33 @@ changeText.addEventListener('input', function(event){
 });
 
 ```
-- change event fires when the next change occurs as soon as it loses focus it will run. 
 
-- auto fill behavior in chrome. it is a useful feature. but we can prevent by saying autocomplete="off" which you can apply to an element or the form. 
-- As a dev we can go into the console and turn them on 
+- change event fires when the next change occurs as soon as it loses focus it
+ will run.
 
+- auto fill behavior in chrome. it is a useful feature. but we can prevent by
+ saying autocomplete="off" which you can apply to an element or the form.
+- As a dev we can go into the console and turn them on
 
-#### input password update in console show case. 
+### input password update in console show case
+
 - create an input <input id='showPassword' type="password" />
-- in the console 
+- in the console
+
 ```js
     document.getElementById('showPassword').type = "text";
 ```
 
-#### here are the input types list. 
+#### here are the input types list
+
 [types and inputs](https://www.w3schools.com/html/html_form_input_types.asp)
 
+## Labs
 
+## check goals from lab 9 with index styling
 
+### Your public-facing index.html page should include the following
 
-
-# Labs
-## check goals from lab 9 with index styling. 
-### Your public-facing index.html page should include the following:
 - locations with addresses,
 - hours open
 - contact information
@@ -282,22 +287,21 @@ changeText.addEventListener('input', function(event){
 - A link to your sales.html page
 - Be sure to also include a link to your index.html page on your sales.html pages as well.
 
+#### 10 A. Chocolate Pizza  B. finish salmon cookie  C.git practice
 
+- timed due wednesday night, paired.
+- Finish the index.html Deploy to git hub pages, otherwise no new feature tasks.
 
-#### 10 A. Chocolate Pizza  B. finish salmon cookie  C.git practice 
-- timed due wednesday night, paired. 
-- Finish the index.html Deploy to git hub pages, otherwise no new feature tasks. 
-
-- I will slack out your partners. 
-
+- I will slack out your partners.
 
 Debugging Workflow:
 check browser console & resolve all error messages
 look at file name, line number of error, and error type
 check for useful linter messages near the source of the error
 console log the value you are trying to work with
-note all of the places in your code that define or modify the value you are working with
-try commenting things out, then adding them back. work backward until you find the first source of error
+note all of the places in your code that define or modify the value you are working
+ with try commenting things out, then adding them back. work backward until you
+find the first source of error
 try calling functions or inspecting vars in console
 is the value named correctly?
 is the value defined?
