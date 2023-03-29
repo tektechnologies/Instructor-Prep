@@ -287,7 +287,8 @@ changeText.addEventListener('input', function(event){
 - contact information
 - Anything else you feel neccesary.
 - A link to your sales.html page
-- Be sure to also include a link to your index.html page on your sales.html pages as well.
+- Be sure to also include a link to your index.html page on your
+ sales.html pages as well.
 
 #### 10 A. Chocolate Pizza  B. finish salmon cookie  C.git practice
 
