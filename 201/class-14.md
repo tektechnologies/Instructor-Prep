@@ -39,14 +39,6 @@ sections at the start.
 - localStorage.getItem('num') //returns 7
 - run the above in a new window.
 
-- Look at CSS.
-- edit css
-- Look at toggle in the console.
-$0.classList.toggle('red-border');
-true
-$0.classList.toggle('red-border');
-false
-
 ### In the console
 
 ## Show Time out example
