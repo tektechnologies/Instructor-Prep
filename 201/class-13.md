@@ -48,7 +48,7 @@
 
 ---
 
-let bS = cS(    c().iC(fs).aTs(),     bBC(p)    );
+let bS = cS(c().iC(fs).aTs(),bBC(p));
 
 let banannaSplit = coolSummer(chocolate().iceCream(flavors).allTheTrimmings()), baseBallCap(plastic));
 
