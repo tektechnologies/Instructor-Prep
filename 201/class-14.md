@@ -55,7 +55,7 @@ setTimeout(function() {
 
 ```js
 var img = document.getElementById('1');
-undefined
+
 img.addEventListener('click', function(){
     setTimeout(function() {
     img.classList.toggle('red-border');

@@ -2,8 +2,6 @@
 
 ## First Hour
 
-- Tour with Beth
-
 - Slide Deck 45 minutes intro slides
 
 <https://docs.google.com/presentation/d/1djj4-kZUWL_PU_NW0iLXVtXcNkzqq6bsj_ecIhZrQFw/edit#slide=id.g139fb035251_1_247>
