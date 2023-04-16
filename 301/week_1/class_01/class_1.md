@@ -12,14 +12,6 @@
 
 ### All about 301 (30 min)
 
-## Our class schedule
-
-- Saturday equals one whole Class(lecture and lab)
-- Monday equals one whole Lecture
-- Tuesday equals first Code Concept Demo and then lab
-- Wednesday equals lab
-- Thursday equals lab
-
 ## REPO and REMO
 
 - we will get back into the configs in the second week when we look at building
@@ -119,7 +111,7 @@
 
 ### React and Component-Based UI (40 min)
 
-### Start with the IN slide deck intro to REACT concepts. 
+### Start with the IN slide deck intro to REACT concepts
 
 - <https://craigbarkley702658.invisionapp.com/freehand/Class-One---301-QqjvhWV8j>
 
@@ -218,7 +210,7 @@
         - create a person component
         - How do we get different data into these same components.
 
-    ```js
+```js
     function sayHello(){ console.log('hello Tom');}
 
 
@@ -231,7 +223,6 @@ sayHello('Dude');
 sayHello('Scooby');
 
 ```
-
 
 - Show props from main.js <Person name="Bart" />
 - Then access the value from props using this.props.name in the Person.js
