@@ -17,10 +17,6 @@
 - we will get back into the configs in the second week when we look at building
   out a server file
 
-- We will no doubt be remote at some point so lets look at remo and how it works
-- When asking for help, 15 minutes(what have you tried) student, TA and then
-  Instructor.
-
 ## go to Canvas
 
 - In-Class schedule and assignments
