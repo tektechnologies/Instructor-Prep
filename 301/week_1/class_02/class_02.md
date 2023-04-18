@@ -44,32 +44,23 @@ li {
 ```css
 
 div {
-  border: 10px solid yellow;
-  height:max-content; /* doesnt work because floated */
   /* we need a clear fix */
-  overflow: auto;
+/*     overflow: auto; */
   /* will now contain elements */
 }
 
 ul {
  /* here we need display: flex */
+ /* display: flex; */
 }
 
 li { 
-  border: 1px solid red;
 /* but we may not want floats  
 we could use display: inline or -block;
 */
-  float: left;
-/* another way is to use flex
-up top
-*/
-  /* yellow box doesnt have li's because of this float */
-  height: 25px;
-  width: 100px;
+/*   display: inline-block; */
 }
 
-/* show float with wrapping text this is when we would use it.  */
 
 ```
 
