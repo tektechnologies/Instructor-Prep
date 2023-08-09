@@ -103,6 +103,7 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 - where are the developer tools in Chrome.
 - what is VS code
 - show how to update edit tab size, indentation, and other settings.
+- slow your normal demo down a bit to make sure they students are very aware of the environment for the days lab.
 
 ### Talk about Extensions
 
