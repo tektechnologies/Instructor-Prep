@@ -1,7 +1,5 @@
 # Class 02
 
-## First Hour
-
 ## Announcements
 
 - **Lab 05c** will be published at the end of class. It is a tutorial on working
@@ -23,7 +21,8 @@
 - Learn more from the broken code.
 - We can learn to prevent mistakes and create best practices.
 - Teamwork.
-- Writing code is good. This is a chance to learn how to read code better (which you will do).
+- Writing code is good. This is a chance to learn how to read code better
+ (which you will do).
 - Learn how to debug.
 
 ---
@@ -70,19 +69,16 @@
 
 *Probably less than 30 more like 10. More time for code.*
 
----
-
-## 30 Minutes
-
-3. *Review HTML/CSS*
-   - HTML/CSS
-   - Start to talk about CSS. Add reset. Look at web page in browser see reset difference.
+- **Review HTML/CSS**
+- HTML/CSS
+- Start to talk about CSS. Add reset. Look at web page in browser see reset difference.
    **[https://meyerweb.com/eric/tools/css/reset/]**
-   - Look at the same web page in two different browsers.
-   - Use the reset CSS copy and paste into a style tag. And show the differences in the two browsers.
-     - HTML heading/paragraph tags
-     - HTML lists (`<ol>` & `<ul>`)
-     - CSS ids/classes
+- Look at the same web page in two different browsers.
+- Use the reset CSS copy and paste into a style tag. And show the differences
+ in the two browsers.
+    - HTML heading/paragraph tags
+    - HTML lists (`<ol>` & `<ul>`)
+    - CSS ids/classes
         - targeting specific value (`ol` + `li` + `{}`)
 
 ---
@@ -90,6 +86,7 @@
 ## Demo Code for HTML
 
 ```HTML
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -112,7 +109,8 @@
             </nav>
         </header>
         <script>
-            let acceptTerms = prompt('Are you ready for something or anything or nothing?');
+            let acceptTerms = prompt('Are you ready for something or anything
+             or nothing?');
         </script>
         <main>
             <section>
@@ -133,6 +131,7 @@
         <script src="js/app.js" ></script>
     </body>
 </html>
+
 ```
 
 ---
@@ -140,6 +139,7 @@
 ## Demo Code for CSS
 
 ```css
+
 /* * {
   outline: dotted;
 } */
@@ -197,11 +197,10 @@ footer {
 }
 ```
 
----
+--- 40 Minutes
 
-## 40 Minutes
+## Javascript
 
-4. *Javascript*
     - Data Types **[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof]**
     - Conditionals
     - There are 2 different types of conditionals:
@@ -210,6 +209,7 @@ footer {
     - Arrays
 
 ```js
+
 'use strict';
 
 // If conditional-based confirm command
@@ -256,7 +256,8 @@ if (myBooleanValueTrue && thirdBooleanValueTrue){
 
 alert('Welcome to 4-Part Spaceship Repair!');
 let spaceHandle = prompt('What\'s your space name?');
-let spaceShipPart = prompt('What spaceship part do you need? Select a number between 1 and 4.');
+let spaceShipPart = prompt('What spaceship part do you need? Select a
+ number between 1 and 4.');
 
 switch (spaceShipPart) {
     case '1':
@@ -265,7 +266,8 @@ switch (spaceShipPart) {
         break;
     case '2':
         confirm(spaceHandle + 'You need Part Two?');
-        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears. However long that takes! :)');
+        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears.
+         However long that takes! :)');
         console.log(spaceHandle +  ' needs part two!');
         break;
     case '3':
@@ -302,7 +304,8 @@ console.log(quizAnswers);
 let nestedArray = [['yes', 'y'], ['no', 'n'],['maybe', 'maybeNot']];
 console.log(nestedArray);
 
-// this is exactly the same as the nestedArray above, except just formatted slightly different.
+// this is exactly the same as the nestedArray above, except just
+// formatted slightly different.
 //multiline
 let nestedArrayMultiLine  = [
   ['yes', 'y'],
@@ -311,19 +314,17 @@ let nestedArrayMultiLine  = [
 ];
 console.log(nestedArrayMultiLine);
 
-/////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
 
 ```
 
 ---
 
-## Break - 10 Minutes
+## Break
 
 ---
 
-## Third Hour
-
-6. *Lab Review*
+## Third Hour Lab Review
 
 ```js
 
@@ -376,7 +377,8 @@ if(myArrayOne[1] === 'b')
   // do something here
   console.log('This is where we add the message.', myArrayOne[1]);
 }
-//If we wanted to "add" an item to the end of the array, we can do so by using the .push() method.
+//If we wanted to "add" an item to the end of the array, we can do so by
+ using the .push() method.
 
 let myArrayTwo = [1,2,3,4,5];
 myArrayTwo.push(6);
@@ -405,17 +407,20 @@ console.log('My Array Three: ', myArrayThree);
 
 // The user input for the answer must accept either y/n or yes/no responses
 // toUpperCase() or .toLowerCase()
-// let the user know if they answered the question correctly by alerting them with a response.
+// let the user know if they answered the question correctly by alerting them
+// with a response.
 // console.log() messages within your app then alerts
 
 
-// Personalized welcome message so that I feel like I am interacting with the site owner.
+// Personalized welcome message so that I feel like I am interacting with
+// the site owner.
 // Ask the user their name through a prompt()
 
 // Display that name back to the user at the start and the final message to the user.
 
 // Your JS file must contain a 'use strict;' declaration at the top,
-// And your javascript file must be linked in your html file as an external script file.
+// And your javascript file must be linked in your html file as an external
+// script file.
 // Make sure that all code is cleanly written (use formatter)
 // Follow the "Add, Commit, Push" process.
 
