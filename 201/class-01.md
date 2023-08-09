@@ -102,6 +102,7 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 - What is HTML, CSS, JS
 - where are the developer tools in Chrome.
 - what is VS code
+- show how to update edit tab size, indentation, and other settings.
 
 ### Talk about Extensions
 
