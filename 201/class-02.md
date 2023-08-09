@@ -89,7 +89,7 @@
 
 ## Demo Code for HTML
 
-```HTML
+```html
 
 <!DOCTYPE html>
 <html>
@@ -204,6 +204,8 @@ footer {
 --- 40 Minutes
 
 ## Javascript
+
+- Start on the white board. invision
 
     - Data Types **[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof]**
     - Conditionals
