@@ -48,12 +48,15 @@
 
 ## 40 Minutes
 
-2. *Code Review*
+### Code Review
+
     - Why is it important?
     - Code Review options:
       - Look at code and practice reading code.
       - Go through code line-by-line and have a different person explain each line.
       - Fix broken code together as a class.
+
+![Clean code image](images/clean-code.png)
 
 ---
 
