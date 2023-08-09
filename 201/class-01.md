@@ -103,6 +103,10 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 - where are the developer tools in Chrome.
 - what is VS code
 
+### Talk about Extensions
+
+- Better Comments
+
 - prompts
 - alerts
 - console.log
