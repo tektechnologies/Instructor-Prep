@@ -109,6 +109,7 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 ### Talk about Extensions
 
 - Better Comments
+- talk about script tags and there placement in the html file
 
 - prompts
 - alerts
