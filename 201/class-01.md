@@ -4,7 +4,7 @@
 
 ## Campus Kickoff
 
-Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://docs.google.com/presentation/d/10z8h0kdeHRtuBZ0RoJ1JWxSpiFKgyeMNyDoz1V4TtRU/edit#slide=id.gf7316a0f20_0_0).
+Class 1 using the [201 orientation slide deck]
 
 ## Intro to Canvas
 
@@ -17,7 +17,8 @@ Work with your campus director for the Class 1 kickoff, using the [201 orientati
 
 Students should have completed some prework assignments related to Career Coaching.
 
-Discuss the value of focusing on each of these, even though it is early in their career change process.
+Discuss the value of focusing on each of these, even though it is early in
+ their career change process.
 
 - Career Coaching Overview: Sets the tone of the career assignments.
 - Professional Competency Self-Assessment:
@@ -27,11 +28,15 @@ Discuss the value of focusing on each of these, even though it is early in their
 - Partner Power Hour Reports:
 - Talk to Your Network:
 - Attend a Meetup:
-- Behavioral Interview Questions: Students will use the S.T.A.R method to write drafts of two behavioral interview questions.
+- Behavioral Interview Questions: Students will use the S.T.A.R method
+ to write drafts of two behavioral interview questions.
 
 ## Reading Review
 
-Let students know that they will see `var` used in place of `let` in their readings. That is an artifact of the progressing nature of code. What was best practice when the book was written has evolved and we will be teaching `let` and `const`, because they are more suited to writing clean code.
+Let students know that they will see `var` used in place of `let`
+in their readings. That is an artifact of the progressing nature of code.
+ What
+ was best practice when the book was written has evolved and we will be teaching `let` and `const`, because they are more suited to writing clean code.
 
 ---
 
@@ -94,10 +99,6 @@ In settings:
 
 ---
 
-## Break - 10 Minutes
-
----
-
 ## Third Hour
 
 ### Live Code Demo
@@ -112,12 +113,13 @@ We will be using only `let` and `const` in 201.
 
 Demonstrate how to use the `live-server` command to enable automatic browser refreshing.
 
-4. Code Demo
-   - prompts
-   - alerts
-   - console.log
-   - in-line styles
-   - internal styles
+4.Code Demo
+
+- prompts
+- alerts
+- console.log
+- in-line styles
+- internal styles
 
 ```html
 <html>
