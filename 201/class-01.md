@@ -79,25 +79,7 @@ Git Intro:
 
 ### Configure VS Code
 
-In settings:
-
-- editor.tabSize = 2
-- editor.detectIndentation = true
-- editor.wordWrap = on
-
 ### Setup your Linter
-
-- This file should exist in **every** project you create in javascript, so save
- it somewhere that is easily accessible.
-- Have the students copy/paste that code into the `.eslintrc.json` file that they
- created
-
-    - Students will need to restart VSCode for the changes to take effect.
-    - Once they do, guide them through entering `code lint-test.js` at the command
-     line and then paste the contents of the JS sample that you send to them
-      through Slack.
-
----
 
 ## Third Hour
 
@@ -114,6 +96,12 @@ We will be using only `let` and `const` in 201.
 Demonstrate how to use the `live-server` command to enable automatic browser refreshing.
 
 4.Code Demo
+
+### Start with some questions on Definitions
+
+- What is HTML, CSS, JS
+- where are the developer tools in Chrome.
+- what is VS code
 
 - prompts
 - alerts
@@ -172,21 +160,15 @@ Demonstrate how to use the `live-server` command to enable automatic browser ref
 
 ### Lab Setup
 
-1. To finish the day, go over the lab assignment and show students how to find/read the assignment.
-2. Complete the assignment as a code demo, and submit the assignment, submitted in a GitHub Gist.
+## What does .gitignore do?
 
-#### Move from class 13
-
-# What does .gitignore do?
-
-- You can avoid accidently commiting those file that you do not want to commit to git hub. Like the ds_store file that macs create and will include to push if you do not have the ingore file. Which will be even more important in 301.
-- You can create certain setting in VS code that are project specific.
-- look at the git ignore and show the files that you do not want to commit.
 - What questions do you have about git ignore.
 - show the link to the gitignore. link URL
-- You DO want to push the git ignore to github so that other people can get the same project settings for is needed to run the application correctly.
 
-# Open up the console
+## Open up the console
 
-- I usually open the console when I am working in javascipt so that I can see the console logs I work through some code.
-- If I am working css I like to use a second monitor where I can see a full display and have a screen with two windows with one screen with css code and the dev tools with the elements window open to trouble shoot the present.
+- open the console when working in javascipt so that I can see the logs from
+ the code.
+- If I am working css I like to use a second monitor.
+- css code and
+- the dev tools with the elements window open to trouble shoot the present.
