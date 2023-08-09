@@ -52,6 +52,7 @@
 
     - Why is it important?
     - Code Review options:
+    - look at google tools and accessibility. 
       - Look at code and practice reading code.
       - Go through code line-by-line and have a different person explain each line.
       - Fix broken code together as a class.
@@ -399,6 +400,7 @@ console.log('My Array Three: ', myArrayThree);
 ---
 
 ```js
+
 //Lab2 tech requirements
 
 //  short biography
