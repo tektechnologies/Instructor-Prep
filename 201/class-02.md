@@ -50,6 +50,7 @@
 
 ### Code Review
 
+    - Draw out git process of creating repo for class. 
     - Why is it important?
     - Code Review options:
     - look at google tools and accessibility. 
