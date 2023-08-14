@@ -2,6 +2,8 @@
 
 ## First Hour
 
+## The only way to get better at programming is to practice
+
 ### Introduce
 
 Week 1 Career assignments:
@@ -31,9 +33,7 @@ Week 1 Career assignments:
 
 ---
 
-## Review Code from Class 2
-
-## Break - 10 Minutes
+## Review Code Lab 2
 
 ---
 
@@ -330,9 +330,5 @@ Layouts using CSS with the Box model:
 - Cannot put a top and bottom margin on inline elements.
 - If we want to display margin on top, we will use display-inline block,
   which adds the margin all around.
-
----
-
-## The only way to get better at programming is to practice
 
 ---
