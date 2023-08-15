@@ -25,7 +25,7 @@ Setup 15 minute 1-on-1 meetings students with each student over the next few day
 the one's place, the 10's place and the hundredths place as we move past ten we
 add a 1 and then start at 0 in the one's position again.
 100 X 1 + 3 X 10 + 4 x 1 = 134
-This is a decimal, base 10 mathmatical,
+This is a decimal, base 10 mathematical,
 
 With Computers there are two.
 
@@ -63,7 +63,7 @@ together to make, the numbers we need.
 
 <https://www.binary-code.org/binary/8bit/10000110/>
 
-In binary **decimal points work the same** as in decimal, with usually dont
+In binary **decimal points work the same** as in decimal, with usually don't
 have to think about those,
 
 ## the 1/10's space the 1/2 space and then 1/4 and so on
@@ -77,7 +77,7 @@ of green and number of blue.
 
  If we use base 16, we have a one's place and then a 16th's place and then a
 256th's place, so all of our possible color values fit into and what that makes
-convenient is that all our possible values fit into just two digits of HEXIDecimal.
+convenient is that all our possible values fit into just two digits of HEXADecimal.
 So we can always use two digits to represent a HEX number, which is how they came
 up with Hexadecimal.
 
@@ -156,7 +156,7 @@ rgb(184,)
     16  *11    +     8*    1
           B     +     8         = B8(Hexadecimal )
 
-## Note it is ok, if you can not computate these values by memory
+## Note it is ok, if you can not compute these values by memory
 
 - the google will have resources that will aid in translating values back and forth.
 
@@ -239,15 +239,15 @@ before the commit was made.
 ### What is a function?
 
 - procedure
-- Contains a set of statments that perform a specific tasks.
+- Contains a set of statements that perform a specific tasks.
 - functions usually describe a task that we do
 - it is a named piece of code.
 
 - eventually our function will do most of our heavy lifting for our applications.
-Functions often look similiar and do similiar things. For instance, database
+Functions often look similar and do similar things. For instance, database
 connections, even if the data base is different language, the connections often
-look the same, there are differences in snytax. Sometimes we have to write functions
-that have never exsisted to solve some problem or algorithm.
+look the same, there are differences in syntax. Sometimes we have to write functions
+that have never existed to solve some problem or algorithm.
 
 ### Why do we write functions?
 
@@ -266,7 +266,7 @@ that have never exsisted to solve some problem or algorithm.
 
 ## This follows our class 5 from 102
 
-- We dont just jump into code.
+- We don't just jump into code.
 
 1. Talk about it. //Read the assignment.
 2. Learn about it. //Place technical requirements in comments.
@@ -276,9 +276,9 @@ build out our functions.
 
 ## adding names to anonymous functions/show the outcome in the stacktrace in console
 
-- We want to build out functions in a couple of differnet ways. For one, we may
+- We want to build out functions in a couple of different ways. For one, we may
 be working on a block of logic that does something and may eventually end up in
-a function where this named peice of code, can then have its parameters determined
+a function where this named piece of code, can then have its parameters determined
 and can be called over and over.
 
 - So lets write a function that prompts a user for a pizza crust.
@@ -312,7 +312,7 @@ function pizzaCrustType() {
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
-//We dont always need access to global variables all the time, best practice is 
+//We don't always need access to global variables all the time, best practice is 
 //to keep your variables as local as possible.
 ```
 
@@ -461,7 +461,7 @@ alert(lotteryNumbers(lotteryQuantity, lotteryMax));
         - Code out the first problem with students so they have an understanding
         of what is asked of them.
         - Confirm what the function needs to return to meet the test requirements.
-        - Point out after question 2 they are NOT allowed to use the arthmetic operators.
+        - Point out after question 2 they are NOT allowed to use the arithmetic operators.
         - Students should not touch the test file!
     - Lab05b review:
         - Point out where they should be navigating to in GitHub for deployment.
