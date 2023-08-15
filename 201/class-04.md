@@ -259,7 +259,7 @@ so another thing today is that our lab is going to be **pair programming**.
 
 - If i go back to my browser nothing will work? why.
 - Because we need to call it.
-- So I think of a recipe, a function is the recipe, but inorder for the recipe to
+- So I think of a recipe, a function is the recipe, but in order for the recipe to
  work I need to run the recipe, call for the ingredients
 - If I put that call in the console it will run and if I want I can add it to the
  app.js file. which is the normal practice.
