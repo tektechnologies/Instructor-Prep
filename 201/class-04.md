@@ -80,7 +80,7 @@ a >= 50       -> false
 - Statement vs Expression: the expression does a computation, but nothing is
  done with it, with a statement we group expressions as a way to express
  our conditions to do something with the computations. (??)
-- So `x *= 5` is explicity implying the assignment of the variable value to x.
+- So `x *= 5` is explicitly implying the assignment of the variable value to x.
 
 ## Array
 
@@ -153,14 +153,14 @@ numGuess = parseInt(input);
 
 ### review hex colors as the RGB
 
-- Let them know we will calculate hexidecimal in class 5.
+- Let them know we will calculate hexadecimal in class 5.
 
 ## Pro tip
 
 - The idea of your design will most likely not be what your
  final page looks like
 
-- So we start with a low fidelity, rendering of the page, called a wireframe.
+- So we start with a low fidelity, rendering of the page, called a wire frame.
 - css is the part of the coding process that will take as much time as you
 give it, that may not be the best use of our time, so maybe time box or save the
  work until the end of the day.
@@ -173,7 +173,7 @@ give it, that may not be the best use of our time, so maybe time box or save the
 ### Rerender the page to see that the tag does nothing by itself
 
 - add a **border** to see what the span is doing.
-- Try text-align, but didnt change anything because we are aligning it right
+- Try text-align, but didn't change anything because we are aligning it right
  in the tiny red box. So we could do a margin left, of 75%, when we shrink page,
  the margin does not operate the way we want.
 
@@ -206,7 +206,7 @@ side effects that change the way other things get laid out near by.
 
 - absolute.
 Absolute we set what the spacing should be.
-set absolute top-bottom-left-right within the page. It doesnt matter what the
+set absolute top-bottom-left-right within the page. It doesn't matter what the
 parent element is or doing it now goes where ever you tell it to go. Lets you leave
 the parent element and what it is doing. It is possible to use it within the element.
 We can keep the elements grouped together so that screen readers can access that
@@ -217,11 +217,11 @@ grouped data, possibly styling too.
 ### inline and block level elements
 
 - So now what we need to talk about is inline and block level elements.
-anchor tags ? are they block or inline. It is an inline element. Because it doesnt
+anchor tags ? are they block or inline. It is an inline element. Because it doesn't
  take up the whole line.
 - If we add an **h5 those are block level elements**, so we can see the element
  push the content down the page,
-- As we have seen in our styles we can add a display of block, we dont standardly
+- As we have seen in our styles we can add a display of block, we don't normally
  use block on inline elements.
 Are **images inline or block level, they are inline**.
 - We can change the image to block, but usually not a tool I reach for.
@@ -230,7 +230,7 @@ Are **images inline or block level, they are inline**.
 
 ## End CSS Layout Demo
 
-### Take Break 10 Minute
+---
 
 ## Third Hour
 
@@ -255,7 +255,7 @@ so another thing today is that our lab is going to be **pair programming**.
 - Then give your function a name
 - Then I will add the () so people can call it to the end of the name
 - Next we add in the {}
-- And within th curly braces I will put my code.
+- And within the curly braces I will put my code.
 
 - If i go back to my browser nothing will work? why.
 - Because we need to call it.
