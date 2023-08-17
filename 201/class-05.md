@@ -15,9 +15,9 @@ Setup 15 minute 1-on-1 meetings students with each student over the next few day
 
 ## Code Review around 20 Minutes
 
-## Then cover Hexadecimal
-
 ## Do Warm Up
+
+## Then cover Hexadecimal
 
 ## Base 16 and Hex code
 
@@ -182,7 +182,7 @@ rgb(184,)
 - back at your repo, you will see the pull request for the branch you just pushed.
 - After you click on create pull request we can look at the page to see the changes
 that we are about to add to our project.
-- Once the pull request is created we get a new screen taht will allow us to merge
+- Once the pull request is created we get a new screen that will allow us to merge
 our pull request to main.
 - Once we have the code merged to our main we can refresh our repo page and see
 the code merged into the project.
@@ -389,7 +389,7 @@ function lotteryNumberPicker(){
 ```
 
 - If we move the array variable outside of the function it will continually save
- the random 5 numbers each time the functin is run.
+ the random 5 numbers each time the function is run.
 
 ### We have now specified output from a function
 
@@ -397,7 +397,7 @@ function lotteryNumberPicker(){
 
 ## Do this in review
 
-So lets pick some numbers and we will specifiy these numbers in the function
+So lets pick some numbers and we will specify these numbers in the function
  using parameters.
 
 ```js
