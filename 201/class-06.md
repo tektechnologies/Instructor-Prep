@@ -27,7 +27,7 @@ to access/reassign properties and methods in JavaScript objects.
 A smaller topic for today is the introduction of ES6 template literals. Let us
 look at how to refactor the concatenation from week 1 lab 5a into template literals.
 
-1. Template literal: use backticks instead of single qoutes.  
+1. Template literal: use backticks instead of single quotes.  
 2. Using backticks alert me as a dev that something weird is about to happen.
     If I am writing a regular string, I will just write it as a string.
 3. The template literal does make things shorter and more readable and I can
@@ -53,7 +53,7 @@ function multiply(a,b){
 ## Console Log Demo
 
 - sum(4,7) returns an array
-- sum(4,7) + 11 returns a string value with the sum answer concating to the 11.
+- sum(4,7) + 11 returns a string value with the sum answer concatenating to the 11.
     Looking like 11.11
 
 - let ans = sum(4,7);
@@ -78,7 +78,7 @@ function multiply(a,b){
 - So, I can also sum(sum[3,7](0), 5)[0] can grab back the next step value in the
  console, and now I have a value that I was looking for, now I am ready to add
   some code.
-- So I can follow the same pattern in the mulitply functions and get the first
+- So I can follow the same pattern in the multiply functions and get the first
  element back from the array.
 - multiply(multiply[a,b](0), c)[0];
 
@@ -160,7 +160,9 @@ It ultimately comes down to how the problem is organized and defined. It is impo
  to stress that there is no substitute for good planning, and that if a problem seems
 too big to effectively define, then it needs to be broken down more.
 
-- There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/).
+- There are two articles on this subject, [one by a former Code Fellows instructor
+ (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling)
+ and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/).
 
 - It's a good time to talk about some business parts of the tech industry and the
  basic economics of how people get paid to do this work.
@@ -176,7 +178,7 @@ too big to effectively define, then it needs to be broken down more.
 1. Store multiple pieces of data
 2. access data with square brackets.
 3. data has index (number) and the index in arrays start at 0.
-4. idices give us order
+4. indices give us order
 
 ## Draw these  
 
@@ -214,7 +216,7 @@ let person = {
    2. bracket notation - w/string, outside variable. multi-word keys
 1. calling methods
    1. `objectName.method();`
-   2. methods declared in context of an object must be called in that context, 
+   2. methods declared in context of an object must be called in that context,
    so calling `method();` gives an error
 
 - DEMO OBJECTS
@@ -231,7 +233,8 @@ person['name'];
 ```
 
 - Both return the same value.
-- In general I use dot notation, but there are some times when you want to use the string.
+- In general I use dot notation, but there are some times when you want to use
+ the string.
 
 ## Example One
 
@@ -241,12 +244,12 @@ person['first-person-location'] = 'Work';
 - Uncaught ref error.  
 - JS is looking at the dashes as subtraction.
 - So, we cant access with dot notation.
-- Camel casing is nice here as well, so that dot notation is still a viable 
+- Camel casing is nice here as well, so that dot notation is still a viable
 way to access property values.
 
 ## Example Two
 
-2. Using bracket notation is useful when I look up values through a variable.
+- Using bracket notation is useful when I look up values through a variable.
 
 ```js
 let person = {
@@ -479,6 +482,8 @@ We access the dom by using the variable that is created automatically called doc
 So my goal is use the js objects that we created and show some that content to our
 actual page.
 
+```html
+
 <div id="person-holder">
 
 <!--
@@ -488,6 +493,8 @@ actual page.
    snake_case
    -->
 </div>
+
+```
 
 Now that I have the id I can access it in my javascript,
 
@@ -507,7 +514,7 @@ Within the `document` object, we have a method in there called `getElementById`.
  **must have a unique id attached to it**.
 
 In addition to setting text we could add some paragraphs and some images, so we 
-ask the dom to creat a new element for us, from our js file.
+ask the dom to create a new element for us, from our js file.
 
 ## Talk about the lab
 
@@ -516,7 +523,7 @@ Plan your work out. It is worth it to plan it out. Make basic functionality firs
 bottom of page setup instructions.
 create a new branch each day.
 
-- can add separate branches for streght goals.
+- can add separate branches for strength goals.
 
 This is a large lab assignment. If you are having trouble breaking it down, please
 reach out and get some ideas on how to help.
