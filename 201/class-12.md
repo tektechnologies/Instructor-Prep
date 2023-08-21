@@ -2,7 +2,7 @@
 
 - welcome to day 12 of 15 for lectures.
 - so today is a big day where we are going to add other sources of code to our project.
-- and we will also do alot with that code, without having to type a lot of code.
+- and we will also do a lot with that code, without having to type a lot of code.
 
 ## How did odd duck go? Lets see a thumbs
 
@@ -27,7 +27,7 @@
 ### Explain 301 eslinter
 
 - In 301 we will get a new eslint file to handle the different types of js you
- will be coding. (so dont copy from 201 eslintrc.json)
+ will be coding. (so don't copy from 201 eslintrc.json)
 - What is in the json file? Any one look?
 
 ### what is it doing?
@@ -40,7 +40,7 @@
 - single not double quotes.
 - end of line last error. no empty line github red circle example  
 
-- In pull request we can see the angry red cirlce saying we dont have an
+- In pull request we can see the angry red circle saying we don't have an
  empty new line at end of file.
 - Most VCS want that new line at end of file.
 - which is the purpose of the new line, it is easier for the computer to see
@@ -93,7 +93,7 @@ this.image = `image/${name}.jpg`;
 ```
 
 - set a extension manually.
-- after the prodcut is added,
+- after the product is added,
 
 ```js
 
@@ -104,8 +104,8 @@ allProducts[allProducts.length - 1].imageUrl = 'image/usb.gif';
 - You could also pass the extension in the constructor.
 
 ```js
-//Default parameter, you dont need to know this but it is cool. 
-//Any time we dont use the jpg it will be set for use, then use the gif as
+//Default parameter, you don't need to know this but it is cool. 
+//Any time we don't use the jpg it will be set for use, then use the gif as
 //the second param
 
     function Product(name, extension = 'jpg'){
@@ -132,28 +132,30 @@ allProducts[allProducts.length - 1].imageUrl = 'image/usb.gif';
 
 ```js
 
-    function makeList(){
-        var listContainer = document.getElementByTagName('ul')[0];
-        for(var i = 0; i < allProducts.length; i++){
-            var listItem = document.createElement('li');
-            listItem.textContent = `${allProducts[i].name}: ${allProducts[i].timesClicked} + votes, ${allProducts[i].imageViews} + views.`;
-            listContainer.appendChild(listItem);
-        }
-    }
+function makeList(){
+var listContainer = document.getElementByTagName('ul')[0];
+for(var i = 0; i < allProducts.length; i++){
+var listItem = document.createElement('li');
+listItem.textContent =
+`${allProducts[i].name}: ${allProducts[i].timesClicked} + votes,
+ ${allProducts[i].imageViews} + views.`;
+listContainer.appendChild(listItem);
+}
+}
 
 ```
 
 ### Expectations
 
 - You should start to feel as if this pattern is becoming more familiar,
-I dont expect you to understand everything that is happening, but it should
+I don't expect you to understand everything that is happening, but it should
  not be as scary as it was first week to dig into the code and see what it is
   doing and maybe even review past solutions from salmon cookies.
 
-- js have this idea of truthyness, where If(event) will say it is true.
+- js have this idea of truthiness, where If(event) will say it is true.
 - set productIndex to -1 to get the initial 3 images to show up.
 
-- Be aware that we are artifically inflating the count when displaying the
+- Be aware that we are artificially inflating the count when displaying the
  images initially.
 
 While to for loop
@@ -161,7 +163,7 @@ While to for loop
 for (;  logic ;)
 
 - But it will be less readable than the while loop,
-- so we dont do an increment, we need to do some work before we stop.
+- so we don't do an increment, we need to do some work before we stop.
 - Sad version one. example because it is so not readable.
 - There is probably a cleaner way to do the for loop.
 - That ends our review, what questions do you have before we return to pizza.  
@@ -181,18 +183,18 @@ for (;  logic ;)
 - it is possible that the link could change and that would break your image.
 - could not have copyright?
 - Benefits is that CDN are free, it is a piece of code that someone has decided
- that it is important an needs to live on servers all orver the world,
+ that it is important an needs to live on servers all over the world,
 - Look at th wiki for CDN.
 
 - Chart.js, pays to have their code distributed,
-- Sometimes corps, fund the librarys' so that they can use them as well. for the
+- Sometimes corps, fund the libraries so that they can use them as well. for the
  life of their products.
-- many times devs, will band together to create a solution.
-- point in case is sugar crm and suitecrm.
+- many times developers, will band together to create a solution.
+- point in case is sugar crm and suite crm.
 - Visit Chart.js, what is it.
 - They tell us, what it is and who it is for.
 - designers means that this is a product that could potentially be used
- by non devs',
+ by non developers',
 - and that they sent some time on it and it has intentional design elements
  added in.
 
@@ -240,17 +242,17 @@ and it will format for you. looks better but is still hard to read. 8000 chars
 - Then lets grab the js code in app.js
 - two lines of code
 - one is straight forward var ctx. gives me the chart on the page that is 2d.
- Because it is a 2 demensional chart.
+ Because it is a 2 dimensional chart.
 - two, we have a function expression. with a key value pair with an object of
 how I want to create my chart, so we have all that laid out.
 - lets add it in to see if we can get it to render and then we will make it our own.
 - make sure to add or leave the textContent set up from you picked things. - so
- that the getContext will error then debugg.
+ that the getContext will error then debug.
 - run the script.
 - chart will appear.
 - Canvas and chartjs will take up as much space as you give it.
 - we set a width and height. ut it does what it wants.
-- So to constrane that we give the footer a max width. as long as what it is
+- So to constrain that we give the footer a max width. as long as what it is
  inside of is constrained.
 
 ## lets look at the data object
@@ -263,7 +265,7 @@ how I want to create my chart, so we have all that laid out.
 - what does the datasets do? //numbers on the side and what data type is
  datasets [array]
 - inside the array, what data type do we have? its an array of objects.
-- this allows us to have multiple peices of data in our chart.
+- this allows us to have multiple pieces of data in our chart.
 
 - what does this label do? // this is the header or key or legend.
 
@@ -282,7 +284,7 @@ so we could do
 allPizzas[0].name
 allPizzas[1].name
 allPizzas[2].name
-- but we dont want to write all that out, but there is a better way to go about
+- but we don't want to write all that out, but there is a better way to go about
  it, lets look at how we can write this code better.
 - Lets make a function. getPizzaNameArray
 - needs to return an array.
@@ -312,7 +314,7 @@ allPizzas[2].name
 //call it.
 labels: getPizzaNameArray();
 
-- The data is the other thing that I want to change, lets creat a function to
+- The data is the other thing that I want to change, lets create a function to
  make an array that collects numbers on our pizza votes.
 
 ```js

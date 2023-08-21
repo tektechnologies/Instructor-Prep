@@ -7,7 +7,7 @@
 ## Projects
 
 - time to think about what we are going to build.
-- Talk to pyschological safety.
+- Talk to psychological safety.
 
 ## Psychological Safety  (1 hour)
 
@@ -27,7 +27,7 @@
     3. What are the results for teams who practice psychological safety?
 - white board the answers
 The screen recording is running, and we want it to pick up everyone's comments,
-so you will be walking around with the mircophone to ensure voices are picked up.
+so you will be walking around with the microphone to ensure voices are picked up.
 Ensure this is all clear, and re-iterate the 3 prompts above to get it started.
 Segment the iPad into 2 sections with a line down the middle. Do not label the
 sections at the start.

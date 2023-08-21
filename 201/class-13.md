@@ -44,13 +44,13 @@
 
 ## You can expedite your skills by reading code that you did not write
 
-## At first you dont have to understand what it is doing you just need to read it
+## At first you don't have to understand what it is doing you just need to read it
 
 ---
 
 let bS = cS(c().iC(fs).aTs(),bBC(p));
 
-let banannaSplit = coolSummer(chocolate().iceCream(flavors).allTheTrimmings()), baseBallCap(plastic));
+let bananaSplit = coolSummer(chocolate().iceCream(flavors).allTheTrimmings()), baseBallCap(plastic));
 
 - You will have some time during project week where you feel comfortable with the
 code especially stuff you have created or worked on and you will review code
@@ -81,7 +81,7 @@ break the site or create weird behaviors.
 
 > - Our values can be any data types:
 >
-> - Keys(stringy) are mostly strings. Bracket notation is a string in qoutes.
+> - Keys(stringy) are mostly strings. Bracket notation is a string in quotes.
 > - That is how we get those values.
 >
 > - Keys are also called properties.
@@ -123,19 +123,19 @@ break the site or create weird behaviors.
 - and at the same time they gain access to the prototype methods as a built in
   function of the constructor.
 
-- Object have keys we can access and strings dont.
+- Object have keys we can access and strings don't.
 - that is what we get to work with when we stringify an object.
 - thumbs on objects vs strings knowing the difference.
 - local storage only stores strings,
 - and a tool that will take those string and turn them back into objects.
 - local storage is built into javascript,
 - local storage works with key value pairs.
-- the syntax is different but KVP's work the same as they do in objects.
+- the syntax is different but Key : Value ; Pair's work the same as they do in objects.
 - take local storage and type set Item
 - local storage only holds strings.
 - json is good with arrays
 
-- look into the APPLICATION ON THE **localstorage** - see the key value in local
+- look into the APPLICATION ON THE **local storage** - see the key value in local
   storage is set .
 
 ```js

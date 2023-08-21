@@ -34,7 +34,7 @@
     - chart.js (3rd Week)
     - font awesome
 3. Out of Scope.
-    - login (local storage ok) admin view prespective as opposed to client view.
+    - login (local storage ok) admin view perspective as opposed to client view.
     - database
     - server
     - network requests
@@ -54,7 +54,7 @@
 ### In the console type
 
 ```js
-document.getElementbyId('levees');
+document.getElementById('levees');
 //show the audio tag,  now set to var
 var audio = document.getElementById('levees');
 audio.play();
@@ -140,7 +140,7 @@ randomizer.addEventListener('click',function(){
 - no new concepts
 - use the skills you learned in new ways,
 - take some time to plan out the assignment.
-- We will start the demo with a wireframe of our pizza
+- We will start the demo with a wire frame of our pizza
 - Start with the basic html
 - Start with the grid and basic css
 - only shows up after 5 clicks
