@@ -169,7 +169,7 @@ function pizzaCrustType() {
    console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
 }
 pizzaCrustType();
-//We don't always need access to global variables all the time, best practice is 
+//We don't always need access to global variables all the time, best practice is
 //to keep your variables as local as possible.
 ```
 
