@@ -6,7 +6,7 @@
 - add in forms and javascript events.
 - This is the second of the two hardest days of 201.
 - Any logistical questions? How are you all feeling? Thumbs?
-- Side waysizes?
+- Side way sizes?
 
 - Code Review.
 
@@ -96,7 +96,7 @@ sam.sayHello();
 
 ## Lets talk about forms
 
-- Pet adpotion project and start adding that form.
+- Pet adoption project and start adding that form.
 - tag you use is <form>
 - inputs are the most basic thing that will show up in the form.
 - so lets add an input.
@@ -118,7 +118,7 @@ document.getElementById('name').addEventListener('input', function() {
 
 ## Good for accessibility
 
-- if we click on label input gets curser automagically, this is good for
+- if we click on label input gets curser auto magically, this is good for
  screen reader as well.
 
 ## input validation to manage what users may want to enter into the text boxes
@@ -169,7 +169,7 @@ document.getElementById('name').addEventListener('input', function() {
 
 1. thing we pass in is what we are listening for, the submit,
 2. second parameter is going to be a named piece of code and use that to
- repesent what we want to run, we create a function or a named peice of code.
+ represent what we want to run, we create a function or a named piece of code.
 
 ```js
       function handleFormSubmit() {
@@ -215,9 +215,9 @@ console.log(event);
 using parseInt or Number is helpful.
 - Make sure to only call the prototype functions on the individual new object
 not rerun the the whole of all the objects when program starts.
-- because I have not commited on master I can still run normal commands to
+- because I have not committed on master I can still run normal commands to
 create a branch and the changes will be applied.
-- Find the responsible peice of code and change it to do something better instead.
+- Find the responsible piece of code and change it to do something better instead.
 
 ## Random
 
@@ -229,7 +229,7 @@ create a branch and the changes will be applied.
 - return is a hard stop on any function. so if we return inside the loop the
  loop will stop.
 
-### If something is going wrong we dont want to add more to fix the problem
+### If something is going wrong we don't want to add more to fix the problem
 
 - Modify code and reduce refactoring when possible.
 - debugger
@@ -249,5 +249,5 @@ create a branch and the changes will be applied.
 
 - on the form element we add an event listener. First thing we pass in is what
  we are listening for, the submit, the second parameter is going to be a
-named piece of code and use that to repesent what we want to run, we create
-a function or a named peice of code.
+named piece of code and use that to represent what we want to run, we create
+a function or a named piece of code.
