@@ -204,7 +204,6 @@ side effects that change the way other things get laid out near by.
 
 ## absolute
 
-- absolute.
 Absolute we set what the spacing should be.
 set absolute top-bottom-left-right within the page. It doesn't matter what the
 parent element is or doing it now goes where ever you tell it to go. Lets you leave
