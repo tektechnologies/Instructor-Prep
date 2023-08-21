@@ -244,6 +244,8 @@ Are **images inline or block level, they are inline**.
 
 ## Start Function Demo
 
+- Make sure to demo js docs comments with /** */
+
 ## two more things to do today
 
 brief look at **functions**. and how to do that within lab.
