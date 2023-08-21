@@ -2,7 +2,7 @@
 # Explain the LAB for today and Thursday and that the
 
 - LAB FRIDAY  is chocolate pizza and explain the format of the lab activity.
-- Ties in the wireframe lab today as practice for tomorrow’s lab. forms and js events
+- Ties in the wire frame lab today as practice for tomorrow’s lab. forms and js events
 - What questions do you have about that for now?
 - Do the form in the html even if you have the js skills, good advice.
 - Announcements.
@@ -10,10 +10,10 @@
 # There are two parts to writing good code
 
 1. **Have a good strategy.**
-2. **Write out the psuedo code.**
+2. **Write out the pseudo code.**
 
 - **This is known as algorithmic thinking.** This is hard, because it is the
- second week of course curriculm and you are not expected to be fully proficient.
+ second week of course curriculum and you are not expected to be fully proficient.
 
 - It takes practice to write out a good strategy, to code.
 
@@ -30,7 +30,7 @@
 
 - Does the student have a ReadMe. file.
 It is vital to document your code correctly.
-To comunicate to other developers how your program works and what requirements 
+To communicate to other developers how your program works and what requirements 
 there are for the application to perform correctly.
 - Make sure to have, several format properties added to your page layout.
 - Is the math right? You should check your math outcomes.
@@ -60,14 +60,14 @@ there are for the application to perform correctly.
 through the application.
 - Possibly white board the function order to have students draw the path of the
  code in the javascript file.
-- The strategy is that we will need to create a peice of data, and then run a for
+- The strategy is that we will need to create a piece of data, and then run a for
  loop to add more data and then add another piece of data to finish the row.
 - You could add some content to the empty 'cell'.
 - The point of a constructor is to keep our code dry.
-- And having something like sending it an [] everytime does not seem as efficient
+- And having something like sending it an [] every time does not seem as efficient
  as if I just put the empty array in the constructor and each instance will
  automatically set the property to be an empty array, which is what we need.
-- Makes life slighty easier as a developer. We also avoid sending in data to the
+- Makes life slightly easier as a developer. We also avoid sending in data to the
  constructor instead of an empty array.
 
 ## Other topics to cover include 'new', datatype, render(), debug()
@@ -179,7 +179,8 @@ console.log('Choo Choo!);
 
 ## Challenge 2
 
-Write a function called 'getTwo' that takes in no parameters and returns the number 2.
+Write a function called 'getTwo' that takes in no parameters and returns the
+number 2.
 
 ```js
 function getTwo(){
@@ -282,7 +283,7 @@ Input      | Output
 `'salmon', 2` | `'2 salmons'`
 `'mouse', 3` | `'3 mouses'`
 
-## Solution
+## Solution for 5
 
 ```js
 function takeTwo(string, number){
@@ -341,6 +342,4 @@ What will this code log to the console?
 
 # Third Hour
 
-
-
-Layout Demo.... 
+Layout Demo..
