@@ -245,6 +245,7 @@ Are **images inline or block level, they are inline**.
 ## Start Function Demo
 
 - Make sure to demo js docs comments with /** */
+- console logs are for developers
 
 ## two more things to do today
 
