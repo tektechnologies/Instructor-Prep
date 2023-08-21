@@ -47,7 +47,7 @@
 ## Did they use a render method
 
 - We will look at how to create html elements
-- that we will append to our UL and LI items, inorder to create child/parent relationships.
+- that we will append to our UL and LI items, in order to create child/parent relationships.
 
 ```js
 let allStores = ['storeOne','storeTwo'];
@@ -148,7 +148,7 @@ let cricketCat = new Pet('Tabby');
 ```js
 function Pet(petBreed, petWeight){
     this.breed = petBreed;
-    //Name of parmeter and name of property can be the same or different.
+    //Name of parameter and name of property can be the same or different.
     //this.weight = weight;
     this.weight = petWeight;
 }
@@ -199,20 +199,20 @@ render: function(){
 ```js
 function Pet(petBreed, petWeight, petInterests){
     this.breed = petBreed;
-    //Name of parmeter and name of property can be the same or different.
+    //Name of parameter and name of property can be the same or different.
     //this.weight = weight;
     this.weight = petWeight;
-    this.desciption = petInterests;
+    this.description = petInterests;
 }
 ```
 
-So the methods that exsist within the pets
+So the methods that exists within the pets
 
 - next step is to take the getInterests function and make it accessible for
-- every pet so we have an exact peice of code to set up for this to work
+- every pet so we have an exact piece of code to set up for this to work
 
  ```js
-Pet.prototype.functionname = function(any, parameters, go, here){};
+Pet.prototype.functionName = function(any, parameters, go, here){};
 ```
 
 Benefit is that with any pet that we create will have access to this function.
@@ -225,7 +225,7 @@ need and then accept the auto magically, the stuff that prototypes do for us.
 Pet.prototype.getInterests = function() {
 //The code that goes in here is already using contextual this,
 // so it will work here for us as well. 
-//Creat a random index within the pet description array. 
+//Create a random index within the pet description array. 
 let randomIndex = Math.floor(Math.random() * this.petInterests.length);
 //Use that random index, to go into the array and grab a description.
 return this.petInterests[randomIndex];
@@ -259,9 +259,9 @@ let firstPet = new Pet('Labrador', 45, ['Playful','Hungary','Sleepy']);
 firstPet.getInterest();
 ```
 
-## If we dont know the parameter, we write null
+## If we don't know the parameter, we write null
 
-- we dont leave it blank because we get syntax errors,
+- we don't leave it blank because we get syntax errors,
 - so use null, however if we do math on say weight and there is a null you will
  get back a NaN, response.
 
@@ -270,7 +270,7 @@ firstPet.getInterest();
 - We may also call these objects pet instances. Any time we call the constructor
  we use the new and the name of the object constructor, and then provide arguments
  for the constructor.
-- Rememeber..... The prototype allows us to create methods accessible by any
+- Remember..... The prototype allows us to create methods accessible by any
 instance or any object being created by the constructor function, in the console
 we can call getInterests, now all pets have access to the get description function.
  Now we can add as many pets as we want and they will all have access to these

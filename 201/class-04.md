@@ -102,7 +102,7 @@ var fruits = ['apple','orange','bob','fred','tom'];
 
 ## Data Types
 
-To determine what type of data type a value is, use `typeof(differentThings)`
+To determine what type of data type a value is, use `type of(differentThings)`
 
 ---
 
