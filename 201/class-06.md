@@ -256,7 +256,7 @@ let person = {
     name: 'Craig Barkley'
 }
 
-let keyIwantToLookUp = 'name';
+let keyIWantToLookUp = 'name';
 person.keyIWantToLookUp; //undefined
 person[keyIWantToLookUp];
 ```
