@@ -513,7 +513,7 @@ Within the `document` object, we have a method in there called `getElementById`.
  **we can only add one thing at a time**.
  **must have a unique id attached to it**.
 
-In addition to setting text we could add some paragraphs and some images, so we 
+In addition to setting text we could add some paragraphs and some images, so we
 ask the dom to create a new element for us, from our js file.
 
 ## Talk about the lab
