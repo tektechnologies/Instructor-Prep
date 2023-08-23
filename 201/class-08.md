@@ -98,7 +98,7 @@ through the application.
 }
  ```
 
-### debug()
+### debug() and white board the gathering of elements that we are appending
 
 ### comment out the append sales hours to table and ask them what is going to happen
 
