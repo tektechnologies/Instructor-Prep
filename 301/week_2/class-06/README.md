@@ -13,7 +13,7 @@
      rather than what they represent in the structure of our documentation.
      So we name things for there purpose as opposed to where they are location.
 
-## Replit
+## Repl-it
 
 - Code Challenge for today pass by value and pass by reference.
 
@@ -30,14 +30,14 @@
 - follow steps in demo
 
 - Explain after list renders that data has costs and how larger
-companys might handlde thousands of requests and why we use Keys
+company's might handled thousands of requests and why we use Keys
 for managing our data.
 
 - go to location IQ website look at the keys
 - Once demo is done review pull request and netlify
 - add key from loqIq to netlify.
 - trigger redeploy
-- we are using trello for rest of project. dont wait longer than 15 minutes
+- we are using trello for rest of project. don't wait longer than 15 minutes
  to get help.
 - turn in what you get done.
 - we will pick partners.

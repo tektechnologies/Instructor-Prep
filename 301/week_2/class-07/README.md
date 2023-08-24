@@ -9,18 +9,18 @@
 - Type Specification.
 - .methods are quite semantic. put() add()
 - <> are type brackets, which may determine the type. like integer or string.
-- so in our list we will have ints, once we populate the arraylist.
+- so in our list we will have ints, once we populate the array list.
 - Java is a compiled language, so it builds itself and turns itself into machine
-  code and will then will execute. If the code doesnt compile it will not run.
-- the new arraylist is empty, in java we have reflexive types in java a list of
-  integers, the arraylist will inherit integer, so it is implied.
-- Hash Map, in javascipt is like an object, which are always key value pairs where
+  code and will then will execute. If the code doesn't compile it will not run.
+- the new array list is empty, in java we have reflexive types in java a list of
+  integers, the array list will inherit integer, so it is implied.
+- Hash Map, in javascript is like an object, which are always key value pairs where
   the key is a type string, with Hash map your keys can be any value, could be cat.
 - the put allows us to put a key value pair in the map.
-- When they recieve the incrementing values tally.get(key) will update the counter
+- When they receive the incrementing values tally.get(key) will update the counter
 - Our random is pretty much like javascript
 - system.out.println.. Is like javascript console.log
-- variables, if else, is just like JS, string concatination and type coersion is
+- variables, if else, is just like JS, string concatenation and type coercion is
   like JS as well.
 - Java is a clean language.
 - it is not a scripting language.
@@ -63,7 +63,7 @@
   MACHINES.
 
 - **What** (10 min)
-    - Two Enviromments our apps will live on. Production and Development.
+    - Two Environments our apps will live on. Production and Development.
     - Every terminal has an env that we have access to, to run at anytime.
      Server or no Server these are the terminals env  variables needed to
      run the variables.
@@ -84,7 +84,7 @@
 ## Second Hour
 
 - Lets build our server up, this is good practice for you and at least once a day
- you build up the server, as you become familar with the process you will be able
+ you build up the server, as you become familiar with the process you will be able
   to go on and create custom servers.
 
 1. First thing to declare is our packages.
@@ -92,7 +92,7 @@
 
 ```js
   // the -s stands for save that creates three lines of code for anyone who
-  // downloads the repo will have access to express, if we didnt -s they would
+  // downloads the repo will have access to express, if we didn't -s they would
   // have to install on their own the library. 
 
 npm install -s express
@@ -134,7 +134,7 @@ from a file instead of the terminal.
 ## Now we can set up the application server
 
 1. const app = ('express');
-2. New line from Friday. app.use(cors()); So that local request dont get blocked.
+2. New line from Friday. app.use(cors()); So that local request don't get blocked.
    Loads before our routes get hit.
 3. Load our Global Variables as we need them.
 4. Now lets Start the Server. We need to add the app.listen which takes in a callback
@@ -158,7 +158,7 @@ app.listen(3000, () => console.log(`we are listening on PORT: ${3000}`));
 
 ```js
 const PORT = 3000; 
-//Capitolization are sometimes refered to as Magic Variables. other things rely
+//Capitalization are sometimes referred to as Magic Variables. other things rely
 // on this variable. 
 //- lets add the env file now. 
 const PORT = process.env.PORT;
@@ -189,7 +189,7 @@ const PORT = process.env.PORT || 3111;
 1. app.get home route
 2. its just the code that fires off when someone wants to access this route.
 
-## But first lets fix our Server up alittle
+## But first lets fix our Server up a little
 
 - Instead of starting our server with node.
 - We are going to use nodemon
@@ -243,17 +243,17 @@ const PORT = process.env.PORT || 3111;
   running code that is meant to run stand alone. We have seen these in the code
   challenges as well that are not server files.
 
--next we need to install librarys. we dont build servers from nothing
+-next we need to install library's. we don't build servers from nothing
 
 - the most popular is Express Server , so lets load.
 - node modules is where express will live.
 - and along with Express is that it is JS that is meant to run in the terminal.
-- Express is also a Dependancy to this server as well now.
-- Express will also install the librarys that it needs.
+- Express is also a Dependency to this server as well now.
+- Express will also install the library's that it needs.
 - these installs have there own package.json requirements as well lets take a
   look at them
-- inorder to manage all this it creates the package-lock.json. and it will pick
-  the appropriate librarys to make sure that our server file will have the
+- in order to manage all this it creates the package-lock.json. and it will pick
+  the appropriate library's to make sure that our server file will have the
   resources the correct packages that it needs to run the app.
 - if we run    NODE SERVER.JS
 
@@ -264,10 +264,10 @@ const PORT = process.env.PORT || 3111;
 -
 
 - const express = require('express');  which is the library.
-- and it will look inside of node modules and picks a livrary with the same name
+- and it will look inside of node modules and picks a library with the same name
   to load.
 - const app = express();  // this actually builds our server.
-- we have created an instance of a server like the mustache we havenot yet put
+- we have created an instance of a server like the mustache we have not yet put
   it on the page,
 - we have a server event listener that makes the server listen to
 
@@ -330,7 +330,7 @@ const PORT = process.env.PORT || 3111;
     - Inspect the "shape" of the data and see if it conforms to your needs
     - Talk about communication via WRRC (now: server-side code is now the client!)
 - **How** (30 min)
-    - Demo the signup and access key retrieval process
+    - Demo the sign up and access key retrieval process
         - Location IQ
     - Integrate into your server application
         - Fetch Data with Axios
@@ -350,19 +350,19 @@ key, so that we can render an image from our calls to the api.
 
 ## Today we will be learning all about servers
 
-- Lets start by looking at the Lab. In Cavas.
+- Lets start by looking at the Lab. In Canvas.
 
 - This is the first day that the labs will be executed through Trello.
 
 ![Draw req/res for city](content/944.png)
 
-- What is a client? - A student to teacher, request things, tempory,
+- What is a client? - A student to teacher, request things, temporary,
  googler/webpageForm(client as well.)
 - What is a server? A temporary. that server responses to requests, google
 
 - Client makes req to server for Food. The relationships are the same. We will
- make req and delegate our responsibilites to another server.
+ make req and delegate our responsibilities to another server.
 - Server in a restaurant will make a req to the cook for food.
-- Afer this week you may begin to see the req/res cycle everywhere, its ok, its
+- After this week you may begin to see the req/res cycle everywhere, its ok, its
  a code thing.
 - for us we will have an actual server.js.

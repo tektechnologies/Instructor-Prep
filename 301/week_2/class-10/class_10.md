@@ -21,7 +21,7 @@ session.
 Examples of a good WRRC is included here. Do NOT share this example with students
 but use it as a guide when planning your lesson.
 
-1. Annoucements
+1. Announcements
 2. warm - up
 
 ```js
@@ -49,7 +49,7 @@ app.listen(PORT, () => console.log(`listening on ${PORT}`));
 
 ```
 
-3. solve weather and movies
-4. For loop demo.
-5. Code out the Cache photo
-6. Look at the Lab integrate lab starter code
+1. solve weather and movies
+2. For loop demo.
+3. Code out the Cache photo
+4. Look at the Lab integrate lab starter code

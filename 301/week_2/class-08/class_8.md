@@ -1,6 +1,6 @@
 # Happy Nights
 
-## Annoucements
+## Announcements
 
 - Saturday will be somewhat of a catch up day. Mary as TA.
 
@@ -18,11 +18,11 @@
 - use notes below to add to server build for unsplash
 - Start with C/P of front end to correlate the weather front end api call to server
 - build server quickly moving through file until server is running then,
-- use thunderclient to build the URL
+- use thunder client to build the URL
 - send data to front end
 - look at render and talk about adding weather keys for api calls
 - look at lab 8 tech requirements in trello
-- lastly build the weather api in thunderclient for second url demo
+- lastly build the weather api in thunder client for second url demo
 - lastly, lastly show the movie api docs
 
 ```js
@@ -30,7 +30,7 @@
 Any time javascript recognizes an event as taking more than instant time, it 
 can use a promise to wait for the event to finish before handling it
 A promise is just an object that contains the necessary info to continue
-running code for delayed processpromises are a javascript thing, not a superagent
+running code for delayed process promises are a javascript thing, not a superagent
 or jquery promises fail and succeed We call this resolving and rejecting a promise
 can be directed to a failure or success callback just like we can have a try
 catch with two different options so far we have always been going through the
