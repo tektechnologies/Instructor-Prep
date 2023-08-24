@@ -20,7 +20,7 @@
 ## go to Canvas
 
 - In-Class schedule and assignments
-- I will call on you, dont forget to pass or phone a friend. If I have spelling
+- I will call on you, don't forget to pass or phone a friend. If I have spelling
     errors let me know.
     - Career Coaching
     - Readings
@@ -37,7 +37,7 @@
     - Minimum requirements
     - Take care of your TAs by following instructions
 
-## Go through the Prework Review
+## Go through the Pre-work Review
 
 - Function Declaration
 - Function Expression
@@ -78,7 +78,7 @@
      subclasses using the keyword `extends`.
 - **How** (10 min)
     - [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-    - Prepair a short demo on classes or use the one provided. Be sure to discuss
+    - Prepare a short demo on classes or use the one provided. Be sure to discuss
      class structure, subclasses and inheritance.
 
 ### Arrow Functions (20 min)
@@ -93,7 +93,7 @@
 - **How** (10 min)
     - Review the arrow-functions lab with the students
 
-## After Break lets set up the code Challeneges
+## After Break lets set up the code Challenges
 
 ## Third Hour
 
@@ -120,7 +120,7 @@
 ![Static website](/content/staticsites.png)
     - React is a growing trend in the industry for front end development.
     - Allows us to break things down into individual components that can easily
-     be resued and tested.
+     be reused and tested.
     - Can update state without reloading the entire page.
 - **What** (10 min)
     - Check out medium website. <https://medium.com/>
@@ -128,7 +128,7 @@
     - They take care of binding data (state) to The DOM
         - React uses a Virtual DOM to do so, re-rendering things when data changes
     - As a developer, we get many advantages
-        - thinking smaller and still managing templeting issues at the same time.
+        - thinking smaller and still managing template's issues at the same time.
         - Separation of Concerns
         - Reusable parts
     - Components
@@ -174,7 +174,7 @@
         - NOW go through file folder scaffolding and talk about what is there and
          what it does.
         - grabbing root "id" from index.html in the index.js
-        - Live server doesnt work, it needs to be compiled before sent to browser.
+        - Live server doesn't work, it needs to be compiled before sent to browser.
         - we need to run npm start
         - npm is node.
         - is going to run our tests and our react pages
@@ -202,7 +202,7 @@
         - Make the Main.js Component
 
         - Possibly white board here for help.
-        - Show what we customize and what we dont(index.html, App.js, index.js)
+        - Show what we customize and what we don't(index.html, App.js, index.js)
         - create a person component
         - How do we get different data into these same components.
 
@@ -215,6 +215,6 @@
 - Show deployment preview and make sure we are good to merge.
 - Show how to indent components for readability
 - Explain Lab requirements
-- dont go over board on css.
+- don't go over board on css.
 
 ## Run the foreach Demo

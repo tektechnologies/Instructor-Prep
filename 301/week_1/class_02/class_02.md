@@ -75,10 +75,11 @@ we could use display: inline or -block;
 
 - **Why** (2 min)
     - State is used as a way of configuring components with properties.
-    - State can keep track of things as other components(or the same component) are changing.
+    - State can keep track of things as other components(or the same component)
+    are changing.
 - **What** (5 min)
-    - State: a memory of persistant values.
-    - Props: a memory of persistant values passed in by a parent.
+    - State: a memory of persistent values.
+    - Props: a memory of persistent values passed in by a parent.
 - **How** (40 min)
     - Begin with a review of the WRRC from yesterday.
     - Draw the components on the whiteboard. Demonstrate the way each component
@@ -107,5 +108,5 @@ we could use display: inline or -block;
   Third Hour
   1b. Start CSS
   2b. Google BootStrap, install, run and look at options, ternary
-  3b. Netlify deployment - Deploy the build/setings/command CI= npm run build save
+  3b. Netlify deployment - Deploy the build/settings/command CI= npm run build save
   4b. Look at Lab

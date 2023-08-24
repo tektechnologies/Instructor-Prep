@@ -4,7 +4,7 @@
 
 [Solution Code](./warm-up-solution.md)
 
-## Code Chanllenge Review
+## Code Challenge Review
 
 ## Lab Review
 

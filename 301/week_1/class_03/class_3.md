@@ -1,6 +1,6 @@
 # Good Day Happy Day
 
-## Annoucements daily alerts
+## Announcements daily alerts
 
 ### Warm-Up
 
