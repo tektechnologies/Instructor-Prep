@@ -22,7 +22,7 @@
 
 ### Lab: Loop the Loop! 8:30 - 9:00
 
-# New Vocabulary
+## New Vocabulary
 
 loop
 while

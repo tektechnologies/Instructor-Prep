@@ -2,4 +2,4 @@
 
 ## Quiz Final
 
-- review previous quizes
+- review previous quizzes
