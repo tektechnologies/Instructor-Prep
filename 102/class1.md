@@ -9,7 +9,7 @@ the discussion assignment.
 ## slides 1 - 27 (Vision, Mission, Goals, Campus, Classroom, How we Learn, Mindset)
 
 Demo: Publishing a learning journal (Twice, the first time ask them to help
- you through it, and the second time do it alittle more quickly as they watch).
+ you through it, and the second time do it a little more quickly as they watch).
 
 ## Canvas Exercises
 

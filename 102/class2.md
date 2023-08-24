@@ -1,4 +1,2 @@
 # Programming Concepts Covered
 
-
-## 
