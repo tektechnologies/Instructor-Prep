@@ -27,7 +27,7 @@ const globalVariable1 = 'hello';
 const globalVariable2 = [0, 1, 2];
 const myForm = document.getElementById('my-form');
 
-//create an instance of PersonConstructor and save it to the sam variable
+//create an instance of PersonConstructor and save it to the name variable
 //note that we can do this before the constructor function declaration
 const bud = new PersonConstructor('Bud', 'Squirrel', 'Macintosh');
 const doyle = new PersonConstructor('Doyle', 'Stubs', 'Johnson');

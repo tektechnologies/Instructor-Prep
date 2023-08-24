@@ -259,6 +259,30 @@ let firstPet = new Pet('Labrador', 45, ['Playful','Hungary','Sleepy']);
 firstPet.getInterest();
 ```
 
+## Inheritance example
+
+```js
+function Animal(species, legs){
+    this.species = species;
+    this.legs = legs;
+}
+Animal.prototype.sleep = true;
+
+function Pokemon(name, type, legs){
+    Animal.call(this, "pokemon", legs);
+    this.name = name;
+    this.type = type;
+}
+
+//allows prototype to share values
+Pokemon.prototype = Animal.prototype;
+
+let pokemon1 = new Pokemon('Pikachu', 'electric', 2);
+console.log(pokemon1);
+
+
+```
+
 ## If we don't know the parameter, we write null
 
 - we don't leave it blank because we get syntax errors,
