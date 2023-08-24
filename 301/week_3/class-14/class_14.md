@@ -17,7 +17,7 @@
 - redeploy our main branch, but does it work?
 - build and deploy env variables from the front end.
 - REACT_APP_SERVER and our
-- dont forget to remove the / at the end.
+- don't forget to remove the / at the end.
 
 ## Assessment Administration
 
@@ -30,7 +30,7 @@
 - Do NOT communicate with fellow students (or any other people) during the assessment.
 - prioritize tasks according to each task's points.
 
-### Timeframe
+### Time frame
 
 - Students will have 4 hours to complete assessment.
 - At the end of the designated time, all code must be committed to the repositories.
@@ -49,7 +49,7 @@ Instructional team will **NOT** debug with students nor provide problem solving 
 
 Emphasize that the intention is not to be be blocked by procedural issues.
 
-If you dont pass first time through, no judgement, we will review the quiz and
+If you don't pass first time through, no judgement, we will review the quiz and
 you will take it again. What you miss on the exam is what you can focus on going
 forward.
 

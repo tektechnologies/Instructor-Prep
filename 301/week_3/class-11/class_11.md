@@ -31,8 +31,6 @@
 
 - 6. return arr[2].items[1].quantity;
 
-
-
 ```js
 
 const totalSum = (matrix) => {
@@ -55,7 +53,7 @@ const totalSum = (matrix) => {
 
 - Code challenge chaining methods.
 
-## Persistant Data
+## Persistent Data
 
 - Cache is not cash.
 - Let us Data base
