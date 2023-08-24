@@ -57,9 +57,9 @@ Can you delete everything on your pc, possibly.
 
 ## now create the scaffolding
 
-Starting with the touch sample.txt, we can create any file we wish and git will track it,
-So, run git status.
-The fact that git shows the file we created as Untracked file
+Starting with the touch sample.txt, we can create any file we wish and git will
+track it, So, run git status. The fact that git shows the file we created as
+Untracked file.
 
 ### git push origin master
 
