@@ -233,7 +233,7 @@ create a branch and the changes will be applied.
 
 - Modify code and reduce refactoring when possible.
 - debugger
-- console this before this
+- console this before this use identifiers as a way to tell what async code is run.
 - Start the debugger and stop and check the this.shopName to see if you get it again.
 
 ## Explain what is happening while adding a new store
