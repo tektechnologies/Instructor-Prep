@@ -4,8 +4,6 @@
 
 Setup 15 minute 1-on-1 meetings students with each student over the next few days.
 
-## Pair Programming Debrief
-
 ## Drawl on white board
 
 - learning from partner while driving
