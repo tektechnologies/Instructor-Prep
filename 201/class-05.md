@@ -1,368 +1,271 @@
-# First Hour
+# Class 04
 
-## Announcements
+## Code Review Topics
 
-Setup 15 minute 1-on-1 meetings students with each student over the next few days.
+- Review Truthy/Falsy
+- <https://dorey.github.io/JavaScript-Equality-Table/>
+- Review Arrays Question 7
+- Review Loops Question 6
 
-## Pair Programming Debrief
+---
 
-## Drawl on white board
+### Demo
 
-- learning from partner while driving
-- talking about how code works as navigator is also a skill.
-- navigator still has control
-- style nitpicks or variable name nitpicks.
+```js
 
-## Code Review around 20 Minutes
+alert('Welcome to 4-Part Spaceship Repair!');
+let spaceHandle = prompt('What\'s your space name?');
+let spaceShipPart = prompt('What spaceship part do you need? Select a
+ number between 1 and 4.');
 
-## Do Warm Up
+switch (spaceShipPart) {
+    case '1':
+        confirm(spaceHandle + 'You need Part One?');
+        console.log(spaceHandle +  ' needs part one!');
+        break;
+    case '2':
+        confirm(spaceHandle + 'You need Part Two?');
+        alert(spaceHandle + 'You will receive your part in 2-3 Lightyears.
+         However long that takes! :)');
+        console.log(spaceHandle +  ' needs part two!');
+        break;
+    case '3':
+        alert('You need Part Three?');
+        console.log(spaceHandle +  ' needs part three!');
+        break;
+    case '4':
+    alert('You need Part Four?');
+    console.log(spaceHandle +  ' needs part four!');
+    break;
 
-![Git Branch](gitBranch.png)
+    default:
+        alert('I don\'t know if your ship will ever fly again!  ¯\_(ツ)_/¯');
+}
+alert('Bye for now ' + spaceHandle);
 
-- Start with
+```
 
-- git pull origin main
-***To Start work***
-- git checkout -b branchName
-- git branch
-- touch index.html
-- touch style.css
-- git status
-- git add .
-- git commit -m 'add initial scaffolding'
-- git status
-- git push
-- git push -u origin branchName
+---
 
--- go online to create a pull request --
+```javascript
+1 === 1     -> true
+1 == '1'    -> true
+1 === '1'   -> false
 
-- back at your repo, you will see the pull request for the branch you just pushed.
-- After you click on create pull request we can look at the page to see the changes
-that we are about to add to our project.
-- Once the pull request is created we get a new screen that will allow us to merge
-our pull request to main.
-- Once we have the code merged to our main we can refresh our repo page and see
-the code merged into the project.
-- Next we need to go back to our local bash, and we will update the branch that
-we just merged and switch back to our main branch, which will not have the code
-that our project in the cloud contains. So,
+let a = 10;
+let b = 100;
+a < b         -> true
+a >= 50       -> false
 
-- git checkout main
-- git pull origin main
-- Create a new branch for our next function,
-- git checkout -b functionTwo
-- git branch - two check branch status.
-- Now we can work on a new branch and add new unique code.
+(a + b === 110) -> (10 + 100 === 110)
+                -> (110 === 110)
+                -> true
 
-Lab 5b
+(a + b > a - b) -> (110 > -90)
+                -> true
 
-- Start with forking the repo, and everyone will start with the demo code.
-- The starter code has directions to follow.
-- Everyone lets go ahead and go through this together. Let's fork the project.
+(a === b && true) -> (false && true)
+                  -> false
 
-## TA will provide feedback within github pull requests, as well as grading in class
+((a !== b) || (a < b)) -> (true || true)
+                       -> true
+```
 
-We have that history for review, each commit has a hash, it is base 16, although
-it is still really long, we can run in command git checkout and that hash number.
-This allows us to go back in time and look at the code how it was in the past
-throughout its development. Now if we look at the code we are seeing the code
-before the commit was made.
+---
 
-- git checkout main takes us back to main.
+## Statements vs Expressions
 
-### Git branching & deployment
+[Statements vs Expressions Comparison](https://bit.ly/3Ls4xq3)
 
-- **Why**
-    - Branching allows each developer to branch out from the original code base
-     and isolate their work from others.
-    - Allows all risk involved in a merge to be deferred until that point.
-- **What**
-    - Branches represent an isolated line of development.
-- **How**
-    - Use a whiteboard to demonstrate branching.
-    - Demonstrate using a project that you may have onr your local machine.
-        - Create and checkout to a branch.
-    - Demonstrate the pull requests and merging the branch back into main.
+- Statement vs Expression: the expression does a computation, but nothing is
+ done with it, with a statement we group expressions as a way to express
+ our conditions to do something with the computations. (??)
+- So `x *= 5` is explicitly implying the assignment of the variable value to x.
+
+## Array
+
+- Arrays are a ref datatype to hold other data. They are not primitive.
+var fruits = ['apple','orange','bob','fred','tom'];
+
+## Variable
+
+- Variables allow us to give things in our code human readable values that
+ we can use throughout our code.
+- Attributes happen in html: form, image, input elements all have the ability
+ to add attributes to them. In the form:
+
+```html
+ <label for="name">
+ <input type="text">
+ <button type="button">
+```
+
+## Data Types
+
+To determine what type of data type a value is, use `type of(differentThings)`
+
+---
+
+### Code Review question 6 or 7
+
+debugger.  Guessing Game walk through
+
+open the inspector to console before you reload the page,
+
+- what debugger does is stops the code where we put it and then we can
+ step through our code  to see exactly what is going on with these variables.
+
+Type in the variables and see what values have been assigned to the variables.
+
+- In case, the input is a "string" and the number is a Number 10.
+- We can fix by taking away an equal sign, which is not best practice, while
+ that would work we want to covert, the string to a number.
+
+#### Search number conversion javascript
+
+- ParseInt, Number
+numGuess = parseInt(input);
+
+- We can use the parseInt to chain to other methods, like
+
+```js
+   var numGuess = parseInt(prompt('Try again, Guess Higher!'));
+```
+
+### Method .includes()
+
+- We can use the method .includes()
+.includes() works on strings and sub strings.
+
+---
 
 ## Second Hour
 
-## Warm up
+### CSS layout
 
-- Have the students take a couple minutes to answer these questions.
+- Introduce codepen.io
+- Review box model
+- Introduce Positioning
+- Absolute
+- Relative
+- Fixed
+- Block vs inline-block vs inline
 
-1. What is a function?
-2. Why do we write functions?
+### review hex colors as the RGB
 
-### What is a function?
+- Let them know we will calculate hexadecimal in class 5.
 
-- procedure
-- Contains a set of statements that perform a specific tasks.
-- functions usually describe a task that we do
-- it is a named piece of code.
+## Pro tip
 
-- eventually our function will do most of our heavy lifting for our applications.
-Functions often look similar and do similar things. For instance, database
-connections, even if the data base is different language, the connections often
-look the same, there are differences in syntax. Sometimes we have to write functions
-that have never existed to solve some problem or algorithm.
+- The idea of your design will most likely not be what your
+ final page looks like
 
-### Why do we write functions?
+- So we start with a low fidelity, rendering of the page, called a wire frame.
+- css is the part of the coding process that will take as much time as you
+give it, that may not be the best use of our time, so maybe time box or save the
+ work until the end of the day.
+- Label out the page as to what we may think we might need, with marking up
+ some elements.
+- Now we have a basic structure, we can start to add some styling.
+- Add up to two css declarations.
+- Use a span, a span is an inline element.
 
-- Makes code Dryer. (less copy and paste)
-- Call the code over and over.
-- Make code more readable for other developers.
-- Use functions when we want to reuse a section of code many times.
-- So when I do something multiple times, I realize I have a piece of behavior that
- needs to happen more than a few times, is when I realize it.
+### Rerender the page to see that the tag does nothing by itself
 
-### How do we write functions in our code
+- add a **border** to see what the span is doing.
+- Try text-align, but didn't change anything because we are aligning it right
+ in the tiny red box. So we could do a margin left, of 75%, when we shrink page,
+ the margin does not operate the way we want.
 
-- figure out what I want to do.
-- figure out what inputs and outputs I will have
-- Last step is writing the function.
+## Lets try a new property the position property
 
-## This follows our class 5 from 102
+---
 
-- We don't just jump into code.
+## relative
 
-1. Talk about it. //Read the assignment.
-2. Learn about it. //Place technical requirements in comments.
-3. Then code it. // complete a requirement and commit on branch that you can create
- a PR on. first we need to figure out what the problem is and then we can start to
-build out our functions.
+- relative - meaning relative to where ever it was supposed to be otherwise.
+Start with where are you supposed to be and then move accordingly, we can use
+negative values to move relative values. Switching from abs to rel are not used
+very often, unless we are looking for a specific spot. Because there are weird
+side effects that change the way other things get laid out near by.
 
-## adding names to anonymous functions/show the outcome in the stacktrace in console
+- So, we should think of these layout issues early on to avoid being lost in what
+ our css is doing to our elements.
 
-- We want to build out functions in a couple of different ways. For one, we may
-be working on a block of logic that does something and may eventually end up in
-a function where this named piece of code, can then have its parameters determined
-and can be called over and over.
+---
 
-- So lets write a function that prompts a user for a pizza crust.
+## fixed
 
-## '1'
+- fixed - position fixed at first may look like nothing has changed from absolute,
+ however the position fixed keeps the element in position while content on the page
+  moves around it.
 
-```js
-//This will return undefined. Because our variable scope is within the function
-//where the variable is declared. 
+---
 
-function pizzaCrustType() {
-   let pizzaCrustType = prompt('What type of pizza crust would you like?');
-   console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
-}
-pizzaCrustType();
-```
+## absolute
 
-```js
-console.log('Your Pizza Crust Type is: ' + pizzaCrustType);
-//This will return undefined. Because our variable scope is within the function
-// where the variable is declared. 
+Absolute we set what the spacing should be.
+set absolute top-bottom-left-right within the page. It doesn't matter what the
+parent element is or doing it now goes where ever you tell it to go. Lets you leave
+the parent element and what it is doing. It is possible to use it within the element.
+We can keep the elements grouped together so that screen readers can access that
+grouped data, possibly styling too.
 
-```
+---
 
-## '2'
+### inline and block level elements
 
-```js
-let pizzaCrustType;
-function pizzaCrustType() {
-   pizzaCrustType = prompt('What type of pizza crust would you like?');
-   console.log('Customer Pizza Crust Type is: ' + pizzaCrustType);
-}
-pizzaCrustType();
-//We don't always need access to global variables all the time, best practice is
-//to keep your variables as local as possible.
-```
+- So now what we need to talk about is inline and block level elements.
+anchor tags ? are they block or inline. It is an inline element. Because it doesn't
+ take up the whole line.
+- If we add an **h5 those are block level elements**, so we can see the element
+ push the content down the page,
+- As we have seen in our styles we can add a display of block, we don't normally
+ use block on inline elements.
+Are **images inline or block level, they are inline**.
+- We can change the image to block, but usually not a tool I reach for.
 
-## '3'
+---
 
-```js
-let sandwichType;
-let pizzaCrustType;
-function pizzaCrustType() {
-   pizzaCrustType = Number(prompt('What type of pizza crust would you like?'));
-    if(pizzaCrustType < 2){
-        confirm('You would like to try our thin crust style pizza?');
-    } else if(pizzaCrustType >=2 && pizzaCrustType <= 5){
-        confirm('You would like the Deep Dish Chicago style pizza?');
-    } else if(pizzaCrustType > 5 && pizzaCrustType <= 10){
-        confirm('You would like the Detroit style pizza?');
-    } else {
-       confirm('You want the italian meat ball sub sandwich?');
-       sandwichType = 'MeatBall Sub Sandwich';
-    }
-    return [pizzaCrustType , sandwichType];
-}
-// We can remove this and call it in the console.
-pizzaCrustType();
-//run function then see the return value in the console and then run the log to
-// see the value used.
-    console.log('Customer Pizza Crust Type is: ' + sandwichType);
+## End CSS Layout Demo
 
-```
-
-- So when we initially called the function it displayed some output, with the
- return the variable value this then provided for use throughout the rest of the
- code, if needed.
-- This variable will **hold the value for the one time that the function was run.**
-
-### Return gives back the output and then we add it to a variable for later use
-
-- Getting back an answer is what allows the program to do the task that they are
- designed to do.
-
-## Returns are much more useful than console.logs too
-
-## '4'
-
-```js
-function lotteryNumberPicker(){
-    //Start by creating array for the numbers
-    let lotteryArray = [];
-    //Set the first number in the array to be 10
-    lotteryArray[0] = 10;
-    //Run 5 times to get five random numbers.
-    //So lets use a loop
-    //we can write with a for or a while loop. 
-    for(let i = 0; i < 5; i++){
-       //lotteryArray[i] = Math.ceil(Math.Random() * 99);
-       //A method on arrays that allows us to put value o the end of arrays called
-       // push
-        lotteryArray.push(Math.ceil(Math.random() * 99));
-    }
-    //pick one number and return it. 
-   return lotteryArray;
-}
-```
-
-```js
-function lotteryNumberPicker(){
-    let lotteryArray = [];
-    lotteryArray[0] = 10;
-    for(let i = 0; i < 5; i++){
-        lotteryArray[i] = Math.ceil(Math.Random() * 99);
-    }
-   return lotteryArray;
-}
-```
-
-- If we move the array variable outside of the function it will continually save
- the random 5 numbers each time the function is run.
-
-### We have now specified output from a function
-
-### So now lets look at how we handle input
-
-## Do this in review
-
-So lets pick some numbers and we will specify these numbers in the function
- using parameters.
-
-```js
-function lotteryNumbers(quantity, lotteryMax){
-    let lotteryArray = [];
-    for(let i = 0; i < quantity; i++){
-       //lotteryArray[i] = Math.ceil(Math.Random() * 99);
-        lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
-    }
-   return lotteryArray;
-}
-```
-
-```js
-function lotteryNumbers(quantity, lotteryMax){
-    let lotteryArray = [];
-    for(let i = 0; i < quantity; i++){
-    console.log(i); 
-        lotteryArray.push(Math.ceil(Math.random() * lotteryMax));
-    }
-    console.log(lotteryArray);
-   return lotteryArray;
-}
-
-let lotteryQuantity = Number(prompt('How many numbers would you like?'));
-let lotteryMax = Number(prompt('What is the Max amount per number?'));
-alert(lotteryNumbers(lotteryQuantity, lotteryMax));
-```
+---
 
 ## Third Hour
 
-### Images, Color, Text
+### JS functions
 
-- **Why**
-    - Images, font color, and text are a great way for students to style their applications.
-- **What**
-    - Images
-        - JPEG (.jpg, .jpeg)
-        - GIF (.gif)
-        - PNG (.png)
-- **How**
-    - Image Demo:
-        - Discuss the advantages and disadvantages of the different image file
-         formats listed above.
-        - Can use VSCode for image demo - build out HTML and CSS pages.
-        - Add image in HTML along with other HTML elements like `<p>` or `<article>`.
-        - Style figure and show different ways you can resize image.
-    - CSS Color / Font Demo:
-        - Using the same CSS file that was used in the Image demo, show how to
-        style the `<p>` or `<article>` elements.
-        - Style text using `font-family`, `color`, `line-height`, and `font size`.
+- What are they?
+- Anatomy of a function
+- Parameters, arguments
+- Calls/invoke
+- Anonymous functions
+- Scope
 
-### Lab prep
+## Start Function Demo
 
-- **Why**
-    - Provides students with the tools to be successful with their lab.
-- **What**
-    - Review Lab 05a, 05b, and 05c instructions in Canvas.
-- **How**
-    - Lab05a review:
-        - Code out the first problem with students so they have an understanding
-        of what is asked of them.
-        - Confirm what the function needs to return to meet the test requirements.
-        - Point out after question 2 they are NOT allowed to use the arithmetic operators.
-        - Students should not touch the test file!
-    - Lab05b review:
-        - Point out where they should be navigating to in GitHub for deployment.
-    - Lab05c review:
-        - Walk through a few of the first questions in CSS Diner.
-        - Advise students they will need to take a screenshot of the menu once completed.
+- Make sure to demo js docs comments with /** */
+- console logs are for developers
 
-#### Student Code
+## two more things to do today
 
-```js
+brief look at **functions**. and how to do that within lab.
+we will look more at functions in lab five.
+so another thing today is that our lab is going to be **pair programming**.
 
-function questionTwo() {
-let userCorrect = false;
-let bands = ['bon jovi', 'guns and roses', 'tesla', 'motley crue', 'cinderella',
- 'kix', 'def leppard', 'poison', 'warrant'];
-let guesses = 0;
+- Start with a key word function
+- Then give your function a name
+- Then I will add the () so people can call it to the end of the name
+- Next we add in the {}
+- And within the curly braces I will put my code.
 
-while (guesses < 7) {
-let eighties = prompt("In the 80s, I loved hair bands.  Name a hair band and
- I will let you know if it was one that I liked.  Go!").toLowerCase();
-  for (let i = 0; i < bands.length; i++) {
-    if (eighties === bands[i]) {
-      console.log('You guessed right.');
-      alert("Bang your head!  Way to go!\n\nHere are the bands that were my top picks:
-        Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard,
-         and Poison.");
-      alert(user + ", thank you again for visiting my page!");
-      guesses = 7;
-      userCorrect = true;
-      break;
-    }
-  }
-  if (guesses !== 7) {
-    alert('That is not one. You\'re not the very best, but try again!');
-    console.log('User response is ' + eighties + ' to question 6');
-  }
-  guesses++;
-}
-    if (userCorrect === false) {
-    alert("Keep practicing your cowbell!\n\nHere are the bands that were my top picks:
-      Bon Jovi, Guns and Roses, Tesla, Motley Crue, Cinderella, Kix, Def Leppard,
-      and Poison.");
-    alert(user + ", thank you again for visiting my page!");
-    }
-}
+- If i go back to my browser nothing will work? why.
+- Because we need to call it.
+- So I think of a recipe, a function is the recipe, but in order for the recipe to
+ work I need to run the recipe, call for the ingredients
+- If I put that call in the console it will run and if I want I can add it to the
+ app.js file. which is the normal practice.
 
-```
+---
+
+## Review Lab for the day

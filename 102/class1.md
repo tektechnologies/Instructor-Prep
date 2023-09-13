@@ -3,7 +3,7 @@
 Lab 01a needs to be done before GitHub Pages demo, and can be done individually
  as students filter in before class.
 
-Note that, for today, students will do the Lab 01b assignment before 
+Note that, for today, students will do the Lab 01b assignment before
 the discussion assignment.
 
 ## slides 1 - 27 (Vision, Mission, Goals, Campus, Classroom, How we Learn, Mindset)
