@@ -187,7 +187,7 @@
         - 1. import react
         - 2. extends react component
         - 3. export default App;
-        - Then in the class we render a return()
+        - Then in the class  we render a return()
         - show the () for multi line
         - show fragments <> or <div>
         - Show the css file and how to add styles
