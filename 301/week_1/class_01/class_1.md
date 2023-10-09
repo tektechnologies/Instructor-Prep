@@ -164,7 +164,9 @@
         - Be sure to spend some time going through each thing that
          `create react app`
         - Start with what is Chart.js
-        - npx create-react-app name-of-my-app
+
+        - replace with vite
+
         - lowercase with dashes.
         - installing will take a few minutes
         - Go to GitHub and create an empty repo
