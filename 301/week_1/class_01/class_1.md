@@ -206,7 +206,6 @@
         - create a person component
         - How do we get different data into these same components.
 
-
 - Then access the value from props using this.props.name in the Person.js
 - Now we see our names
 - Talk about curly braces and meaning. Interpret as js. it is jsx
