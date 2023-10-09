@@ -172,17 +172,19 @@ console.log('absolute2 arrow function:  ', abs2(a));
 */ 
 //         this.cars.forEach(function (car){
 //         this.cars.forEach((car) => {
-//             //OR 2 pass the this in here. above. in making an arrow function. 
-//             //this should still be bob, but it is bound to another : the global object.
-//             //two ways around 
-//             //consol.log(that);
+  /**   
+                 OR 2 pass the this in here. above. in making an arrow function. 
+                 this should still be bob, but it is bound to another : the global object.
+                 two ways around 
+                 consol.log(that);
+*/
 //             console.log(this);//global object...
 //             console.log(`${this.name}'s car: `)
 //             console.log(car);
-//             //1 pass this into the forEach...
-//             //this is a workaround  
+//             1 pass this into the forEach...
+//             this is a workaround  
 //          })
-//         // }, this)
+//          }, this)
 //     }
 // }
 
