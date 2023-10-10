@@ -53,17 +53,17 @@
 
 - Talk about modals
 
-1.
+### 1
 
 - Begin in app.js and and a constructor function also move the data
 - to start the layout of props.
-- write the addPizza function to show the pizza emoji, add prop to <Main /> then
-    in main add it to <Pizza />, then in Pizza add the onclick to the image
+- write the addPizza function to show the pizza emoji, add prop to ```<Main />```
+  then in main add it to ```<Pizza />```, then in Pizza add the onclick to the image
 - Update the Header with props emoji
 
-2.
+### 2
 
-- Show the modal test in a <p> to see that the modal shows up.
+- Show the modal test in a ```<p>``` to see that the modal shows up.
 - Add Modal and see it
 - Add Modal arrow functions for handleOnHide in App.js
 - Add to Modal show={this.state.showModal}  onHide={this.handleOnHide}

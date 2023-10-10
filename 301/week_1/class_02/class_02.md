@@ -105,7 +105,9 @@ we could use display: inline or -block;
   3a. Slide show and talking about state. Create some event handlers
 
   4a. Add Constructor, state, onclick, see likes!
-  Third Hour
+
+## Third Hour
+
   1b. Start CSS
   2b. Google BootStrap, install, run and look at options, ternary
   3b. Netlify deployment - Deploy the build/settings/command CI= npm run build save
