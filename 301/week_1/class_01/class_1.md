@@ -164,7 +164,7 @@
         - Be sure to spend some time going through each thing that
          `create react app`
         - Start with what is Chart.js
-
+        - difference between source and in browser code.
         - replace with vite
 
         - lowercase with dashes.
