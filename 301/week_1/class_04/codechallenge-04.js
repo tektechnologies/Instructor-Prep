@@ -95,7 +95,7 @@ return 0;
 //   {name: 'Craig' , power: 70},
 //   {name: 'Garry', power: 9000},
 //   {name: 'Dog Dog',power: 65}
-// // ];
+//  ];
 
 
 const people = [
