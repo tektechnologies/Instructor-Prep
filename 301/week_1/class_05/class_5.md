@@ -1,11 +1,8 @@
 # Good Day Happy Friday
 
-## This has been a big week, thumbs up/down how are you feeling about this week
-
 ## Warm-Up
 
 - C# 10
-- Then the practice website - 10
 
 [Solution Code](./class_05/IMG_0058.jpg)
 
@@ -14,8 +11,6 @@
 ## Lab Review
 
 ## Hour Two
-
-## Break 1
 
 ### Shred Talk
 
