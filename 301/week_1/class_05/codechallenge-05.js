@@ -129,7 +129,7 @@ nums.reduce((acc, val) => {
 
 
 
-///////////////
+//** ---------------------------------------------------------------- */
 const students = ['Bart', 'Encinoman', 'Spicoli', 'BudAndDoyle'];
 
 
@@ -139,7 +139,7 @@ function makeGradeObject(accObj, valuePerson){
   return accObj;
 }
 students.reduce(makeGradeObject, {});
-///////////////
+//** ---------------------------------------------------------------- */
 
 const students2 = [{name: 'Bart'}, {name:'Encinoman'}, {name:'Spicoli'}, {name:'BudAndDoyle'}];
 
