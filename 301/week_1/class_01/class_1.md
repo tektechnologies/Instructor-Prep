@@ -166,7 +166,7 @@
         - Start with what is Chart.js
         - difference between source and in browser code.
         - replace with vite
-
+        - npm create vite@latest
         - lowercase with dashes.
         - installing will take a few minutes
         - Go to GitHub and create an empty repo

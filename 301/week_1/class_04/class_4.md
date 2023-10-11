@@ -9,13 +9,10 @@
 ## Lab Review
 
 - Make drawing of where are app is now with state and props passing
-- Yesterday's lab was tough.
 - Use today's code review to go over a particular pain point that
    most of the class struggled with.
 
 ## Hour Two
-
-## Break 1
 
 ### Shred Talk
 
@@ -23,15 +20,13 @@
 
 ## Start review of react
 
-- npx create form app
+- npm create vite@latest
 - create git hub and push
 - create branch
 - Delete old files
 - Add Bootstrap to the project
 
 ## Hour Three
-
-## Break 2
 
 - Now lets do some react form stuff
 - since we may have these values change lets keep track of them in state
