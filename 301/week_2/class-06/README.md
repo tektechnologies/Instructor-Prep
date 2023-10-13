@@ -17,6 +17,16 @@
 
 - Code Challenge for today pass by value and pass by reference.
 
+## HTTP Methods
+
+- Developers use HTTP methods to access APIs.
+- GET: requests data from a server
+- POST: sends new information to a server
+- PUT: makes changes to existing data on a server
+- DELETE: removes existing information from a server
+- PATCH: used for partial updates
+- There are more methods than these 5, but these are the most popular
+
 ## Intro to API
 
 - Look at white boards
