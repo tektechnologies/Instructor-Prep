@@ -30,6 +30,41 @@
 
 ### Review Code Challenge
 
+## How does The Internet work?
+
+- **Web Request Response Cycle (WRRC)**
+    - Essentially, a series of these client-server conversations to fulfill and end goal.
+        - Class: "What do you think happens when you type in a search term at google.com"
+            - Let them try and posit all of the things at play. Ultimately the exact details don't matter, so long as you highlight that there are hundreds of things that have to happen, all clients and servers.
+            - Draw an amazing picture ...
+            - Browser to wifi hardware in computer
+            - Computer to the wifi router
+            - Wifi router to switch
+            - Switch to cable
+            - Cable to ... (all the things at comcast)
+            - DNS server to Google Load Balancer
+            - Load Balancer to Google Server
+            - Google server to Google DB
+            - and hundreds of other steps in between and all the way back.
+
+## Web Clients and Servers
+
+- We will be zooming into 2 parts of this enormity (circle them in the picture)
+    - A web application
+        - City Explorer Front End
+        - Show it running
+        - What part of the WRRC Diagram is this again?
+    - A web server
+        - We will write this starting the next class, but for this class, we will use an existing web API as our server.
+        - Show your running solution code.
+        - Demonstrate how the API works
+            - Visit the API URLs directly in the browser
+            - Open the network tab in the Chrome console from the city explorer app and look at the requests. **this is cool stuff**
+            - This should open up some questions, and help to show them how things are actually connecting.
+        - What part of the WRRC Diagram is this again?
+    - Our focus during this class will be on how the client connects to the server, with the client driving the requirements
+        - Starting next class, we will focus on how to build our own server
+
 ### Review Lab
 
 - Node is every where console, terminal
