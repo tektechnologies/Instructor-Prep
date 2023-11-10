@@ -81,4 +81,4 @@
 
 - Add Bootstrap
 - update foreach to map
-- add netlify to github repo.
+- add netlify to github repo

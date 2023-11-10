@@ -1,4 +1,4 @@
-# Good Day Happy Thursday
+# Good Day
 
 ## Announcements
 

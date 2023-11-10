@@ -1,4 +1,4 @@
-# Good Day Happy Friday
+# Good Day
 
 - ## First Hour
 

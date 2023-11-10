@@ -1,9 +1,8 @@
-# Good Day Happy Monday
+# Good Day
 
 ## First Hour
 
 - Slide Deck 45 minutes intro slides
-
 
 ## TAKE BREAK
 
